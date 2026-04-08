@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "crawl_time": "2026-04-09T00:05:56.002386",
+    "total_questions": 5
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "1. 다음은 UML (    ) 다이어그램이다. 아래 내용을 보고 다이어그램의 관계를 확인하여 명칭을 작성하시오.\n(   )다이어그램이란\n시스템을 폴더 모양의(   )단위로 구분하여 구성 요소 간의 관계를 표현하는UML구조 다이어그램이다.\n하나의(   )안에는 여러 클래스나 하위(   )가 포함될 수 있으며,\n(   )간에는«import», «access», «merge»등의 관계를 통해 의존성(Dependency)을 표현한다.\n이 다이어그램은 코드의 실제 구조(폴더 구조)와 비슷하게 표현되기 때문에\n소프트웨어의 모듈화,재사용성,의존 관계를 시각적으로 설계할 때 자주 사용된다.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "패키지"
+    },
+    {
+      "number": 2,
+      "text": "2. 다음은 소프트웨어 테스트 기법 중 하나에 대한 설명이다.\n소프트웨어 테스트의 구조 기반(화이트박스)기법 중 하나로,\n결정 포인트(Decision Point)내에 존재하는 모든 개별 조건식(Atomic Condition)을 대상으로 하는 커버리지 기준이 있다.\n하나의 결정문(예: if (A && B)또는if (X > 10 || Y == 0))안에는\n여러 개의 조건식이 포함될 수 있는데이 커버리지는\n각각의 조건식이True와False두 가지 경우를 모두 한 번 이상 만족하도록\n테스트 케이스를 설계해야 한다.\n즉,모든 개별 조건이 두 방향의 결과를 거쳐야“커버되었다”고 판단하지만\n그렇다고 해서 전체 결정식(Decision Expression)의 결과(True/False)가\n모두 수행된다고 보장하지는 않는다.\nㄱ.경로(Path)\nㄴ.결정(Decision)\nㄷ.조건/결정(Condition/Decision)\nㄹ.변경 조건/결정(Modified Condition/Decision, MC/DC)\nㅁ.다중 조건(Multiple Condition)\nㅂ.문장(Statement)\nㅅ.분기(Branch)\nㅇ.조건(Condition)\nㅈ.루프(Loop)",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "ㅇ"
+    },
+    {
+      "number": 5,
+      "text": "5. 다음은 C코드에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "#include <stdio.h>\nstruct Test {\n    int i;\n    const char *g;\n};\nint main() {\n    struct Test test[] = {{1, \"AB\"}, {2, \"DC\"}, {3, \"EB\"}}; \n    struct Test *p = &test[1]; \n    printf(\"%s\", p->g + (p->i - 1));\n    return 0;\n}",
+      "answer": "C"
+    },
+    {
+      "number": 9,
+      "text": "9. 다음은 파이썬에 대한 문제이다. 아래 코드를 확인하여 출력값에 알맞는 값을 작성하시오.\n[ 출력값 ]\n{0: (①,②), 1: (③,④), 2: (⑤,⑥), 3: (⑦,⑧)}",
+      "options": "",
+      "images": [],
+      "code": "data = [\n    [3, 5, 2, 4, 1],\n    [4, 5, 1],\n    [4, 4, 1, 5, 4],\n    [4, 5]\n]\nresult = {}\nfor index, lis in enumerate(data):\n    list_sum = sum(lis)\n    list_len = len(lis)\n    result[index] = (list_sum, list_len)\nprint(result)",
+      "answer": "①=15,②=5,③=10,④=3,⑤=18,⑥=5,⑦=9,⑧=2"
+    },
+    {
+      "number": 17,
+      "text": "17. 다음은 Java에 대한 코드이다. 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "enum Tri {\n    A(\"A\"), B(\"AB\"), C(\"ABC\");\n    private String code;\n    Tri(String code) {\n        this.code = code;\n    }\n    public String code() {\n        return code;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Tri t = Tri.values()[Tri.A.name().length()];\n        System.out.print(t.code());\n    }\n}",
+      "answer": "AB"
+    }
+  ]
+}

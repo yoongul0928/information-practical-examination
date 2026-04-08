@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "crawl_time": "2026-04-09T00:05:56.616974",
+    "total_questions": 19
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "1. 다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "public class Main{\n  static String[] s = new String[3];\n  static void func(String[]s, int size){\n    for(int i=1; i<size; i++){\n      if(s[i-1].equals(s[i])){\n        System.out.print(\"O\");\n      }else{\n        System.out.print(\"N\");\n      }\n    }\n      for (String m : s){\n        System.out.print(m);\n      }\n    }\n  public static void main(String[] args){\n    s[0] = \"A\";\n    s[1] = \"A\";\n    s[2] = new String(\"A\");\n    func(s, 3);\n  }\n}",
+      "answer": "OOAAA"
+    },
+    {
+      "number": 2,
+      "text": "2. 다음은 파이썬에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "def func(lst):\n  for i in range(len(lst) //2):\n    lst[i], lst[-i-1] = lst[-i-1], lst[i]\nlst = [1,2,3,4,5,6] \nfunc(lst)\nprint(sum(lst[::2]) - sum(lst[1::2]))",
+      "answer": "3"
+    },
+    {
+      "number": 3,
+      "text": "3. 아래의 employee테이블과 project테이블을 참고하여 보기의 SQL명령어에 알맞는 출력 값을 작성하시오.",
+      "options": "",
+      "images": [
+        "https://blog.kakaocdn.net/dna/9Duij/btsKhmXLACx/AAAAAAAAAAAAAAAAAAAAAJ7Z6wb65tBG8qfWhrB_xN_Eay6h24r_fPFYzm7NtBE5/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=gE3kFa9l3LIlcrUjgF0sC4o%2FIUM%3D"
+      ],
+      "code": "SELECT \n    count(*) \nFROM employee AS e JOIN project AS p ON e.project_id = p.project_id \nWHERE p.name IN (\n    SELECT name FROM project p WHERE p.project_id IN (\n        SELECT project_id FROM employee GROUP BY project_id HAVING count(*) < 2\n    )\n);",
+      "answer": "1"
+    },
+    {
+      "number": 4,
+      "text": "4. 다음은 운영체제 페이지 순서를 참고하여 할당된 프레임의 수가 3개일 때  LRU 알고리즘의 페이지 부재 횟수를 작성하시오.\n페이지 참조 순서: 7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "12"
+    },
+    {
+      "number": 5,
+      "text": "5. 다음은 네트워크 취약점에 대한 문제이다. 아래 내용을 보고 알맞는 용어를 작성하시오.\n- IP나 ICMP의 특성을 악용하여 엄청난 양의 데이터를 한 사이트에 집중적으로 보냄으로써 네트워크의 일부를 불능 상태로 만드는 공격이다.- 여러 호스트가 특정 대상에게 다량의 ICMP Echo Reply 를 보내게 하여 서비스거부(DoS)를 유발시키는 보안공격이다.- 공격 대상 호스트는 다량으로 유입되는 패킷으로 인해 서비스 불능 상태에 빠진다.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "스머프(Smurf) 또는 스머핑(Smurfing)"
+    },
+    {
+      "number": 6,
+      "text": "6. 다음은 GoF 디자인 패턴과 관련된 문제이다. 괄호안에 알맞는 용어를 작성하시오.\n(        ) 패턴은 클래스나 객체들이 서로 상호작용하는 방법이나 책임 분배 방법을 정의하는 패턴이다.(        ) 패턴은 객체들 간의 통신 방법을 정의하고 알고리즘을 캡슐화하여 객체 간의 결합도를 낮춘다.(        ) 패턴은 Chain of Responsibility나 Command 또는 Observer 패턴이 있다.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "행위"
+    },
+    {
+      "number": 7,
+      "text": "7. 다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "#include <stdio.h>\nint func(){\n static int x =0; \n  x+=2; \n  return x;\n}\nint main(){\n  int x = 1; \n  int sum=0; \n  for(int i=0;i<4;i++) {\n    x++; \n    sum+=func();\n  } \n  printf(\"%d\", sum);\n  return 0;\n}",
+      "answer": "20"
+    },
+    {
+      "number": 8,
+      "text": "8. 다음은 무결성제약조건에 대한 문제이다. 아래 표에서 어떠한 (       ) 무결성을 위반하였는지 작성하시오.",
+      "options": "",
+      "images": [
+        "https://blog.kakaocdn.net/dna/nh0RX/btsKgJl3Fa7/AAAAAAAAAAAAAAAAAAAAAG3F7y15SpGBFn7EpGA8Tqt3MwIPtZOIhTFksxToLV5O/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=V%2ByC6I5%2BaWtxnd2DUyDPOSvmDVU%3D"
+      ],
+      "code": null,
+      "answer": "개체"
+    },
+    {
+      "number": 9,
+      "text": "9. 다음은 URL 구조에 관한 문제이다 . 아래  보기의 순서대로 URL에 해당하는 번호를 작성하시오.\nquery: 서버에 전달할 추가 데이터path: 서버 내의 특정 자원을 가리키는 경로\nscheme: 리소스에 접근하는 방법이나 프로토콜\nauthority: 사용자 정보, 호스트명, 포트 번호\nfragment: 특정 문서 내의 위치",
+      "options": "",
+      "images": [
+        "https://blog.kakaocdn.net/dna/bge1Ni/btsKfy62Ji6/AAAAAAAAAAAAAAAAAAAAADDVvxyjlpIU2PB6-m4-7z3CDSaXrwMa09a2ffodtExB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=cKml%2BOVFNcF9%2BkLkYMghxrrX2WI%3D"
+      ],
+      "code": null,
+      "answer": "43125"
+    },
+    {
+      "number": 10,
+      "text": "10. 다음은 파이썬에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "def func(value):\n    if type(value) == type(100):\n        return 100\n    elif type(value) == type(\"\"):\n        return len(value) \n    else:\n        return 20\na = '100.0'\nb = 100.0\nc = (100, 200)\nprint(func(a) + func(b) + func(c))",
+      "answer": "45"
+    },
+    {
+      "number": 11,
+      "text": "11. 다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "public class Main{\n  public static void main(String[] args){\n    Base a =  new Derivate();\n    Derivate b = new Derivate();\n    System.out.print(a.getX() + a.x + b.getX() + b.x);\n  }\n}\nclass Base{\n  int x = 3;\n  int getX(){\n     return x * 2; \n  }\n}\nclass Derivate extends Base{\n  int x = 7;\n  int getX(){\n     return x * 3;\n  }\n}",
+      "answer": "52"
+    },
+    {
+      "number": 12,
+      "text": "12. 다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "#include <stdio.h>\nstruct Node {\n int value;\n struct Node* next;\n};\nvoid func(struct Node* node){\n  while(node != NULL && node->next != NULL){\n     int t = node->value;\n     node->value = node->next->value;\n     node->next->value = t;\n     node = node->next->next;\n  }\n}\nint main(){\n  struct Node n1 = {1, NULL};\n  struct Node n2 = {2, NULL};\n  struct Node n3 = {3, NULL};\n  n1.next = &n3;\n  n3.next = &n2;\n  func(&n1);  \n  struct Node* current = &n1;\n  while(current != NULL){\n    printf(\"%d\", current->value);\n    current = current->next;\n }\n return 0;\n}",
+      "answer": "312"
+    },
+    {
+      "number": 13,
+      "text": "13. 다음은 테스트 커버리지에 대한 문제이다. 아래 내용에 알맞는 답을 보기에서 골라 작성하시오.1. 테스트를 통해 프로그램의 모든 문장을 최소한 한 번씩 실행했는지를 측정2. 프로그램 내의 모든 분기(조건문)의 각 분기를 최소한 한 번씩 실행했는지를 측정3. 복합 조건 내의 각 개별 조건이 참과 거짓으로 평가되는 경우를 모두 테스트했는지를 측정\nㄱ. 조건     ㄴ. 경로      ㄷ. 결정      ㄹ. 분기      ㅁ.함수          ㅂ. 문장      ㅅ. 루프",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "1. 문장\n2. 분기\n3. 조건"
+    },
+    {
+      "number": 15,
+      "text": "15. 다음은 데이터베이스에 관한 문제이다. 아래 내용을 읽고 알맞는 답을 보기에서 찾아 골라 작성하시오.\n(1) 다른 테이블, 릴레이션의 기본 키를 참조하는 속성 또는 속성들의 집합(2) 테이블에서 각 행을 유일하게 식별할 수 있는 최소한의 속성들의 집합(3) 후보 키 중에서 선정된 기본 키를 제외한 나머지 후보 키(4) 테이블에서 각 행을 유일하게 식별할 수 있는 속성들의 집합ㄱ. 슈퍼키         ㄴ. 외래키            ㄷ. 대체키             ㄹ. 후보키",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "(1) 외래키\n(2) 후보키\n(3) 대체키\n(4) 슈퍼키"
+    },
+    {
+      "number": 16,
+      "text": "16. 다음은 C언어에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "#include <stdio.h>\nvoid func(int** arr, int size){\n  for(int i=0; i<size; i++){\n     *(*arr + i) = (*(*arr+i) + i) % size;\n  }\n}\nint main(){\n  int arr[] = {3,1, 4, 1, 5};\n  int* p = arr;\n  int** pp = &p;\n  int num = 6;\n  func(pp, 5);  \n  num = arr[2];\n  printf(\"%d\", num);  \n  return 0;\n}",
+      "answer": "1"
+    },
+    {
+      "number": 17,
+      "text": "17. 다음 아래 내용을 보고 알맞는 용어를 작성하시오. (3글자로 작성)\n- 공용 네트워크를 통해 사설 네트워크를 확장하는 기술이다.- 사용자의 IP 주소를 숨기고, 사용자가 어디에서 접속하는지를 추적하기 어렵게 만든다.- 종류로는 IPsec 또는 SSL, L2TP 등이 있다.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "VPN"
+    },
+    {
+      "number": 18,
+      "text": "18. 다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "public class ExceptionHandling {\n  public static void main(String[] args) {\n      int sum = 0;\n      try {\n          func();\n      } catch (NullPointerException e) {\n          sum = sum + 1;\n      } catch (Exception e) {\n          sum = sum + 10;\n      } finally {\n          sum = sum + 100;\n      }\n      System.out.print(sum);\n  }\n  static void func() throws Exception {\n      throw new NullPointerException(); \n  }\n}",
+      "answer": "101"
+    },
+    {
+      "number": 19,
+      "text": "19. 다음은 Java 코드에 대한 문제이다. 아래 코드를 확인하여 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "class Main {\n  public static class Collection<T>{\n    T value;\n    public Collection(T t){\n        value = t;\n    }\n    public void print(){\n       new Printer().print(value);\n    }\n   class Printer{\n      void print(Integer a){\n        System.out.print(\"A\" + a);\n      }\n      void print(Object a){\n        System.out.print(\"B\" + a);\n      } \n      void print(Number a){\n        System.out.print(\"C\" + a);\n      }\n   }\n }\n  public static void main(String[] args) {\n      new Collection<>(0).print();\n  }\n}",
+      "answer": "B0"
+    },
+    {
+      "number": 20,
+      "text": "20. 다음은 네트워크에 대한 문제이다.  아래 내용을 보고 알맞는 용어를 작성하시오.- 중앙 관리나 고정된 인프라 없이 임시로 구성되는 네트워크이다.- 일반적으로 무선 통신을 통해 노드들이 직접 연결되어 데이터를 주고받는다.- 긴급 구조, 긴급 회의, 군사적인 상황 등에서 유용하게 활용될 수 있다.ㄱ.Infrastructure Network        ㄴ. Firmware Network        ㄷ. Peer-to-Peer Network        ㄹ. Ad-hoc Network         ㅁ. Mesh Network        ㅂ.Sensor Network        ㅅ.Virtual Private Network",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "ㄹ. (Ad-hoc Network)"
+    }
+  ]
+}
