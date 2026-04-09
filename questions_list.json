@@ -1,0 +1,33 @@
+{
+  "2025": {
+    "01": "questions/questions_2025_01.json",
+    "02": "questions/questions_2025_02.json",
+    "03": "questions/questions_2025_03.json"
+  },
+  "2024": {
+    "01": "questions/questions_2024_01.json",
+    "02": "questions/questions_2024_02.json",
+    "03": "questions/questions_2024_03.json"
+  },
+  "2023": {
+    "01": "questions/questions_2023_01.json",
+    "02": "questions/questions_2023_02.json",
+    "03": "questions/questions_2023_03.json"
+  },
+  "2022": {
+    "01": "questions/questions_2022_01.json",
+    "02": "questions/questions_2022_02.json",
+    "03": "questions/questions_2022_03.json"
+  },
+  "2021": {
+    "01": "questions/questions_2021_01.json",
+    "02": "questions/questions_2021_02.json",
+    "03": "questions/questions_2021_03.json"
+  },
+  "2020": {
+    "01": "questions/questions_2020_01.json",
+    "02": "questions/questions_2020_02.json",
+    "03": "questions/questions_2020_03.json",
+    "04": "questions/questions_2020_04.json"
+  }
+}

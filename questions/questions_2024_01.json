@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "crawl_time": "2026-04-09T00:05:56.199271",
+    "total_questions": 23
+  },
+  "questions": [
+    {
+      "number": 1,
+      "text": "1.  다음 Java 코드에서 알맞는 출력 값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "class Connection {\n    private static Connection _inst = null;\n    private int count = 0;\n    static public Connection get() {\n        if(_inst == null) {\n            _inst = new Connection();\n            return _inst;\n        }\n        return _inst;\n    }\n    public void count() {\n         count++; \n    }\n    public int getCount() {\n         return count; \n    }\n}\npublic class main {  \n    public static void main(String[] args) {\n        Connection conn1 = Connection.get();\n        conn1.count();\n        Connection conn2 = Connection.get();\n        conn2.count();\n        Connection conn3 = Connection.get();\n        conn3.count();\n        conn1.count();\n        System.out.print(conn1.getCount());\n    }\n}",
+      "answer": "4"
+    },
+    {
+      "number": 2,
+      "text": "2. 다음 C언어 코드에서 알맞는 출력 값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "#include <stdio.h>\nint main() {\n    int v1 = 0, v2 = 35, v3 = 29;\n    if(v1 > v2 ? v2 : v1) {\n        v2 = v2 << 2;\n    }else{\n        v3 = v3 << 2;\n    }\n    printf(\"%d\", v2+v3);\n}",
+      "answer": "151"
+    },
+    {
+      "number": 3,
+      "text": "3. 다음은 응집도와 관련해서 보기에서 응집도가 높은 순으로 나열하시오.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "ㄱ, ㄴ, ㄹ, ㄷ"
+    },
+    {
+      "number": 4,
+      "text": "4. 다음은 C언어에 대한 문제이다. 알맞는 출력 값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "#include <stdio.h>\n#include <string.h>\nvoid reverse(char* str){\n    int len = strlen(str);\n    char temp;\n    char*p1 = str;\n    char*p2 = str + len - 1;\n    while(p1<p2){\n        temp = *p1;\n        *p1 = *p2;\n        *p2 = temp;\n        p1++;\n        p2--;\n    }\n}\nint main(int argc, char* argv[]){\n    char str[100] = \"ABCDEFGH\";\n    reverse(str);\n    int len = strlen(str);\n    for(int i=1; i<len; i+=2){\n        printf(\"%c\",str[i]);\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+      "answer": "GECA"
+    },
+    {
+      "number": 5,
+      "text": "5. 아래 그림에서의 네트워크에서 라우터을 통한 할당 가능한2번, 4번, 5번의IP를 작성하시오.",
+      "options": "",
+      "images": [
+        "https://blog.kakaocdn.net/dna/bHTbEI/btsHqLsBYPd/AAAAAAAAAAAAAAAAAAAAAIMm2bQrfA7pDuPPzWrNJY_wzyMU_mYXW-zf3w4iVs4z/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=u%2BnAzcRzLJ1RclDKaLKETUtgRUE%3D"
+      ],
+      "code": null,
+      "answer": ""
+    },
+    {
+      "number": 1,
+      "text": "1) 192.168.35.3/243) 129.200.10.16/226) 192.168.36.24/24\n192.168.35.0\n192.168.35.72\n192.168.36.0\n192.168.36.249\n129.200.8.0\n129.200.8.249",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "2)192.168.35.724)129.200.8.2495)192.168.36.249"
+    },
+    {
+      "number": 6,
+      "text": "6. 아래 표에서 나타나고 있는 정규형을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "제 3정규형"
+    },
+    {
+      "number": 7,
+      "text": "7. 아래의 내용에서 설명하는 네트워크 용어를 영문 약자로 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": ""
+    },
+    {
+      "number": 1,
+      "text": "1. 대표적인 링크 상태 라우팅 프로토콜이다. 이것은 인터넷에서 연결된 링크의 상태를 감시하여 최적의 경로를 선택한다는것이다.2. 단일 자율 시스템 내에서 라우팅 정보를 배포하는 데 사용되는 내부 게이트웨이 프로토콜이다.3. 모든 대상에 도달하기 위한 최단 경로를 구축하고 계산하며 최단 경로는 Dijkstra 알고리즘을 사용하여 계산된다.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "OSPF (Open Shortest Path First)"
+    },
+    {
+      "number": 8,
+      "text": "8. 아래 내용의 각각의 설명에 대한 답을 작성하시오.\n(1) 조인에 참여하는 두 릴레이션의 속성 값을 비교하여 조건을 만족하는 튜플만 반환한다.(2) 조건이 정확하게 '=' 등호로 일치하는 결과를 반환한다.(3) ( (2) ) 조인에서 조인에 참여한 속성이 두 번 나오지 않도록 중복된 속성을 제거한 결과를 반환한다.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "(1) 세타 조인\n(2) 동등 조인\n(3) 자연 조인"
+    },
+    {
+      "number": 9,
+      "text": "9. 다음은 운영체제 페이지 순서를 참고하여할당된 프레임의 수가 3개일 때LRU와 LFU 알고리즘의 페이지 부재 횟수를 작성하시오.\n페이지 참조 순서 : 1, 2, 3, 1, 2, 4, 1, 2, 5, 7\n(1) LRU :(2) LFU :",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "(1) : 6\n(2) : 6"
+    },
+    {
+      "number": 10,
+      "text": "10. 아래 JAVA언어 코드의 실행 순서를 중복 번호없이 작성하시오.\n실행 순서 : 5 → ( ) → ( ) → ( ) → ( ) → ( )",
+      "options": "",
+      "images": [],
+      "code": "class Parent {\n    int x, y;\n    Parent(int x, int y) { ①\n        this.x=x;\n        this y=y;\n    }\n    int getT() { ②\n        return x*y;\n    }\n}\n​class Child extend Parent {\n    int x;\n    Child (int x) { ③\n        super(x+1, x);\n        this.x=x;\n    }\n    int getT(int n){ ④\n        return super.getT()+n;\n    }\n}\nclass Main {\n    public static void main(String[] args) { ⑤\n        Parent parent = new Child(3); ⑥\n        System.out.println(parent.getT()); ⑦\n    }\n}",
+      "answer": "6 3 1 7 2"
+    },
+    {
+      "number": 11,
+      "text": "11. 다음 C언어의 알맞는 출력값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "#include <stdio.h>\ntypedef struct{\n    int accNum;\n    double bal;\n}BankAcc;\ndouble sim_pow(double base, int year){\n    int i;\n    double r = 1.0;\n    for(i=0; i<year; i++){\n        r = r*base;\n    }\n    return r;\n} \nvoid initAcc(BankAcc *acc, int x, double y){\n    acc -> accNum = x;\n    acc -> bal = y;\n}\nvoid xxx(BankAcc *acc, double *en){\n    if (*en > 0 && *en < acc -> bal) {\n        acc -> bal = acc -> bal-*en;\n    }else{\n        acc -> bal = acc -> bal+*en;\n    }\n}\nvoid yyy(BankAcc *acc){\n    acc -> bal = acc -> bal * sim_pow((1+0.1),3);\n}\nint main(){\n    BankAcc myAcc;\n    initAcc(&myAcc, 9981, 2200.0);\n    double amount = 100.0;\n    xxx(&myAcc, &amount);\n    yyy(&myAcc);\n    printf(\"%d and %.2f\", myAcc.accNum, myAcc.bal);\n    return 0;\n}",
+      "answer": "9981 and 2795.10"
+    },
+    {
+      "number": 12,
+      "text": "12. 다음 파이썬 코드에 대한 알맞는 출력 값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "a = [\"Seoul\", \"Kyeonggi\", \"Incheon\", \"Daejun\", \"Daegu\", \"Pusan\"] \nstr = \"S\"\nfor i in a:\n    str = str + i[1]\nprint(str)",
+      "answer": "Seynaau"
+    },
+    {
+      "number": 13,
+      "text": "13. 아래 보기의 SQL 문장과 테이블을 참고하여 출력 값을 표로 작성하시오.",
+      "options": "",
+      "images": [
+        "https://blog.kakaocdn.net/dna/cdGyt7/btsHrT44l4V/AAAAAAAAAAAAAAAAAAAAAJ7pvKDZrvZliNMonxEJjJWyOPXgzfu0vTF8HJGlC8Gr/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=e8hGY%2FYLRl33q1ISJH52TZOE0mw%3D"
+      ],
+      "code": "SELECT\n    B\nFROM\n    R1\nWHERE\n    C IN (SELECT C FROM R2 WHERE D=\"k\");",
+      "answer": ""
+    },
+    {
+      "number": 14,
+      "text": "14. 아래는 애플리케이션 테스트 관리에 대한 내용이다. 설명하는 답을 보기에서 골라 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": ""
+    },
+    {
+      "number": 1,
+      "text": "1. 모든 분기와 조건의 조합을 고려하나 모든 조합을 테스트하는 대신에 테스트가 필요한 중요한 조합을 찾아내는데에 중점을 둔다.2. 특정 조건을 수행할 때 다른 조건과는 상관없이 전체 결과에 영향을 미치는 조건만을 테스트한다.3. 각각의 파라미터는 적어도 한 번은 최종 결과에 영향을 주어야 한다.\nㄱ. 구문 커버리지      ㄴ. 결정 커버리지    ㄷ. 조건 커버리지    ㄹ. 변경 조건/결정 커버리지     ㅁ.다중 조건 커버리지      ㅂ.경로 커버리지    ㅅ.조건/결정 커버리지",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "ㄹ.변경 조건/결정 커버리지"
+    },
+    {
+      "number": 15,
+      "text": "15. 다음 아래 내용을 보고  보기에서 알맞는 용어를 골라 작성하시오.\n인터넷 공격자의 존재를 숨기면서 이 공격자에게 시스템에 대한 무제한 접근 권한을 부여하는 악성 프로그램이다.해커가 자신의 존재를 숨기면서 허가되지 않은 컴퓨터나 소프트웨어에 접근할 수 있도록 설계된 도구이다.일반적으로 펌웨어, 가상화 계층 등의 다양한 시스템 영역에서 작동하며, 운영체제의 시스템콜을 해킹하여 악성코드의 실행여부를 숨겨 안티바이러스 탐지를 우회할 수 있다.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "ㅅ"
+    },
+    {
+      "number": 16,
+      "text": "16. 다음 Java 코드를 보고 알맞는 출력 값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "class classOne {\n    int a, b;\n    public classOne(int a, int b) {\n        this.a = a;\n        this.b = b;\n    }\n    public void print() {\n        System.out.println(a + b);\n    }\n}\nclass classTwo extends classOne {\n    int po = 3;\n    public classTwo(int i) {\n        super(i, i+1);\n    }\n    public void print() {\n        System.out.println(po*po);\n    }\n}\npublic class main {  \n    public static void main(String[] args) {\n        classOne one = new classTwo(10);\n        one.print();\n    }\n}",
+      "answer": "9"
+    },
+    {
+      "number": 1,
+      "text": "1. 불특정 다수가 아닌 명확한 표적을 정하여 지속적인 정보수집 후 공격감행할 수 있다.2. 시스템에 직접 침투하는 것뿐 아니라 표적 내부직원들이 이용하는 다양한 단말을 대상으로 한다.3. 한가지 기술만이 아닌 Zero-day 취약점, 악성코드 등 다양한 보안 위협 공격 기술을 사용한다.4. 일반적으로 공격은 침투, 검색, 수집 및 유출의 4단계로 실행되며, 각 단계별로 다양한 공격 기술을 사용한다.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "ㅅ"
+    },
+    {
+      "number": 18,
+      "text": "18. 아래의 SQL 코드와 테이블을 참고하여 결과 값을 작성하시오.",
+      "options": "",
+      "images": [
+        "https://blog.kakaocdn.net/dna/dR34LK/btsHqjES9Ot/AAAAAAAAAAAAAAAAAAAAAF89NFObm5YWW0w5qpXaAW3PMG8OFFO8H7eBSDJRlOnx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=IDgNDGcI4%2FDuf9B6GWvWkwZOpUM%3D"
+      ],
+      "code": "SELECT \n    COUNT(*) \nFROM \n    TABLE \nWHERE \n    EMPNO > 100 \nAND \n    SAL >= 3000 OR EMPNO = 200",
+      "answer": "1"
+    },
+    {
+      "number": 19,
+      "text": "19. 다음 C언어 코드의 알맞는 출력 값을 작성하시오.",
+      "options": "",
+      "images": [],
+      "code": "#include<stdio.h>\n#include<ctype.h>\nint main(){\n    char*p = \"It is 8\";\n    char result[100];\n    int i;\n    for(i=0; p[i]!='\\0'; i++){\n        if(isupper(p[i]))\n            result[i] = (p[i]-'A'+5)% 25 + 'A';\n        else if(islower(p[i]))\n            result[i] = (p[i]-'a'+10)% 26 + 'a';\n        else if(isdigit(p[i]))\n            result[i] = (p[i]-'0'+3)% 10 + '0';\n        else if(!(isupper(p[i]) || islower(p[i]) || isdigit(p[i])))    \n            result[i] = p[i];\n    }\n    result[i] = '\\0';\n    printf(\"%s\\n\",result);\n    return 0;\n}",
+      "answer": "Nd sc 1"
+    },
+    {
+      "number": 20,
+      "text": "20. 다음 아래의 내용을 보고 알맞는 용어를 작성하시오.\n구체적인 클래스에 의존하지 않고 서로 연관되거나 의존적인 객체들의 조합을 만드는 인터페이스를 제공하는 패턴이다.연관성이 있는 객체 군이 여러개 있을 경우 이들을 묶어 추상화하고, 어떤 구체적인 상황이 주어지면 팩토리 객체에서 집합으로 묶은 객체 군을 구현화 하는 생성 패턴이다관련성 있는 여러 종류의 객체를 일관된 방식으로 생성하는 경우에 유용하다.kit라고도 불린다.",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "Abstract Factory"
+    }
+  ]
+}
