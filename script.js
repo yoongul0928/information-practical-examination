@@ -119,7 +119,7 @@ function renderQuestions() {
                     ` : ''}
 
                     ${q.code ? `
-                        <div class="question-code">${escapeHtml(q.code)}</div>
+                        <pre class="question-code"><code>${escapeHtml(q.code)}</code></pre>
                     ` : ''}
 
                     <button class="toggle-answer-btn" onclick="toggleAnswer(this)">정답 보기</button>

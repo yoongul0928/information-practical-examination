@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T17:55:31.172518",
+    "crawl_time": "2026-04-17T18:06:30.773862",
     "source": "https://chobopark.tistory.com/191",
     "total_questions": 20
   },
@@ -47,11 +47,11 @@
     },
     {
       "number": 5,
-      "text": "5. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.\nclass good :\n li = [\"seoul\", \"kyeonggi\",\"inchon\",\"daejeon\",\"daegu\",\"pusan\"]\n\ng = good()\nstr01 = ''\nfor i in g.li:\n str01 = str01 + i[0]\n \nprint(str01)",
-      "question_html": "<p data-ke-size=\"size16\"><b>5. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"python\" data-ke-language=\"python\" data-ke-type=\"codeblock\" id=\"code_1624878075875\"><code>class good :\n\tli = [\"seoul\", \"kyeonggi\",\"inchon\",\"daejeon\",\"daegu\",\"pusan\"]\n\ng = good()\nstr01 = ''\nfor i in g.li:\n\tstr01 = str01 + i[0]\n    \nprint(str01)</code></pre>",
+      "text": "5. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>5. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "class good :\n\tli = [\"seoul\", \"kyeonggi\",\"inchon\",\"daejeon\",\"daegu\",\"pusan\"]\n\ng = good()\nstr01 = ''\nfor i in g.li:\n\tstr01 = str01 + i[0]\n    \nprint(str01)",
       "answer": "s\nkiddp\n각 단어들의 0번째(첫번째 글자) row 출력",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">s</span><span style=\"color: #009a87;\">kiddp</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">각 단어들의 0번째(첫번째 글자) row 출력</span></p>"
     },
@@ -67,11 +67,11 @@
     },
     {
       "number": 7,
-      "text": "7. 다음 Java 프로그램 결과를 쓰시오.\npublic class good{\n public static void main(String[] args){\n int[][]arr = new int[][]{{45,50,75},{89}};\n System.out.println(arr[0].length);\n System.out.println(arr[1].length);\n System.out.println(arr[0][0]);\n System.out.println(arr[0][1]);\n System.out.println(arr[1][0]);",
-      "question_html": "<p data-ke-size=\"size16\"><b>7. 다음 Java 프로그램 결과를 쓰시오.</b></p>\n<pre class=\"python\" data-ke-language=\"python\" data-ke-type=\"codeblock\" id=\"code_1624878566797\"><code>public class good{\n\tpublic static void main(String[] args){\n    \tint[][]arr = new int[][]{{45,50,75},{89}};\n        System.out.println(arr[0].length);\n        System.out.println(arr[1].length);\n        System.out.println(arr[0][0]);\n        System.out.println(arr[0][1]);\n        System.out.println(arr[1][0]);</code></pre>",
+      "text": "7. 다음 Java 프로그램 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>7. 다음 Java 프로그램 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "public class good{\n\tpublic static void main(String[] args){\n    \tint[][]arr = new int[][]{{45,50,75},{89}};\n        System.out.println(arr[0].length);\n        System.out.println(arr[1].length);\n        System.out.println(arr[0][0]);\n        System.out.println(arr[0][1]);\n        System.out.println(arr[1][0]);",
       "answer": "3\n1\n45\n50\n89",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">45</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">50</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">89</span></p>"
     },
@@ -98,7 +98,7 @@
     {
       "number": 10,
       "text": "10. 다음은 테스트 종류에 대한 설명이다. 빈칸에 들어갈 알맞은 용어를 보기에서 찾아 기호로 쓰시오.\n- ( 1. ) 은/는 개별 모듈, 서브루틴이 정상적으로 실행되는지 확인\n- ( 2. ) 은/는 인터페이스 간 시스템이 정상적으로 실행되는지 확인\n[보기] : 시스템 테스트 / 인수 테스트 / 알파 테스트 / 단위 테스트 / 통합 테스트 / 회귀 테스트\n반응형",
-      "question_html": "<p data-ke-size=\"size16\"><b>10. 다음은 테스트 종류에 대한 설명이다. 빈칸에 들어갈 알맞은 용어를 보기에서 찾아 기호로 쓰시오.</b></p>\n<p data-ke-size=\"size16\">- (   1.   ) 은/는 개별 모듈, 서브루틴이 정상적으로 실행되는지 확인</p>\n<p data-ke-size=\"size16\">- (   2.   ) 은/는 인터페이스 간 시스템이 정상적으로 실행되는지 확인</p>\n<p data-ke-size=\"size16\">[보기] : 시스템 테스트 / 인수 테스트 / 알파 테스트 / 단위 테스트 / 통합 테스트 / 회귀 테스트</p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n\n\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
+      "question_html": "<p data-ke-size=\"size16\"><b>10. 다음은 테스트 종류에 대한 설명이다. 빈칸에 들어갈 알맞은 용어를 보기에서 찾아 기호로 쓰시오.</b></p>\n<p data-ke-size=\"size16\">- (   1.   ) 은/는 개별 모듈, 서브루틴이 정상적으로 실행되는지 확인</p>\n<p data-ke-size=\"size16\">- (   2.   ) 은/는 인터페이스 간 시스템이 정상적으로 실행되는지 확인</p>\n<p data-ke-size=\"size16\">[보기] : 시스템 테스트 / 인수 테스트 / 알파 테스트 / 단위 테스트 / 통합 테스트 / 회귀 테스트</p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
       "options": "",
       "images": [],
       "code": null,
@@ -147,11 +147,11 @@
     },
     {
       "number": 15,
-      "text": "15. 다음은 C언어 프로그램이다. 실행 결과를 쓰시오.\n#include <stdio.h>\n\nstruct good {\n char name[10];\n int age;\n };\n \n void main(){\n struct good s[] = {\"Kim\",28,\"Lee\",38,\"Seo\",50,\"Park\",35};\n \n struct good *p;\n p = s;\n p++;\n printf(\"%s\\n\", p-> name);\n printf(\"%d\\n\", p-> age);",
-      "question_html": "<p data-ke-size=\"size16\"><b>15. 다음은 C언어 프로그램이다. 실행 결과를 쓰시오.</b></p>\n<pre class=\"cpp\" data-ke-language=\"cpp\" data-ke-type=\"codeblock\" id=\"code_1624888725236\"><code>#include &lt;stdio.h&gt;\n\nstruct good {\n\tchar name[10];\n    int age;\n };\n \n void main(){\n \tstruct good s[] = {\"Kim\",28,\"Lee\",38,\"Seo\",50,\"Park\",35};\n    \n    struct good *p;\n    p = s;\n    p++;\n    printf(\"%s\\n\", p-&gt; name);\n    printf(\"%d\\n\", p-&gt; age);</code></pre>",
+      "text": "15. 다음은 C언어 프로그램이다. 실행 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>15. 다음은 C언어 프로그램이다. 실행 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "#include <stdio.h>\n\nstruct good {\n\tchar name[10];\n    int age;\n };\n \n void main(){\n \tstruct good s[] = {\"Kim\",28,\"Lee\",38,\"Seo\",50,\"Park\",35};\n    \n    struct good *p;\n    p = s;\n    p++;\n    printf(\"%s\\n\", p-> name);\n    printf(\"%d\\n\", p-> age);",
       "answer": "Lee\n38\np++로 인해 s[1]가 되면서 두번째 배열인 Lee와 38이 출력이 된다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">Lee </span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">38</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">p++로 인해 s[1]가 되면서 두번째 배열인 Lee와 38이 출력이 된다.</span></p>"
     },
@@ -167,11 +167,11 @@
     },
     {
       "number": 17,
-      "text": "17. 다음은 Java 프로그램이다. 실행 결과를 쓰시오.\npublic class good {\n public static void main(String[] args){\n int i, j;\n for(j=0, i=0; i<=5; i++){\n j+=i;\n System.out.print(i);\n if(i==5){\n System.out.print(\"=\");\n System.out.print(j);\n }else{\n System.out.print(\"+\");\n }\n }\n }\n }",
-      "question_html": "<p data-ke-size=\"size16\"><b>17. 다음은 Java 프로그램이다. 실행 결과를 쓰시오.</b></p>\n<pre class=\"python\" data-ke-language=\"python\" data-ke-type=\"codeblock\" id=\"code_1624889120229\"><code>public class good {\n\tpublic static void main(String[] args){\n    int i, j;\n    for(j=0, i=0; i&lt;=5; i++){\n    j+=i;\n    System.out.print(i);\n    if(i==5){\n    System.out.print(\"=\");\n    System.out.print(j);\n   }else{\n   \tSystem.out.print(\"+\");\n\t}\n   }\n  }\n }\n</code></pre>",
+      "text": "17. 다음은 Java 프로그램이다. 실행 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>17. 다음은 Java 프로그램이다. 실행 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "public class good {\n\tpublic static void main(String[] args){\n    int i, j;\n    for(j=0, i=0; i<=5; i++){\n    j+=i;\n    System.out.print(i);\n    if(i==5){\n    System.out.print(\"=\");\n    System.out.print(j);\n   }else{\n   \tSystem.out.print(\"+\");\n\t}\n   }\n  }\n }",
       "answer": "0 + 1 + 2 + 3 + 4 + 5 = 15",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">0 + 1 + 2 + 3 + 4 + 5 = 15</span></p>"
     },

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T17:55:32.537050",
+    "crawl_time": "2026-04-17T18:06:31.793307",
     "source": "https://chobopark.tistory.com/195",
     "total_questions": 20
   },
@@ -17,11 +17,11 @@
     },
     {
       "number": 2,
-      "text": "2. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.\na={'일본','중국','한국'}\na.add('베트남')\na.add('중국')\na.remove('일본')\na.update(['홍콩','한국','태국'])\nprint(a)",
-      "question_html": "<p data-ke-size=\"size16\"><b>2. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"bash\" data-ke-language=\"bash\" data-ke-type=\"codeblock\" id=\"code_1625352090494\"><code>a={'일본','중국','한국'}\na.add('베트남')\na.add('중국')\na.remove('일본')\na.update(['홍콩','한국','태국'])\nprint(a)</code></pre>",
+      "text": "2. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>2. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "a={'일본','중국','한국'}\na.add('베트남')\na.add('중국')\na.remove('일본')\na.update(['홍콩','한국','태국'])\nprint(a)",
       "answer": "{'중국','한국','베트남','홍콩','태국'}",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">{'중국','한국','베트남','홍콩','태국'}</span></p>"
     },
@@ -47,11 +47,11 @@
     },
     {
       "number": 5,
-      "text": "5. 다음은 자바 코드이다. 다음 밑줄에 들어갈 키워드를 쓰시오.\nclass parent\n public void show(){\n system.out.println(\"Parent\");\n }\n}\n\nclass Child extends Parent{\n public void show(){\n system.out.println(\"Child\");\n }\n}\n\npublic class good{\n public static void main(String[] args){\n Parent pa = ____ Child();\n pa.show();\n }\n}",
-      "question_html": "<p data-ke-size=\"size16\"><b>5. 다음은 자바 코드이다. 다음 밑줄에 들어갈 키워드를 쓰시오.</b></p>\n<pre class=\"java\" data-ke-language=\"java\" data-ke-type=\"codeblock\" id=\"code_1625352562798\"><code>class parent\n\tpublic void show(){\n    \tsystem.out.println(\"Parent\");\n    }\n}\n\nclass Child extends Parent{\n\tpublic void show(){\n    \tsystem.out.println(\"Child\");\n    }\n}\n\npublic class good{\n\tpublic static void main(String[] args){\n    \tParent pa = ____  Child();\n        pa.show();\n    }\n}</code></pre>",
+      "text": "5. 다음은 자바 코드이다. 다음 밑줄에 들어갈 키워드를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>5. 다음은 자바 코드이다. 다음 밑줄에 들어갈 키워드를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "class parent\n\tpublic void show(){\n    \tsystem.out.println(\"Parent\");\n    }\n}\n\nclass Child extends Parent{\n\tpublic void show(){\n    \tsystem.out.println(\"Child\");\n    }\n}\n\npublic class good{\n\tpublic static void main(String[] args){\n    \tParent pa = ____  Child();\n        pa.show();\n    }\n}",
       "answer": "new",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">new</span></p>"
     },
@@ -98,7 +98,7 @@
     {
       "number": 10,
       "text": "10. 다음 보기가 설명하는 패턴을 쓰시오. (영문 Full-Name으로 작성하시오)\n[보기]\n한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들이 연락이 가고 자동으로 내용이 갱신되는 방법으로 일대 다의 의존성을 가지며 상호작용하는 객체 사이에서는 가능하면 느슨하게 결합하는 디자인을 사용해야 한다.\n반응형",
-      "question_html": "<p data-ke-size=\"size16\"><b>10. 다음 보기가 설명하는 패턴을 쓰시오. (영문 Full-Name으로 작성하시오)</b></p>\n<p data-ke-size=\"size16\">[보기]</p>\n<p data-ke-size=\"size16\">한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들이 연락이 가고 자동으로 내용이 갱신되는 방법으로 일대 다의 의존성을 가지며 상호작용하는 객체 사이에서는 가능하면 느슨하게 결합하는 디자인을 사용해야 한다.</p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n\n\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
+      "question_html": "<p data-ke-size=\"size16\"><b>10. 다음 보기가 설명하는 패턴을 쓰시오. (영문 Full-Name으로 작성하시오)</b></p>\n<p data-ke-size=\"size16\">[보기]</p>\n<p data-ke-size=\"size16\">한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들이 연락이 가고 자동으로 내용이 갱신되는 방법으로 일대 다의 의존성을 가지며 상호작용하는 객체 사이에서는 가능하면 느슨하게 결합하는 디자인을 사용해야 한다.</p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
       "options": "",
       "images": [],
       "code": null,
@@ -187,11 +187,11 @@
     },
     {
       "number": 19,
-      "text": "19. 다음은 자바 코드이다. 출력 결과를 쓰시오.\nclass A{\n private int a;\n public A(int a){\n this.a = a;\n }\n public void display(){\n system.out.println(\"a=\" + a);\n }\n}\n\nclass B extends A {\n public B(int a){\n super(a);\n super.display();\n }\n}\n\npublic class good {\n public static void main(String[] args){\n B obj = new B(10);\n }\n}",
-      "question_html": "<p data-ke-size=\"size16\"><b>19. 다음은 자바 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"java\" data-ke-language=\"java\" data-ke-type=\"codeblock\" id=\"code_1625353575664\"><code>class A{\n\tprivate int a;\n    public A(int a){\n    \tthis.a = a;\n    }\n    public void display(){\n    \tsystem.out.println(\"a=\" + a);\n    }\n}\n\nclass B extends A {\n\tpublic B(int a){\n    \tsuper(a);\n        super.display();\n    }\n}\n\n\npublic class good {\n\tpublic static void main(String[] args){\n    \tB obj = new B(10);\n    }\n}\n  </code></pre>",
+      "text": "19. 다음은 자바 코드이다. 출력 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>19. 다음은 자바 코드이다. 출력 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "class A{\n\tprivate int a;\n    public A(int a){\n    \tthis.a = a;\n    }\n    public void display(){\n    \tsystem.out.println(\"a=\" + a);\n    }\n}\n\nclass B extends A {\n\tpublic B(int a){\n    \tsuper(a);\n        super.display();\n    }\n}\n\n\npublic class good {\n\tpublic static void main(String[] args){\n    \tB obj = new B(10);\n    }\n}",
       "answer": "a = 10",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">a = 10</span></p>"
     },

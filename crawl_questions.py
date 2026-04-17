@@ -70,6 +70,13 @@ def normalize_text(text: str) -> str:
     return text.strip()
 
 
+def normalize_code_text(text: str) -> str:
+    text = text.replace("\xa0", " ")
+    text = text.replace("\r\n", "\n")
+    text = text.replace("\r", "\n")
+    return text.rstrip()
+
+
 def is_empty_block(tag: Tag) -> bool:
     text = normalize_text(tag.get_text(" ", strip=True))
     has_image = tag.find("img") is not None
@@ -145,6 +152,43 @@ def html_to_text(html_blocks: list[str]) -> str:
     return "\n".join(text_parts).strip()
 
 
+def extract_code_from_colorscripter(code_block: Tag) -> str:
+    line_nodes = code_block.select("td:nth-of-type(2) > div > div")
+    lines = []
+
+    for node in line_nodes:
+        line = normalize_code_text(node.get_text("", strip=False))
+        lines.append(line)
+
+    return "\n".join(lines).strip("\n")
+
+
+def extract_code_from_html(html_blocks: list[str]) -> tuple[list[str], str]:
+    cleaned_blocks = []
+    code_parts = []
+
+    for html in html_blocks:
+        soup = BeautifulSoup(html, "html.parser")
+
+        for code_block in soup.select("div.colorscripter-code"):
+            code_text = extract_code_from_colorscripter(code_block)
+            if code_text:
+                code_parts.append(code_text)
+            code_block.decompose()
+
+        for pre_block in soup.find_all("pre"):
+            code_text = normalize_code_text(pre_block.get_text("\n", strip=False))
+            if code_text:
+                code_parts.append(code_text)
+            pre_block.decompose()
+
+        cleaned_html = str(soup).strip()
+        if cleaned_html and normalize_text(soup.get_text(" ", strip=True)):
+            cleaned_blocks.append(cleaned_html)
+
+    return cleaned_blocks, "\n\n".join(part for part in code_parts if part).strip()
+
+
 def collect_images(html_blocks: list[str]) -> list[str]:
     images = []
     for html in html_blocks:
@@ -193,6 +237,7 @@ def split_question_and_answer(blocks: list[str]) -> tuple[list[str], list[str]]:
 
 def build_question_record(number: int, blocks: list[str]) -> dict:
     question_html, answer_html = split_question_and_answer(blocks)
+    question_html, code = extract_code_from_html(question_html)
 
     return {
         "number": number,
@@ -200,7 +245,7 @@ def build_question_record(number: int, blocks: list[str]) -> dict:
         "question_html": "\n".join(question_html).strip(),
         "options": "",
         "images": collect_images(question_html),
-        "code": None,
+        "code": code or None,
         "answer": html_to_text(answer_html),
         "answer_html": "\n".join(answer_html).strip(),
     }
@@ -278,4 +323,3 @@ if __name__ == "__main__":
     ]
     for url in urls:
         crawl_url(url)
-

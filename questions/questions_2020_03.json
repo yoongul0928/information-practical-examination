@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T17:55:32.869630",
+    "crawl_time": "2026-04-17T18:06:32.070992",
     "source": "https://chobopark.tistory.com/194",
     "total_questions": 20
   },
@@ -17,11 +17,11 @@
     },
     {
       "number": 2,
-      "text": "2. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.\n#include <stdio.h>\n void main(){\n int i=0, c=0;\n while (i<10){\n i++;\n c*=i;\n }\n printf(\"%d\",c);\n }",
-      "question_html": "<p data-ke-size=\"size16\"><b>2. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"csharp\" data-ke-language=\"csharp\" data-ke-type=\"codeblock\" id=\"code_1625348247973\"><code>#include &lt;stdio.h&gt;\n\tvoid main(){\n    \tint i=0, c=0;\n        while (i&lt;10){\n        i++;\n        c*=i;\n        }\n        printf(\"%d\",c);\n   }</code></pre>",
+      "text": "2. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>2. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "#include <stdio.h>\n\tvoid main(){\n    \tint i=0, c=0;\n        while (i<10){\n        i++;\n        c*=i;\n        }\n        printf(\"%d\",c);\n   }",
       "answer": "0\nc가 0이므로 어떤수를 곱해도 0이 됩니다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">0</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">c가 0이므로 어떤수를 곱해도 0이 됩니다.</span></p>"
     },
@@ -68,11 +68,9 @@
     {
       "number": 7,
       "text": "7. 다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>7. 다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"530\" data-origin-width=\"894\"><span data-phocus=\"https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D\" data-url=\"https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D\"><img data-origin-height=\"530\" data-origin-width=\"894\" height=\"530\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FJIE3a%2Fbtq8H5sOaQq%2FAAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DoSHKIxHuJPBtXxIPW6dQ3GGmpt0%253D\" width=\"894\"/></span></figure>\n</p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>7. 다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.</b></p>",
       "options": "",
-      "images": [
-        "https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D"
-      ],
+      "images": [],
       "code": null,
       "answer": "1234561, 124567 or 1234567, 124561\n결정 커버리지는 결정 포인트 내의 전체 조건식이 적어도 한 번은 참과 거짓의 결과를 수행해야 하기 때문에 첫 번째 분기문도 참, 거짓이 와야 하고, 두 번째 분기도 참, 거짓이 한 번씩 와야 한다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1234561, 124567  or 1234567, 124561</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">결정 커버리지는 결정 포인트 내의 전체 조건식이 적어도 한 번은 참과 거짓의 결과를 수행해야 하기 때문에 첫 번째 분기문도 참, 거짓이 와야 하고, 두 번째 분기도 참, 거짓이 한 번씩 와야 한다.</span></p>"
@@ -100,7 +98,7 @@
     {
       "number": 10,
       "text": "10. 릴레이션 A, B가 있을 때 릴레이션 B 조건에 맞는 것들만 릴레이션 A에서 튜플을 꺼내 프로젝션하는 관계 대수의 기호는 무엇인가?\n반응형",
-      "question_html": "<p data-ke-size=\"size16\"><b>10. 릴레이션 A, B가 있을 때 릴레이션 B 조건에 맞는 것들만 릴레이션 A에서 튜플을 꺼내 프로젝션하는 관계 대수의 기호는 무엇인가?</b></p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n\n\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
+      "question_html": "<p data-ke-size=\"size16\"><b>10. 릴레이션 A, B가 있을 때 릴레이션 B 조건에 맞는 것들만 릴레이션 A에서 튜플을 꺼내 프로젝션하는 관계 대수의 기호는 무엇인가?</b></p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
       "options": "",
       "images": [],
       "code": null,
@@ -129,11 +127,11 @@
     },
     {
       "number": 13,
-      "text": "13. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.\n#include <studio.h>\nint r1(){\n return 4;\n}\nint r10(){\n return (30+r1());\n}\nint r100(){\n return (200+r10());\n}\nint main(){\n printf(\"%d\\n\", r100());\n return 0;\n}",
-      "question_html": "<p data-ke-size=\"size16\"><b>13. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"python\" data-ke-language=\"python\" data-ke-type=\"codeblock\" id=\"code_1625349642514\"><code>#include &lt;studio.h&gt;\nint r1(){\n\treturn 4;\n}\nint r10(){\n\treturn (30+r1());\n}\nint r100(){\n\treturn (200+r10());\n}\nint main(){\n\tprintf(\"%d\\n\", r100());\n    return 0;\n}</code></pre>",
+      "text": "13. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>13. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "#include <studio.h>\nint r1(){\n\treturn 4;\n}\nint r10(){\n\treturn (30+r1());\n}\nint r100(){\n\treturn (200+r10());\n}\nint main(){\n\tprintf(\"%d\\n\", r100());\n    return 0;\n}",
       "answer": "234",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">234</span></p>"
     },
@@ -149,11 +147,11 @@
     },
     {
       "number": 15,
-      "text": "15. 다음은 자바 코드이다. 출력 결과를 쓰시오.\nabstract class vehicle{\n private String name;\n abstract public String getName(String val);\n public String getName(){\n return \"vehicle name:\" + name;\n }\n public void setName(String val){\n name = val;\n }\n}\n\nclass Car extends Vehicle{\n public Car(String val){\n setName(val);\n }\npublic String getName(String val){\n return \"Car name : \" + val;\n }\npublic String getName(byte val[]){\n return \"Car name : \" + val;\n }\n}\n\npublic class good {\n public Static void main(String[] args){\n Vehicle obj = new Car(\"Spark\");\n System.out.print(obj.getName());\n }\n}",
-      "question_html": "<p data-ke-size=\"size16\"><b>15. 다음은 자바 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"java\" data-ke-language=\"java\" data-ke-type=\"codeblock\" id=\"code_1625349979241\"><code>abstract class vehicle{\n\tprivate String name;\n    abstract public String getName(String val);\n    public String getName(){\n    \treturn \"vehicle name:\" + name;\n    }\n\tpublic void setName(String val){\n    \tname = val;\n    }\n}\n\nclass Car extends Vehicle{\n\tpublic Car(String val){\n    \tsetName(val);\n   }\npublic String getName(String val){\n\treturn \"Car name : \" + val;\n   }\npublic String getName(byte val[]){\n\treturn \"Car name : \" + val;\n   }\n}\n\npublic class good {\n\tpublic Static void main(String[] args){\n    Vehicle obj = new Car(\"Spark\");\n    System.out.print(obj.getName());\n    }\n}\n    </code></pre>",
+      "text": "15. 다음은 자바 코드이다. 출력 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>15. 다음은 자바 코드이다. 출력 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "abstract class vehicle{\n\tprivate String name;\n    abstract public String getName(String val);\n    public String getName(){\n    \treturn \"vehicle name:\" + name;\n    }\n\tpublic void setName(String val){\n    \tname = val;\n    }\n}\n\nclass Car extends Vehicle{\n\tpublic Car(String val){\n    \tsetName(val);\n   }\npublic String getName(String val){\n\treturn \"Car name : \" + val;\n   }\npublic String getName(byte val[]){\n\treturn \"Car name : \" + val;\n   }\n}\n\npublic class good {\n\tpublic Static void main(String[] args){\n    Vehicle obj = new Car(\"Spark\");\n    System.out.print(obj.getName());\n    }\n}",
       "answer": "Vehicle name : Spark",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">Vehicle name : Spark</span></p>"
     },
@@ -169,11 +167,11 @@
     },
     {
       "number": 17,
-      "text": "17. 다음은 자바 코드이다. 출력 결과를 쓰시오.\npublic class good {\n public static void main(String[] args){\n int i=0;\n int sum=0;\n while (i<10){\n i++;\n if(i%2 ==1)\n continue;\n sum += i;\n }\n System.out.println(sum);\n }\n}",
-      "question_html": "<p data-ke-size=\"size16\"><b>17. 다음은 자바 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"html xml\" data-ke-language=\"html\" data-ke-type=\"codeblock\" id=\"code_1625350118561\"><code>public class good {\n\tpublic static void main(String[] args){\n    int i=0;\n    int sum=0;\n    while (i&lt;10){\n    \ti++;\n        if(i%2 ==1)\n        \tcontinue;\n        sum += i;\n     }\n     System.out.println(sum);\n   }\n}</code></pre>",
+      "text": "17. 다음은 자바 코드이다. 출력 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>17. 다음은 자바 코드이다. 출력 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "public class good {\n\tpublic static void main(String[] args){\n    int i=0;\n    int sum=0;\n    while (i<10){\n    \ti++;\n        if(i%2 ==1)\n        \tcontinue;\n        sum += i;\n     }\n     System.out.println(sum);\n   }\n}",
       "answer": "30\n2+4+6+8+10=30이 됩니다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">30</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">2+4+6+8+10=30이 됩니다.</span></p>"
     },

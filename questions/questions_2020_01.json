@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T17:55:32.254182",
+    "crawl_time": "2026-04-17T18:06:31.481827",
     "source": "https://chobopark.tistory.com/196",
     "total_questions": 20
   },
@@ -98,7 +98,7 @@
     {
       "number": 10,
       "text": "10. RFC 1321로 지정되어 있으며, 주로 프로그램이나 파일이 원본 그대로 인지를 확인하는 무결성 검사 등에 사용된다. 1991년 로널드 라이베스트가 예전에 쓰이던 MD4를 대체하기 위해 고안된 128비트 암호화 해시 함수는 무엇인가?\n반응형",
-      "question_html": "<p data-ke-size=\"size16\"><b>10. RFC 1321로 지정되어 있으며, 주로 프로그램이나 파일이 원본 그대로 인지를 확인하는 무결성 검사 등에 사용된다. 1991년 로널드 라이베스트가 예전에 쓰이던 MD4를 대체하기 위해 고안된 128비트 암호화 해시 함수는 무엇인가?</b></p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n\n\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
+      "question_html": "<p data-ke-size=\"size16\"><b>10. RFC 1321로 지정되어 있으며, 주로 프로그램이나 파일이 원본 그대로 인지를 확인하는 무결성 검사 등에 사용된다. 1991년 로널드 라이베스트가 예전에 쓰이던 MD4를 대체하기 위해 고안된 128비트 암호화 해시 함수는 무엇인가?</b></p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
       "options": "",
       "images": [],
       "code": null,
@@ -117,31 +117,31 @@
     },
     {
       "number": 12,
-      "text": "12. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.\n#include <stdio.h>\n void main(){\n int i,j;\n int temp;\n int a[5] = {75,95,85,100,50};\n \n for(i=0; i<4; i++){\n for(j=0; j<4-i; j++){\n if(a[j] > a[j+1]){\n temp=a[j];\n a[j] = a[j+1];\n a[j+1] = temp;\n }\n }\n }\n \n for(i=0; i<5; i++){\n printf(\"%d\", a[i]);\n }\n }",
-      "question_html": "<p data-ke-size=\"size16\"><b>12. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오. </b></p>\n<pre class=\"cs\" data-ke-language=\"cs\" data-ke-type=\"codeblock\" id=\"code_1625355187176\"><code> #include &lt;stdio.h&gt;\n void main(){\n \tint i,j;\n    int temp;\n    int a[5] = {75,95,85,100,50};\n    \n    for(i=0; i&lt;4; i++){\n    \tfor(j=0; j&lt;4-i; j++){\n        \tif(a[j] &gt; a[j+1]){\n            \ttemp=a[j];\n                a[j] = a[j+1];\n                a[j+1] = temp;\n             }\n           }\n        }\n        \n       \tfor(i=0; i&lt;5; i++){\n        \tprintf(\"%d\", a[i]);\n        }\n  }</code></pre>",
+      "text": "12. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>12. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오. </b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "#include <stdio.h>\n void main(){\n \tint i,j;\n    int temp;\n    int a[5] = {75,95,85,100,50};\n    \n    for(i=0; i<4; i++){\n    \tfor(j=0; j<4-i; j++){\n        \tif(a[j] > a[j+1]){\n            \ttemp=a[j];\n                a[j] = a[j+1];\n                a[j+1] = temp;\n             }\n           }\n        }\n        \n       \tfor(i=0; i<5; i++){\n        \tprintf(\"%d\", a[i]);\n        }\n  }",
       "answer": "50758595100",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">50758595100</span></p>"
     },
     {
       "number": 13,
-      "text": "13. 다음은 자바 소스코드이다. 출력 결과를 쓰시오.\npublic class good {\n public static void main(String[] args){\n int i;\n int[] a = {0,1,2,3};\n for(i=0; i<4; i++){\n System.out.print(a[i] + \" \");\n }\n }\n }",
-      "question_html": "<p data-ke-size=\"size16\"><b>13. 다음은 자바 소스코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"bash\" data-ke-language=\"bash\" data-ke-type=\"codeblock\" id=\"code_1625355305738\"><code>public class good {\n\tpublic static void main(String[] args){\n    \tint i;\n        int[] a = {0,1,2,3};\n        for(i=0; i&lt;4; i++){\n        \tSystem.out.print(a[i] + \" \");\n        }\n     }\n }</code></pre>",
+      "text": "13. 다음은 자바 소스코드이다. 출력 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>13. 다음은 자바 소스코드이다. 출력 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "public class good {\n\tpublic static void main(String[] args){\n    \tint i;\n        int[] a = {0,1,2,3};\n        for(i=0; i<4; i++){\n        \tSystem.out.print(a[i] + \" \");\n        }\n     }\n }",
       "answer": "0 1 2 3",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">0 1 2 3</span></p>"
     },
     {
       "number": 14,
-      "text": "14. 다음은 자바 소스코드이다. 출력 결과를 쓰시오.\npublic class good {\n public static void main(String[] args){\n int i = 3;\n int k = 1;\n swich (i) {\n case 0;\n case 1;\n case 2;\n case 3 k = 0;\n case 4 k += 3;\n case 5 k -= 10;\n default: k--;\n }\n system.out.print(k);\n }\n}",
-      "question_html": "<p data-ke-size=\"size16\"><b>14. 다음은 자바 소스코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"java\" data-ke-language=\"java\" data-ke-type=\"codeblock\" id=\"code_1625355437956\"><code>public class good {\n\tpublic static void main(String[] args){\n    \tint i = 3;\n        int k = 1;\n        swich (i) {\n        case 0;\n        case 1;\n        case 2;\n        case 3 k = 0;\n        case 4 k += 3;\n        case 5 k -= 10;\n        default: k--;\n        }\n        system.out.print(k);\n     }\n}\n        </code></pre>",
+      "text": "14. 다음은 자바 소스코드이다. 출력 결과를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>14. 다음은 자바 소스코드이다. 출력 결과를 쓰시오.</b></p>",
       "options": "",
       "images": [],
-      "code": null,
+      "code": "public class good {\n\tpublic static void main(String[] args){\n    \tint i = 3;\n        int k = 1;\n        swich (i) {\n        case 0;\n        case 1;\n        case 2;\n        case 3 k = 0;\n        case 4 k += 3;\n        case 5 k -= 10;\n        default: k--;\n        }\n        system.out.print(k);\n     }\n}",
       "answer": "-8\nswitch case문에 break가 없는 점을 주의하셔야 합니다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">-8</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">switch case문에 break가 없는 점을 주의하셔야 합니다.</span></p>"
     },
@@ -198,11 +198,9 @@
     {
       "number": 20,
       "text": "20. 다음은 모듈의 관계를 나타낸 다이어그램이다. fan-in 개수가 2 이상인 모듈 명칭을 쓰시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>20. 다음은 모듈의 관계를 나타낸 다이어그램이다. fan-in  개수가 2 이상인 모듈 명칭을 쓰시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"548\" data-origin-width=\"827\"><span data-phocus=\"https://blog.kakaocdn.net/dna/qaQ59/btq8H41KRYo/AAAAAAAAAAAAAAAAAAAAAOsMDq2Fgpm1jZ449qrh3bzWU8qZZDsUkEnja_1cojQx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=ffjDZ4KOSmS9SAktPWNr%2B0Y98rA%3D\" data-url=\"https://blog.kakaocdn.net/dna/qaQ59/btq8H41KRYo/AAAAAAAAAAAAAAAAAAAAAOsMDq2Fgpm1jZ449qrh3bzWU8qZZDsUkEnja_1cojQx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=ffjDZ4KOSmS9SAktPWNr%2B0Y98rA%3D\"><img data-origin-height=\"548\" data-origin-width=\"827\" height=\"548\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/qaQ59/btq8H41KRYo/AAAAAAAAAAAAAAAAAAAAAOsMDq2Fgpm1jZ449qrh3bzWU8qZZDsUkEnja_1cojQx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=ffjDZ4KOSmS9SAktPWNr%2B0Y98rA%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FqaQ59%2Fbtq8H41KRYo%2FAAAAAAAAAAAAAAAAAAAAAOsMDq2Fgpm1jZ449qrh3bzWU8qZZDsUkEnja_1cojQx%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DffjDZ4KOSmS9SAktPWNr%252B0Y98rA%253D\" width=\"827\"/></span></figure>\n</p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>20. 다음은 모듈의 관계를 나타낸 다이어그램이다. fan-in  개수가 2 이상인 모듈 명칭을 쓰시오.</b></p>",
       "options": "",
-      "images": [
-        "https://blog.kakaocdn.net/dna/qaQ59/btq8H41KRYo/AAAAAAAAAAAAAAAAAAAAAOsMDq2Fgpm1jZ449qrh3bzWU8qZZDsUkEnja_1cojQx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=ffjDZ4KOSmS9SAktPWNr%2B0Y98rA%3D"
-      ],
+      "images": [],
       "code": null,
       "answer": "F,H\n모듈에서 화살표가 나가는 경우 팬아웃이고 모듈에서 화살표가 들어오는 경우 팬인이라고 합니다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">F,H</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">모듈에서 화살표가 나가는 경우 팬아웃이고 모듈에서 화살표가 들어오는 경우 팬인이라고 합니다.</span></p>"
