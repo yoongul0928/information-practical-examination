@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:06:29.027776",
+    "crawl_time": "2026-04-17T18:13:42.773945",
     "source": "https://chobopark.tistory.com/420",
     "total_questions": 20
   },
@@ -12,6 +12,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "n[(i+1) % 5]",
       "answer_html": "<p data-ke-size=\"size16\">n[(i+1) % 5]</p>"
     },
@@ -22,6 +23,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "m / 1000(m % 1000) / 500(m % 500) / 100(m % 100) / 10",
       "answer_html": "<p data-ke-size=\"size16\">m / 1000(m % 1000) / 500(m % 500) / 100(m % 100) / 10</p>"
     },
@@ -32,6 +34,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "박영희\n박영희\n박영희",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">박영희</p>\n<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">박영희</p>\n<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">박영희</p>"
     },
@@ -42,6 +45,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "INSTER INTO 학생(학번,이름,학년,전공,전화번호)VALUES(9830287,'뉴진스',3,'경영학개론','010-1234-1234');",
       "answer_html": "<p data-ke-size=\"size16\">INSTER INTO 학생(학번,이름,학년,전공,전화번호)VALUES(9830287,'뉴진스',3,'경영학개론','010-1234-1234');</p>"
     },
@@ -52,6 +56,7 @@
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\nvoid main(){\n    int n[3] = {73, 95, 82};\n    int sum = 0;\n    for(int i=0;i<3;i++){\n        sum += n[i];\n    }\n    switch(sum/30){\n        case 10:\n        case 9: printf(\"A\");\n        case 8: printf(\"B\");\n        case 7:\n        case 6: printf(\"C\");\n        default: printf(\"D\");\n    }\n}",
+      "code_html": "<div class=\"code-line\"><span style=\"color: #0086b3;\">#include</span> <span style=\"color: #a71d5d;\">&lt;</span>stdio.h<span style=\"color: #a71d5d;\">&gt;</span></div>\n<div class=\"code-line\"><span style=\"color: #a71d5d;\">void</span> main(){</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> n[<span style=\"color: #0099cc;\">3</span>] <span style=\"color: #a71d5d;\">=</span> {<span style=\"color: #0099cc;\">73</span>, <span style=\"color: #0099cc;\">95</span>, <span style=\"color: #0099cc;\">82</span>};</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> sum <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">for</span>(<span style=\"color: #066de2;\">int</span> i<span style=\"color: #a71d5d;\">=</span><span style=\"color: #0099cc;\">0</span>;i<span style=\"color: #a71d5d;\">&lt;</span><span style=\"color: #0099cc;\">3</span>;i<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>){</div>\n<div class=\"code-line\">        sum <span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">=</span> n[i];</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">switch</span>(sum<span style=\"color: #a71d5d;\">/</span><span style=\"color: #0099cc;\">30</span>){</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">case</span> <span style=\"color: #0099cc;\">10</span>:</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">case</span> <span style=\"color: #0099cc;\">9</span>: <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"A\"</span>);</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">case</span> <span style=\"color: #0099cc;\">8</span>: <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"B\"</span>);</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">case</span> <span style=\"color: #0099cc;\">7</span>:</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">case</span> <span style=\"color: #0099cc;\">6</span>: <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"C\"</span>);</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">default</span>: <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"D\"</span>);</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>",
       "answer": "BCD",
       "answer_html": "<p data-ke-size=\"size16\">BCD</p>"
     },
@@ -62,6 +67,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "ㅇ",
       "answer_html": "<p data-ke-size=\"size16\">ㅇ</p>"
     },
@@ -72,6 +78,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "505",
       "answer_html": "<p data-ke-size=\"size16\">505</p>"
     },
@@ -82,6 +89,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "템퍼프루핑",
       "answer_html": "<p data-ke-size=\"size16\">템퍼프루핑</p>"
     },
@@ -92,6 +100,7 @@
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\n#define MAX_SIZE 10\nint isWhat[MAX_SIZE];\nint point= -1;\nint isEmpty() {\n    if (point == -1) return 1;\n    return 0;\n}\nint isFull() {\n    if (point == 10) return 1;\n    return 0;\n}\nvoid into(int num) {\n    if (point >= 10) printf(\"Full\");\n    else isWhat[++point] = num;\n}\nint take() {\n    if (isEmpty() == 1) printf(\"Empty\");\n    else return isWhat[point--];\n    return 0;\n}\nint main(int argc, char const *argv[]){\n    int e;\n    into(5); into(2);\n    while(!isEmpty()){\n        printf(\"%d\", take());\n        into(4); into(1); printf(\"%d\", take());\n        into(3); printf(\"%d\", take()); printf(\"%d\", take());\n        into(6); printf(\"%d\", take()); printf(\"%d\", take());\n    }\n    return 0;\n}",
+      "code_html": "<div class=\"code-line\"><span style=\"color: #0086b3;\">#include</span> <span style=\"color: #a71d5d;\">&lt;</span>stdio.h<span style=\"color: #a71d5d;\">&gt;</span></div>\n<div class=\"code-line\"><span style=\"color: #0086b3;\">#define</span> MAX_SIZE <span style=\"color: #0099cc;\">10</span></div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> isWhat[MAX_SIZE];</div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> point<span style=\"color: #a71d5d;\">=</span> <span style=\"color: #a71d5d;\">-</span><span style=\"color: #0099cc;\">1</span>;</div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> isEmpty() {</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">if</span> (point <span style=\"color: #a71d5d;\">=</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #a71d5d;\">-</span><span style=\"color: #0099cc;\">1</span>) <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">1</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">0</span>;</div>\n<div class=\"code-line\">}</div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> isFull() {</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">if</span> (point <span style=\"color: #a71d5d;\">=</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">10</span>) <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">1</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">0</span>;</div>\n<div class=\"code-line\">}</div>\n<div class=\"code-line\"><span style=\"color: #a71d5d;\">void</span> into(<span style=\"color: #066de2;\">int</span> num) {</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">if</span> (point <span style=\"color: #a71d5d;\">&gt;</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">10</span>) <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"Full\"</span>);</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">else</span> isWhat[<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>point] <span style=\"color: #a71d5d;\">=</span> num;</div>\n<div class=\"code-line\">}</div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> take() {</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">if</span> (isEmpty() <span style=\"color: #a71d5d;\">=</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">1</span>) <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"Empty\"</span>);</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">else</span> <span style=\"color: #a71d5d;\">return</span> isWhat[point<span style=\"color: #a71d5d;\">-</span><span style=\"color: #a71d5d;\">-</span>];</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">0</span>;</div>\n<div class=\"code-line\">}</div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> main(<span style=\"color: #066de2;\">int</span> argc, <span style=\"color: #066de2;\">char</span> <span style=\"color: #a71d5d;\">const</span> <span style=\"color: #a71d5d;\">*</span>argv[]){</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> e;</div>\n<div class=\"code-line\">    into(<span style=\"color: #0099cc;\">5</span>); into(<span style=\"color: #0099cc;\">2</span>);</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">while</span>(<span style=\"color: #a71d5d;\">!</span>isEmpty()){</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%d\"</span>, take());</div>\n<div class=\"code-line\">        into(<span style=\"color: #0099cc;\">4</span>); into(<span style=\"color: #0099cc;\">1</span>); <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%d\"</span>, take());</div>\n<div class=\"code-line\">        into(<span style=\"color: #0099cc;\">3</span>); <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%d\"</span>, take()); <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%d\"</span>, take());</div>\n<div class=\"code-line\">        into(<span style=\"color: #0099cc;\">6</span>); <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%d\"</span>, take()); <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%d\"</span>, take());</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">0</span>;</div>\n<div class=\"code-line\">}</div>",
       "answer": "213465",
       "answer_html": "<p data-ke-size=\"size16\">213465</p>"
     },
@@ -102,6 +111,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "요구조건 분석, 개념적 설계, 논리적 설계, 물리적 설계, 구현",
       "answer_html": "<p data-ke-size=\"size16\">요구조건 분석, 개념적 설계, 논리적 설계, 물리적 설계, 구현</p>"
     },
@@ -112,6 +122,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. Singleton\n2. Visitor",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">1. Singleton</p>\n<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">2. Visitor</p>"
     },
@@ -122,6 +133,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. hamming\n2. FEC\n3. BEC\n4. parity\n5. CRC",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">1. hamming</p>\n<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">2. FEC</p>\n<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">3. BEC</p>\n<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">4. parity</p>\n<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">5. CRC</p>"
     },
@@ -132,6 +144,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. ㄷ2. ㄴ3. ㅂ4. ㅊ5. ㅋ",
       "answer_html": "<p data-ke-size=\"size16\">1. ㄷ2. ㄴ3. ㅂ4. ㅊ5. ㅋ</p>"
     },
@@ -142,6 +155,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "truefalsetruetrue",
       "answer_html": "<p data-ke-size=\"size16\">truefalsetruetrue</p>"
     },
@@ -152,6 +166,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "대칭키: DES, AES, ARIA, SEED비대칭키: RSA, ECC",
       "answer_html": "<p data-ke-size=\"size16\">대칭키: DES, AES, ARIA, SEED비대칭키: RSA, ECC</p>"
     },
@@ -162,6 +177,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "해시 or 해싱 or hash",
       "answer_html": "<p data-ke-size=\"size16\">해시 or 해싱 or hash</p>"
     },
@@ -172,6 +188,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "cascade (대소문자 상관 X)",
       "answer_html": "<p data-ke-size=\"size16\">cascade (대소문자 상관 X)</p>"
     },
@@ -182,6 +199,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": ">",
       "answer_html": "<p data-ke-size=\"size16\">&gt;</p>"
     },
@@ -192,6 +210,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "engneing",
       "answer_html": "<p data-ke-size=\"size16\">engneing</p>"
     },
@@ -202,6 +221,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. 스텁\n2. 드라이버",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">1. 스텁</p>\n<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\">2. 드라이버</p>"
     }

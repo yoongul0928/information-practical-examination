@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:06:30.210301",
+    "crawl_time": "2026-04-17T18:13:43.750930",
     "source": "https://chobopark.tistory.com/423",
     "total_questions": 20
   },
@@ -12,6 +12,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "관계해석",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">관계해석</span></p>"
     },
@@ -22,6 +23,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1.IDEA\n2.SKIPJACK",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1.IDEA</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2.SKIPJACK</span></p>"
     },
@@ -32,6 +34,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "ALL",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #0070d1;\"><span style=\"color: #009a87;\">ALL</span></span></p>"
     },
@@ -42,6 +45,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "4",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\"><a style=\"color: #009a87;\">4</a></span></p>"
     },
@@ -52,6 +56,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "VPN",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">VPN</span></p>"
     },
@@ -62,6 +67,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "ISP",
       "answer_html": "<span style=\"color: #0070d1;\"><span style=\"color: #009a87;\">ISP </span></span>"
     },
@@ -72,6 +78,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "-8",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">-8</span></p>"
     },
@@ -82,6 +89,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "2",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\"><a style=\"color: #009a87;\">2</a></span></p>"
     },
@@ -92,6 +100,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "128 , 62",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\"><a style=\"color: #009a87;\">128 , 62</a></span></p>"
     },
@@ -102,6 +111,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "베타, 알파",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">베타, 알파</span></p>"
     },
@@ -112,6 +122,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "Regression",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">Regression</span></p>"
     },
@@ -122,6 +133,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. TTL\n2. 부장\n3. 대리\n4. 과장\n5. 차장",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. TTL</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. 부장</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. 대리</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">4. 과장</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">5. 차장</span></p>"
     },
@@ -132,6 +144,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "REMEMBER AND STR",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\"><span style=\"color: #0070d1;\">REMEMBER AND STR</span></span></p>"
     },
@@ -142,6 +155,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. IGP\n2. EGP\n3. OSPF\n4. BGP",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. IGP</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. EGP</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. OSPF</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">4. BGP</span></p>"
     },
@@ -152,6 +166,7 @@
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\nint len(char*p);\nint main(){\n  char* p1 = \"2022\";\n  char* p2 = \"202207\";\n  int a = len(p1);\n  int b = len(p2);\n  printf(\"%d\", a + b);\n}\nint len(char* p){\n  int r = 0;\n  while(*p != '\\0'){\n    p++;\n    r++;\n }\n return r;\n}",
+      "code_html": "<div class=\"code-line\"><span style=\"color: #0086b3;\">#include</span> <span style=\"color: #a71d5d;\">&lt;</span>stdio.h<span style=\"color: #a71d5d;\">&gt;</span></div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> len(<span style=\"color: #066de2;\">char</span><span style=\"color: #a71d5d;\">*</span>p);</div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> main(){</div>\n<div class=\"code-line\">  <span style=\"color: #066de2;\">char</span><span style=\"color: #a71d5d;\">*</span> p1 <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #63a35c;\">\"2022\"</span>;</div>\n<div class=\"code-line\">  <span style=\"color: #066de2;\">char</span><span style=\"color: #a71d5d;\">*</span> p2 <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #63a35c;\">\"202207\"</span>;  </div>\n<div class=\"code-line\">  <span style=\"color: #066de2;\">int</span> a <span style=\"color: #a71d5d;\">=</span> len(p1);</div>\n<div class=\"code-line\">  <span style=\"color: #066de2;\">int</span> b <span style=\"color: #a71d5d;\">=</span> len(p2);</div>\n<div class=\"code-line\">  <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%d\"</span>, a <span style=\"color: #a71d5d;\">+</span> b);</div>\n<div class=\"code-line\">}</div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> len(<span style=\"color: #066de2;\">char</span><span style=\"color: #a71d5d;\">*</span> p){</div>\n<div class=\"code-line\">  <span style=\"color: #066de2;\">int</span> r <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>;</div>\n<div class=\"code-line\">  <span style=\"color: #a71d5d;\">while</span>(<span style=\"color: #a71d5d;\">*</span>p <span style=\"color: #a71d5d;\">!</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #63a35c;\">'\\0'</span>){</div>\n<div class=\"code-line\">    p<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>;</div>\n<div class=\"code-line\">    r<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>;</div>\n<div class=\"code-line\"> }</div>\n<div class=\"code-line\"> <span style=\"color: #a71d5d;\">return</span> r;</div>\n<div class=\"code-line\">}</div>",
       "answer": "10",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\"><a style=\"color: #009a87;\">10</a></span></p>"
     },
@@ -162,6 +177,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "22",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\"><a style=\"color: #009a87;\">22</a></span></p>"
     },
@@ -172,6 +188,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "61",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\"><a style=\"color: #009a87;\">61</a></span></p>"
     },
@@ -182,6 +199,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. Full\n2. Partial\n3. Transitive",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. Full</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. Partial</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. Transitive</span></p>"
     },
@@ -192,6 +210,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "ㅇ. HTTP\nㄹ. Hypertext\nㅂ. HTML",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\"><span style=\"color: #009a87;\">ㅇ. HTTP</span></p>\n<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\"><span style=\"color: #009a87;\">ㄹ. Hypertext</span></p>\n<p data-ke-size=\"size16\" style=\"color: #333333; text-align: start;\"><span style=\"color: #009a87;\">ㅂ. HTML</span></p>"
     },
@@ -202,6 +221,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "Fan-in : 3\nFan-out :\n2",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">Fan-in : 3</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\"><span style=\"background-color: #fafafa; color: #009a87;\">Fan-out : </span>2</span></p>"
     }

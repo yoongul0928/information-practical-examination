@@ -118,7 +118,9 @@ function renderQuestions() {
                         <div class="question-options">${escapeHtml(q.options)}</div>
                     ` : ''}
 
-                    ${q.code ? `
+                    ${q.code_html ? `
+                        <div class="question-code question-code-html">${q.code_html}</div>
+                    ` : q.code ? `
                         <pre class="question-code"><code>${escapeHtml(q.code)}</code></pre>
                     ` : ''}
 

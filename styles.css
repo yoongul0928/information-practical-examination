@@ -174,12 +174,20 @@ button:active {
     font-size: 0.9em;
     line-height: 1.5;
     white-space: pre;
-    margin: 15px 0;
     tab-size: 4;
 }
 
 .question-code code {
     font-family: inherit;
+}
+
+.question-code-html {
+    white-space: normal;
+}
+
+.question-code-html .code-line {
+    white-space: pre;
+    min-height: 1.5em;
 }
 
 .question-answer {

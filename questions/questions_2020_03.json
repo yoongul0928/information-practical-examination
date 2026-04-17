@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:06:32.070992",
+    "crawl_time": "2026-04-17T18:13:46.445472",
     "source": "https://chobopark.tistory.com/194",
     "total_questions": 20
   },
@@ -12,6 +12,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "복잡한 코드의 단순화, 소스의 가독성을 통해 유지보수성 향상, 유연한 시스템, 생산성 향상, 품질 향상이 있다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">복잡한 코드의 단순화, 소스의 가독성을 통해 유지보수성 향상, 유연한 시스템, 생산성 향상, 품질 향상이 있다.</span></p>"
     },
@@ -22,6 +23,7 @@
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\n\tvoid main(){\n    \tint i=0, c=0;\n        while (i<10){\n        i++;\n        c*=i;\n        }\n        printf(\"%d\",c);\n   }",
+      "code_html": "<div class=\"code-line\"><code>#include &lt;stdio.h&gt;\n\tvoid main(){\n    \tint i=0, c=0;\n        while (i&lt;10){\n        i++;\n        c*=i;\n        }\n        printf(\"%d\",c);\n   }</code></div>",
       "answer": "0\nc가 0이므로 어떤수를 곱해도 0이 됩니다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">0</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">c가 0이므로 어떤수를 곱해도 0이 됩니다.</span></p>"
     },
@@ -32,6 +34,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "OSPF(Open Shortest Path First)\nOSPF(Open Shortest Path First)의 특징 :\n다익스트라 알고리즘 사용 - 다익스트라 알고리즘 사용하는 내부 라우팅 프로토콜\n라우팅 메트릭 지정 - 최소, 지연, 최대 처리량 등 관리자가 라우팅 메트릭 지정\nAS분할 사용 - 자치 시스템을 지역으로 나누어 라우팅을 효과적으로 관리\n홉 카운트 무제한 - 홉 카운트에 제한이 없다.\n라우팅 : 어떤 네트워크 안에서 통신 데이터를 보낼 때 최적의 결로를 선택하는 과정입니다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">OSPF(Open Shortest Path First)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">OSPF(Open Shortest Path First)의 특징 :</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">다익스트라 알고리즘 사용 - 다익스트라 알고리즘 사용하는 내부 라우팅 프로토콜</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">라우팅 메트릭 지정 - 최소, 지연, 최대 처리량 등 관리자가 라우팅 메트릭 지정</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">AS분할 사용 - 자치 시스템을 지역으로 나누어 라우팅을 효과적으로 관리</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">홉 카운트 무제한 - 홉 카운트에 제한이 없다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">라우팅 : 어떤 네트워크 안에서 통신 데이터를 보낼 때 최적의 결로를 선택하는 과정입니다.</span></p>"
     },
@@ -42,6 +45,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "형상\n항목의 버전 관리를 위해서 변경 여부와 변경 활동을 통제하는 활동\n형상 관리 절차 :\n형상 식별 - 형상 관리 대상을 정의 및 식별하는 활동\n형상 통제 - 형상 항목의 버전 관리를 위한 형상통제위원회 운영\n형상 감사 - 소프트웨어 베이스라인의 무결성 평가\n형상 기록 - 소프트웨어 현상 및 변경관리에 대한 각종 수행결과를 기록",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">형상 </span><span style=\"color: #009a87;\">항목의 버전 관리를 위해서 변경 여부와 변경 활동을 통제하는 활동</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">형상 관리 절차 :</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">형상 식별 - 형상 관리 대상을 정의 및 식별하는 활동</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">형상 통제 - 형상 항목의 버전 관리를 위한 형상통제위원회 운영</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">형상 감사 - 소프트웨어 베이스라인의 무결성 평가</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">형상 기록 - 소프트웨어 현상 및 변경관리에 대한 각종 수행결과를 기록</span></p>"
     },
@@ -52,6 +56,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "프로토콜\n프로토콜 : 서로 다른 시스템이나 기기들 간의 데이터 교환을 원할히 하기 위한 표준된 통신규약입니다.\n프로토콜 기능 : 데이터 처리 기능 / 제어 기능 / 관리 기능",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">프로토콜</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">프로토콜 : 서로 다른 시스템이나 기기들 간의 데이터 교환을 원할히 하기 위한 표준된 통신규약입니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">프로토콜 기능 : 데이터 처리 기능 / 제어 기능 / 관리 기능</span></p>"
     },
@@ -62,6 +67,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "ICMP(Internet Control Message Protocol)\nICMP : IP 패킷을 처리할 때 발생하는 문제를 알려주는 프로토콜로, 메세지 형식은 8바이트의 헤더와 가변 길이의 데이터 영역으로 분리되어 있다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">ICMP(Internet Control Message Protocol)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">ICMP : IP 패킷을 처리할 때 발생하는 문제를 알려주는 프로토콜로, 메세지 형식은 8바이트의 헤더와 가변 길이의 데이터 영역으로 분리되어 있다.</span></p>"
     },
@@ -72,6 +78,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1234561, 124567 or 1234567, 124561\n결정 커버리지는 결정 포인트 내의 전체 조건식이 적어도 한 번은 참과 거짓의 결과를 수행해야 하기 때문에 첫 번째 분기문도 참, 거짓이 와야 하고, 두 번째 분기도 참, 거짓이 한 번씩 와야 한다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1234561, 124567  or 1234567, 124561</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">결정 커버리지는 결정 포인트 내의 전체 조건식이 적어도 한 번은 참과 거짓의 결과를 수행해야 하기 때문에 첫 번째 분기문도 참, 거짓이 와야 하고, 두 번째 분기도 참, 거짓이 한 번씩 와야 한다.</span></p>"
     },
@@ -82,6 +89,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "SELECT 과목이름, MIN(점수) AS 최소점수, MAX(점수) AS 최대점수 FROM 성적\nGROUP BY 과목이름 HAVING AVG(점수) >= 90;",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">SELECT 과목이름, MIN(점수) AS 최소점수, MAX(점수) AS 최대점수 FROM 성적 </span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">GROUP BY 과목이름 HAVING AVG(점수) &gt;= 90;</span></p>"
     },
@@ -92,6 +100,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "DELETE FROM 학생 WHERE 이름 = '민수';",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">DELETE FROM 학생 WHERE 이름 = '민수';</span></p>"
     },
@@ -102,6 +111,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "÷\n순수관계연산자는 셀렉트(\nσ\n) / 프로젝트(\nπ\n) / 조인(⋈) / 디비전(\n÷\n) 이 있습니다.\n셀렉트 : 릴레이션에 존재하는 튜플들 중에서 특정 조건을 만족하는 튜플들의 부분집합을 구하여 새로운 릴레이션을 만듭니다.\n프로젝트 : 주어진 릴레이션에서 속성 리스트에 제시된 속성 값만을 추출하여 새로운 릴레이션을 만듭니다.\n(단 연산 결과에 중복이 발생하면 중복이 제거됩니다.)\n조인 : 공통 속성을 중심으로 2개의 릴레이션을 하나로 합쳐서 새로운 릴레이션을 만듭니다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">÷</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">순수관계연산자는 셀렉트(<span style=\"background-color: #f7f7f7;\">σ</span>) / 프로젝트(<span style=\"background-color: #f7f7f7;\">π</span>) / 조인(⋈) / 디비전(<span style=\"background-color: #f7f7f7;\">÷</span>) 이 있습니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">셀렉트 : 릴레이션에 존재하는 튜플들 중에서 특정 조건을 만족하는 튜플들의 부분집합을 구하여 새로운 릴레이션을 만듭니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">프로젝트 : 주어진 릴레이션에서 속성 리스트에 제시된 속성 값만을 추출하여 새로운 릴레이션을 만듭니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">(단 연산 결과에 중복이 발생하면 중복이 제거됩니다.)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">조인 : 공통 속성을 중심으로 2개의 릴레이션을 하나로 합쳐서 새로운 릴레이션을 만듭니다.</span></p>"
     },
@@ -112,6 +122,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "헝가리안 표기법은 식별자 표기 시 접두어에 자료형을 붙이는 표기법\n식별자 표기법 :\n카멜 표기법 - 식별자 표기 시에 여러 단어가 이어지면 첫 단어 시작만 소문자로 표시하고, 각 단어의 첫 글자는 대문자로 지정하는 표기법 (ex : goodMan)\n파스칼 표기법 - 식별자 표기 시에 여러 단어가 이어지면 각 단어의 첫 글자는 대문자로 지정하는 표기법\n(ex : GoodMan)\n스네이크 표기법 - 식별자 표기 시에 여러 단어가 이어지면 단어 사이에 언더 바를 넣는 표기법 (ex : good_man)\n헝가리안 표기법 - 식별자 표기 시, 접두어에 자료형을 붙이는 표기법\n(ex : szGoodMan (sz는 String Zero로 약자로 문자열이 없다는 표기입니다.)",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">헝가리안 표기법은 식별자 표기 시 접두어에 자료형을 붙이는 표기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">식별자 표기법 :</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">카멜 표기법 - 식별자 표기 시에 여러 단어가 이어지면 첫 단어 시작만 소문자로 표시하고, 각 단어의 첫 글자는 대문자로 지정하는 표기법 (ex : goodMan)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">파스칼 표기법 - 식별자 표기 시에 여러 단어가 이어지면 각 단어의 첫 글자는 대문자로 지정하는 표기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">(ex : GoodMan)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">스네이크 표기법 - 식별자 표기 시에 여러 단어가 이어지면 단어 사이에 언더 바를 넣는 표기법 (ex : good_man)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">헝가리안 표기법 - 식별자 표기 시, 접두어에 자료형을 붙이는 표기법 </span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">(ex : szGoodMan (sz는 String Zero로 약자로 문자열이 없다는 표기입니다.)</span></p>"
     },
@@ -122,6 +133,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "블랙박스 테스트 (명세 기반 테스트)\n블랙박스 테스트는 소프트웨어가 수행할 특정 기능을 알기 위해서 각 기능이 완전히 작동되는 것을 입증하는 테스트로 기능 테스트라고 불립니다.\n동치 분할 검사 :\n입력 자료에 초점을 맞춰 테스트 케이스를 만들고 검사하는 방법 (= 동등 분할 기법)\n경계값 분석 :\n입력 자료에만 치중한 동치 분할 기법을 보완한 기법으로, 입력 조건의 중간값보다 경계값에서 오류가 발생될 확률이 높다는 점을 이용하여 입력 조건의 경계값을 테스트 케이스로 선정하여 검사하는 기법\n원인-효과 그래프 검사 :\n입력 데이터 간의 관계와 출력에 영향을 미치는 상황을 체계적으로 분석한 다음 효용성이 높은 테스트 케이스를 선정하여 검사하는 기법\n오류 예측 검사 :\n과거의 경험이나 확인자의 감각으로 테스트하는 기법으로, 다른 블랙박스 테스트 기법으로는 찾아낼 수 없는 오류를 찾아내는 일력의 보충적 검사 기법 (= 데이터 확인 검사)\n비교 검사 :\n여러 버전의 프로그램에 동일한 테스트 자료를 제공하여 동일한 결과가 출력되는지 테스트하는 기법",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">블랙박스 테스트 (명세 기반 테스트)</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">블랙박스 테스트는 소프트웨어가 수행할 특정 기능을 알기 위해서 각 기능이 완전히 작동되는 것을 입증하는 테스트로 기능 테스트라고 불립니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">동치 분할 검사 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">입력 자료에 초점을 맞춰 테스트 케이스를 만들고 검사하는 방법 (= 동등 분할 기법)</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">경계값 분석 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">입력 자료에만 치중한 동치 분할 기법을 보완한 기법으로, 입력 조건의 중간값보다 경계값에서 오류가 발생될 확률이 높다는 점을 이용하여 입력 조건의 경계값을 테스트 케이스로 선정하여 검사하는 기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">원인-효과 그래프 검사 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">입력 데이터 간의 관계와 출력에 영향을 미치는 상황을 체계적으로 분석한 다음 효용성이 높은 테스트 케이스를 선정하여 검사하는 기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">오류 예측 검사 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">과거의 경험이나 확인자의 감각으로 테스트하는 기법으로, 다른 블랙박스 테스트 기법으로는 찾아낼 수 없는 오류를 찾아내는 일력의 보충적 검사 기법 (= 데이터 확인 검사)</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">비교 검사 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">여러 버전의 프로그램에 동일한 테스트 자료를 제공하여 동일한 결과가 출력되는지 테스트하는 기법</span></p>"
     },
@@ -132,6 +144,7 @@
       "options": "",
       "images": [],
       "code": "#include <studio.h>\nint r1(){\n\treturn 4;\n}\nint r10(){\n\treturn (30+r1());\n}\nint r100(){\n\treturn (200+r10());\n}\nint main(){\n\tprintf(\"%d\\n\", r100());\n    return 0;\n}",
+      "code_html": "<div class=\"code-line\"><code>#include &lt;studio.h&gt;\nint r1(){\n\treturn 4;\n}\nint r10(){\n\treturn (30+r1());\n}\nint r100(){\n\treturn (200+r10());\n}\nint main(){\n\tprintf(\"%d\\n\", r100());\n    return 0;\n}</code></div>",
       "answer": "234",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">234</span></p>"
     },
@@ -142,6 +155,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "데이터베이스의 구조, 제약조건 등의 정보를 담고 있는 기본적인 구조",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">데이터베이스의 구조, 제약조건 등의 정보를 담고 있는 기본적인 구조</span></p>"
     },
@@ -152,6 +166,7 @@
       "options": "",
       "images": [],
       "code": "abstract class vehicle{\n\tprivate String name;\n    abstract public String getName(String val);\n    public String getName(){\n    \treturn \"vehicle name:\" + name;\n    }\n\tpublic void setName(String val){\n    \tname = val;\n    }\n}\n\nclass Car extends Vehicle{\n\tpublic Car(String val){\n    \tsetName(val);\n   }\npublic String getName(String val){\n\treturn \"Car name : \" + val;\n   }\npublic String getName(byte val[]){\n\treturn \"Car name : \" + val;\n   }\n}\n\npublic class good {\n\tpublic Static void main(String[] args){\n    Vehicle obj = new Car(\"Spark\");\n    System.out.print(obj.getName());\n    }\n}",
+      "code_html": "<div class=\"code-line\"><code>abstract class vehicle{\n\tprivate String name;\n    abstract public String getName(String val);\n    public String getName(){\n    \treturn \"vehicle name:\" + name;\n    }\n\tpublic void setName(String val){\n    \tname = val;\n    }\n}\n\nclass Car extends Vehicle{\n\tpublic Car(String val){\n    \tsetName(val);\n   }\npublic String getName(String val){\n\treturn \"Car name : \" + val;\n   }\npublic String getName(byte val[]){\n\treturn \"Car name : \" + val;\n   }\n}\n\npublic class good {\n\tpublic Static void main(String[] args){\n    Vehicle obj = new Car(\"Spark\");\n    System.out.print(obj.getName());\n    }\n}\n    </code></div>",
       "answer": "Vehicle name : Spark",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">Vehicle name : Spark</span></p>"
     },
@@ -162,6 +177,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "누구나 쉽게 이해하고, 쉽게 사용할 수 있어야 하고,쉬운 검색, 쉬운 사용성, 일관성이 부특성을 가지고 있는 UI설계 원칙",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">누구나 쉽게 이해하고, 쉽게 사용할 수 있어야 하고,쉬운 검색, 쉬운 사용성, 일관성이 부특성을 가지고 있는 UI설계 원칙</span></p>"
     },
@@ -172,6 +188,7 @@
       "options": "",
       "images": [],
       "code": "public class good {\n\tpublic static void main(String[] args){\n    int i=0;\n    int sum=0;\n    while (i<10){\n    \ti++;\n        if(i%2 ==1)\n        \tcontinue;\n        sum += i;\n     }\n     System.out.println(sum);\n   }\n}",
+      "code_html": "<div class=\"code-line\"><code>public class good {\n\tpublic static void main(String[] args){\n    int i=0;\n    int sum=0;\n    while (i&lt;10){\n    \ti++;\n        if(i%2 ==1)\n        \tcontinue;\n        sum += i;\n     }\n     System.out.println(sum);\n   }\n}</code></div>",
       "answer": "30\n2+4+6+8+10=30이 됩니다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">30</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">2+4+6+8+10=30이 됩니다.</span></p>"
     },
@@ -182,6 +199,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. 포인트 투 포인트(Point-to-point)\n2. 허브 앤 스포크(Hub & Spoke)\nEAI (기업 내외부 정보시스템 통합)\nEAI의 유형 (데이터 전송 모델)\n메세지 버스 : 애플리케이션과 미들웨어간 웹서비스 인터페이스를 통해 전송\n하이브리드 : 허브앤스포크와 메세지버스 혼합\n포인트 투 포인트 : 1:1방식으로 애플리케이션 통합 수행\n허브 앤 스포크 : 단일 접점인 허브시스템을 통해 데이터를 전송하는 중앙 집중 방식",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. 포인트 투 포인트(Point-to-point)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. 허브 앤 스포크(Hub &amp; Spoke)</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">EAI (기업 내외부 정보시스템 통합) </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">EAI의 유형 (데이터 전송 모델)</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">메세지 버스 : 애플리케이션과 미들웨어간 웹서비스 인터페이스를 통해 전송</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">하이브리드 : 허브앤스포크와 메세지버스 혼합</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">포인트 투 포인트 : 1:1방식으로 애플리케이션 통합 수행</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">허브 앤 스포크 : 단일 접점인 허브시스템을 통해 데이터를 전송하는 중앙 집중 방식</span></p>"
     },
@@ -192,6 +210,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "해당 클래스의 객체가 생성될 때 자동으로 호출되는 특수한 종류의 메서드",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">해당 클래스의 객체가 생성될 때 자동으로 호출되는 특수한 종류의 메서드</span></p>"
     },
@@ -202,6 +221,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1.ALTER\n2.ADD",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1.ALTER</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2.ADD</span></p>"
     }

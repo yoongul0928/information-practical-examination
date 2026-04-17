@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:06:28.490635",
+    "crawl_time": "2026-04-17T18:13:42.292837",
     "source": "https://chobopark.tistory.com/372",
     "total_questions": 20
   },
@@ -12,6 +12,7 @@
       "options": "",
       "images": [],
       "code": "class Static{\n    public int a = 20;\n    static int b = 0;\n}\npublic class Main{\n    public static void main(String[] args) {\n        int a;\n        a = 10;\n        Static.b = a;\n        Static st = new Static();\n        System.out.println(Static.b++);\n        System.out.println(st.b);\n        System.out.println(a);\n        System.out.print(st.a);\n    }\n}",
+      "code_html": "<div class=\"code-line\"><span style=\"color: #a71d5d;\">class</span> Static{</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #066de2;\">int</span> a <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">20</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #066de2;\">int</span> b <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>;</div>\n<div class=\"code-line\">}</div>\n<div class=\"code-line\"><span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">class</span> Main{</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #a71d5d;\">void</span> main(<span style=\"color: #066de2;\">String</span>[] args) {</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">int</span> a;</div>\n<div class=\"code-line\">        a <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">10</span>;</div>\n<div class=\"code-line\">        Static.b <span style=\"color: #a71d5d;\">=</span> a;</div>\n<div class=\"code-line\">        Static st <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #a71d5d;\">new</span> Static();</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">System</span>.<span style=\"color: #066de2;\">out</span>.<span style=\"color: #066de2;\">println</span>(Static.b<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>);</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">System</span>.<span style=\"color: #066de2;\">out</span>.<span style=\"color: #066de2;\">println</span>(st.b);</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">System</span>.<span style=\"color: #066de2;\">out</span>.<span style=\"color: #066de2;\">println</span>(a);</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">System</span>.<span style=\"color: #066de2;\">out</span>.<span style=\"color: #066de2;\">print</span>(st.a);</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>",
       "answer": "10\n11\n10\n20",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">10</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">11</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">10</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">20</p>"
     },
@@ -22,6 +23,7 @@
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\nint main(){\n    char a[] = \"Art\";\n    char* p = NULL;\n    p = a;\n    printf(\"%s\\n\", a);\n    printf(\"%c\\n\", *p);\n    printf(\"%c\\n\", *a);\n    printf(\"%s\\n\", p);\n    for(int i = 0; a[i] != '\\0'; i++)\n    printf(\"%c\", a[i]);\n}",
+      "code_html": "<div class=\"code-line\"><span style=\"color: #0086b3;\">#include</span> <span style=\"color: #a71d5d;\">&lt;</span>stdio.h<span style=\"color: #a71d5d;\">&gt;</span></div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> main(){</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">char</span> a[] <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #63a35c;\">\"Art\"</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">char</span><span style=\"color: #a71d5d;\">*</span> p <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0086b3;\">NULL</span>;</div>\n<div class=\"code-line\">    p <span style=\"color: #a71d5d;\">=</span> a;</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%s\\n\"</span>, a);</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%c\\n\"</span>, <span style=\"color: #a71d5d;\">*</span>p);</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%c\\n\"</span>, <span style=\"color: #a71d5d;\">*</span>a);</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%s\\n\"</span>, p);</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">for</span>(<span style=\"color: #066de2;\">int</span> i <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>; a[i] <span style=\"color: #a71d5d;\">!</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #63a35c;\">'\\0'</span>; i<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>)</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%c\"</span>, a[i]);</div>\n<div class=\"code-line\">}</div>",
       "answer": "Art\nA\nA\nArt\nArt",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">Art</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">A</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">A</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">Art</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">Art</p>"
     },
@@ -32,6 +34,7 @@
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\nint main(){\n    char* a = \"qwer\";\n    char* b = \"qwtety\";\n    for(int i = 0; a[i] != '\\0' ; i++){\n        for(int j = 0; b[j] != '\\0'; j++){\n            if(a[i] == b[j]) printf(\"%c\", a[i]);\n        }\n    }\n}",
+      "code_html": "<div class=\"code-line\"><span style=\"color: #0086b3;\">#include</span> <span style=\"color: #a71d5d;\">&lt;</span>stdio.h<span style=\"color: #a71d5d;\">&gt;</span></div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> main(){</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">char</span><span style=\"color: #a71d5d;\">*</span> a <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #63a35c;\">\"qwer\"</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">char</span><span style=\"color: #a71d5d;\">*</span> b <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #63a35c;\">\"qwtety\"</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">for</span>(<span style=\"color: #066de2;\">int</span> i <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>; a[i] <span style=\"color: #a71d5d;\">!</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #63a35c;\">'\\0'</span> ; i<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>){</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">for</span>(<span style=\"color: #066de2;\">int</span> j <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>; b[j] <span style=\"color: #a71d5d;\">!</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #63a35c;\">'\\0'</span>; j<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>){</div>\n<div class=\"code-line\">            <span style=\"color: #a71d5d;\">if</span>(a[i] <span style=\"color: #a71d5d;\">=</span><span style=\"color: #a71d5d;\">=</span> b[j]) <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%c\"</span>, a[i]);</div>\n<div class=\"code-line\">        }</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>",
       "answer": "qwe",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">qwe</p>"
     },
@@ -42,6 +45,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "AJAX (Asynchronous JavaScript and XML)",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">AJAX (Asynchronous JavaScript and XML)</p>"
     },
@@ -52,6 +56,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "가상회선, 데이터그램",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">가상회선, 데이터그램</p>"
     },
@@ -62,6 +67,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "L2TP",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">L2TP</p>"
     },
@@ -72,6 +78,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "SSH (Secure SHell)",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">SSH (Secure SHell)</p>"
     },
@@ -82,6 +89,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. 웜\n2. 트로이 목마\n3. 바이러스",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">1. 웜</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">2. 트로이 목마</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">3. 바이러스</p>"
     },
@@ -92,6 +100,7 @@
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\nint main() {\n    int input = 101110;\n    int di = 1;\n    int sum = 0;\n    while (1) {\n        if (input == 0) break\n        else {\n          sum = sum + (input (a)(b)) * di;\n             di = di * 2;\n             input = input / 10;\n        }\n    }\n    printf(\"%d\", sum);\n    return 0;\n}",
+      "code_html": "<div class=\"code-line\"><span style=\"color: #0086b3;\">#include</span> <span style=\"color: #a71d5d;\">&lt;</span>stdio.h<span style=\"color: #a71d5d;\">&gt;</span></div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> main() {</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> input <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">101110</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> di <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">1</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> sum <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">while</span> (<span style=\"color: #0099cc;\">1</span>) {</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">if</span> (input <span style=\"color: #a71d5d;\">=</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>) <span style=\"color: #a71d5d;\">break</span></div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">else</span> {</div>\n<div class=\"code-line\">          sum <span style=\"color: #a71d5d;\">=</span> sum <span style=\"color: #a71d5d;\">+</span> (input (a)(b)) <span style=\"color: #a71d5d;\">*</span> di;</div>\n<div class=\"code-line\">             di <span style=\"color: #a71d5d;\">=</span> di <span style=\"color: #a71d5d;\">*</span> <span style=\"color: #0099cc;\">2</span>;</div>\n<div class=\"code-line\">             input <span style=\"color: #a71d5d;\">=</span> input <span style=\"color: #a71d5d;\">/</span> <span style=\"color: #0099cc;\">10</span>;</div>\n<div class=\"code-line\">        }</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%d\"</span>, sum);</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">0</span>;</div>\n<div class=\"code-line\">}</div>",
       "answer": "1. (a) % ,(b) 10 or 5 or 2 2. (a) & ,(b) 1",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">1. (a) %  ,(b) 10 or 5 or 2 2. (a) &amp;  ,(b) 1</p>"
     },
@@ -102,6 +111,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "ICMP",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">ICMP</p>"
     },
@@ -112,6 +122,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "proxy",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">proxy</p>"
     },
@@ -122,6 +133,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. 튜플\n2. 릴레이션 인스턴스\n3. 카디널리티",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">1. 튜플</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">2. 릴레이션 인스턴스</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">3. 카디널리티</p>"
     },
@@ -132,6 +144,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "delete from 학생 where 이름 = '민수';",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b><span><span>delete from 학생 where 이름 = '민수';</span></span></b></p>"
     },
@@ -142,6 +155,7 @@
       "options": "",
       "images": [],
       "code": "public class Sort {\n    public static void swap(int[] arr, int idx1, int idx2){\n        int temp = arr[idx1];\n        arr[idx1] = arr[idx2];\n        arr[( 1 )] = temp;\n    }\n    public static void Usort(int[] array, int length){\n        for (int i = 0; i < length; i++) {\n            for (int j = 0; j < length - i - 1; j++) {\n                if (array[j] > array[j + 1]) {\n                    swap(array, j, j + 1);\n                }\n            }\n        }\n    }\n    public static void main(String[] args) {\n        int[] item = new int[] { 5, 3, 8, 1, 2, 7 };\n        int nx = 6;\n        Usort(item, ( 2 ));\n        for (int data : item) {\n            System.out.print(data + \" \");\n        }\n    }\n}",
+      "code_html": "<div class=\"code-line\"><span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">class</span> Sort {</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #a71d5d;\">void</span> swap(<span style=\"color: #066de2;\">int</span>[] arr, <span style=\"color: #066de2;\">int</span> idx1, <span style=\"color: #066de2;\">int</span> idx2){</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">int</span> temp <span style=\"color: #a71d5d;\">=</span> arr[idx1];</div>\n<div class=\"code-line\">        arr[idx1] <span style=\"color: #a71d5d;\">=</span> arr[idx2];</div>\n<div class=\"code-line\">        arr[( <span style=\"color: #0099cc;\">1</span> )] <span style=\"color: #a71d5d;\">=</span> temp;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #a71d5d;\">void</span> Usort(<span style=\"color: #066de2;\">int</span>[] array, <span style=\"color: #066de2;\">int</span> <span style=\"color: #066de2;\">length</span>){</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">for</span> (<span style=\"color: #066de2;\">int</span> i <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>; i <span style=\"color: #a71d5d;\">&lt;</span> <span style=\"color: #066de2;\">length</span>; i<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>) {</div>\n<div class=\"code-line\">            <span style=\"color: #a71d5d;\">for</span> (<span style=\"color: #066de2;\">int</span> j <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>; j <span style=\"color: #a71d5d;\">&lt;</span> <span style=\"color: #066de2;\">length</span> <span style=\"color: #a71d5d;\">-</span> i <span style=\"color: #a71d5d;\">-</span> <span style=\"color: #0099cc;\">1</span>; j<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>) {</div>\n<div class=\"code-line\">                <span style=\"color: #a71d5d;\">if</span> (array[j] <span style=\"color: #a71d5d;\">&gt;</span> array[j <span style=\"color: #a71d5d;\">+</span> <span style=\"color: #0099cc;\">1</span>]) {</div>\n<div class=\"code-line\">                    swap(array, j, j <span style=\"color: #a71d5d;\">+</span> <span style=\"color: #0099cc;\">1</span>);</div>\n<div class=\"code-line\">                }</div>\n<div class=\"code-line\">            }</div>\n<div class=\"code-line\">        }</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #a71d5d;\">void</span> main(<span style=\"color: #066de2;\">String</span>[] args) {</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">int</span>[] item <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #a71d5d;\">new</span> <span style=\"color: #066de2;\">int</span>[] { <span style=\"color: #0099cc;\">5</span>, <span style=\"color: #0099cc;\">3</span>, <span style=\"color: #0099cc;\">8</span>, <span style=\"color: #0099cc;\">1</span>, <span style=\"color: #0099cc;\">2</span>, <span style=\"color: #0099cc;\">7</span> };</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">int</span> nx <span style=\"color: #a71d5d;\">=</span> 6;   </div>\n<div class=\"code-line\">        Usort(item, ( <span style=\"color: #0099cc;\">2</span> ));</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">for</span> (<span style=\"color: #066de2;\">int</span> data : item) {</div>\n<div class=\"code-line\">            <span style=\"color: #066de2;\">System</span>.<span style=\"color: #066de2;\">out</span>.<span style=\"color: #066de2;\">print</span>(data <span style=\"color: #a71d5d;\">+</span> <span style=\"color: #63a35c;\">\" \"</span>);</div>\n<div class=\"code-line\">        }</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>",
       "answer": "idx2, nx",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">idx2, nx</p>"
     },
@@ -152,6 +166,7 @@
       "options": "",
       "images": [],
       "code": "a = {'한국', '중국', '일본'}\na.add('베트남')\na.add('중국')\na.remove('일본')\na.update({'홍콩', '한국', '태국'})\nprint(a)",
+      "code_html": "<div class=\"code-line\">a <span style=\"color: #a71d5d;\">=</span> {<span style=\"color: #63a35c;\">'한국'</span>, <span style=\"color: #63a35c;\">'중국'</span>, <span style=\"color: #63a35c;\">'일본'</span>}</div>\n<div class=\"code-line\">a.add(<span style=\"color: #63a35c;\">'베트남'</span>)</div>\n<div class=\"code-line\">a.add(<span style=\"color: #63a35c;\">'중국'</span>)</div>\n<div class=\"code-line\">a.remove(<span style=\"color: #63a35c;\">'일본'</span>)</div>\n<div class=\"code-line\">a.update({<span style=\"color: #63a35c;\">'홍콩'</span>, <span style=\"color: #63a35c;\">'한국'</span>, <span style=\"color: #63a35c;\">'태국'</span>})</div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">print</span>(a)</div>",
       "answer": "{'한국', '중국', '베트남', '홍콩', '태국'}",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">{'한국', '중국', '베트남', '홍콩', '태국'}</p>"
     },
@@ -162,6 +177,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "SELECT 과목이름 ,MIN(점수) AS 최소점수 ,MAX(점수) AS 최대점수 From 성적 GROUP BY 과목이름 HAVING AVG(점수) >= 90",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">SELECT   과목이름   ,MIN(점수) AS 최소점수   ,MAX(점수) AS 최대점수 From    성적 GROUP BY    과목이름 HAVING   AVG(점수) &gt;= 90</p>"
     },
@@ -172,6 +188,7 @@
       "options": "",
       "images": [],
       "code": "abstact class Vehicle {\n    String name;\n    abstract public String getName(String val);\n    public String getName() {\n            return \"Vehicle name: \" + name;\n    }\n}\nclass Car extends Vehicle {\n    public Car(String val) {\n            name=super.name=val;\n    }\n    public String getName(String val) {\n            return \"Car name:\" + val;\n    }\n    public String getName(byte val[]) {\n            return \"Car name:\" + val;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n    Vehicle obj = new Car(\"Spark\");\n    System.out.println(obj.getName());\n    }\n}",
+      "code_html": "<div class=\"code-line\">abstact <span style=\"color: #a71d5d;\">class</span> Vehicle {</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">String</span> name;</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">abstract</span> <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #066de2;\">String</span> getName(<span style=\"color: #066de2;\">String</span> val);</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #066de2;\">String</span> getName() {</div>\n<div class=\"code-line\">            <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #63a35c;\">\"Vehicle name: \"</span> <span style=\"color: #a71d5d;\">+</span> name;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>\n<div class=\"code-line\"><span style=\"color: #a71d5d;\">class</span> Car <span style=\"color: #a71d5d;\">extends</span> Vehicle {</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> Car(<span style=\"color: #066de2;\">String</span> val) {</div>\n<div class=\"code-line\">            name<span style=\"color: #a71d5d;\">=</span><span style=\"color: #a71d5d;\">super</span>.name<span style=\"color: #a71d5d;\">=</span>val;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #066de2;\">String</span> getName(<span style=\"color: #066de2;\">String</span> val) {</div>\n<div class=\"code-line\">            <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #63a35c;\">\"Car name:\"</span> <span style=\"color: #a71d5d;\">+</span> val;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #066de2;\">String</span> getName(<span style=\"color: #066de2;\">byte</span> val[]) {</div>\n<div class=\"code-line\">            <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #63a35c;\">\"Car name:\"</span> <span style=\"color: #a71d5d;\">+</span> val;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>\n<div class=\"code-line\"><span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">class</span> Main {</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #a71d5d;\">void</span> main(<span style=\"color: #066de2;\">String</span>[] args) {</div>\n<div class=\"code-line\">    Vehicle obj <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #a71d5d;\">new</span> Car(<span style=\"color: #63a35c;\">\"Spark\"</span>);</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">System</span>.<span style=\"color: #066de2;\">out</span>.<span style=\"color: #066de2;\">println</span>(obj.getName());</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>",
       "answer": "Vehicle name: Spark",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">Vehicle name: Spark</p>"
     },
@@ -182,6 +199,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. 외부\n2. 개념\n3. 내부",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">1. 외부</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">2. 개념</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">3. 내부</p>"
     },
@@ -192,6 +210,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1234561, 124567 or 1234567, 124561",
       "answer_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">1234561, 124567  or 1234567, 124561</p>"
     },
@@ -202,6 +221,7 @@
       "options": "",
       "images": [],
       "code": "class Parent {\n    int x = 100;\n    Parent() {\n        this(500);\n    }\n    Parent(int x) {\n        this.x = x;\n    }\n    int getX() {\n        return x;\n    }\n}\nclass Child extends Parent {\n    int x = 4000;\n    Child() {\n        this(5000);\n    }\n    Child(int x) {\n        this.x = x;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Child obj = new Child();\n        System.out.println(obj.getX());\n    }\n}",
+      "code_html": "<div class=\"code-line\"><span style=\"color: #a71d5d;\">class</span> Parent {</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> x <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">100</span>;</div>\n<div class=\"code-line\">    Parent() {</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">this</span>(<span style=\"color: #0099cc;\">500</span>);</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    Parent(<span style=\"color: #066de2;\">int</span> x) {</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">this</span>.x <span style=\"color: #a71d5d;\">=</span> x;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> getX() {</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">return</span> x;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>\n<div class=\"code-line\"><span style=\"color: #a71d5d;\">class</span> Child <span style=\"color: #a71d5d;\">extends</span> Parent {</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> x <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">4000</span>;</div>\n<div class=\"code-line\">    Child() {</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">this</span>(<span style=\"color: #0099cc;\">5000</span>);</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    Child(<span style=\"color: #066de2;\">int</span> x) {</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">this</span>.x <span style=\"color: #a71d5d;\">=</span> x;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>\n<div class=\"code-line\"><span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">class</span> Main {</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #a71d5d;\">void</span> main(<span style=\"color: #066de2;\">String</span>[] args) {</div>\n<div class=\"code-line\">        Child obj <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #a71d5d;\">new</span> Child();</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">System</span>.<span style=\"color: #066de2;\">out</span>.<span style=\"color: #066de2;\">println</span>(obj.getX());</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>",
       "answer": "500",
       "answer_html": "<p data-ke-size=\"size16\">500</p>"
     }

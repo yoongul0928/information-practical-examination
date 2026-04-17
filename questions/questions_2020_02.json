@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:06:31.793307",
+    "crawl_time": "2026-04-17T18:13:46.152075",
     "source": "https://chobopark.tistory.com/195",
     "total_questions": 20
   },
@@ -12,6 +12,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "재해 복구 시간 or RTO(Recovery Time Objective)\n재해복구시점 (RPO : Recovery Point Objective) : 재해 발생시, 데이터손실을 수용 손실 허용 시점\n네트워크복구시간 (RCO : Recovery Communication Objective) : 주 영업점과 DR센터 간 네트워크 복구 수준\n재해복구범위(RSO :\nRecovery\nScope Objective\n) : 업무 중요도에 따른 복구 대상시스템 선정",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">재해 복구 시간 or RTO(Recovery Time Objective)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">재해복구시점 (RPO  : Recovery Point Objective) : 재해 발생시, 데이터손실을 수용 손실 허용 시점</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">네트워크복구시간 (RCO : Recovery Communication Objective) : 주 영업점과 DR센터 간 네트워크 복구 수준 </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">재해복구범위(RSO :</span><span style=\"background-color: #fafafa; color: #006dd7;\">Recovery<span>Scope Objective</span></span><span style=\"background-color: #fafafa; color: #006dd7;\">) : 업무 중요도에 따른 복구 대상시스템 선정</span></p>"
     },
@@ -22,6 +23,7 @@
       "options": "",
       "images": [],
       "code": "a={'일본','중국','한국'}\na.add('베트남')\na.add('중국')\na.remove('일본')\na.update(['홍콩','한국','태국'])\nprint(a)",
+      "code_html": "<div class=\"code-line\"><code>a={'일본','중국','한국'}\na.add('베트남')\na.add('중국')\na.remove('일본')\na.update(['홍콩','한국','태국'])\nprint(a)</code></div>",
       "answer": "{'중국','한국','베트남','홍콩','태국'}",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">{'중국','한국','베트남','홍콩','태국'}</span></p>"
     },
@@ -32,6 +34,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "비동기 통신 기법 or AJAX(Asynchronous JavaScript and XML)",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">비동기 통신 기법 or AJAX(Asynchronous JavaScript and XML)</span></p>"
     },
@@ -42,6 +45,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "애자일 방법론",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">애자일 방법론</span></p>"
     },
@@ -52,6 +56,7 @@
       "options": "",
       "images": [],
       "code": "class parent\n\tpublic void show(){\n    \tsystem.out.println(\"Parent\");\n    }\n}\n\nclass Child extends Parent{\n\tpublic void show(){\n    \tsystem.out.println(\"Child\");\n    }\n}\n\npublic class good{\n\tpublic static void main(String[] args){\n    \tParent pa = ____  Child();\n        pa.show();\n    }\n}",
+      "code_html": "<div class=\"code-line\"><code>class parent\n\tpublic void show(){\n    \tsystem.out.println(\"Parent\");\n    }\n}\n\nclass Child extends Parent{\n\tpublic void show(){\n    \tsystem.out.println(\"Child\");\n    }\n}\n\npublic class good{\n\tpublic static void main(String[] args){\n    \tParent pa = ____  Child();\n        pa.show();\n    }\n}</code></div>",
       "answer": "new",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">new</span></p>"
     },
@@ -62,6 +67,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "SELECT 학번, 이름 FROM 학생 WHERE 학년 IN (3,4);",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">SELECT 학번, 이름 FROM 학생 WHERE 학년 IN (3,4);</span></p>"
     },
@@ -72,6 +78,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "트랜잭션 처리 중 오류가 발생했을 때, 오류 이전의 특징 시점(SAVEPOINT, CHECKPOINT) 상태로 되돌려주는 제어어(명령문)이다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">트랜잭션 처리 중 오류가 발생했을 때, 오류 이전의 특징 시점(SAVEPOINT, CHECKPOINT) 상태로 되돌려주는 제어어(명령문)이다.</span></p>"
     },
@@ -82,6 +89,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "IPSec(Internet Protocol Security)",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">IPSec(Internet Protocol Security)</span></p>"
     },
@@ -92,6 +100,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "정적 분석 도구",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">정적 분석 도구</span></p>"
     },
@@ -102,6 +111,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "Observer Pattern",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">Observer Pattern</span></p>"
     },
@@ -112,6 +122,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "안드로이드",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">안드로이드</span></p>"
     },
@@ -122,6 +133,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "CREATE INDEX IDX_NAME ON 학생(NAME);",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">CREATE INDEX IDX_NAME ON 학생(NAME);</span></p>"
     },
@@ -132,6 +144,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "SOAP (Simple Object Access Protocol)",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">SOAP (Simple Object Access Protocol)</span></p>"
     },
@@ -142,6 +155,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "응용 프로그램의 보안 취약점을 이용해서 악의적인 SQL 구문을 삽입, 실행시켜서 데이터베이스의 접근을 통해 정보를 탈취하거나 조작 등의 행위를 하는 공격 기법",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">응용 프로그램의 보안 취약점을 이용해서 악의적인 SQL 구문을 삽입, 실행시켜서 데이터베이스의 접근을 통해 정보를 탈취하거나 조작 등의 행위를 하는 공격 기법</span></p>"
     },
@@ -152,6 +166,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "chmod 751 a.txt",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">chmod 751 a.txt</span></p>"
     },
@@ -162,6 +177,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "유효성",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">유효성</span></p>"
     },
@@ -172,6 +188,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "LOD (Linked Open Data)",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">LOD (Linked Open Data)</span></p>"
     },
@@ -182,6 +199,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. 개념적 데이터 모델링\n2. 논리적 데이터 모델링\n3. 물리적 데이터 모델링",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. 개념적 데이터 모델링</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. 논리적 데이터 모델링</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. 물리적 데이터 모델링</span></p>"
     },
@@ -192,6 +210,7 @@
       "options": "",
       "images": [],
       "code": "class A{\n\tprivate int a;\n    public A(int a){\n    \tthis.a = a;\n    }\n    public void display(){\n    \tsystem.out.println(\"a=\" + a);\n    }\n}\n\nclass B extends A {\n\tpublic B(int a){\n    \tsuper(a);\n        super.display();\n    }\n}\n\n\npublic class good {\n\tpublic static void main(String[] args){\n    \tB obj = new B(10);\n    }\n}",
+      "code_html": "<div class=\"code-line\"><code>class A{\n\tprivate int a;\n    public A(int a){\n    \tthis.a = a;\n    }\n    public void display(){\n    \tsystem.out.println(\"a=\" + a);\n    }\n}\n\nclass B extends A {\n\tpublic B(int a){\n    \tsuper(a);\n        super.display();\n    }\n}\n\n\npublic class good {\n\tpublic static void main(String[] args){\n    \tB obj = new B(10);\n    }\n}\n  </code></div>",
       "answer": "a = 10",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">a = 10</span></p>"
     },
@@ -202,6 +221,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "형상관리",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">형상관리</span></p>"
     }

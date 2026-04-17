@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:06:30.985991",
+    "crawl_time": "2026-04-17T18:13:45.155087",
     "source": "https://chobopark.tistory.com/210",
     "total_questions": 20
   },
@@ -12,6 +12,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "애드혹 네트워크(Ad-hoc Network)\n무선 네트워크 구성 방식 :\n애드혹 네트워크 - 센서망, 재난망에 사용되며 구성이 빠르고 모든 단말이 동등한 자격으로 망을 구성\nInfrastructure 네트워크 - 이동통신망,Wi-Fi에 사용되며 중앙집중형 방식\n메쉬 네트워크 - 무선백본망에 사용되며 신뢰성이 우수하고, 계층적인 구조를 가지고 있음",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">애드혹 네트워크(Ad-hoc Network)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">무선 네트워크 구성 방식 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">애드혹 네트워크 - 센서망, 재난망에 사용되며 구성이 빠르고 모든 단말이 동등한 자격으로 망을 구성</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">Infrastructure 네트워크 - 이동통신망,Wi-Fi에 사용되며 중앙집중형 방식</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">메쉬 네트워크 - 무선백본망에 사용되며 신뢰성이 우수하고, 계층적인 구조를 가지고 있음</span></p>"
     },
@@ -22,6 +23,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "(1) UX(User Experience) / (2) UI(User Interface)",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">(1) UX(User Experience)  /  (2) UI(User Interface)</span></p>"
     },
@@ -32,6 +34,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "모두 반영되거나 아니면 전혀 반영되지 않아야 한다.\n트랜젝션 특징 -\n원자성, 일관성 , 독립성, 지속성\n일관성 : 트랜잭션의 작업 처리 결과가 항상 일관성이 있어야 한다는 것\n독립성 : 둘 이상의 트랜잭션이 동시에 실행되고 있을 경우, 어떤 하나의 트랜잭션이라도 다른 트랜잭션의 연산에 끼어 들 수 없다는 점\n지속성 : 트랜잭션이 성공적으로 완료되었을 경우에 결과는 영구적으로 반영되어야 한다는 점",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">모두 반영되거나 아니면 전혀 반영되지 않아야 한다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">트랜젝션 특징 - </span><span style=\"color: #006dd7;\">원자성, 일관성 , 독립성, 지속성</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">일관성 : 트랜잭션의 작업 처리 결과가 항상 일관성이 있어야 한다는 것</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">독립성 : 둘 이상의 트랜잭션이 동시에 실행되고 있을 경우, 어떤 하나의 트랜잭션이라도 다른 트랜잭션의 연산에 끼어 들 수 없다는 점</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">지속성 : 트랜잭션이 성공적으로 완료되었을 경우에 결과는 영구적으로 반영되어야 한다는 점</span></p>"
     },
@@ -42,6 +45,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "제 2 정규형\n- 기본키(주문번호 컬럼)이 제품번호에 의해 결정될 수 있기때문에 분해를 해야합니다.\n- 부분 함수적 종속성 : 기본키의 부분집합이 결정자가 되버린 현상\n제 1정규형 : 도메인이 원자값\n제 2정규형 :\n부분 함수적 종속 제거\n제 3정규형 :\n이행적 함수 종속 제거\nBCNF : 결정자이면서 후보키가 아닌 것 제거\n제 4정규형 :\n다치 종속 제거\n제 5정규형 :\n조인 종속 제거",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">제 2 정규형</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">- 기본키(주문번호 컬럼)이 제품번호에 의해 결정될 수 있기때문에 분해를 해야합니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">- 부분 함수적 종속성 : 기본키의 부분집합이 결정자가 되버린 현상</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">제 1정규형 : 도메인이 원자값</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">제 2정규형 : <span style=\"background-color: #fafafa; color: #006dd7;\">부분 함수적 종속 제거</span></span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">제 3정규형 :</span><span style=\"background-color: #fafafa; color: #006dd7;\">이행적 함수 종속 제거</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">BCNF : 결정자이면서 후보키가 아닌 것 제거</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">제 4정규형 :</span><span style=\"background-color: #fafafa; color: #006dd7;\">다치 종속 제거</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">제 5정규형 :</span><span style=\"background-color: #fafafa; color: #006dd7;\">조인 종속 제거</span></p>"
     },
@@ -52,6 +56,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. UPDATE\n2. SET",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. UPDATE</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. SET</span></p>"
     },
@@ -62,6 +67,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. ON\n2. 학과",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. ON</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. 학과</span></p>"
     },
@@ -72,6 +78,7 @@
       "options": "",
       "images": [],
       "code": "a = 100\nresult = 0\nfor i in range(1,3);\n   result = a >> i\n   result = result + 1\npirnt(result)",
+      "code_html": "<div class=\"code-line\"><code>a = 100\nresult = 0\nfor i in range(1,3);\n   result = a &gt;&gt; i\n   result = result + 1\npirnt(result)</code></div>",
       "answer": "26",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">26</span></p>"
     },
@@ -82,6 +89,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "AES (Advanced Encryption Standard)\n대칭키 알고리즘 :\n동일한 키를 사용하여 암호화와 복호화를 하는 것을 의미하며 가장많이 사용하는 알고리즘이 AES 입니다.",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">AES (Advanced Encryption Standard)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">대칭키 알고리즘 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">동일한 키를 사용하여 암호화와 복호화를 하는 것을 의미하며 가장많이 사용하는 알고리즘이 AES 입니다.</span></p>"
     },
@@ -92,6 +100,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. 문장\n2. 결정\n3. 조건",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. 문장</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. 결정</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. 조건</span></p>"
     },
@@ -102,6 +111,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. 이%\n2. DESC",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. 이%</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. DESC     </span></p>"
     },
@@ -112,6 +122,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. 절차적 응집도\n2. 교환적 응집도\n3. 기능적 응집도\n응집도 순서 (낮은것부터 높은 순서)\n우연적 > 논리적 > 시간적 > 절차적 > 교환적 > 순차적 > 기능적\n우연적 응집도 : 모듈 내부의 각 구성요소들이 연관이 없을 경우\n논리적 응집도 : 유사한 성격을 갖거나 특정 형태로 분류되는 처리 요소들이 한 모듈에서 처리되는 경우\n시간적 응집도 : 연관된 기능이라기보단 특정 시간에 처리되어야 하는 활동들을 한 모듈에서 처리할 경우\n순차적 응집도 : 모듈 내에서 한 활동으로부터 나온 출력값을 다른 활동이 사용할 경우",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. 절차적 응집도</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. 교환적 응집도</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. 기능적 응집도</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">응집도 순서 (낮은것부터 높은 순서)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">우연적 &gt; 논리적 &gt; 시간적 &gt; 절차적 &gt; 교환적 &gt; 순차적 &gt; 기능적</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">우연적 응집도 : 모듈 내부의 각 구성요소들이 연관이 없을 경우</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">논리적 응집도 : 유사한 성격을 갖거나 특정 형태로 분류되는 처리 요소들이 한 모듈에서 처리되는 경우</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">시간적 응집도 : 연관된 기능이라기보단 특정 시간에 처리되어야 하는 활동들을 한 모듈에서 처리할 경우</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">순차적 응집도 : 모듈 내에서 한 활동으로부터 나온 출력값을 다른 활동이 사용할 경우</span></p>"
     },
@@ -122,6 +133,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. 가상 회선 방식\n2. 데이터그램 방식\n패킷교환방식(저장 방식) : 패킷이라는 단위를 사용하여 데이터를 송신하고 수신합니다. 패킷이란 정보를 일정한 크기로 분할한 뒤 각각의 패킷에 송수신 주소 및 부가 정보를 입력한 것으로 현재 컴퓨터 네트워크에서 주로 사용하는 방식입니다. (EX : 인터넷)\n* 반대개념\n회선 교환 방식(비 저장 방식) : 물리적 전용선을 활용하여 데이터 전달 경로가 정해진 후 동일 경로로만 전달이 됩니다. 데이터를 동시에 전송할 수 있는 양을 의미하는 대역폭이 고정되고 안정적인 전송률을 확보할 수 있습니다. (EX : 전화망)",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. 가상 회선 방식</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. 데이터그램 방식</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">패킷교환방식(저장 방식) : 패킷이라는 단위를 사용하여 데이터를 송신하고 수신합니다. 패킷이란 정보를 일정한 크기로 분할한 뒤 각각의 패킷에 송수신 주소 및 부가 정보를 입력한 것으로 현재 컴퓨터 네트워크에서 주로 사용하는 방식입니다. (EX : 인터넷)</span></p>\n<p data-ke-size=\"size16\" style=\"line-height: 1.75;\"><span style=\"background-color: #fafafa; color: #006dd7;\">* 반대개념</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">회선 교환 방식(비 저장 방식)  : 물리적 전용선을 활용하여 데이터 전달 경로가 정해진 후 동일 경로로만 전달이 됩니다. 데이터를 동시에 전송할 수 있는 양을 의미하는 대역폭이 고정되고 안정적인 전송률을 확보할 수 있습니다. (EX : 전화망)</span></p>"
     },
@@ -132,6 +144,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "행위(behavioral)\n행위패턴은 객체나 클래스 간의 교류 방법에 대해 정의하는 방법을 제시합니다.\n행위패턴 클래스 : Interpreter, Template\n행위패턴 객체 : Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">행위(behavioral)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">행위패턴은 객체나 클래스 간의 교류 방법에 대해 정의하는 방법을 제시합니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">행위패턴 클래스 : Interpreter, Template</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">행위패턴 객체 : Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor</span></p>"
     },
@@ -142,6 +155,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "로킹\n병행제어란 다중 프로그램이 이점을 활용하여 동시에 여러 개의 트랜잭션을 병행수행할 때, 동시에 실행되는 트랜잭션들이 데이터베이스의 일관성을 파괴하지 않도록 트랜잭션 간의 상호작용을 제어하는 것입니다.\n병행제어기법 - 로킹, 타임 스탬프 순서, 최적 병행 수행, 다중 버전 기법\n타임 스탬프 순서(Time Stamp Ordering) : 트랜잭션과 트랜잭션이 읽거나 갱신한 데이터에 대해 트랜잭션이 실행을 시작하기 전에 시간표(time stamp)를 부여하여 부여된 시간에 따라 작업을 수행하는 기법\n최적 병행 수행(검증기법, 낙관적 기법) : 병행수행하고자 하는 대부분의 트랜잭션이 읽기 전용 트랜잭션일 경우, 트랜잭션 간의 충동률이 매우 낮아서 병행제어 기법을 사용하지 않고 실행되어도 이 중의 많은 트랜잭션은 시스템의 상태를 일관성 있게 유지한다는 점을 이용한 기법\n다중 버전 기법 : 타임 스탬프의 개념을 이용한 기법으로 타임 스탬프는 트랜잭션 및 데이터들이 이용될 때의 시간을 시간표로 관리하지만 다중 버전 기법은 갱신될 때마다의 버전을 부여하여 관리하는 기법",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">로킹</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">병행제어란 다중 프로그램이 이점을 활용하여 동시에 여러 개의 트랜잭션을 병행수행할 때, 동시에 실행되는 트랜잭션들이 데이터베이스의 일관성을 파괴하지 않도록 트랜잭션 간의 상호작용을 제어하는 것입니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">병행제어기법 - 로킹, 타임 스탬프 순서, 최적 병행 수행, 다중 버전 기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">타임 스탬프 순서(Time Stamp Ordering) : 트랜잭션과 트랜잭션이 읽거나 갱신한 데이터에 대해 트랜잭션이 실행을 시작하기 전에 시간표(time stamp)를 부여하여 부여된 시간에 따라 작업을 수행하는 기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">최적 병행 수행(검증기법, 낙관적 기법) : 병행수행하고자 하는 대부분의 트랜잭션이 읽기 전용 트랜잭션일 경우, 트랜잭션 간의 충동률이 매우 낮아서 병행제어 기법을 사용하지 않고 실행되어도 이 중의 많은 트랜잭션은 시스템의 상태를 일관성 있게 유지한다는 점을 이용한 기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">다중 버전 기법 : 타임 스탬프의 개념을 이용한 기법으로 타임 스탬프는 트랜잭션 및 데이터들이 이용될 때의 시간을 시간표로 관리하지만 다중 버전 기법은 갱신될 때마다의 버전을 부여하여 관리하는 기법</span></p>"
     },
@@ -152,6 +166,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "1. Function Modeling\n2. Dynamic\nModeling\n3. Object\nModeling\n럼바우 객체지향 분석 기법은 소프트웨어 구성 요소를 그래픽 표기법을 이용하여 모델링하는 분석 기법입니다.\n분석활동 : 객체 모델링(Object Modeling), 동적\n모델링(Dynamic Modeling), 기능\n모델링(Functional Modeling)\n럼바우 객체지향 분석 기법의 절차 :\n객체 모델링 > 동적 모델링 > 기능 모델링",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. Function Modeling </span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. Dynamic <span style=\"background-color: #fafafa; color: #009a87;\">Modeling</span></span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. Object <span style=\"background-color: #fafafa; color: #009a87;\">Modeling</span></span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">럼바우 객체지향 분석 기법은 소프트웨어 구성 요소를 그래픽 표기법을 이용하여 모델링하는 분석 기법입니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">분석활동 : 객체 모델링(Object Modeling), 동적<span style=\"background-color: #fafafa; color: #006dd7;\">모델링(Dynamic Modeling), 기능<span style=\"background-color: #fafafa; color: #006dd7;\">모델링(Functional Modeling)</span></span></span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\"><span style=\"background-color: #fafafa;\">럼바우 객체지향 분석 기법의 절차 : </span></span></p>\n<span style=\"color: #006dd7;\">객체 모델링 &gt; 동적 모델링 &gt; 기능 모델링</span>"
     },
@@ -162,6 +177,7 @@
       "options": "",
       "images": [],
       "code": "int main(){\n   int res;\n   res = mp(2,10);\n   printf(\"%d\",res);\n   return 0;\n}\n\nint mp(int base, int exp) {\n   int res = 1;\n   for(int i=0; i < exp; i++){\n      res = res * base;\n   }\n   \n   return res;\n}",
+      "code_html": "<div class=\"code-line\"><code>int main(){\n   int res;\n   res = mp(2,10);\n   printf(\"%d\",res);\n   return 0;\n}\n\nint mp(int base, int exp) {\n   int res = 1;\n   for(int i=0; i &lt; exp; i++){\n      res = res * base;\n   }\n   \n   return res;\n}</code></div>",
       "answer": "1024",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1024</span></p>"
     },
@@ -172,6 +188,7 @@
       "options": "",
       "images": [],
       "code": "public class Test {\n   public static void main(String[] args){\n      system.out.print(Test.check(1));\n   }\n   \n   (    )  String check (int num) {\n      return (num >= 0) ? \"positive\" : \"negative\";\n   }\n}\n\n[출력결과]\npositive",
+      "code_html": "<div class=\"code-line\"><code>public class Test {\n   public static void main(String[] args){\n      system.out.print(Test.check(1));\n   }\n   \n   (    )  String check (int num) {\n      return (num &gt;= 0) ? \"positive\" : \"negative\";\n   }\n}\n\n[출력결과]\npositive</code></div>",
       "answer": "static",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">static</span></p>"
     },
@@ -182,6 +199,7 @@
       "options": "",
       "images": [],
       "code": "int main(){\n\nint ary[3];\nint s = 0;\n*(ary+0)=1;\nary[1] = *(ary+0)+2;\nary[2] = *ary+3;\nfor(int i=0; i<3; i++){\n  s=s+ary[i]\n}\n\nprint(\"%d\",s);\n\n}",
+      "code_html": "<div class=\"code-line\"><code>int main(){\n\nint ary[3];\nint s = 0;\n*(ary+0)=1;\nary[1] = *(ary+0)+2;\nary[2] = *ary+3;\nfor(int i=0; i&lt;3; i++){\n  s=s+ary[i]\n}\n\nprint(\"%d\",s);\n\n}</code></div>",
       "answer": "8",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">8</span></p>"
     },
@@ -192,6 +210,7 @@
       "options": "",
       "images": [],
       "code": "public class ovr1 {\n\tpublic static void main(String[] args){\n    \tovr1 a1 = new ovr1();\n        ovr2 a2 = new ovr2();\n        System.out.println(a1.sun(3,2) + a2.sun(3,2));\n    }\n    \n    int sun(int x, int y){\n    \treturn x + y;\n    }\n}\n\nclass ovr2 extends ovr1 {\n\n\tint sun(int x, int y){\n    \treturn x - y + super.sun(x,y);\n    }\n\n}",
+      "code_html": "<div class=\"code-line\"><code>public class ovr1 {\n\tpublic static void main(String[] args){\n    \tovr1 a1 = new ovr1();\n        ovr2 a2 = new ovr2();\n        System.out.println(a1.sun(3,2) + a2.sun(3,2));\n    }\n    \n    int sun(int x, int y){\n    \treturn x + y;\n    }\n}\n\nclass ovr2 extends ovr1 {\n\n\tint sun(int x, int y){\n    \treturn x - y + super.sun(x,y);\n    }\n\n}</code></div>",
       "answer": "11",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">11</span></p>"
     },
@@ -202,6 +221,7 @@
       "options": "",
       "images": [],
       "code": null,
+      "code_html": null,
       "answer": "스텁\n테스트 하네스란 시스템 및 시스템 컴포넌트 시험하는 환경의 일부분으로 시험을 지원하는 목적 하에 생성된 코드와 데이터를 뜻합니다. 시험 드라이버라고도 하며, 일반적으로 단위 시험이나 모듈 시험에 사용하기 위해 코드 개발자가 만듭니다.\n테스트 하네스 도구 구성 요소 :\n테스트 드라이버, 테스트 스텁, 테스트 슈트, 테스트 케이스, 테스트 스크립트, 목 오브젝트",
       "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">스텁</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">테스트 하네스란 시스템 및 시스템 컴포넌트 시험하는 환경의 일부분으로 시험을 지원하는 목적 하에 생성된 코드와 데이터를 뜻합니다. 시험 드라이버라고도 하며, 일반적으로 단위 시험이나 모듈 시험에 사용하기 위해 코드 개발자가 만듭니다.</span></p>\n<span style=\"color: #006dd7;\">테스트 하네스 도구 구성 요소 :</span>\n<span style=\"color: #006dd7;\">테스트 드라이버, 테스트 스텁, 테스트 슈트, 테스트 케이스, 테스트 스크립트, 목 오브젝트</span>"
     }

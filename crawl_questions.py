@@ -163,30 +163,55 @@ def extract_code_from_colorscripter(code_block: Tag) -> str:
     return "\n".join(lines).strip("\n")
 
 
-def extract_code_from_html(html_blocks: list[str]) -> tuple[list[str], str]:
+def extract_code_html_from_colorscripter(code_block: Tag) -> str:
+    line_nodes = code_block.select("td:nth-of-type(2) > div > div")
+    html_lines = []
+
+    for node in line_nodes:
+        html_lines.append(f'<div class="code-line">{node.decode_contents()}</div>')
+
+    return "\n".join(html_lines).strip()
+
+
+def extract_code_from_html(html_blocks: list[str]) -> tuple[list[str], str, str]:
     cleaned_blocks = []
     code_parts = []
+    code_html_parts = []
 
     for html in html_blocks:
         soup = BeautifulSoup(html, "html.parser")
 
         for code_block in soup.select("div.colorscripter-code"):
             code_text = extract_code_from_colorscripter(code_block)
+            code_html = extract_code_html_from_colorscripter(code_block)
             if code_text:
                 code_parts.append(code_text)
+            if code_html:
+                code_html_parts.append(code_html)
             code_block.decompose()
 
         for pre_block in soup.find_all("pre"):
             code_text = normalize_code_text(pre_block.get_text("\n", strip=False))
+            code_html = (
+                '<div class="code-line">'
+                + pre_block.decode_contents()
+                + "</div>"
+            )
             if code_text:
                 code_parts.append(code_text)
+            if code_html:
+                code_html_parts.append(code_html)
             pre_block.decompose()
 
         cleaned_html = str(soup).strip()
         if cleaned_html and normalize_text(soup.get_text(" ", strip=True)):
             cleaned_blocks.append(cleaned_html)
 
-    return cleaned_blocks, "\n\n".join(part for part in code_parts if part).strip()
+    return (
+        cleaned_blocks,
+        "\n\n".join(part for part in code_parts if part).strip(),
+        "\n".join(part for part in code_html_parts if part).strip(),
+    )
 
 
 def collect_images(html_blocks: list[str]) -> list[str]:
@@ -237,7 +262,7 @@ def split_question_and_answer(blocks: list[str]) -> tuple[list[str], list[str]]:
 
 def build_question_record(number: int, blocks: list[str]) -> dict:
     question_html, answer_html = split_question_and_answer(blocks)
-    question_html, code = extract_code_from_html(question_html)
+    question_html, code, code_html = extract_code_from_html(question_html)
 
     return {
         "number": number,
@@ -246,6 +271,7 @@ def build_question_record(number: int, blocks: list[str]) -> dict:
         "options": "",
         "images": collect_images(question_html),
         "code": code or None,
+        "code_html": code_html or None,
         "answer": html_to_text(answer_html),
         "answer_html": "\n".join(answer_html).strip(),
     }
