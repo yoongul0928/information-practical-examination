@@ -151,6 +151,44 @@ button:active {
     word-break: break-word;
 }
 
+.question-html {
+    white-space: normal;
+}
+
+.question-html p {
+    margin: 0 0 12px;
+}
+
+.question-html p:last-child {
+    margin-bottom: 0;
+}
+
+.question-html img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+}
+
+.question-html table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 0.95em;
+    background: white;
+}
+
+.question-html th,
+.question-html td {
+    border: 1px solid #d0d7de;
+    padding: 8px 10px;
+    vertical-align: top;
+}
+
+.question-html figure {
+    margin: 16px 0;
+}
+
 .question-images {
     margin: 15px 0;
 }

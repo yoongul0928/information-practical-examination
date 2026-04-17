@@ -111,13 +111,11 @@ function renderQuestions() {
         html += `
                 <div class="question-card">
                     <div class="question-number">문제 ${q.number}</div>
-                    <div class="question-text">${escapeHtml(q.text)}</div>
-                    
-                    ${q.images && q.images.length > 0 ? `
-                        <div class="question-images">
-                            ${q.images.map(img => `<img src="${img}" alt="문제 이미지" onerror="this.style.display='none'">`).join('')}
-                        </div>
-                    ` : ''}
+                    ${q.question_html ? `
+                        <div class="question-text question-html">${q.question_html}</div>
+                    ` : `
+                        <div class="question-text">${escapeHtml(q.text)}</div>
+                    `}
 
                     ${q.options ? `
                         <div class="question-options">${escapeHtml(q.options)}</div>
