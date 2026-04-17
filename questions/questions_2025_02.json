@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:13:39.345825",
+    "crawl_time": "2026-04-17T18:20:14.099306",
     "source": "https://chobopark.tistory.com/554",
     "total_questions": 20
   },
@@ -19,7 +19,7 @@
     {
       "number": 2,
       "text": "2.\n다음은 데이터베이스 릴레이션의 구성 요소 중 하나에 대한 설명이다\n.\n설명을 읽고 보기에서 알맞은 기호를 골라 작성하시오\n.\n릴레이션\n(Relation)\n에서 열\n(Column)\n을 의미하며 데이터 항목의 속성\n(Attribute)\n또는 특성을 나타낸다\n.\n각 열은 고유한 이름을 가지며 특정 도메인\n(Domain)\n에서 정의된 값을 갖는다\n.\n예를 들어\n\"\n학생\n\"\n릴레이션에서 학번\n,\n이름\n,\n전공 등은 각각 하나의 열이며 이 열들은 학생의 고유한 속성을 나타낸다\n.\n이 개념은 파일 구조에서의 필드\n(Field)\n에 해당하며 릴레이션에서 행\n(Row, Tuple)\n의 구성 요소가 된다\n.\n[\n보기\n]\nㄱ\n. Cardinality\nㄴ\n. Domain\nㄷ\n. Attribute\nㅁ\n. Degree\nㅂ\n. Schema\nㅅ\n. Tuple",
-      "question_html": "<p data-ke-size=\"size16\"><b><span>2. </span><span>다음은 데이터베이스 릴레이션의 구성 요소 중 하나에 대한 설명이다</span><span>. </span><span>설명을 읽고 보기에서 알맞은 기호를 골라 작성하시오</span></b><span><b>.</b> </span></p>\n<p data-ke-size=\"size16\"><span>릴레이션</span><span>(Relation)</span><span>에서 열</span><span>(Column)</span><span>을 의미하며 데이터 항목의 속성</span><span>(Attribute) </span><span>또는 특성을 나타낸다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>각 열은 고유한 이름을 가지며 특정 도메인</span><span>(Domain)</span><span>에서 정의된 값을 갖는다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>예를 들어 </span><span>\"</span><span>학생</span><span>\" </span><span>릴레이션에서 학번</span><span>, </span><span>이름</span><span>, </span><span>전공 등은 각각 하나의 열이며 이 열들은 학생의 고유한 속성을 나타낸다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>이 개념은 파일 구조에서의 필드</span><span>(Field)</span><span>에 해당하며 릴레이션에서 행</span><span>(Row, Tuple)</span><span>의 구성 요소가 된다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>[</span><span>보기</span><span>]</span></p>\n<p data-ke-size=\"size16\"><span>ㄱ</span><span>. Cardinality</span></p>\n<p data-ke-size=\"size16\"><span>ㄴ</span><span>. Domain</span></p>\n<p data-ke-size=\"size16\"><span>ㄷ</span><span>. Attribute</span></p>\n<p data-ke-size=\"size16\"><span>ㅁ</span><span>. Degree</span></p>\n<p data-ke-size=\"size16\"><span>ㅂ</span><span>. Schema</span></p>\n<p data-ke-size=\"size16\"><span>ㅅ</span><span>. Tuple</span></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><br/><br/><br/><br/><b><span>2. </span><span>다음은 데이터베이스 릴레이션의 구성 요소 중 하나에 대한 설명이다</span><span>. </span><span>설명을 읽고 보기에서 알맞은 기호를 골라 작성하시오</span></b><span><b>.</b> </span></p>\n<p data-ke-size=\"size16\"><span>릴레이션</span><span>(Relation)</span><span>에서 열</span><span>(Column)</span><span>을 의미하며 데이터 항목의 속성</span><span>(Attribute) </span><span>또는 특성을 나타낸다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>각 열은 고유한 이름을 가지며 특정 도메인</span><span>(Domain)</span><span>에서 정의된 값을 갖는다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>예를 들어 </span><span>\"</span><span>학생</span><span>\" </span><span>릴레이션에서 학번</span><span>, </span><span>이름</span><span>, </span><span>전공 등은 각각 하나의 열이며 이 열들은 학생의 고유한 속성을 나타낸다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>이 개념은 파일 구조에서의 필드</span><span>(Field)</span><span>에 해당하며 릴레이션에서 행</span><span>(Row, Tuple)</span><span>의 구성 요소가 된다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>[</span><span>보기</span><span>]</span></p>\n<p data-ke-size=\"size16\"><span>ㄱ</span><span>. Cardinality</span></p>\n<p data-ke-size=\"size16\"><span>ㄴ</span><span>. Domain</span></p>\n<p data-ke-size=\"size16\"><span>ㄷ</span><span>. Attribute</span></p>\n<p data-ke-size=\"size16\"><span>ㅁ</span><span>. Degree</span></p>\n<p data-ke-size=\"size16\"><span>ㅂ</span><span>. Schema</span></p>\n<p data-ke-size=\"size16\"><span>ㅅ</span><span>. Tuple</span></p>",
       "options": "",
       "images": [],
       "code": null,
@@ -52,7 +52,7 @@
     {
       "number": 5,
       "text": "5. 다음은 Java의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>5. 다음은 Java의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><br/><b>5. 다음은 Java의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b><br/><br/></p>",
       "options": "",
       "images": [],
       "code": "public class Main {\n    public static void change(String[] data, String s){\n        data[0] = s;\n        s = \"Z\";\n    }\n    public static void main(String[] args) {\n        String data[] = { \"A\" };\n        String s = \"B\";\n        change(data, s);\n        System.out.print(data[0] + s);\n    }\n}",
@@ -63,7 +63,7 @@
     {
       "number": 6,
       "text": "6.\n다음은\nIP\n주소와 서브넷 마스크에 관한 문제이다\n.\n주어진 정보를 참고하여 괄호 안에 들어갈 알맞은 값을 쓰시오\n.\n호스트의\nIP\n주소가\n223.13.234.132\n이고\n서브넷 마스크가\n255.255.255.192\n일 때 다음 물음에 답하시오\n.\n이 호스트가 속한 네트워크 주소는\n223.13.234.(\n①\n)\n이다\n.\n이 네트워크에서 사용 가능한 호스트 수는\n(\n②\n)\n개이다\n.\n(\n단\n,\n네트워크 주소와 브로드캐스트 주소는 제외한다\n.)",
-      "question_html": "<p data-ke-size=\"size16\"><b><span>6. </span><span>다음은 </span><span>IP </span><span>주소와 서브넷 마스크에 관한 문제이다</span><span>. </span><span>주어진 정보를 참고하여 괄호 안에 들어갈 알맞은 값을 쓰시오</span><span>.</span></b></p>\n<p data-ke-size=\"size16\"><span>호스트의 </span><span>IP </span><span>주소가 </span><span>223.13.234.132</span><span>이고</span><span>서브넷 마스크가 </span><span>255.255.255.192</span><span>일 때 다음 물음에 답하시오</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>이 호스트가 속한 네트워크 주소는 </span><span>223.13.234.( </span><span>① </span><span>)</span><span>이다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>이 네트워크에서 사용 가능한 호스트 수는 </span><span>( </span><span>② </span><span>)</span><span>개이다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>(</span><span>단</span><span>, </span><span>네트워크 주소와 브로드캐스트 주소는 제외한다</span><span>.)</span></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><br/><b><span>6. </span><span>다음은 </span><span>IP </span><span>주소와 서브넷 마스크에 관한 문제이다</span><span>. </span><span>주어진 정보를 참고하여 괄호 안에 들어갈 알맞은 값을 쓰시오</span><span>.</span></b></p>\n<p data-ke-size=\"size16\"><span>호스트의 </span><span>IP </span><span>주소가 </span><span>223.13.234.132</span><span>이고</span><span>서브넷 마스크가 </span><span>255.255.255.192</span><span>일 때 다음 물음에 답하시오</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>이 호스트가 속한 네트워크 주소는 </span><span>223.13.234.( </span><span>① </span><span>)</span><span>이다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>이 네트워크에서 사용 가능한 호스트 수는 </span><span>( </span><span>② </span><span>)</span><span>개이다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>(</span><span>단</span><span>, </span><span>네트워크 주소와 브로드캐스트 주소는 제외한다</span><span>.)</span></p>",
       "options": "",
       "images": [],
       "code": null,
@@ -74,7 +74,7 @@
     {
       "number": 7,
       "text": "7. 다음은 디자인 패턴에 관한 문제이다. 아래 내용을 보고 알맞는 단어를 작성하시오.\n어떤 객체에 대한 접근을 제어하거나 추가적인 기능을 부여하기 위해\n해당 객체의 대리 객체를 사용하는 방식의 디자인 패턴이다\n.\n실제 객체에 대한 접근 전에 필요한 작업을 수행할 수 있으며 실제 객체의 생성을 지연시켜 메모리와 자원을 절약할 수 있\n다\n.\n또한\n,\n실제 객체를 감추어 정보은닉을 강화할 수 있다는 장점이 있다\n.",
-      "question_html": "<p data-ke-size=\"size16\"><b>7. 다음은 디자인 패턴에 관한 문제이다. 아래 내용을 보고 알맞는 단어를 작성하시오.  </b></p>\n<p data-ke-size=\"size16\"><span>어떤 객체에 대한 접근을 제어하거나 추가적인 기능을 부여하기 위해</span><span>해당 객체의 대리 객체를 사용하는 방식의 디자인 패턴이다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>실제 객체에 대한 접근 전에 필요한 작업을 수행할 수 있으며 실제 객체의 생성을 지연시켜 메모리와 자원을 절약할 수 있</span><span>다</span><span>. </span></p>\n<p data-ke-size=\"size16\"><span>또한</span><span>, </span><span>실제 객체를 감추어 정보은닉을 강화할 수 있다는 장점이 있다</span><span>. </span></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><br/><br/><br/><b>7. 다음은 디자인 패턴에 관한 문제이다. 아래 내용을 보고 알맞는 단어를 작성하시오.  </b></p>\n<p data-ke-size=\"size16\"><br/><span>어떤 객체에 대한 접근을 제어하거나 추가적인 기능을 부여하기 위해</span><span>해당 객체의 대리 객체를 사용하는 방식의 디자인 패턴이다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>실제 객체에 대한 접근 전에 필요한 작업을 수행할 수 있으며 실제 객체의 생성을 지연시켜 메모리와 자원을 절약할 수 있</span><span>다</span><span>. </span></p>\n<p data-ke-size=\"size16\"><span>또한</span><span>, </span><span>실제 객체를 감추어 정보은닉을 강화할 수 있다는 장점이 있다</span><span>. </span></p>",
       "options": "",
       "images": [],
       "code": null,
@@ -85,7 +85,7 @@
     {
       "number": 8,
       "text": "8.\n다음은 웹 데이터 교환 방식에 관한 문제이다\n.\n아래 설명을 읽고\n괄호 안에 들어갈 알맞은 용어를 작성하시오\n.\n(\n)\n은\n/\n는 웹 페이지 전체를 다시 불러오지 않고\nJavaScript\n와\nXML(\n또는\nJSON)\n을 이용하여 일부 콘텐츠만 비동기적으로 갱신할 수 있는 기술이다\n.\n(\n)\n은\n/\n는\nHTML\n만으로는 구현하기 어려운 동적인 기능들을 가능하게 하여 사용자가 웹 페이지와 보다 자유롭게 상호작용할 수 있도록 해주는 웹 개발 기법이다\n.",
-      "question_html": "<p data-ke-size=\"size16\"><b><span>8. </span><span>다음은 웹 데이터 교환 방식에 관한 문제이다</span><span>. </span><span>아래 설명을 읽고</span><span>괄호 안에 들어갈 알맞은 용어를 작성하시오</span><span>.</span></b></p>\n<p data-ke-size=\"size16\"><span>(</span><span>)</span><span>은</span><span>/</span><span>는 웹 페이지 전체를 다시 불러오지 않고</span><span> JavaScript</span><span>와 </span><span>XML(</span><span>또는 </span><span>JSON)</span><span>을 이용하여 일부 콘텐츠만 비동기적으로 갱신할 수 있는 기술이다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>(</span><span>)</span><span>은</span><span>/</span><span>는 </span><span>HTML</span><span>만으로는 구현하기 어려운 동적인 기능들을 가능하게 하여 사용자가 웹 페이지와 보다 자유롭게 상호작용할 수 있도록 해주는 웹 개발 기법이다</span><span>.</span></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><br/><b><span>8. </span><span>다음은 웹 데이터 교환 방식에 관한 문제이다</span><span>. </span><span>아래 설명을 읽고</span><span>괄호 안에 들어갈 알맞은 용어를 작성하시오</span><span>.</span></b></p>\n<p data-ke-size=\"size16\"><span>(</span><span>)</span><span>은</span><span>/</span><span>는 웹 페이지 전체를 다시 불러오지 않고</span><span> JavaScript</span><span>와 </span><span>XML(</span><span>또는 </span><span>JSON)</span><span>을 이용하여 일부 콘텐츠만 비동기적으로 갱신할 수 있는 기술이다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>(</span><span>)</span><span>은</span><span>/</span><span>는 </span><span>HTML</span><span>만으로는 구현하기 어려운 동적인 기능들을 가능하게 하여 사용자가 웹 페이지와 보다 자유롭게 상호작용할 수 있도록 해주는 웹 개발 기법이다</span><span>.</span></p>",
       "options": "",
       "images": [],
       "code": null,
@@ -96,7 +96,7 @@
     {
       "number": 9,
       "text": "9. 다음은 Java언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>9. 다음은 Java언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오. </b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><b>9. 다음은 Java언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오. </b></p>",
       "options": "",
       "images": [],
       "code": "public class Main {\n    static interface F {\n        int apply(int x) throws Exception;\n    }\n    public static int run(F f) {\n        try {\n            return f.apply(3);\n        } catch (Exception e) {\n            return 7;\n        }\n    }\n    public static void main(String[] args) {\n        F f = (x) -> {\n            if (x > 2) {\n                throw new Exception();\n            }\n            return x * 2;\n        };\n        System.out.print(run(f) + run((int n) -> n + 9));\n    }\n}",
@@ -107,7 +107,7 @@
     {
       "number": 10,
       "text": "10. 다음은 Java언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.\n반응형",
-      "question_html": "<p data-ke-size=\"size16\"><b>10. 다음은 Java언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><b>10. 다음은 Java언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b><br/><br/></p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
       "options": "",
       "images": [],
       "code": "public class Main{\n    public static class Parent {\n        public int x(int i) { return i + 2; }\n        public static String id() { return \"P\";}\n    }\n    public static class Child extends Parent {\n        public int x(int i) { return i + 3; }\n        public String x(String s) { return s + \"R\"; }\n        public static String id() { return \"C\"; }\n    }\n    public static void main(String[] args) {\n        Parent ref = new Child();\n        System.out.println(ref.x(2) + ref.id());\n    }\n}",
@@ -129,7 +129,7 @@
     {
       "number": 12,
       "text": "12. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>12. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><b>12. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b><br/><br/></p>",
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\n#define SIZE 3\ntypedef struct {\n    int a[SIZE];\n    int front;\n    int rear;\n} Queue;\nvoid enq(Queue* q, int val){\n    q->a[q->rear] = val;\n    q->rear = (q->rear + 1) % SIZE;\n}\nint deq(Queue* q) {\n    int val = q->a[q->front];\n    q->front = (q->front + 1) % SIZE;\n    return val;\n}\nint main() {\n    Queue q = {{0}, 0, 0};\n    enq(&q,1); enq(&q,2); deq(&q); enq(&q, 3);\n    int first = deq(&q);\n    int second = deq(&q);\n    printf(\"%d 그리고 %d\", first, second);\n    return 0;\n}",
@@ -140,7 +140,7 @@
     {
       "number": 13,
       "text": "13. 라운드로빈(RR) 방식을 이용하고 아래 내용을 참고하여 평균대기시간을 구하시오.\n운영체제에서 라운드로빈\n(Round Robin, RR)\n스케줄링은 각 프로세스에 동일한 시간 할당량\n(\n타임 퀀텀\n)\n을 순차적으로 부여하며\nCPU\n를 할당하는 방식이다\n.\n다음은\n4\n개의 프로세스가 서로 다른 시간에 도착하며 각기 다른 실행 시간을 가지는 상황이다\n.\n이때 시간 할당량은\n4ms\n이고 컨텍스트 스위칭 시간은 무시한다고 가정한다\n.\n아래 정보를 바탕으로 라운드로빈\n(RR)\n방식으로\nCPU\n스케줄링을 수행할 경우 모든 프로세스의 평균 대기시간\n(Average Waiting Time)\n은 얼마인가\n?\n프로세스\n도착 시간(ms)\n실행 시간(ms)\nP1\n0\n8\nP2\n1\n4\nP3\n2\n9\nP4\n3\n5",
-      "question_html": "<p data-ke-size=\"size16\"><b>13. 라운드로빈(RR) 방식을 이용하고 아래 내용을 참고하여 평균대기시간을 구하시오.  </b></p>\n<p data-ke-size=\"size16\"><span>운영체제에서 라운드로빈</span><span>(Round Robin, RR) </span><span>스케줄링은 각 프로세스에 동일한 시간 할당량</span><span>(</span><span>타임 퀀텀</span><span>)</span><span>을 순차적으로 부여하며 </span><span>CPU</span><span>를 할당하는 방식이다</span><span>. </span></p>\n<p data-ke-size=\"size16\"><span>다음은 </span><span>4</span><span>개의 프로세스가 서로 다른 시간에 도착하며 각기 다른 실행 시간을 가지는 상황이다</span><span>. </span><span>이때 시간 할당량은 </span><span>4ms</span><span>이고 컨텍스트 스위칭 시간은 무시한다고 가정한다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>아래 정보를 바탕으로 라운드로빈</span><span>(RR) </span><span>방식으로 </span><span>CPU </span><span>스케줄링을 수행할 경우 모든 프로세스의 평균 대기시간</span><span>(Average Waiting Time)</span><span>은 얼마인가</span><span>?</span></p>\n<table border=\"1\" data-ke-align=\"alignLeft\" data-ke-style=\"style15\" style=\"border-collapse: collapse; width: 100%; height: 89px;\">\n<tbody>\n<tr style=\"height: 21px;\">\n<td style=\"width: 33.3333%; height: 21px; text-align: center;\">프로세스</td>\n<td style=\"width: 33.3333%; height: 21px; text-align: center;\">도착 시간(ms)</td>\n<td style=\"width: 33.3333%; height: 21px; text-align: center;\">실행 시간(ms)</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">P1</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">0</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">8</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">P2</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">1</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">P3</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">2</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">9</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">P4</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">3</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">5</td>\n</tr>\n</tbody>\n</table>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><b>13. 라운드로빈(RR) 방식을 이용하고 아래 내용을 참고하여 평균대기시간을 구하시오.  </b></p>\n<p data-ke-size=\"size16\"><br/><span>운영체제에서 라운드로빈</span><span>(Round Robin, RR) </span><span>스케줄링은 각 프로세스에 동일한 시간 할당량</span><span>(</span><span>타임 퀀텀</span><span>)</span><span>을 순차적으로 부여하며 </span><span>CPU</span><span>를 할당하는 방식이다</span><span>. </span></p>\n<p data-ke-size=\"size16\"><span>다음은 </span><span>4</span><span>개의 프로세스가 서로 다른 시간에 도착하며 각기 다른 실행 시간을 가지는 상황이다</span><span>. </span><span>이때 시간 할당량은 </span><span>4ms</span><span>이고 컨텍스트 스위칭 시간은 무시한다고 가정한다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>아래 정보를 바탕으로 라운드로빈</span><span>(RR) </span><span>방식으로 </span><span>CPU </span><span>스케줄링을 수행할 경우 모든 프로세스의 평균 대기시간</span><span>(Average Waiting Time)</span><span>은 얼마인가</span><span>?</span></p>\n<table border=\"1\" data-ke-align=\"alignLeft\" data-ke-style=\"style15\" style=\"border-collapse: collapse; width: 100%; height: 89px;\">\n<tbody>\n<tr style=\"height: 21px;\">\n<td style=\"width: 33.3333%; height: 21px; text-align: center;\">프로세스</td>\n<td style=\"width: 33.3333%; height: 21px; text-align: center;\">도착 시간(ms)</td>\n<td style=\"width: 33.3333%; height: 21px; text-align: center;\">실행 시간(ms)</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">P1</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">0</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">8</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">P2</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">1</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">P3</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">2</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">9</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">P4</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">3</td>\n<td style=\"width: 33.3333%; height: 17px; text-align: center;\">5</td>\n</tr>\n</tbody>\n</table>",
       "options": "",
       "images": [],
       "code": null,
@@ -151,7 +151,7 @@
     {
       "number": 14,
       "text": "14. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>14. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><br/><br/><br/><br/><b>14. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\nstruct dat {\n    int x;\n    int y;\n};\nint main() {\n    struct dat a[] = {{1, 2}, {3, 4}, {5, 6}};\n    struct dat* ptr = a;\n    struct dat** pptr = &ptr;\n    (*pptr)[1] = (*pptr)[2];\n    printf(\"%d 그리고 %d\", a[1].x, a[1].y);\n    return 0;\n}",
@@ -162,7 +162,7 @@
     {
       "number": 15,
       "text": "15. 다음은 Java언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>15. 다음은 Java언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><br/><br/><b>15. 다음은 Java언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
       "options": "",
       "images": [],
       "code": "public class Main{\n    public static class BO {\n        public int v;\n        public BO(int v) {\n            this.v = v;\n        }\n    }\n    public static void main(String[] args) {\n        BO a = new BO(1);\n        BO b = new BO(2);\n        BO c = new BO(3);\n        BO[] arr = {a, b, c};\n        BO t = arr[0];\n        arr[0] = arr[2];\n        arr[2] = t;\n        arr[1].v = arr[0].v;\n        System.out.println(a.v + \"a\" + b.v + \"b\" + c.v);\n    }\n}",
@@ -173,7 +173,7 @@
     {
       "number": 16,
       "text": "16. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>16. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><br/><b>16. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\n#include <stdlib.h>\nstruct node {\n    int p;\n    struct node* n;\n};\nint main() {\n    struct node a = {1, NULL};\n    struct node b = {2, NULL};\n    struct node c = {3, NULL};\n    a.n = &b; b.n = &c; c.n = NULL;\n    c.n = &a; a.n = &b; b.n = NULL;\n    struct node* head = &c;\n    printf(\"%d %d %d\", head->p, head->n->p, head->n->n->p);\n    return 0;\n}",
@@ -184,7 +184,7 @@
     {
       "number": 17,
       "text": "17. 다음은 Pyhon언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>17. 다음은 Pyhon언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><b>17. 다음은 Pyhon언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
       "options": "",
       "images": [],
       "code": "lst = [1,2,3]\ndst = {i : i* 2 for i in lst}\ns = set(dst.values())\nlst[0] = 99\ndst[2]=7\ns.add(99)\nprint(len(s & set(dst.values())))",
@@ -195,7 +195,7 @@
     {
       "number": 18,
       "text": "18. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>18. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><br/><br/><b>18. 다음은 C언어의 문제이다. 아래 코드를 보고 알맞는 출력값을 작성하시오.  </b></p>",
       "options": "",
       "images": [],
       "code": "#include <stdio.h>\n#include <stdlib.h>\nstruct node {\n    char c;\n    struct node* p;\n};\nstruct node* func(char* s) {\n    struct node* h = NULL, *n;\n    while(*s) {\n        n = malloc(sizeof(struct node));\n        n->c = *s++;\n        n->p = h;\n        h = n;\n    }\n    return h;\n}\nint main() {\n    struct node* n = func(\"BEST\");\n    while(n) {\n        putchar(n->c);\n        struct node* t = n;\n        n = n->p;\n        free(t);\n    }\n    return 0;\n}",
@@ -217,7 +217,7 @@
     {
       "number": 20,
       "text": "20. 다음 테이블에서 πTTL(employee)에 대한 연산 결과 값을 작성하시오.\n[employee테이블]",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>20. 다음 테이블에서 πTTL(employee)에 대한 연산 결과 값을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">[employee테이블]</p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b><br/>20. 다음 테이블에서 πTTL(employee)에 대한 연산 결과 값을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">[employee테이블]</p>",
       "options": "",
       "images": [],
       "code": null,

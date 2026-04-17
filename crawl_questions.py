@@ -88,7 +88,7 @@ def cleaned_html(tag: Tag) -> str:
     copied = BeautifulSoup(str(tag), "html.parser")
 
     for inner in list(copied.find_all(True)):
-        if inner.name in {"img", "iframe"}:
+        if inner.name in {"img", "iframe", "br"}:
             continue
 
         text = normalize_text(inner.get_text(" ", strip=True))

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:13:40.437038",
+    "crawl_time": "2026-04-17T18:20:14.430596",
     "source": "https://chobopark.tistory.com/558",
     "total_questions": 20
   },
@@ -8,7 +8,7 @@
     {
       "number": 1,
       "text": "1. 다음은 UML ( ) 다이어그램이다. 아래 내용을 보고 다이어그램의 관계를 확인하여 명칭을 작성하시오.\n( )\n다이어그램이란\n시스템을 폴더 모양의\n( )\n단위로 구분하여 구성 요소 간의 관계를 표현하는\nUML\n구조 다이어그램이다\n.\n하나의\n( )\n안에는 여러 클래스나 하위\n( )\n가 포함될 수 있으며\n,\n( )\n간에는\n«import», «access», «merge»\n등의 관계를 통해 의존성\n(Dependency)\n을 표현한다\n.\n이 다이어그램은 코드의 실제 구조\n(\n폴더 구조\n)\n와 비슷하게 표현되기 때문에\n소프트웨어의 모듈화\n,\n재사용성\n,\n의존 관계를 시각적으로 설계할 때 자주 사용된다\n.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>1. 다음은 UML (    ) 다이어그램이다. 아래 내용을 보고 다이어그램의 관계를 확인하여 명칭을 작성하시오. </b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><span>(   ) </span><span>다이어그램이란</span></p>\n<p data-ke-size=\"size16\"><span>시스템을 폴더 모양의 </span><span>(   ) </span><span>단위로 구분하여 구성 요소 간의 관계를 표현하는 </span><span>UML </span><span>구조 다이어그램이다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>하나의 </span><span>(   ) </span><span>안에는 여러 클래스나 하위 </span><span>(   ) </span><span>가 포함될 수 있으며</span><span>,</span></p>\n<p data-ke-size=\"size16\"><span>(   ) </span><span>간에는 </span><span>«import», «access», «merge» </span><span>등의 관계를 통해 의존성</span><span>(Dependency) </span><span>을 표현한다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>이 다이어그램은 코드의 실제 구조</span><span>(</span><span>폴더 구조</span><span>)</span><span>와 비슷하게 표현되기 때문에</span></p>\n<p data-ke-size=\"size16\"><span>소프트웨어의 모듈화</span><span>, </span><span>재사용성</span><span>, </span><span>의존 관계를 시각적으로 설계할 때 자주 사용된다</span><span>.</span></p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b><br/>1. 다음은 UML (    ) 다이어그램이다. 아래 내용을 보고 다이어그램의 관계를 확인하여 명칭을 작성하시오. </b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><span>(   ) </span><span>다이어그램이란</span></p>\n<p data-ke-size=\"size16\"><span>시스템을 폴더 모양의 </span><span>(   ) </span><span>단위로 구분하여 구성 요소 간의 관계를 표현하는 </span><span>UML </span><span>구조 다이어그램이다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>하나의 </span><span>(   ) </span><span>안에는 여러 클래스나 하위 </span><span>(   ) </span><span>가 포함될 수 있으며</span><span>,</span></p>\n<p data-ke-size=\"size16\"><span>(   ) </span><span>간에는 </span><span>«import», «access», «merge» </span><span>등의 관계를 통해 의존성</span><span>(Dependency) </span><span>을 표현한다</span><span>.</span></p>\n<p data-ke-size=\"size16\"><span>이 다이어그램은 코드의 실제 구조</span><span>(</span><span>폴더 구조</span><span>)</span><span>와 비슷하게 표현되기 때문에</span></p>\n<p data-ke-size=\"size16\"><span>소프트웨어의 모듈화</span><span>, </span><span>재사용성</span><span>, </span><span>의존 관계를 시각적으로 설계할 때 자주 사용된다</span><span>.</span></p>",
       "options": "",
       "images": [],
       "code": null,
@@ -217,7 +217,7 @@
     {
       "number": 20,
       "text": "20.\n다음은\nSQL\n에 관한 문제이다\n.\n아래\nA\n테이블을 참고하여 쿼리의 결과를 작성하시오\n.\n[ SQL ]\nSELECT count(col2) FROM A WHERE col1 IN (2, 3) OR col2 IN (3, 5)",
-      "question_html": "<p data-ke-size=\"size16\"><b>20.<span>다음은</span><span>SQL</span><span>에 관한 문제이다</span><span>.</span><span>아래</span><span>A</span><span>테이블을 참고하여 쿼리의 결과를 작성하시오</span><span>.</span></b></p>\n<p data-ke-size=\"size16\"><b>[ SQL ]</b></p>\n<p data-ke-size=\"size16\"><span>SELECT count(col2) FROM A WHERE col1 IN (2, 3) OR col2 IN (3, 5)</span></p>",
+      "question_html": "<p data-ke-size=\"size16\"><b><br/>20.<span>다음은</span><span>SQL</span><span>에 관한 문제이다</span><span>.</span><span>아래</span><span>A</span><span>테이블을 참고하여 쿼리의 결과를 작성하시오</span><span>.</span></b></p>\n<p data-ke-size=\"size16\"><b>[ SQL ]</b></p>\n<p data-ke-size=\"size16\"><span>SELECT count(col2) FROM A WHERE col1 IN (2, 3) OR col2 IN (3, 5)</span></p>",
       "options": "",
       "images": [],
       "code": null,

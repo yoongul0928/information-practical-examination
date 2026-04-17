@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:13:41.427907",
+    "crawl_time": "2026-04-17T18:20:15.317723",
     "source": "https://chobopark.tistory.com/483",
     "total_questions": 20
   },
@@ -51,8 +51,8 @@
     },
     {
       "number": 5,
-      "text": "5. 다음은 프로토콜에 대한 내용이다. 아래 내용을 읽고 알맞는 답을 작성하시오.\n- Network layer에서 IP패킷을 암호화하고 인증하는 등의 보안을 위한 표준이다.\n- 기업에서 사설 인터넷망으로 사용할 수 있는 VPN을 구현하는데 사용되는 프로토콜이다. - AH(Authentication Header)와 ESP(Encapsulating Security Payload)라는 두 가지 보안 프로토콜을 사용한다.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>5. 다음은 프로토콜에 대한 내용이다. 아래 내용을 읽고 알맞는 답을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">- Network layer에서 IP패킷을 암호화하고 인증하는 등의 보안을 위한 표준이다. </p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">- 기업에서 사설 인터넷망으로 사용할 수 있는 VPN을 구현하는데 사용되는 프로토콜이다. - AH(Authentication Header)와 ESP(Encapsulating Security Payload)라는 두 가지 보안 프로토콜을 사용한다.</p>",
+      "text": "5. 다음은 프로토콜에 대한 내용이다. 아래 내용을 읽고 알맞는 답을 작성하시오.\n- Network layer에서 IP패킷을 암호화하고 인증하는 등의 보안을 위한 표준이다.\n- 기업에서 사설 인터넷망으로 사용할 수 있는 VPN을 구현하는데 사용되는 프로토콜이다.\n- AH(Authentication Header)와 ESP(Encapsulating Security Payload)라는 두 가지 보안 프로토콜을 사용한다.",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>5. 다음은 프로토콜에 대한 내용이다. 아래 내용을 읽고 알맞는 답을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">- Network layer에서 IP패킷을 암호화하고 인증하는 등의 보안을 위한 표준이다. </p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">- 기업에서 사설 인터넷망으로 사용할 수 있는 VPN을 구현하는데 사용되는 프로토콜이다. <br/>- AH(Authentication Header)와 ESP(Encapsulating Security Payload)라는 두 가지 보안 프로토콜을 사용한다.</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -73,8 +73,8 @@
     },
     {
       "number": 7,
-      "text": "7. 아래 설명하는 내용을 확인하여 알맞는 알고리즘을 작성하시오.\n- 대칭키 알고리즘으로 1997년 NIST(미국 국립기술표준원)에서 DES를 대체하기 위해 생성되었다. - 128비트, 192비트 또는 256비트의 가변 키 크기와 128비트의 고정 블록 크기를 사용한다. - 높은 안전성과 효율성, 속도 등으로 인해 DES 대신 전 세계적으로 많이 사용되고 있다.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>7. 아래 설명하는 내용을 확인하여 알맞는 알고리즘을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">- 대칭키 알고리즘으로 1997년 NIST(미국 국립기술표준원)에서 DES를 대체하기 위해 생성되었다. - 128비트, 192비트 또는 256비트의 가변 키 크기와 128비트의 고정 블록 크기를 사용한다. - 높은 안전성과 효율성, 속도 등으로 인해 DES 대신 전 세계적으로 많이 사용되고 있다.</p>",
+      "text": "7. 아래 설명하는 내용을 확인하여 알맞는 알고리즘을 작성하시오.\n- 대칭키 알고리즘으로 1997년 NIST(미국 국립기술표준원)에서 DES를 대체하기 위해 생성되었다.\n- 128비트, 192비트 또는 256비트의 가변 키 크기와 128비트의 고정 블록 크기를 사용한다.\n- 높은 안전성과 효율성, 속도 등으로 인해 DES 대신 전 세계적으로 많이 사용되고 있다.",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>7. 아래 설명하는 내용을 확인하여 알맞는 알고리즘을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">- 대칭키 알고리즘으로 1997년 NIST(미국 국립기술표준원)에서 DES를 대체하기 위해 생성되었다. <br/>- 128비트, 192비트 또는 256비트의 가변 키 크기와 128비트의 고정 블록 크기를 사용한다. <br/>- 높은 안전성과 효율성, 속도 등으로 인해 DES 대신 전 세계적으로 많이 사용되고 있다.</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -95,8 +95,8 @@
     },
     {
       "number": 9,
-      "text": "9. 아래 내용을 확인하고 보기에서 알맞는 답을 고르시오.\n실행 순서가 밀접한 관계를 갖는 기능을 모아 모듈로 구성한다. 한 모듈 내부의 한 기능 요소에 의한 출력 자료가 다음 기능 원소의 입력 자료로서 제공되는 형태이다.\n보기\nㄱ. 기능적(functional) ㄴ. 우연적(Coincidental) ㄷ. 통신적(Communication) ㄹ. 절차적(Procedural) ㅁ. 시간적(Temporal) ㅂ. 순차적(sequential) ㅅ. 논리적(Logical)",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>9. 아래 내용을 확인하고 보기에서 알맞는 답을 고르시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">실행 순서가 밀접한 관계를 갖는 기능을 모아 모듈로 구성한다. 한 모듈 내부의 한 기능 요소에 의한 출력 자료가 다음 기능 원소의 입력 자료로서 제공되는 형태이다.</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><u><b>보기</b></u></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">ㄱ.  기능적(functional)           ㄴ.  우연적(Coincidental)          ㄷ.  통신적(Communication)       ㄹ.  절차적(Procedural)         ㅁ.  시간적(Temporal)           ㅂ.  순차적(sequential)              ㅅ.    논리적(Logical)</p>",
+      "text": "9. 아래 내용을 확인하고 보기에서 알맞는 답을 고르시오.\n실행 순서가 밀접한 관계를 갖는 기능을 모아 모듈로 구성한다.\n한 모듈 내부의 한 기능 요소에 의한 출력 자료가 다음 기능 원소의 입력 자료로서 제공되는 형태이다.\n보기\nㄱ. 기능적(functional) ㄴ. 우연적(Coincidental) ㄷ. 통신적(Communication) ㄹ. 절차적(Procedural) ㅁ. 시간적(Temporal) ㅂ. 순차적(sequential) ㅅ. 논리적(Logical)",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>9. 아래 내용을 확인하고 보기에서 알맞는 답을 고르시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">실행 순서가 밀접한 관계를 갖는 기능을 모아 모듈로 구성한다. <br/>한 모듈 내부의 한 기능 요소에 의한 출력 자료가 다음 기능 원소의 입력 자료로서 제공되는 형태이다.</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><u><b>보기</b></u></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">ㄱ.  기능적(functional)           ㄴ.  우연적(Coincidental)          ㄷ.  통신적(Communication)       ㄹ.  절차적(Procedural)         ㅁ.  시간적(Temporal)           ㅂ.  순차적(sequential)              ㅅ.    논리적(Logical)</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -106,8 +106,8 @@
     },
     {
       "number": 10,
-      "text": "10. 아래는 디자인 패턴에 관한 설명이다. 아래 설명을 읽고 보기에서 알맞는 용어를 작성하시오.\n- 컬렉션 객체의 내부 구조를 노출하지 않고 순차적으로 접근할 수 있게 하는 패턴이다. - 이 패턴은 객체의 내부 표현 방식에 독립적으로 요소에 접근할 수 있도록 해준다 - 반복 프로세스를 캡슐화하여 클라이언트 코드에서는 컬렉션의 구체적인 구현에 종속되지 않도록 한다.\n보기\n생성패턴\n구조패턴\n행위패턴\nSingleton\nAdapter\nIterator\nFactory Method\nBridge\nVisitor\nAbstract Factory\nComposite\nObserver\n반응형",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>10. 아래는 디자인 패턴에 관한 설명이다. 아래 설명을 읽고 보기에서 알맞는 용어를 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">- 컬렉션 객체의 내부 구조를 노출하지 않고 순차적으로 접근할 수 있게 하는 패턴이다.  - 이 패턴은 객체의 내부 표현 방식에 독립적으로 요소에 접근할 수 있도록 해준다 - 반복 프로세스를 캡슐화하여 클라이언트 코드에서는 컬렉션의 구체적인 구현에 종속되지 않도록 한다.</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><u><b>보기</b></u></p>\n<table border=\"1\" data-ke-align=\"alignLeft\" style=\"border-collapse: collapse; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"width: 33.3333%;\">생성패턴</td>\n<td style=\"width: 33.3333%;\">구조패턴</td>\n<td style=\"width: 33.3333%;\">행위패턴</td>\n</tr>\n<tr>\n<td style=\"width: 33.3333%;\">Singleton</td>\n<td style=\"width: 33.3333%;\">Adapter</td>\n<td style=\"width: 33.3333%;\">Iterator</td>\n</tr>\n<tr>\n<td style=\"width: 33.3333%;\">Factory Method</td>\n<td style=\"width: 33.3333%;\">Bridge</td>\n<td style=\"width: 33.3333%;\">Visitor</td>\n</tr>\n<tr>\n<td style=\"width: 33.3333%;\">Abstract Factory</td>\n<td style=\"width: 33.3333%;\">Composite</td>\n<td style=\"width: 33.3333%;\">Observer</td>\n</tr>\n</tbody>\n</table>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
+      "text": "10. 아래는 디자인 패턴에 관한 설명이다. 아래 설명을 읽고 보기에서 알맞는 용어를 작성하시오.\n- 컬렉션 객체의 내부 구조를 노출하지 않고 순차적으로 접근할 수 있게 하는 패턴이다.\n- 이 패턴은 객체의 내부 표현 방식에 독립적으로 요소에 접근할 수 있도록 해준다\n- 반복 프로세스를 캡슐화하여 클라이언트 코드에서는 컬렉션의 구체적인 구현에 종속되지 않도록 한다.\n보기\n생성패턴\n구조패턴\n행위패턴\nSingleton\nAdapter\nIterator\nFactory Method\nBridge\nVisitor\nAbstract Factory\nComposite\nObserver\n반응형",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>10. 아래는 디자인 패턴에 관한 설명이다. 아래 설명을 읽고 보기에서 알맞는 용어를 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">- 컬렉션 객체의 내부 구조를 노출하지 않고 순차적으로 접근할 수 있게 하는 패턴이다.  <br/>- 이 패턴은 객체의 내부 표현 방식에 독립적으로 요소에 접근할 수 있도록 해준다 <br/>- 반복 프로세스를 캡슐화하여 클라이언트 코드에서는 컬렉션의 구체적인 구현에 종속되지 않도록 한다.</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><u><b>보기</b></u></p>\n<table border=\"1\" data-ke-align=\"alignLeft\" style=\"border-collapse: collapse; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"width: 33.3333%;\">생성패턴</td>\n<td style=\"width: 33.3333%;\">구조패턴</td>\n<td style=\"width: 33.3333%;\">행위패턴</td>\n</tr>\n<tr>\n<td style=\"width: 33.3333%;\">Singleton</td>\n<td style=\"width: 33.3333%;\">Adapter</td>\n<td style=\"width: 33.3333%;\">Iterator</td>\n</tr>\n<tr>\n<td style=\"width: 33.3333%;\">Factory Method</td>\n<td style=\"width: 33.3333%;\">Bridge</td>\n<td style=\"width: 33.3333%;\">Visitor</td>\n</tr>\n<tr>\n<td style=\"width: 33.3333%;\">Abstract Factory</td>\n<td style=\"width: 33.3333%;\">Composite</td>\n<td style=\"width: 33.3333%;\">Observer</td>\n</tr>\n</tbody>\n</table>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
       "options": "",
       "images": [],
       "code": null,
@@ -172,8 +172,8 @@
     },
     {
       "number": 16,
-      "text": "16. 아래는 소프트웨어 설계에 대한 내용이다. 내용을 읽고 괄호안에 알맞는 답을 작성하시오.\n- 어떤 모듈이 다른 모듈 내부의 논리적인 흐름을 제어하기 위해, 제어를 통신하거나 제어 요소를 전달하는 결합도이다. - 한 모듈이 다른 모듈의 상세한 처리 절차를 알고 있어 이를 통제하는 경우나 처리 기능이 두 모듈에 분리되어 설계된 경우에 발생한다.\n( ) Coupling",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>16. 아래는 소프트웨어 설계에 대한 내용이다. 내용을 읽고 괄호안에 알맞는 답을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">- 어떤 모듈이 다른 모듈 내부의 논리적인 흐름을 제어하기 위해, 제어를 통신하거나 제어 요소를 전달하는 결합도이다. - 한 모듈이 다른 모듈의 상세한 처리 절차를 알고 있어 이를 통제하는 경우나 처리 기능이 두 모듈에 분리되어 설계된 경우에 발생한다.</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">(              ) Coupling</p>",
+      "text": "16. 아래는 소프트웨어 설계에 대한 내용이다. 내용을 읽고 괄호안에 알맞는 답을 작성하시오.\n- 어떤 모듈이 다른 모듈 내부의 논리적인 흐름을 제어하기 위해, 제어를 통신하거나 제어 요소를 전달하는 결합도이다.\n- 한 모듈이 다른 모듈의 상세한 처리 절차를 알고 있어 이를 통제하는 경우나 처리 기능이 두 모듈에 분리되어 설계된 경우에 발생한다.\n( ) Coupling",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>16. 아래는 소프트웨어 설계에 대한 내용이다. 내용을 읽고 괄호안에 알맞는 답을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">- 어떤 모듈이 다른 모듈 내부의 논리적인 흐름을 제어하기 위해, 제어를 통신하거나 제어 요소를 전달하는 결합도이다. <br/>- 한 모듈이 다른 모듈의 상세한 처리 절차를 알고 있어 이를 통제하는 경우나 처리 기능이 두 모듈에 분리되어 설계된 경우에 발생한다.</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">(              ) Coupling</p>",
       "options": "",
       "images": [],
       "code": null,

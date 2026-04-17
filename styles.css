@@ -164,8 +164,8 @@ button:active {
 }
 
 .question-code {
-    background: #282c34;
-    color: #abb2bf;
+    background: #f7f8fa;
+    color: #1f2937;
     padding: 15px;
     border-radius: 6px;
     overflow-x: auto;
@@ -175,6 +175,7 @@ button:active {
     line-height: 1.5;
     white-space: pre;
     tab-size: 4;
+    border: 1px solid #d8dee4;
 }
 
 .question-code code {
@@ -215,6 +216,24 @@ button:active {
     white-space: pre-wrap;
     word-break: break-word;
     line-height: 1.5;
+}
+
+.answer-html {
+    white-space: normal;
+}
+
+.answer-html p {
+    margin: 0 0 8px;
+}
+
+.answer-html p:last-child {
+    margin-bottom: 0;
+}
+
+.answer-html br {
+    display: block;
+    content: "";
+    margin-top: 4px;
 }
 
 .toggle-answer-btn {

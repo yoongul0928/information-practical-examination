@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:13:38.932237",
+    "crawl_time": "2026-04-17T18:20:13.560919",
     "source": "https://chobopark.tistory.com/540",
     "total_questions": 20
   },
@@ -30,7 +30,7 @@
     {
       "number": 3,
       "text": "3. 아래의 내용에서 설명 글의 괄호안의 용어를 영문 약자로 작성하시오.\n( ) 은/는 3글자의 영어 약자로 이루어진 오류 기법으로 데이터를 전송하거나 저장할 때 데이터의 오류를 감지하는 데 사용되는 오류 검출 코드이다.\n( ) 은/는 데이터에 체크섬을 추가하여 데이터를 전송하거나 저장한 후, 수신 또는 읽을 때 이 체크섬을 다시 계산하여 데이터가 변경되었는지 확인하는 기법이다.\n( ) 은/는 데이터 전송의 안정성을 높이는 데 중요한 역할을 한다.\n데이터는 이진수(0과 1)로 표현되며 정해진 다항식(x³ + x + 1)을 기반으로 데이터를 2진수 나눗셈하고나머지를 ( ) 값으로 삼는다.",
-      "question_html": "<p data-ke-size=\"size16\"><b>3. 아래의 내용에서 설명 글의 괄호안의 용어를 영문 약자로 작성하시오.</b></p>\n<p data-ke-size=\"size16\">(        ) 은/는 3글자의 영어 약자로 이루어진 오류 기법으로 데이터를 전송하거나 저장할 때 데이터의 오류를 감지하는 데 사용되는 오류 검출 코드이다.</p>\n<p data-ke-size=\"size16\">(        ) 은/는 데이터에 체크섬을 추가하여 데이터를 전송하거나 저장한 후, 수신 또는 읽을 때 이 체크섬을 다시 계산하여 데이터가 변경되었는지 확인하는 기법이다.</p>\n<p data-ke-size=\"size16\">(        ) 은/는 데이터 전송의 안정성을 높이는 데 중요한 역할을 한다.</p>\n<p data-ke-size=\"size16\">데이터는 이진수(0과 1)로 표현되며 정해진 다항식(x³ + x + 1)을 기반으로 데이터를 2진수 나눗셈하고나머지를 (       ) 값으로 삼는다.</p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>3. 아래의 내용에서 설명 글의 괄호안의 용어를 영문 약자로 작성하시오.</b></p>\n<p data-ke-size=\"size16\">(        ) 은/는 3글자의 영어 약자로 이루어진 오류 기법으로 데이터를 전송하거나 저장할 때 데이터의 오류를 감지하는 데 사용되는 오류 검출 코드이다.</p>\n<p data-ke-size=\"size16\"><br/>(        ) 은/는 데이터에 체크섬을 추가하여 데이터를 전송하거나 저장한 후, 수신 또는 읽을 때 이 체크섬을 다시 계산하여 데이터가 변경되었는지 확인하는 기법이다.</p>\n<p data-ke-size=\"size16\"><br/>(        ) 은/는 데이터 전송의 안정성을 높이는 데 중요한 역할을 한다.</p>\n<p data-ke-size=\"size16\"><br/>데이터는 이진수(0과 1)로 표현되며 정해진 다항식(x³ + x + 1)을 기반으로 데이터를 2진수 나눗셈하고나머지를 (       ) 값으로 삼는다.</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -40,8 +40,8 @@
     },
     {
       "number": 4,
-      "text": "4. 다음은 악성코드 관련된 문제이다. 아래 내용을 확인하여 보기에 골라 작성하시오.\n사용자가 원치 않는 소프트웨어를 구매하도록 조작하기 위해 사회 공학을 사용하여 충격, 불안 또는 위협에 대한 인식을 유발하는 악성 소프트웨어의 한 형태이다. ‘겁을 주다’라는 영어 단어에서 유래한 것으로 공포를 이용하여 피해자를 속여 대가를 지불 하거나 특정 행동을 유도하는 랜섬웨어이다. 가짜 바이러스 경고나 시스템 문제를 표시하여 사용자가 돈을 지불하거나 특정 소프트웨어를 설치하도록 속이는 방식으로 작동한다.\n보기\nㄱ. 컴포넌트 웨어 ㄴ. 유즈웨어 ㄷ. 셔블웨어 ㄹ. 스캐어 웨어 ㅁ. 안티 스파이 웨어 ㅂ. 네트웨어 ㅅ. 그룹웨어 ㅇ. 애드웨어",
-      "question_html": "<p data-ke-size=\"size16\"><b>4. 다음은 악성코드 관련된 문제이다. 아래 내용을 확인하여 보기에 골라 작성하시오.</b> 사용자가 원치 않는 소프트웨어를 구매하도록 조작하기 위해 사회 공학을 사용하여 충격, 불안 또는 위협에 대한 인식을 유발하는 악성 소프트웨어의 한 형태이다. ‘겁을 주다’라는 영어 단어에서 유래한 것으로 공포를 이용하여 피해자를 속여 대가를 지불 하거나 특정 행동을 유도하는 랜섬웨어이다. 가짜 바이러스 경고나 시스템 문제를 표시하여 사용자가 돈을 지불하거나 특정 소프트웨어를 설치하도록 속이는 방식으로 작동한다. </p>\n<p data-ke-size=\"size16\"><b>보기</b></p>\n<p data-ke-size=\"size16\">ㄱ. 컴포넌트 웨어  ㄴ. 유즈웨어  ㄷ. 셔블웨어  ㄹ. 스캐어 웨어  ㅁ. 안티 스파이 웨어  ㅂ. 네트웨어  ㅅ. 그룹웨어  ㅇ. 애드웨어</p>",
+      "text": "4. 다음은 악성코드 관련된 문제이다. 아래 내용을 확인하여 보기에 골라 작성하시오.\n사용자가 원치 않는 소프트웨어를 구매하도록 조작하기 위해 사회 공학을 사용하여 충격, 불안 또는 위협에 대한 인식을 유발하는 악성 소프트웨어의 한 형태이다.\n‘겁을 주다’라는 영어 단어에서 유래한 것으로 공포를 이용하여 피해자를 속여 대가를 지불 하거나 특정 행동을 유도하는 랜섬웨어이다.\n가짜 바이러스 경고나 시스템 문제를 표시하여 사용자가 돈을 지불하거나 특정 소프트웨어를 설치하도록 속이는 방식으로 작동한다.\n보기\nㄱ. 컴포넌트 웨어 ㄴ. 유즈웨어 ㄷ. 셔블웨어 ㄹ. 스캐어 웨어 ㅁ. 안티 스파이 웨어 ㅂ. 네트웨어 ㅅ. 그룹웨어 ㅇ. 애드웨어",
+      "question_html": "<p data-ke-size=\"size16\"><b>4. 다음은 악성코드 관련된 문제이다. 아래 내용을 확인하여 보기에 골라 작성하시오.</b> <br/><br/><br/>사용자가 원치 않는 소프트웨어를 구매하도록 조작하기 위해 사회 공학을 사용하여 충격, 불안 또는 위협에 대한 인식을 유발하는 악성 소프트웨어의 한 형태이다. <br/><br/>‘겁을 주다’라는 영어 단어에서 유래한 것으로 공포를 이용하여 피해자를 속여 대가를 지불 하거나 특정 행동을 유도하는 랜섬웨어이다. <br/><br/>가짜 바이러스 경고나 시스템 문제를 표시하여 사용자가 돈을 지불하거나 특정 소프트웨어를 설치하도록 속이는 방식으로 작동한다. </p>\n<p data-ke-size=\"size16\"><b>보기</b></p>\n<p data-ke-size=\"size16\">ㄱ. 컴포넌트 웨어  ㄴ. 유즈웨어  ㄷ. 셔블웨어  ㄹ. 스캐어 웨어  ㅁ. 안티 스파이 웨어  ㅂ. 네트웨어  ㅅ. 그룹웨어  ㅇ. 애드웨어</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -63,7 +63,7 @@
     {
       "number": 6,
       "text": "6. 아래 내용은 ARP/RARP에 대한 설명이다. 각 설명에 해당하는 것을 작성하시오.\n( 1 ) 은/는 네트워크상에서 IP 주소를 MAC 주소로 변환하는 프로토콜이고,\n( 2 ) 은/는 MAC 주소를 IP 주소로 변환하는 프로토콜이다.",
-      "question_html": "<p data-ke-size=\"size16\"><b>6. 아래 내용은 ARP/RARP에 대한 설명이다. 각 설명에 해당하는 것을 작성하시오.</b></p>\n<p data-ke-size=\"size16\">( 1 ) 은/는 네트워크상에서 IP 주소를 MAC 주소로 변환하는 프로토콜이고,</p>\n<p data-ke-size=\"size16\">( 2 ) 은/는 MAC 주소를 IP 주소로 변환하는 프로토콜이다.</p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>6. 아래 내용은 ARP/RARP에 대한 설명이다. 각 설명에 해당하는 것을 작성하시오.</b></p>\n<p data-ke-size=\"size16\"><br/>( 1 ) 은/는 네트워크상에서 IP 주소를 MAC 주소로 변환하는 프로토콜이고,</p>\n<p data-ke-size=\"size16\">( 2 ) 은/는 MAC 주소를 IP 주소로 변환하는 프로토콜이다.</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -79,24 +79,24 @@
       "images": [],
       "code": null,
       "code_html": null,
-      "answer": "name | incentives 이순신 | 1000",
-      "answer_html": "<p data-ke-size=\"size16\">name  |  incentives  이순신 | 1000         </p>"
+      "answer": "name | incentives\n이순신 | 1000",
+      "answer_html": "<p data-ke-size=\"size16\">name  |  incentives  <br/>이순신 | 1000         </p>"
     },
     {
       "number": 8,
-      "text": "8. 아래는 데이터베이스에 관련된 설명이다. 알맞는 용어를 보기에서 골라 괄호를 작성하시오.\n1. 릴레이션에서 속성의 개수를 의미 : ( 1 ) 2. 릴레이션에서 튜플의 개수를 의미 : ( 2 ) 3. 한 릴레이션의 속상이 다른 릴레이션의 기본 키를 참조할 때, 참조하는 속성을 의미 : ( 3 ) 4. 특정 속성에 대해 입력될 수 있는 값의 유형이나 범위를 의미하고 무결성을 보장하는 기준 : ( 4 )\n[보기]\nㄱ. domain ㄴ. primary ㄷ. degree ㄹ. candidate ㅁ. cardinality ㅂ. attribute ㅅ. foreign",
-      "question_html": "<p data-ke-size=\"size16\"><b>8. 아래는 데이터베이스에 관련된 설명이다. 알맞는 용어를 보기에서 골라 괄호를 작성하시오. </b>1. 릴레이션에서 속성의 개수를 의미 : ( 1 ) 2. 릴레이션에서 튜플의 개수를 의미 : ( 2 ) 3. 한 릴레이션의 속상이 다른 릴레이션의 기본 키를 참조할 때, 참조하는 속성을 의미 : ( 3 ) 4. 특정 속성에 대해 입력될 수 있는 값의 유형이나 범위를 의미하고 무결성을 보장하는 기준 : ( 4 )</p>\n<p data-ke-size=\"size16\"><b>[보기]</b></p>\n<p data-ke-size=\"size16\">ㄱ. domain   ㄴ. primary   ㄷ. degree    ㄹ. candidate   ㅁ. cardinality   ㅂ. attribute   ㅅ. foreign</p>",
+      "text": "8. 아래는 데이터베이스에 관련된 설명이다. 알맞는 용어를 보기에서 골라 괄호를 작성하시오.\n1. 릴레이션에서 속성의 개수를 의미 : ( 1 )\n2. 릴레이션에서 튜플의 개수를 의미 : ( 2 )\n3. 한 릴레이션의 속상이 다른 릴레이션의 기본 키를 참조할 때, 참조하는 속성을 의미 : ( 3 )\n4. 특정 속성에 대해 입력될 수 있는 값의 유형이나 범위를 의미하고 무결성을 보장하는 기준 : ( 4 )\n[보기]\nㄱ. domain ㄴ. primary ㄷ. degree ㄹ. candidate ㅁ. cardinality ㅂ. attribute ㅅ. foreign",
+      "question_html": "<p data-ke-size=\"size16\"><b>8. 아래는 데이터베이스에 관련된 설명이다. 알맞는 용어를 보기에서 골라 괄호를 작성하시오. </b><br/><br/><br/>1. 릴레이션에서 속성의 개수를 의미 : ( 1 ) <br/><br/>2. 릴레이션에서 튜플의 개수를 의미 : ( 2 ) <br/><br/>3. 한 릴레이션의 속상이 다른 릴레이션의 기본 키를 참조할 때, 참조하는 속성을 의미 : ( 3 ) <br/><br/>4. 특정 속성에 대해 입력될 수 있는 값의 유형이나 범위를 의미하고 무결성을 보장하는 기준 : ( 4 )</p>\n<p data-ke-size=\"size16\"><b>[보기]</b></p>\n<p data-ke-size=\"size16\">ㄱ. domain   ㄴ. primary   ㄷ. degree    ㄹ. candidate   ㅁ. cardinality   ㅂ. attribute   ㅅ. foreign</p>",
       "options": "",
       "images": [],
       "code": null,
       "code_html": null,
-      "answer": "(1) ㄷ (2) ㅁ (3) ㅅ (4) ㄱ",
-      "answer_html": "<p data-ke-size=\"size16\">(1) ㄷ (2) ㅁ (3) ㅅ (4) ㄱ</p>"
+      "answer": "(1) ㄷ\n(2) ㅁ\n(3) ㅅ\n(4) ㄱ",
+      "answer_html": "<p data-ke-size=\"size16\">(1) ㄷ <br/>(2) ㅁ <br/>(3) ㅅ <br/>(4) ㄱ</p>"
     },
     {
       "number": 9,
-      "text": "9. IP 주소가 192.168.35.10, 서브넷 255.255.252.0인 PC에서 브로드캐스팅으로 다른 IP로 정보를 전달한다고 할 때 수신할 수 있는 알맞는 IP를 보기에서 골라 모두 작성하시오.\n[보기]\nㄱ. 192.168.34.1 ㄴ. 192.168.32.19 ㄷ. 192.168.35.200 ㄹ. 192.168.33.138 ㅁ. 192.168.35.50",
-      "question_html": "<p data-ke-size=\"size16\"><b>9. IP 주소가 192.168.35.10, 서브넷 255.255.252.0인 PC에서 브로드캐스팅으로 다른 IP로 정보를 전달한다고 할 때 수신할 수 있는 알맞는 IP를 보기에서 골라 모두 작성하시오.</b></p>\n<p data-ke-size=\"size16\"><b>[보기] </b>ㄱ. 192.168.34.1  ㄴ. 192.168.32.19 ㄷ. 192.168.35.200 ㄹ. 192.168.33.138 ㅁ. 192.168.35.50</p>",
+      "text": "9. IP 주소가 192.168.35.10, 서브넷 255.255.252.0인 PC에서 브로드캐스팅으로 다른 IP로 정보를 전달한다고 할 때 수신할 수 있는 알맞는 IP를 보기에서 골라 모두 작성하시오.\n[보기]\nㄱ. 192.168.34.1\nㄴ. 192.168.32.19\nㄷ. 192.168.35.200\nㄹ. 192.168.33.138\nㅁ. 192.168.35.50",
+      "question_html": "<p data-ke-size=\"size16\"><b>9. IP 주소가 192.168.35.10, 서브넷 255.255.252.0인 PC에서 브로드캐스팅으로 다른 IP로 정보를 전달한다고 할 때 수신할 수 있는 알맞는 IP를 보기에서 골라 모두 작성하시오.</b></p>\n<p data-ke-size=\"size16\"><br/><b>[보기] </b><br/><br/>ㄱ. 192.168.34.1  <br/>ㄴ. 192.168.32.19 <br/>ㄷ. 192.168.35.200 <br/>ㄹ. 192.168.33.138 <br/>ㅁ. 192.168.35.50</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -112,8 +112,8 @@
       "images": [],
       "code": "#include <stdio.h>\nchar Data[5] = {'B', 'A', 'D', 'E'};\nchar c;\nint main(){\n    int i, temp, temp2;\n    c = 'C';\n    printf(\"%d\\n\", Data[3]-Data[1]);\n    for(i=0;i<5;++i){\n        if(Data[i]>c)\n            break;\n    }\n    temp = Data[i];\n    Data[i] = c;\n    i++;\n    for(;i<5;++i){\n        temp2 = Data[i];\n        Data[i] = temp;\n        temp = temp2;\n    }\n    for(i=0;i<5;i++){\n        printf(\"%c\", Data[i]);\n    }\n}",
       "code_html": "<div class=\"code-line\"><span style=\"color: #0086b3;\">#include</span> <span style=\"color: #a71d5d;\">&lt;</span>stdio.h<span style=\"color: #a71d5d;\">&gt;</span></div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">char</span> Data[<span style=\"color: #0099cc;\">5</span>] <span style=\"color: #a71d5d;\">=</span> {<span style=\"color: #63a35c;\">'B'</span>, <span style=\"color: #63a35c;\">'A'</span>, <span style=\"color: #63a35c;\">'D'</span>, <span style=\"color: #63a35c;\">'E'</span>};</div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">char</span> c;</div>\n<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> main(){</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> i, temp, temp2;</div>\n<div class=\"code-line\">    c <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #63a35c;\">'C'</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%d\\n\"</span>, Data[<span style=\"color: #0099cc;\">3</span>]<span style=\"color: #a71d5d;\">-</span>Data[<span style=\"color: #0099cc;\">1</span>]);</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">for</span>(i<span style=\"color: #a71d5d;\">=</span><span style=\"color: #0099cc;\">0</span>;i<span style=\"color: #a71d5d;\">&lt;</span><span style=\"color: #0099cc;\">5</span>;<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>i){</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">if</span>(Data[i]<span style=\"color: #a71d5d;\">&gt;</span>c)</div>\n<div class=\"code-line\">            <span style=\"color: #a71d5d;\">break</span>;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    temp <span style=\"color: #a71d5d;\">=</span> Data[i];</div>\n<div class=\"code-line\">    Data[i] <span style=\"color: #a71d5d;\">=</span> c;</div>\n<div class=\"code-line\">    i<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">for</span>(;i<span style=\"color: #a71d5d;\">&lt;</span><span style=\"color: #0099cc;\">5</span>;<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>i){</div>\n<div class=\"code-line\">        temp2 <span style=\"color: #a71d5d;\">=</span> Data[i];</div>\n<div class=\"code-line\">        Data[i] <span style=\"color: #a71d5d;\">=</span> temp;</div>\n<div class=\"code-line\">        temp <span style=\"color: #a71d5d;\">=</span> temp2;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">for</span>(i<span style=\"color: #a71d5d;\">=</span><span style=\"color: #0099cc;\">0</span>;i<span style=\"color: #a71d5d;\">&lt;</span><span style=\"color: #0099cc;\">5</span>;i<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>){</div>\n<div class=\"code-line\">        <span style=\"color: #066de2;\">printf</span>(<span style=\"color: #63a35c;\">\"%c\"</span>, Data[i]);</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">}</div>",
-      "answer": "4 BACDE",
-      "answer_html": "<p data-ke-size=\"size16\">4  BACDE</p>"
+      "answer": "4\nBACDE",
+      "answer_html": "<p data-ke-size=\"size16\">4  <br/>BACDE</p>"
     },
     {
       "number": 11,
@@ -128,14 +128,14 @@
     },
     {
       "number": 12,
-      "text": "12. 다음은 결합도와 관련된 내용이다. 보기에 알맞는 답을 골라 작성하시오.\n(1) 다른 모듈 내부에 있는 변수나 기능을 다른 모듈에서 사용하는 경우의 결합도 (2) 모듈 간의 인터페이스로 배열이나 오브젝트, 자료구조 등이 전달되는 경우의 결합도 (3) 파라미터가 아닌 모듈 밖에 선언되어 있는 전역 변수를 참조하고 전역 변수를 갱신하는 식으로 상호작용하는 경우의 결합도\n[보기]\nㄱ. 자료 결합도 ㄴ. 스탬프 결합도 ㄷ. 제어 결합도 ㄹ. 공통 결합도 ㅁ. 내용 결합도 ㅂ. 외부 결합도",
-      "question_html": "<p data-ke-size=\"size16\"><b>12. 다음은 결합도와 관련된 내용이다. 보기에 알맞는 답을 골라 작성하시오. </b>(1) 다른 모듈 내부에 있는 변수나 기능을 다른 모듈에서 사용하는 경우의 결합도 (2) 모듈 간의 인터페이스로 배열이나 오브젝트, 자료구조 등이 전달되는 경우의 결합도 (3) 파라미터가 아닌 모듈 밖에 선언되어 있는 전역 변수를 참조하고 전역 변수를 갱신하는 식으로 상호작용하는 경우의 결합도 <b>[보기] </b>ㄱ. 자료 결합도  ㄴ. 스탬프 결합도 ㄷ. 제어 결합도  ㄹ. 공통 결합도  ㅁ. 내용 결합도  ㅂ. 외부 결합도</p>",
+      "text": "12. 다음은 결합도와 관련된 내용이다. 보기에 알맞는 답을 골라 작성하시오.\n(1) 다른 모듈 내부에 있는 변수나 기능을 다른 모듈에서 사용하는 경우의 결합도\n(2) 모듈 간의 인터페이스로 배열이나 오브젝트, 자료구조 등이 전달되는 경우의 결합도\n(3) 파라미터가 아닌 모듈 밖에 선언되어 있는 전역 변수를 참조하고 전역 변수를 갱신하는 식으로 상호작용하는 경우의 결합도\n[보기]\nㄱ. 자료 결합도 ㄴ. 스탬프 결합도 ㄷ. 제어 결합도 ㄹ. 공통 결합도 ㅁ. 내용 결합도 ㅂ. 외부 결합도",
+      "question_html": "<p data-ke-size=\"size16\"><b>12. 다음은 결합도와 관련된 내용이다. 보기에 알맞는 답을 골라 작성하시오. </b><br/><br/><br/>(1) 다른 모듈 내부에 있는 변수나 기능을 다른 모듈에서 사용하는 경우의 결합도 <br/><br/>(2) 모듈 간의 인터페이스로 배열이나 오브젝트, 자료구조 등이 전달되는 경우의 결합도 <br/><br/>(3) 파라미터가 아닌 모듈 밖에 선언되어 있는 전역 변수를 참조하고 전역 변수를 갱신하는 식으로 상호작용하는 경우의 결합도 <br/><br/><br/><br/><b>[보기] </b><br/><br/>ㄱ. 자료 결합도  ㄴ. 스탬프 결합도 ㄷ. 제어 결합도  ㄹ. 공통 결합도  ㅁ. 내용 결합도  ㅂ. 외부 결합도</p>",
       "options": "",
       "images": [],
       "code": null,
       "code_html": null,
-      "answer": "(1) ㅁ (2) ㄴ (3) ㄹ",
-      "answer_html": "<p data-ke-size=\"size16\">(1) ㅁ  (2) ㄴ  (3) ㄹ</p>"
+      "answer": "(1) ㅁ\n(2) ㄴ\n(3) ㄹ",
+      "answer_html": "<p data-ke-size=\"size16\">(1) ㅁ  <br/>(2) ㄴ  <br/>(3) ㄹ</p>"
     },
     {
       "number": 13,
@@ -150,8 +150,8 @@
     },
     {
       "number": 14,
-      "text": "14. 아래는 디자인 패턴에 대한 설명이다. 알맞는 답을 보기에 골라 작성하시오.\n서로 다른 인터페이스를 가진 클래스들을 연결해 사용 가능하게 한다. 기존 클래스(Adaptee)를 원하는 인터페이스(Target)에 맞게 변환하는 어댑터(Adapter)를 만든다. 기존 클래스를 감싸서(wrapper) 인터페이스를 변환해주는 역할을 한다.",
-      "question_html": "<p data-ke-size=\"size16\"><b>14. 아래는 디자인 패턴에 대한 설명이다. 알맞는 답을 보기에 골라 작성하시오.  </b>서로 다른 인터페이스를 가진 클래스들을 연결해 사용 가능하게 한다. 기존 클래스(Adaptee)를 원하는 인터페이스(Target)에 맞게 변환하는 어댑터(Adapter)를 만든다. 기존 클래스를 감싸서(wrapper) 인터페이스를 변환해주는 역할을 한다. </p>",
+      "text": "14. 아래는 디자인 패턴에 대한 설명이다. 알맞는 답을 보기에 골라 작성하시오.\n서로 다른 인터페이스를 가진 클래스들을 연결해 사용 가능하게 한다.\n기존 클래스(Adaptee)를 원하는 인터페이스(Target)에 맞게 변환하는 어댑터(Adapter)를 만든다.\n기존 클래스를 감싸서(wrapper) 인터페이스를 변환해주는 역할을 한다.",
+      "question_html": "<p data-ke-size=\"size16\"><b>14. 아래는 디자인 패턴에 대한 설명이다. 알맞는 답을 보기에 골라 작성하시오.  </b><br/><br/><br/>서로 다른 인터페이스를 가진 클래스들을 연결해 사용 가능하게 한다. <br/><br/>기존 클래스(Adaptee)를 원하는 인터페이스(Target)에 맞게 변환하는 어댑터(Adapter)를 만든다. <br/><br/>기존 클래스를 감싸서(wrapper) 인터페이스를 변환해주는 역할을 한다. </p>",
       "options": "",
       "images": [],
       "code": null,
@@ -167,8 +167,8 @@
       "images": [],
       "code": "int Main(int b[], int m, int x) {\n    int a = 0;\n    while (a < m || b[a] < x) {\n        if (b[a] < 0)\n            b[a] = -b[a];\n        a++;\n    }\n    return 1;\n}",
       "code_html": "<div class=\"code-line\"><span style=\"color: #066de2;\">int</span> Main(<span style=\"color: #066de2;\">int</span> b[], <span style=\"color: #066de2;\">int</span> m, <span style=\"color: #066de2;\">int</span> x) {</div>\n<div class=\"code-line\">    <span style=\"color: #066de2;\">int</span> a <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>;</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">while</span> (a <span style=\"color: #a71d5d;\">&lt;</span> m <span style=\"color: #a71d5d;\">|</span><span style=\"color: #a71d5d;\">|</span> b[a] <span style=\"color: #a71d5d;\">&lt;</span> x) {</div>\n<div class=\"code-line\">        <span style=\"color: #a71d5d;\">if</span> (b[a] <span style=\"color: #a71d5d;\">&lt;</span> <span style=\"color: #0099cc;\">0</span>)</div>\n<div class=\"code-line\">            b[a] <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #a71d5d;\">-</span>b[a];</div>\n<div class=\"code-line\">        a<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>;</div>\n<div class=\"code-line\">    }</div>\n<div class=\"code-line\">    <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">1</span>;</div>\n<div class=\"code-line\">}</div>",
-      "answer": "(1) int a = 0 (2) a < m || b[a] < x (3) b[a] < 0 (4) b[a] = -b[a]; (5) a++; (6) return 1; (7) ③ → ④ → ⑤ → ② → ⑥",
-      "answer_html": "<p data-ke-size=\"size16\">(1) int a = 0 (2) a &lt; m || b[a] &lt; x (3) b[a] &lt; 0 (4) b[a] = -b[a]; (5) a++; (6) return 1; (7) ③ → ④ → ⑤ → ② → ⑥</p>"
+      "answer": "(1) int a = 0\n(2) a < m || b[a] < x\n(3) b[a] < 0\n(4) b[a] = -b[a];\n(5) a++;\n(6) return 1;\n(7) ③ → ④ → ⑤ → ② → ⑥",
+      "answer_html": "<p data-ke-size=\"size16\">(1) int a = 0 <br/>(2) a &lt; m || b[a] &lt; x <br/>(3) b[a] &lt; 0 <br/>(4) b[a] = -b[a]; <br/>(5) a++; <br/>(6) return 1; <br/>(7) ③ → ④ → ⑤ → ② → ⑥</p>"
     },
     {
       "number": 16,

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:13:41.908005",
+    "crawl_time": "2026-04-17T18:20:15.668406",
     "source": "https://chobopark.tistory.com/495",
     "total_questions": 20
   },
@@ -51,8 +51,8 @@
     },
     {
       "number": 5,
-      "text": "5. 다음은 네트워크 취약점에 대한 문제이다. 아래 내용을 보고 알맞는 용어를 작성하시오.\n- IP나 ICMP의 특성을 악용하여 엄청난 양의 데이터를 한 사이트에 집중적으로 보냄으로써 네트워크의 일부를 불능 상태로 만드는 공격이다. - 여러 호스트가 특정 대상에게 다량의 ICMP Echo Reply 를 보내게 하여 서비스거부(DoS)를 유발시키는 보안공격이다. - 공격 대상 호스트는 다량으로 유입되는 패킷으로 인해 서비스 불능 상태에 빠진다.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>5. 다음은 네트워크 취약점에 대한 문제이다. 아래 내용을 보고 알맞는 용어를 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"> - IP나 ICMP의 특성을 악용하여 엄청난 양의 데이터를 한 사이트에 집중적으로 보냄으로써 네트워크의 일부를 불능 상태로 만드는 공격이다.  - 여러 호스트가 특정 대상에게 다량의 ICMP Echo Reply 를 보내게 하여 서비스거부(DoS)를 유발시키는 보안공격이다.  - 공격 대상 호스트는 다량으로 유입되는 패킷으로 인해 서비스 불능 상태에 빠진다.</p>",
+      "text": "5. 다음은 네트워크 취약점에 대한 문제이다. 아래 내용을 보고 알맞는 용어를 작성하시오.\n- IP나 ICMP의 특성을 악용하여 엄청난 양의 데이터를 한 사이트에 집중적으로 보냄으로써 네트워크의 일부를 불능 상태로 만드는 공격이다.\n- 여러 호스트가 특정 대상에게 다량의 ICMP Echo Reply 를 보내게 하여 서비스거부(DoS)를 유발시키는 보안공격이다.\n- 공격 대상 호스트는 다량으로 유입되는 패킷으로 인해 서비스 불능 상태에 빠진다.",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>5. 다음은 네트워크 취약점에 대한 문제이다. 아래 내용을 보고 알맞는 용어를 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"> - IP나 ICMP의 특성을 악용하여 엄청난 양의 데이터를 한 사이트에 집중적으로 보냄으로써 네트워크의 일부를 불능 상태로 만드는 공격이다. <br/> - 여러 호스트가 특정 대상에게 다량의 ICMP Echo Reply 를 보내게 하여 서비스거부(DoS)를 유발시키는 보안공격이다. <br/> - 공격 대상 호스트는 다량으로 유입되는 패킷으로 인해 서비스 불능 상태에 빠진다.</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -62,8 +62,8 @@
     },
     {
       "number": 6,
-      "text": "6. 다음은 GoF 디자인 패턴과 관련된 문제이다. 괄호안에 알맞는 용어를 작성하시오.\n( ) 패턴은 클래스나 객체들이 서로 상호작용하는 방법이나 책임 분배 방법을 정의하는 패턴이다. ( ) 패턴은 객체들 간의 통신 방법을 정의하고 알고리즘을 캡슐화하여 객체 간의 결합도를 낮춘다.( ) 패턴은 Chain of Responsibility나 Command 또는 Observer 패턴이 있다.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>6. 다음은 GoF 디자인 패턴과 관련된 문제이다. 괄호안에 알맞는 용어를 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">(        ) 패턴은 클래스나 객체들이 서로 상호작용하는 방법이나 책임 분배 방법을 정의하는 패턴이다. (        ) 패턴은 객체들 간의 통신 방법을 정의하고 알고리즘을 캡슐화하여 객체 간의 결합도를 낮춘다.(        ) 패턴은 Chain of Responsibility나 Command 또는 Observer 패턴이 있다.</p>",
+      "text": "6. 다음은 GoF 디자인 패턴과 관련된 문제이다. 괄호안에 알맞는 용어를 작성하시오.\n( ) 패턴은 클래스나 객체들이 서로 상호작용하는 방법이나 책임 분배 방법을 정의하는 패턴이다.\n( ) 패턴은 객체들 간의 통신 방법을 정의하고 알고리즘을 캡슐화하여 객체 간의 결합도를 낮춘다.\n( ) 패턴은 Chain of Responsibility나 Command 또는 Observer 패턴이 있다.",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>6. 다음은 GoF 디자인 패턴과 관련된 문제이다. 괄호안에 알맞는 용어를 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">(        ) 패턴은 클래스나 객체들이 서로 상호작용하는 방법이나 책임 분배 방법을 정의하는 패턴이다. <br/>(        ) 패턴은 객체들 간의 통신 방법을 정의하고 알고리즘을 캡슐화하여 객체 간의 결합도를 낮춘다.<br/>(        ) 패턴은 Chain of Responsibility나 Command 또는 Observer 패턴이 있다.</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -96,7 +96,7 @@
     {
       "number": 9,
       "text": "9. 다음은 URL 구조에 관한 문제이다 . 아래 보기의 순서대로 URL에 해당하는 번호를 작성하시오.\n보기\nquery\n: 서버에 전달할 추가 데이터\npath\n: 서버 내의 특정 자원을 가리키는 경로\nscheme\n: 리소스에 접근하는 방법이나 프로토콜\nauthority\n: 사용자 정보, 호스트명, 포트 번호\nfragment\n: 특정 문서 내의 위치",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>9. 다음은 URL 구조에 관한 문제이다 . 아래  보기의 순서대로 URL에 해당하는 번호를 작성하시오.</b></p>\n<h4 data-ke-size=\"size20\" style=\"color: #555555; text-align: start;\"><b>보기</b></h4>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>query </b>: 서버에 전달할 추가 데이터 <b>path </b>: 서버 내의 특정 자원을 가리키는 경로</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>scheme</b><span style=\"color: #555555; text-align: start;\">: 리소스에 접근하는 방법이나 프로토콜</span></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>authority </b><span style=\"color: #555555; text-align: start;\">: 사용자 정보, 호스트명, 포트 번호</span></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>fragment </b>: 특정 문서 내의 위치</p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>9. 다음은 URL 구조에 관한 문제이다 . 아래  보기의 순서대로 URL에 해당하는 번호를 작성하시오.</b></p>\n<h4 data-ke-size=\"size20\" style=\"color: #555555; text-align: start;\"><b>보기</b></h4>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>query </b>: 서버에 전달할 추가 데이터 <br/><b>path </b>: 서버 내의 특정 자원을 가리키는 경로</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>scheme</b><span style=\"color: #555555; text-align: start;\">: 리소스에 접근하는 방법이나 프로토콜</span></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>authority </b><span style=\"color: #555555; text-align: start;\">: 사용자 정보, 호스트명, 포트 번호</span></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>fragment </b>: 특정 문서 내의 위치</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -139,8 +139,8 @@
     },
     {
       "number": 13,
-      "text": "13. 다음은 테스트 커버리지에 대한 문제이다. 아래 내용에 알맞는 답을 보기에서 골라 작성하시오.\n1. 테스트를 통해 프로그램의 모든 문장을 최소한 한 번씩 실행했는지를 측정 2. 프로그램 내의 모든 분기(조건문)의 각 분기를 최소한 한 번씩 실행했는지를 측정 3. 복합 조건 내의 각 개별 조건이 참과 거짓으로 평가되는 경우를 모두 테스트했는지를 측정\n보기\nㄱ. 조건 ㄴ. 경로 ㄷ. 결정 ㄹ. 분기 ㅁ.함수 ㅂ. 문장 ㅅ. 루프",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>13. 다음은 테스트 커버리지에 대한 문제이다. 아래 내용에 알맞는 답을 보기에서 골라 작성하시오. </b>1. 테스트를 통해 프로그램의 모든 문장을 최소한 한 번씩 실행했는지를 측정 2. 프로그램 내의 모든 분기(조건문)의 각 분기를 최소한 한 번씩 실행했는지를 측정 3. 복합 조건 내의 각 개별 조건이 참과 거짓으로 평가되는 경우를 모두 테스트했는지를 측정</p>\n<h4 data-ke-size=\"size20\" style=\"color: #555555; text-align: start;\"><b>보기</b></h4>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">ㄱ. 조건     ㄴ. 경로      ㄷ. 결정      ㄹ. 분기      ㅁ.함수          ㅂ. 문장      ㅅ. 루프</p>",
+      "text": "13. 다음은 테스트 커버리지에 대한 문제이다. 아래 내용에 알맞는 답을 보기에서 골라 작성하시오.\n1. 테스트를 통해 프로그램의 모든 문장을 최소한 한 번씩 실행했는지를 측정\n2. 프로그램 내의 모든 분기(조건문)의 각 분기를 최소한 한 번씩 실행했는지를 측정\n3. 복합 조건 내의 각 개별 조건이 참과 거짓으로 평가되는 경우를 모두 테스트했는지를 측정\n보기\nㄱ. 조건 ㄴ. 경로 ㄷ. 결정 ㄹ. 분기 ㅁ.함수 ㅂ. 문장 ㅅ. 루프",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>13. 다음은 테스트 커버리지에 대한 문제이다. 아래 내용에 알맞는 답을 보기에서 골라 작성하시오. </b><br/><br/><br/>1. 테스트를 통해 프로그램의 모든 문장을 최소한 한 번씩 실행했는지를 측정 <br/>2. 프로그램 내의 모든 분기(조건문)의 각 분기를 최소한 한 번씩 실행했는지를 측정 <br/>3. 복합 조건 내의 각 개별 조건이 참과 거짓으로 평가되는 경우를 모두 테스트했는지를 측정</p>\n<h4 data-ke-size=\"size20\" style=\"color: #555555; text-align: start;\"><b>보기</b></h4>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">ㄱ. 조건     ㄴ. 경로      ㄷ. 결정      ㄹ. 분기      ㅁ.함수          ㅂ. 문장      ㅅ. 루프</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -161,8 +161,8 @@
     },
     {
       "number": 15,
-      "text": "15. 다음은 데이터베이스에 관한 문제이다. 아래 내용을 읽고 알맞는 답을 보기에서 찾아 골라 작성하시오.\n(1) 다른 테이블, 릴레이션의 기본 키를 참조하는 속성 또는 속성들의 집합 (2) 테이블에서 각 행을 유일하게 식별할 수 있는 최소한의 속성들의 집합 (3) 후보 키 중에서 선정된 기본 키를 제외한 나머지 후보 키 (4) 테이블에서 각 행을 유일하게 식별할 수 있는 속성들의 집합 ㄱ. 슈퍼키 ㄴ. 외래키 ㄷ. 대체키 ㄹ. 후보키",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>15. 다음은 데이터베이스에 관한 문제이다. 아래 내용을 읽고 알맞는 답을 보기에서 찾아 골라 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">(1) 다른 테이블, 릴레이션의 기본 키를 참조하는 속성 또는 속성들의 집합 (2) 테이블에서 각 행을 유일하게 식별할 수 있는 최소한의 속성들의 집합 (3) 후보 키 중에서 선정된 기본 키를 제외한 나머지 후보 키 (4) 테이블에서 각 행을 유일하게 식별할 수 있는 속성들의 집합 ㄱ. 슈퍼키         ㄴ. 외래키            ㄷ. 대체키             ㄹ. 후보키</p>",
+      "text": "15. 다음은 데이터베이스에 관한 문제이다. 아래 내용을 읽고 알맞는 답을 보기에서 찾아 골라 작성하시오.\n(1) 다른 테이블, 릴레이션의 기본 키를 참조하는 속성 또는 속성들의 집합\n(2) 테이블에서 각 행을 유일하게 식별할 수 있는 최소한의 속성들의 집합\n(3) 후보 키 중에서 선정된 기본 키를 제외한 나머지 후보 키\n(4) 테이블에서 각 행을 유일하게 식별할 수 있는 속성들의 집합\nㄱ. 슈퍼키 ㄴ. 외래키 ㄷ. 대체키 ㄹ. 후보키",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>15. 다음은 데이터베이스에 관한 문제이다. 아래 내용을 읽고 알맞는 답을 보기에서 찾아 골라 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">(1) 다른 테이블, 릴레이션의 기본 키를 참조하는 속성 또는 속성들의 집합 <br/>(2) 테이블에서 각 행을 유일하게 식별할 수 있는 최소한의 속성들의 집합 <br/>(3) 후보 키 중에서 선정된 기본 키를 제외한 나머지 후보 키 <br/>(4) 테이블에서 각 행을 유일하게 식별할 수 있는 속성들의 집합 <br/><br/><br/>ㄱ. 슈퍼키         ㄴ. 외래키            ㄷ. 대체키             ㄹ. 후보키</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -183,8 +183,8 @@
     },
     {
       "number": 17,
-      "text": "17. 다음 아래 내용을 보고 알맞는 용어를 작성하시오. (3글자로 작성)\n- 공용 네트워크를 통해 사설 네트워크를 확장하는 기술이다. - 사용자의 IP 주소를 숨기고, 사용자가 어디에서 접속하는지를 추적하기 어렵게 만든다. - 종류로는 IPsec 또는 SSL, L2TP 등이 있다.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>17. 다음 아래 내용을 보고 알맞는 용어를 작성하시오. (3글자로 작성)</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"> - 공용 네트워크를 통해 사설 네트워크를 확장하는 기술이다.  - 사용자의 IP 주소를 숨기고, 사용자가 어디에서 접속하는지를 추적하기 어렵게 만든다.  - 종류로는 IPsec 또는 SSL, L2TP 등이 있다.</p>",
+      "text": "17. 다음 아래 내용을 보고 알맞는 용어를 작성하시오. (3글자로 작성)\n- 공용 네트워크를 통해 사설 네트워크를 확장하는 기술이다.\n- 사용자의 IP 주소를 숨기고, 사용자가 어디에서 접속하는지를 추적하기 어렵게 만든다.\n- 종류로는 IPsec 또는 SSL, L2TP 등이 있다.",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>17. 다음 아래 내용을 보고 알맞는 용어를 작성하시오. (3글자로 작성)</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"> - 공용 네트워크를 통해 사설 네트워크를 확장하는 기술이다. <br/> - 사용자의 IP 주소를 숨기고, 사용자가 어디에서 접속하는지를 추적하기 어렵게 만든다. <br/> - 종류로는 IPsec 또는 SSL, L2TP 등이 있다.</p>",
       "options": "",
       "images": [],
       "code": null,
@@ -216,8 +216,8 @@
     },
     {
       "number": 20,
-      "text": "20. 다음은 네트워크에 대한 문제이다. 아래 내용을 보고 알맞는 용어를 작성하시오.\n- 중앙 관리나 고정된 인프라 없이 임시로 구성되는 네트워크이다. - 일반적으로 무선 통신을 통해 노드들이 직접 연결되어 데이터를 주고받는다. - 긴급 구조, 긴급 회의, 군사적인 상황 등에서 유용하게 활용될 수 있다. ㄱ.Infrastructure Network ㄴ. Firmware Network ㄷ. Peer-to-Peer Network ㄹ. Ad-hoc Network ㅁ. Mesh Network ㅂ.Sensor Network ㅅ.Virtual Private Network",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>20. 다음은 네트워크에 대한 문제이다.  아래 내용을 보고 알맞는 용어를 작성하시오.  </b> - 중앙 관리나 고정된 인프라 없이 임시로 구성되는 네트워크이다.   - 일반적으로 무선 통신을 통해 노드들이 직접 연결되어 데이터를 주고받는다.  - 긴급 구조, 긴급 회의, 군사적인 상황 등에서 유용하게 활용될 수 있다. ㄱ.Infrastructure Network        ㄴ. Firmware Network        ㄷ. Peer-to-Peer Network        ㄹ. Ad-hoc Network         ㅁ. Mesh Network        ㅂ.Sensor Network        ㅅ.Virtual Private Network</p>",
+      "text": "20. 다음은 네트워크에 대한 문제이다. 아래 내용을 보고 알맞는 용어를 작성하시오.\n- 중앙 관리나 고정된 인프라 없이 임시로 구성되는 네트워크이다.\n- 일반적으로 무선 통신을 통해 노드들이 직접 연결되어 데이터를 주고받는다.\n- 긴급 구조, 긴급 회의, 군사적인 상황 등에서 유용하게 활용될 수 있다.\nㄱ.Infrastructure Network ㄴ. Firmware Network ㄷ. Peer-to-Peer Network ㄹ. Ad-hoc Network ㅁ. Mesh Network ㅂ.Sensor Network ㅅ.Virtual Private Network",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>20. 다음은 네트워크에 대한 문제이다.  아래 내용을 보고 알맞는 용어를 작성하시오.  </b><br/><br/><br/> - 중앙 관리나 고정된 인프라 없이 임시로 구성되는 네트워크이다.  <br/> - 일반적으로 무선 통신을 통해 노드들이 직접 연결되어 데이터를 주고받는다. <br/> - 긴급 구조, 긴급 회의, 군사적인 상황 등에서 유용하게 활용될 수 있다. <br/><br/><br/>ㄱ.Infrastructure Network        ㄴ. Firmware Network        ㄷ. Peer-to-Peer Network        ㄹ. Ad-hoc Network         ㅁ. Mesh Network        ㅂ.Sensor Network        ㅅ.Virtual Private Network</p>",
       "options": "",
       "images": [],
       "code": null,

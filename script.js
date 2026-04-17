@@ -127,7 +127,11 @@ function renderQuestions() {
                     <button class="toggle-answer-btn" onclick="toggleAnswer(this)">정답 보기</button>
                     <div class="question-answer">
                         <div class="answer-label">✓ 정답</div>
-                        <div class="answer-text">${escapeHtml(q.answer)}</div>
+                        ${q.answer_html ? `
+                            <div class="answer-text answer-html">${q.answer_html}</div>
+                        ` : `
+                            <div class="answer-text">${escapeHtml(q.answer)}</div>
+                        `}
                     </div>
                 </div>
             `;
