@@ -1,170 +1,211 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-09T00:05:59.036138",
+    "crawl_time": "2026-04-17T17:55:32.869630",
+    "source": "https://chobopark.tistory.com/194",
     "total_questions": 20
   },
   "questions": [
     {
       "number": 1,
       "text": "1. 리팩토링의 목적에 대하여 서술하시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>1. 리팩토링의 목적에 대하여 서술하시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "복잡한 코드의 단순화, 소스의 가독성을 통해 유지보수성 향상, 유연한 시스템, 생산성 향상, 품질 향상이 있다."
+      "answer": "복잡한 코드의 단순화, 소스의 가독성을 통해 유지보수성 향상, 유연한 시스템, 생산성 향상, 품질 향상이 있다.",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">복잡한 코드의 단순화, 소스의 가독성을 통해 유지보수성 향상, 유연한 시스템, 생산성 향상, 품질 향상이 있다.</span></p>"
     },
     {
       "number": 2,
-      "text": "2. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.",
+      "text": "2. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.\n#include <stdio.h>\n void main(){\n int i=0, c=0;\n while (i<10){\n i++;\n c*=i;\n }\n printf(\"%d\",c);\n }",
+      "question_html": "<p data-ke-size=\"size16\"><b>2. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"csharp\" data-ke-language=\"csharp\" data-ke-type=\"codeblock\" id=\"code_1625348247973\"><code>#include &lt;stdio.h&gt;\n\tvoid main(){\n    \tint i=0, c=0;\n        while (i&lt;10){\n        i++;\n        c*=i;\n        }\n        printf(\"%d\",c);\n   }</code></pre>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "0\nc가 0이므로 어떤수를 곱해도 0이 됩니다."
+      "answer": "0\nc가 0이므로 어떤수를 곱해도 0이 됩니다.",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">0</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">c가 0이므로 어떤수를 곱해도 0이 됩니다.</span></p>"
     },
     {
       "number": 3,
       "text": "3. 대표적인 내부 라우팅 프로토콜로 다익스트라 알고리즘을 이용한 대규모 네트워크에 적합한 링크 상태 라우팅 프로토콜로 불리는 라우팅 프로토콜은 무엇인가?",
+      "question_html": "<p data-ke-size=\"size16\"><b>3. 대표적인 내부 라우팅 프로토콜로 다익스트라 알고리즘을 이용한 대규모 네트워크에 적합한 링크 상태 라우팅 프로토콜로 불리는 라우팅 프로토콜은 무엇인가?</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "OSPF(Open Shortest Path First)\nOSPF(Open Shortest Path First)의 특징 :\n다익스트라 알고리즘 사용 - 다익스트라 알고리즘 사용하는 내부 라우팅 프로토콜\n라우팅 메트릭 지정 - 최소, 지연, 최대 처리량 등 관리자가 라우팅 메트릭 지정\nAS분할 사용 - 자치 시스템을 지역으로 나누어 라우팅을 효과적으로 관리\n홉 카운트 무제한 - 홉 카운트에 제한이 없다.\n라우팅 : 어떤 네트워크 안에서 통신 데이터를 보낼 때 최적의 결로를 선택하는 과정입니다."
+      "answer": "OSPF(Open Shortest Path First)\nOSPF(Open Shortest Path First)의 특징 :\n다익스트라 알고리즘 사용 - 다익스트라 알고리즘 사용하는 내부 라우팅 프로토콜\n라우팅 메트릭 지정 - 최소, 지연, 최대 처리량 등 관리자가 라우팅 메트릭 지정\nAS분할 사용 - 자치 시스템을 지역으로 나누어 라우팅을 효과적으로 관리\n홉 카운트 무제한 - 홉 카운트에 제한이 없다.\n라우팅 : 어떤 네트워크 안에서 통신 데이터를 보낼 때 최적의 결로를 선택하는 과정입니다.",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">OSPF(Open Shortest Path First)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">OSPF(Open Shortest Path First)의 특징 :</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">다익스트라 알고리즘 사용 - 다익스트라 알고리즘 사용하는 내부 라우팅 프로토콜</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">라우팅 메트릭 지정 - 최소, 지연, 최대 처리량 등 관리자가 라우팅 메트릭 지정</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">AS분할 사용 - 자치 시스템을 지역으로 나누어 라우팅을 효과적으로 관리</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">홉 카운트 무제한 - 홉 카운트에 제한이 없다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">라우팅 : 어떤 네트워크 안에서 통신 데이터를 보낼 때 최적의 결로를 선택하는 과정입니다.</span></p>"
     },
     {
       "number": 4,
       "text": "4. 형상 통제를 설명하시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>4. 형상 통제를 설명하시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "형상항목의 버전 관리를 위해서 변경 여부와 변경 활동을 통제하는 활동\n형상 관리 절차 :\n형상 식별 - 형상 관리 대상을 정의 및 식별하는 활동\n형상 통제 - 형상 항목의 버전 관리를 위한 형상통제위원회 운영\n형상 감사 - 소프트웨어 베이스라인의 무결성 평가\n형상 기록 - 소프트웨어 현상 및 변경관리에 대한 각종 수행결과를 기록"
+      "answer": "형상\n항목의 버전 관리를 위해서 변경 여부와 변경 활동을 통제하는 활동\n형상 관리 절차 :\n형상 식별 - 형상 관리 대상을 정의 및 식별하는 활동\n형상 통제 - 형상 항목의 버전 관리를 위한 형상통제위원회 운영\n형상 감사 - 소프트웨어 베이스라인의 무결성 평가\n형상 기록 - 소프트웨어 현상 및 변경관리에 대한 각종 수행결과를 기록",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">형상 </span><span style=\"color: #009a87;\">항목의 버전 관리를 위해서 변경 여부와 변경 활동을 통제하는 활동</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">형상 관리 절차 :</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">형상 식별 - 형상 관리 대상을 정의 및 식별하는 활동</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">형상 통제 - 형상 항목의 버전 관리를 위한 형상통제위원회 운영</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">형상 감사 - 소프트웨어 베이스라인의 무결성 평가</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">형상 기록 - 소프트웨어 현상 및 변경관리에 대한 각종 수행결과를 기록</span></p>"
     },
     {
       "number": 5,
-      "text": "5. 심리학자 톰 마릴은 컴퓨터가 메세지를 전달하고, 메세지가 제대로 도착했는지 확인하며, 도착하지 않았을 경우 메세지를 재전송하는 일련의 방법을 '기술적 은어'를 뜻하는 (      )이라는 용어로 정의했다. 괄호 (    ) 안에 들어갈 용어를 쓰시오.",
+      "text": "5. 심리학자 톰 마릴은 컴퓨터가 메세지를 전달하고, 메세지가 제대로 도착했는지 확인하며, 도착하지 않았을 경우 메세지를 재전송하는 일련의 방법을 '기술적 은어'를 뜻하는 ( )이라는 용어로 정의했다. 괄호 ( ) 안에 들어갈 용어를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>5. 심리학자 톰 마릴은 컴퓨터가 메세지를 전달하고, 메세지가 제대로 도착했는지 확인하며, 도착하지 않았을 경우 메세지를 재전송하는 일련의 방법을 '기술적 은어'를 뜻하는 (      )이라는 용어로 정의했다. 괄호 (    ) 안에 들어갈 용어를 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "프로토콜\n프로토콜 : 서로 다른 시스템이나 기기들 간의 데이터 교환을 원할히 하기 위한 표준된 통신규약입니다.\n프로토콜 기능 : 데이터 처리 기능 / 제어 기능 / 관리 기능"
+      "answer": "프로토콜\n프로토콜 : 서로 다른 시스템이나 기기들 간의 데이터 교환을 원할히 하기 위한 표준된 통신규약입니다.\n프로토콜 기능 : 데이터 처리 기능 / 제어 기능 / 관리 기능",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">프로토콜</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">프로토콜 : 서로 다른 시스템이나 기기들 간의 데이터 교환을 원할히 하기 위한 표준된 통신규약입니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">프로토콜 기능 : 데이터 처리 기능 / 제어 기능 / 관리 기능</span></p>"
     },
     {
       "number": 6,
-      "text": "6. TCP/IP에서 오류가 발생하면 (      ) 메세지를 보내서 오류가 발생했음을 알린다. 괄호 (     )안에 들어갈 용어를 쓰시오.",
+      "text": "6. TCP/IP에서 오류가 발생하면 ( ) 메세지를 보내서 오류가 발생했음을 알린다. 괄호 ( )안에 들어갈 용어를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>6. TCP/IP에서 오류가 발생하면 (      ) 메세지를 보내서 오류가 발생했음을 알린다. 괄호 (     )안에 들어갈 용어를 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "ICMP(Internet Control Message Protocol)\nICMP : IP 패킷을 처리할 때 발생하는 문제를 알려주는 프로토콜로, 메세지 형식은 8바이트의 헤더와 가변 길이의 데이터 영역으로 분리되어 있다."
+      "answer": "ICMP(Internet Control Message Protocol)\nICMP : IP 패킷을 처리할 때 발생하는 문제를 알려주는 프로토콜로, 메세지 형식은 8바이트의 헤더와 가변 길이의 데이터 영역으로 분리되어 있다.",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">ICMP(Internet Control Message Protocol)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">ICMP : IP 패킷을 처리할 때 발생하는 문제를 알려주는 프로토콜로, 메세지 형식은 8바이트의 헤더와 가변 길이의 데이터 영역으로 분리되어 있다.</span></p>"
     },
     {
       "number": 7,
       "text": "7. 다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>7. 다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"530\" data-origin-width=\"894\"><span data-phocus=\"https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D\" data-url=\"https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D\"><img data-origin-height=\"530\" data-origin-width=\"894\" height=\"530\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FJIE3a%2Fbtq8H5sOaQq%2FAAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DoSHKIxHuJPBtXxIPW6dQ3GGmpt0%253D\" width=\"894\"/></span></figure>\n</p>",
       "options": "",
       "images": [
         "https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D"
       ],
       "code": null,
-      "answer": "1234561, 124567  or 1234567, 124561\n결정 커버리지는 결정 포인트 내의 전체 조건식이 적어도 한 번은 참과 거짓의 결과를 수행해야 하기 때문에 첫 번째 분기문도 참, 거짓이 와야 하고, 두 번째 분기도 참, 거짓이 한 번씩 와야 한다."
+      "answer": "1234561, 124567 or 1234567, 124561\n결정 커버리지는 결정 포인트 내의 전체 조건식이 적어도 한 번은 참과 거짓의 결과를 수행해야 하기 때문에 첫 번째 분기문도 참, 거짓이 와야 하고, 두 번째 분기도 참, 거짓이 한 번씩 와야 한다.",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1234561, 124567  or 1234567, 124561</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">결정 커버리지는 결정 포인트 내의 전체 조건식이 적어도 한 번은 참과 거짓의 결과를 수행해야 하기 때문에 첫 번째 분기문도 참, 거짓이 와야 하고, 두 번째 분기도 참, 거짓이 한 번씩 와야 한다.</span></p>"
     },
     {
       "number": 8,
-      "text": "8. 다음 조건을 만족하면서, 과목별 점수의 평균이 90이 상인 과목이름, 최소점수, 최대점수를 구하는 SQL문을 작성하시오.\n- 대소문자를 구분하지 않는다.\n- WHERE 구분을 사용하지 않는다.\n- GROUP BY, HAVING구문을 반드시 사용한다.\n- 세미콜론(;)은 생략 가능하다.\n- 별칭(AS)을 사용해야 한다.\n[성적]\n[결과]",
+      "text": "8. 다음 조건을 만족하면서, 과목별 점수의 평균이 90이 상인 과목이름, 최소점수, 최대점수를 구하는 SQL문을 작성하시오.\n- 대소문자를 구분하지 않는다.\n- WHERE 구분을 사용하지 않는다.\n- GROUP BY, HAVING구문을 반드시 사용한다.\n- 세미콜론(;)은 생략 가능하다.\n- 별칭(AS)을 사용해야 한다.\n[성적]\n과목코드\n과목이름\n학점\n점수\n1000\n컴퓨터과학\nA+\n95\n2000\n운영체제\nB+\n85\n1000\n컴퓨터과학\nB+\n85\n2000\n운영체제\nB\n80\n[결과]\n과목이름\n최소점수\n최대점수\n컴퓨터과학\n85\n95",
+      "question_html": "<p data-ke-size=\"size16\"><b>8. 다음 조건을 만족하면서, 과목별 점수의 평균이 90이 상인 과목이름, 최소점수, 최대점수를 구하는 SQL문을 작성하시오. </b></p>\n<p data-ke-size=\"size16\">- 대소문자를 구분하지 않는다.</p>\n<p data-ke-size=\"size16\">- WHERE 구분을 사용하지 않는다.</p>\n<p data-ke-size=\"size16\">- GROUP BY, HAVING구문을 반드시 사용한다.</p>\n<p data-ke-size=\"size16\">- 세미콜론(;)은 생략 가능하다.</p>\n<p data-ke-size=\"size16\">- 별칭(AS)을 사용해야 한다.</p>\n<p data-ke-size=\"size16\">[성적]</p>\n<table border=\"1\" data-ke-align=\"alignLeft\" style=\"border-collapse: collapse; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"width: 25%; text-align: center;\">과목코드</td>\n<td style=\"width: 25%; text-align: center;\">과목이름</td>\n<td style=\"width: 25%; text-align: center;\">학점</td>\n<td style=\"width: 25%; text-align: center;\">점수</td>\n</tr>\n<tr>\n<td style=\"width: 25%; text-align: center;\">1000</td>\n<td style=\"width: 25%; text-align: center;\">컴퓨터과학</td>\n<td style=\"width: 25%; text-align: center;\">A+</td>\n<td style=\"width: 25%; text-align: center;\">95</td>\n</tr>\n<tr>\n<td style=\"width: 25%; text-align: center;\">2000</td>\n<td style=\"width: 25%; text-align: center;\">운영체제</td>\n<td style=\"width: 25%; text-align: center;\">B+</td>\n<td style=\"width: 25%; text-align: center;\">85</td>\n</tr>\n<tr>\n<td style=\"width: 25%; text-align: center;\">1000</td>\n<td style=\"width: 25%; text-align: center;\">컴퓨터과학</td>\n<td style=\"width: 25%; text-align: center;\">B+</td>\n<td style=\"width: 25%; text-align: center;\">85</td>\n</tr>\n<tr>\n<td style=\"width: 25%; text-align: center;\">2000</td>\n<td style=\"width: 25%; text-align: center;\">운영체제</td>\n<td style=\"width: 25%; text-align: center;\">B</td>\n<td style=\"width: 25%; text-align: center;\">80</td>\n</tr>\n</tbody>\n</table>\n<p data-ke-size=\"size16\">[결과]</p>\n<table border=\"1\" data-ke-align=\"alignLeft\" style=\"border-collapse: collapse; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"width: 33.3333%; text-align: center;\">과목이름</td>\n<td style=\"width: 33.3333%; text-align: center;\">최소점수</td>\n<td style=\"width: 33.3333%; text-align: center;\">최대점수</td>\n</tr>\n<tr>\n<td style=\"width: 33.3333%; text-align: center;\">컴퓨터과학</td>\n<td style=\"width: 33.3333%; text-align: center;\">85</td>\n<td style=\"width: 33.3333%; text-align: center;\">95</td>\n</tr>\n</tbody>\n</table>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "SELECT 과목이름, MIN(점수) AS 최소점수, MAX(점수) AS 최대점수 FROM 성적\nGROUP BY 과목이름 HAVING AVG(점수) >= 90;"
+      "answer": "SELECT 과목이름, MIN(점수) AS 최소점수, MAX(점수) AS 최대점수 FROM 성적\nGROUP BY 과목이름 HAVING AVG(점수) >= 90;",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">SELECT 과목이름, MIN(점수) AS 최소점수, MAX(점수) AS 최대점수 FROM 성적 </span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">GROUP BY 과목이름 HAVING AVG(점수) &gt;= 90;</span></p>"
     },
     {
       "number": 9,
-      "text": "9. 학생 테이블에서 이름이 민수인 튜플을 삭제하는 SQL문을 작성하시오\n[학생]",
+      "text": "9. 학생 테이블에서 이름이 민수인 튜플을 삭제하는 SQL문을 작성하시오\n[학생]\n학번\n이름\n점수\n과목이름\n1000\n김정미\n90\n알고리즘\n2000\n강은미\n95\n데이터베이스\n3000\n홍길동\n90\n전산수학\n4000\n민수\n95\n운영체제",
+      "question_html": "<p data-ke-size=\"size16\"><b>9. 학생 테이블에서 이름이 민수인 튜플을 삭제하는 SQL문을 작성하시오</b></p>\n<p data-ke-size=\"size16\">[학생]</p>\n<table border=\"1\" data-ke-align=\"alignLeft\" style=\"border-collapse: collapse; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"width: 25%; text-align: center;\">학번</td>\n<td style=\"width: 25%; text-align: center;\">이름</td>\n<td style=\"width: 25%; text-align: center;\">점수</td>\n<td style=\"width: 25%; text-align: center;\">과목이름</td>\n</tr>\n<tr>\n<td style=\"width: 25%; text-align: center;\">1000</td>\n<td style=\"width: 25%; text-align: center;\">김정미</td>\n<td style=\"width: 25%; text-align: center;\">90</td>\n<td style=\"width: 25%; text-align: center;\">알고리즘</td>\n</tr>\n<tr>\n<td style=\"width: 25%; text-align: center;\">2000</td>\n<td style=\"width: 25%; text-align: center;\">강은미</td>\n<td style=\"width: 25%; text-align: center;\">95</td>\n<td style=\"width: 25%; text-align: center;\">데이터베이스</td>\n</tr>\n<tr>\n<td style=\"width: 25%; text-align: center;\">3000</td>\n<td style=\"width: 25%; text-align: center;\">홍길동</td>\n<td style=\"width: 25%; text-align: center;\">90</td>\n<td style=\"width: 25%; text-align: center;\">전산수학</td>\n</tr>\n<tr>\n<td style=\"width: 25%; text-align: center;\">4000</td>\n<td style=\"width: 25%; text-align: center;\">민수</td>\n<td style=\"width: 25%; text-align: center;\">95</td>\n<td style=\"width: 25%; text-align: center;\">운영체제</td>\n</tr>\n</tbody>\n</table>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "DELETE FROM 학생 WHERE 이름 = '민수';"
+      "answer": "DELETE FROM 학생 WHERE 이름 = '민수';",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">DELETE FROM 학생 WHERE 이름 = '민수';</span></p>"
     },
     {
       "number": 10,
-      "text": "10. 릴레이션 A, B가 있을 때 릴레이션 B 조건에 맞는 것들만 릴레이션 A에서 튜플을 꺼내 프로젝션하는 관계 대수의 기호는 무엇인가?",
+      "text": "10. 릴레이션 A, B가 있을 때 릴레이션 B 조건에 맞는 것들만 릴레이션 A에서 튜플을 꺼내 프로젝션하는 관계 대수의 기호는 무엇인가?\n반응형",
+      "question_html": "<p data-ke-size=\"size16\"><b>10. 릴레이션 A, B가 있을 때 릴레이션 B 조건에 맞는 것들만 릴레이션 A에서 튜플을 꺼내 프로젝션하는 관계 대수의 기호는 무엇인가?</b></p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n\n\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "÷\n순수관계연산자는 셀렉트(σ) / 프로젝트(π) / 조인(⋈) / 디비전(÷) 이 있습니다.\n셀렉트 : 릴레이션에 존재하는 튜플들 중에서 특정 조건을 만족하는 튜플들의 부분집합을 구하여 새로운 릴레이션을 만듭니다.\n프로젝트 : 주어진 릴레이션에서 속성 리스트에 제시된 속성 값만을 추출하여 새로운 릴레이션을 만듭니다.\n(단 연산 결과에 중복이 발생하면 중복이 제거됩니다.)\n조인 : 공통 속성을 중심으로 2개의 릴레이션을 하나로 합쳐서 새로운 릴레이션을 만듭니다."
+      "answer": "÷\n순수관계연산자는 셀렉트(\nσ\n) / 프로젝트(\nπ\n) / 조인(⋈) / 디비전(\n÷\n) 이 있습니다.\n셀렉트 : 릴레이션에 존재하는 튜플들 중에서 특정 조건을 만족하는 튜플들의 부분집합을 구하여 새로운 릴레이션을 만듭니다.\n프로젝트 : 주어진 릴레이션에서 속성 리스트에 제시된 속성 값만을 추출하여 새로운 릴레이션을 만듭니다.\n(단 연산 결과에 중복이 발생하면 중복이 제거됩니다.)\n조인 : 공통 속성을 중심으로 2개의 릴레이션을 하나로 합쳐서 새로운 릴레이션을 만듭니다.",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">÷</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">순수관계연산자는 셀렉트(<span style=\"background-color: #f7f7f7;\">σ</span>) / 프로젝트(<span style=\"background-color: #f7f7f7;\">π</span>) / 조인(⋈) / 디비전(<span style=\"background-color: #f7f7f7;\">÷</span>) 이 있습니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">셀렉트 : 릴레이션에 존재하는 튜플들 중에서 특정 조건을 만족하는 튜플들의 부분집합을 구하여 새로운 릴레이션을 만듭니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">프로젝트 : 주어진 릴레이션에서 속성 리스트에 제시된 속성 값만을 추출하여 새로운 릴레이션을 만듭니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">(단 연산 결과에 중복이 발생하면 중복이 제거됩니다.)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">조인 : 공통 속성을 중심으로 2개의 릴레이션을 하나로 합쳐서 새로운 릴레이션을 만듭니다.</span></p>"
     },
     {
       "number": 11,
       "text": "11. 다음 중 헝가리안 표기법(Hungarian Case)에 대해서 서술하시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>11. 다음 중 헝가리안 표기법(Hungarian Case)에 대해서 서술하시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "헝가리안 표기법은 식별자 표기 시 접두어에 자료형을 붙이는 표기법\n식별자 표기법 :\n카멜 표기법 - 식별자 표기 시에 여러 단어가 이어지면 첫 단어 시작만 소문자로 표시하고, 각 단어의 첫 글자는 대문자로 지정하는 표기법 (ex : goodMan)\n파스칼 표기법 - 식별자 표기 시에 여러 단어가 이어지면 각 단어의 첫 글자는 대문자로 지정하는 표기법\n(ex : GoodMan)\n스네이크 표기법 - 식별자 표기 시에 여러 단어가 이어지면 단어 사이에 언더 바를 넣는 표기법 (ex : good_man)\n헝가리안 표기법 - 식별자 표기 시, 접두어에 자료형을 붙이는 표기법\n(ex : szGoodMan (sz는 String Zero로 약자로 문자열이 없다는 표기입니다.)"
+      "answer": "헝가리안 표기법은 식별자 표기 시 접두어에 자료형을 붙이는 표기법\n식별자 표기법 :\n카멜 표기법 - 식별자 표기 시에 여러 단어가 이어지면 첫 단어 시작만 소문자로 표시하고, 각 단어의 첫 글자는 대문자로 지정하는 표기법 (ex : goodMan)\n파스칼 표기법 - 식별자 표기 시에 여러 단어가 이어지면 각 단어의 첫 글자는 대문자로 지정하는 표기법\n(ex : GoodMan)\n스네이크 표기법 - 식별자 표기 시에 여러 단어가 이어지면 단어 사이에 언더 바를 넣는 표기법 (ex : good_man)\n헝가리안 표기법 - 식별자 표기 시, 접두어에 자료형을 붙이는 표기법\n(ex : szGoodMan (sz는 String Zero로 약자로 문자열이 없다는 표기입니다.)",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">헝가리안 표기법은 식별자 표기 시 접두어에 자료형을 붙이는 표기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">식별자 표기법 :</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">카멜 표기법 - 식별자 표기 시에 여러 단어가 이어지면 첫 단어 시작만 소문자로 표시하고, 각 단어의 첫 글자는 대문자로 지정하는 표기법 (ex : goodMan)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">파스칼 표기법 - 식별자 표기 시에 여러 단어가 이어지면 각 단어의 첫 글자는 대문자로 지정하는 표기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">(ex : GoodMan)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">스네이크 표기법 - 식별자 표기 시에 여러 단어가 이어지면 단어 사이에 언더 바를 넣는 표기법 (ex : good_man)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">헝가리안 표기법 - 식별자 표기 시, 접두어에 자료형을 붙이는 표기법 </span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">(ex : szGoodMan (sz는 String Zero로 약자로 문자열이 없다는 표기입니다.)</span></p>"
     },
     {
       "number": 12,
       "text": "12. 테스트의 종류 중, 둥치분할 테스트, 경계값 분석 테스트 등의 종류가 있는 테스트 기법을 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>12. 테스트의 종류 중, 둥치분할 테스트, 경계값 분석 테스트 등의 종류가 있는 테스트 기법을 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "블랙박스 테스트 (명세 기반 테스트)\n블랙박스 테스트는 소프트웨어가 수행할 특정 기능을 알기 위해서 각 기능이 완전히 작동되는 것을 입증하는 테스트로 기능 테스트라고 불립니다.\n동치 분할 검사 :\n입력 자료에 초점을 맞춰 테스트 케이스를 만들고 검사하는 방법 (= 동등 분할 기법)\n경계값 분석 :\n입력 자료에만 치중한 동치 분할 기법을 보완한 기법으로, 입력 조건의 중간값보다 경계값에서 오류가 발생될 확률이 높다는 점을 이용하여 입력 조건의 경계값을 테스트 케이스로 선정하여 검사하는 기법\n원인-효과 그래프 검사 :\n입력 데이터 간의 관계와 출력에 영향을 미치는 상황을 체계적으로 분석한 다음 효용성이 높은 테스트 케이스를 선정하여 검사하는 기법\n오류 예측 검사 :\n과거의 경험이나 확인자의 감각으로 테스트하는 기법으로, 다른 블랙박스 테스트 기법으로는 찾아낼 수 없는 오류를 찾아내는 일력의 보충적 검사 기법 (= 데이터 확인 검사)\n비교 검사 :\n여러 버전의 프로그램에 동일한 테스트 자료를 제공하여 동일한 결과가 출력되는지 테스트하는 기법"
+      "answer": "블랙박스 테스트 (명세 기반 테스트)\n블랙박스 테스트는 소프트웨어가 수행할 특정 기능을 알기 위해서 각 기능이 완전히 작동되는 것을 입증하는 테스트로 기능 테스트라고 불립니다.\n동치 분할 검사 :\n입력 자료에 초점을 맞춰 테스트 케이스를 만들고 검사하는 방법 (= 동등 분할 기법)\n경계값 분석 :\n입력 자료에만 치중한 동치 분할 기법을 보완한 기법으로, 입력 조건의 중간값보다 경계값에서 오류가 발생될 확률이 높다는 점을 이용하여 입력 조건의 경계값을 테스트 케이스로 선정하여 검사하는 기법\n원인-효과 그래프 검사 :\n입력 데이터 간의 관계와 출력에 영향을 미치는 상황을 체계적으로 분석한 다음 효용성이 높은 테스트 케이스를 선정하여 검사하는 기법\n오류 예측 검사 :\n과거의 경험이나 확인자의 감각으로 테스트하는 기법으로, 다른 블랙박스 테스트 기법으로는 찾아낼 수 없는 오류를 찾아내는 일력의 보충적 검사 기법 (= 데이터 확인 검사)\n비교 검사 :\n여러 버전의 프로그램에 동일한 테스트 자료를 제공하여 동일한 결과가 출력되는지 테스트하는 기법",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">블랙박스 테스트 (명세 기반 테스트)</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">블랙박스 테스트는 소프트웨어가 수행할 특정 기능을 알기 위해서 각 기능이 완전히 작동되는 것을 입증하는 테스트로 기능 테스트라고 불립니다.</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">동치 분할 검사 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">입력 자료에 초점을 맞춰 테스트 케이스를 만들고 검사하는 방법 (= 동등 분할 기법)</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">경계값 분석 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">입력 자료에만 치중한 동치 분할 기법을 보완한 기법으로, 입력 조건의 중간값보다 경계값에서 오류가 발생될 확률이 높다는 점을 이용하여 입력 조건의 경계값을 테스트 케이스로 선정하여 검사하는 기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">원인-효과 그래프 검사 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">입력 데이터 간의 관계와 출력에 영향을 미치는 상황을 체계적으로 분석한 다음 효용성이 높은 테스트 케이스를 선정하여 검사하는 기법</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">오류 예측 검사 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">과거의 경험이나 확인자의 감각으로 테스트하는 기법으로, 다른 블랙박스 테스트 기법으로는 찾아낼 수 없는 오류를 찾아내는 일력의 보충적 검사 기법 (= 데이터 확인 검사)</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">비교 검사 : </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">여러 버전의 프로그램에 동일한 테스트 자료를 제공하여 동일한 결과가 출력되는지 테스트하는 기법</span></p>"
     },
     {
       "number": 13,
-      "text": "13. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.",
+      "text": "13. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.\n#include <studio.h>\nint r1(){\n return 4;\n}\nint r10(){\n return (30+r1());\n}\nint r100(){\n return (200+r10());\n}\nint main(){\n printf(\"%d\\n\", r100());\n return 0;\n}",
+      "question_html": "<p data-ke-size=\"size16\"><b>13. 다음은 C언어 소스 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"python\" data-ke-language=\"python\" data-ke-type=\"codeblock\" id=\"code_1625349642514\"><code>#include &lt;studio.h&gt;\nint r1(){\n\treturn 4;\n}\nint r10(){\n\treturn (30+r1());\n}\nint r100(){\n\treturn (200+r10());\n}\nint main(){\n\tprintf(\"%d\\n\", r100());\n    return 0;\n}</code></pre>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "234"
+      "answer": "234",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">234</span></p>"
     },
     {
       "number": 14,
       "text": "14. DB스키마에 대해서 서술하시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>14. DB스키마에 대해서 서술하시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "데이터베이스의 구조, 제약조건 등의 정보를 담고 있는 기본적인 구조"
+      "answer": "데이터베이스의 구조, 제약조건 등의 정보를 담고 있는 기본적인 구조",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">데이터베이스의 구조, 제약조건 등의 정보를 담고 있는 기본적인 구조</span></p>"
     },
     {
       "number": 15,
-      "text": "15. 다음은 자바 코드이다. 출력 결과를 쓰시오.",
+      "text": "15. 다음은 자바 코드이다. 출력 결과를 쓰시오.\nabstract class vehicle{\n private String name;\n abstract public String getName(String val);\n public String getName(){\n return \"vehicle name:\" + name;\n }\n public void setName(String val){\n name = val;\n }\n}\n\nclass Car extends Vehicle{\n public Car(String val){\n setName(val);\n }\npublic String getName(String val){\n return \"Car name : \" + val;\n }\npublic String getName(byte val[]){\n return \"Car name : \" + val;\n }\n}\n\npublic class good {\n public Static void main(String[] args){\n Vehicle obj = new Car(\"Spark\");\n System.out.print(obj.getName());\n }\n}",
+      "question_html": "<p data-ke-size=\"size16\"><b>15. 다음은 자바 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"java\" data-ke-language=\"java\" data-ke-type=\"codeblock\" id=\"code_1625349979241\"><code>abstract class vehicle{\n\tprivate String name;\n    abstract public String getName(String val);\n    public String getName(){\n    \treturn \"vehicle name:\" + name;\n    }\n\tpublic void setName(String val){\n    \tname = val;\n    }\n}\n\nclass Car extends Vehicle{\n\tpublic Car(String val){\n    \tsetName(val);\n   }\npublic String getName(String val){\n\treturn \"Car name : \" + val;\n   }\npublic String getName(byte val[]){\n\treturn \"Car name : \" + val;\n   }\n}\n\npublic class good {\n\tpublic Static void main(String[] args){\n    Vehicle obj = new Car(\"Spark\");\n    System.out.print(obj.getName());\n    }\n}\n    </code></pre>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "Vehicle name : Spark"
+      "answer": "Vehicle name : Spark",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">Vehicle name : Spark</span></p>"
     },
     {
       "number": 16,
       "text": "16. UI 설계 원칙 중 직관성에 대해서 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>16. UI 설계 원칙 중 직관성에 대해서 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "누구나 쉽게 이해하고, 쉽게 사용할 수 있어야 하고,쉬운 검색, 쉬운 사용성, 일관성이 부특성을 가지고 있는 UI설계 원칙"
+      "answer": "누구나 쉽게 이해하고, 쉽게 사용할 수 있어야 하고,쉬운 검색, 쉬운 사용성, 일관성이 부특성을 가지고 있는 UI설계 원칙",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">누구나 쉽게 이해하고, 쉽게 사용할 수 있어야 하고,쉬운 검색, 쉬운 사용성, 일관성이 부특성을 가지고 있는 UI설계 원칙</span></p>"
     },
     {
       "number": 17,
-      "text": "17. 다음은 자바 코드이다. 출력 결과를 쓰시오.",
+      "text": "17. 다음은 자바 코드이다. 출력 결과를 쓰시오.\npublic class good {\n public static void main(String[] args){\n int i=0;\n int sum=0;\n while (i<10){\n i++;\n if(i%2 ==1)\n continue;\n sum += i;\n }\n System.out.println(sum);\n }\n}",
+      "question_html": "<p data-ke-size=\"size16\"><b>17. 다음은 자바 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"html xml\" data-ke-language=\"html\" data-ke-type=\"codeblock\" id=\"code_1625350118561\"><code>public class good {\n\tpublic static void main(String[] args){\n    int i=0;\n    int sum=0;\n    while (i&lt;10){\n    \ti++;\n        if(i%2 ==1)\n        \tcontinue;\n        sum += i;\n     }\n     System.out.println(sum);\n   }\n}</code></pre>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "30\n2+4+6+8+10=30이 됩니다."
+      "answer": "30\n2+4+6+8+10=30이 됩니다.",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">30</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">2+4+6+8+10=30이 됩니다.</span></p>"
     },
     {
       "number": 18,
-      "text": "18. EAI 유형에는 메세지 버스(Message bus), 하이브리드(Hybrid), (   1.  ), (   2.   ) 4가지가 있다.",
+      "text": "18. EAI 유형에는 메세지 버스(Message bus), 하이브리드(Hybrid), ( 1. ), ( 2. ) 4가지가 있다.",
+      "question_html": "<p data-ke-size=\"size16\"><b>18. EAI 유형에는 메세지 버스(Message bus), 하이브리드(Hybrid), (   1.  ), (   2.   ) 4가지가 있다.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "1. 포인트 투 포인트(Point-to-point)\n2. 허브 앤 스포크(Hub & Spoke)\nEAI (기업 내외부 정보시스템 통합)\nEAI의 유형 (데이터 전송 모델)\n메세지 버스 : 애플리케이션과 미들웨어간 웹서비스 인터페이스를 통해 전송\n하이브리드 : 허브앤스포크와 메세지버스 혼합\n포인트 투 포인트 : 1:1방식으로 애플리케이션 통합 수행\n허브 앤 스포크 : 단일 접점인 허브시스템을 통해 데이터를 전송하는 중앙 집중 방식"
+      "answer": "1. 포인트 투 포인트(Point-to-point)\n2. 허브 앤 스포크(Hub & Spoke)\nEAI (기업 내외부 정보시스템 통합)\nEAI의 유형 (데이터 전송 모델)\n메세지 버스 : 애플리케이션과 미들웨어간 웹서비스 인터페이스를 통해 전송\n하이브리드 : 허브앤스포크와 메세지버스 혼합\n포인트 투 포인트 : 1:1방식으로 애플리케이션 통합 수행\n허브 앤 스포크 : 단일 접점인 허브시스템을 통해 데이터를 전송하는 중앙 집중 방식",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. 포인트 투 포인트(Point-to-point)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. 허브 앤 스포크(Hub &amp; Spoke)</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">EAI (기업 내외부 정보시스템 통합) </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">EAI의 유형 (데이터 전송 모델)</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">메세지 버스 : 애플리케이션과 미들웨어간 웹서비스 인터페이스를 통해 전송</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">하이브리드 : 허브앤스포크와 메세지버스 혼합</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">포인트 투 포인트 : 1:1방식으로 애플리케이션 통합 수행</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">허브 앤 스포크 : 단일 접점인 허브시스템을 통해 데이터를 전송하는 중앙 집중 방식</span></p>"
     },
     {
       "number": 19,
       "text": "19. C++에서 생성자란 무엇인지 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>19. C++에서 생성자란 무엇인지 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "해당 클래스의 객체가 생성될 때 자동으로 호출되는 특수한 종류의 메서드"
+      "answer": "해당 클래스의 객체가 생성될 때 자동으로 호출되는 특수한 종류의 메서드",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">해당 클래스의 객체가 생성될 때 자동으로 호출되는 특수한 종류의 메서드</span></p>"
     },
     {
       "number": 20,
-      "text": "20. 학생 테이블에 주소 속성을 추가하는 SQL문을 작성하시오.\n(    1.   ) TABLE 학생   (   2.  ) 주소 VARCHAR(20);",
+      "text": "20. 학생 테이블에 주소 속성을 추가하는 SQL문을 작성하시오.\n( 1. ) TABLE 학생 ( 2. ) 주소 VARCHAR(20);",
+      "question_html": "<p data-ke-size=\"size16\"><b>20. 학생 테이블에 주소 속성을 추가하는 SQL문을 작성하시오.</b></p>\n<p data-ke-size=\"size16\">(    1.   ) TABLE 학생   (   2.  ) 주소 VARCHAR(20);</p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "1.ALTER\n2.ADD"
+      "answer": "1.ALTER\n2.ADD",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1.ALTER</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2.ADD</span></p>"
     }
   ]
 }

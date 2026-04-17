@@ -1,208 +1,209 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-09T00:05:58.852107",
-    "total_questions": 25
+    "crawl_time": "2026-04-17T17:55:32.537050",
+    "source": "https://chobopark.tistory.com/195",
+    "total_questions": 20
   },
   "questions": [
     {
       "number": 1,
       "text": "1. 정보시스템 운영 중 서버가 다운되거나 자연재해나 시스템 장애 등의 이유로 고객에게 서비스가 불가능한 경우가 종종 발생한다. 이와 같은 상황에서 비상사태 또는 업무중단 시정부터 업무가 복구되어 다시 정상 가동될때까지의 시간을 의미하는 용어가 무엇인지 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>1. 정보시스템 운영 중 서버가 다운되거나 자연재해나 시스템 장애 등의 이유로 고객에게 서비스가 불가능한 경우가 종종 발생한다. 이와 같은 상황에서 비상사태 또는 업무중단 시정부터 업무가 복구되어 다시 정상 가동될때까지의 시간을 의미하는 용어가 무엇인지 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "재해 복구 시간 or RTO(Recovery Time Objective)\n재해복구시점 (RPO  : Recovery Point Objective) : 재해 발생시, 데이터손실을 수용 손실 허용 시점\n네트워크복구시간 (RCO : Recovery Communication Objective) : 주 영업점과 DR센터 간 네트워크 복구 수준\n재해복구범위(RSO :RecoveryScope Objective) : 업무 중요도에 따른 복구 대상시스템 선정"
+      "answer": "재해 복구 시간 or RTO(Recovery Time Objective)\n재해복구시점 (RPO : Recovery Point Objective) : 재해 발생시, 데이터손실을 수용 손실 허용 시점\n네트워크복구시간 (RCO : Recovery Communication Objective) : 주 영업점과 DR센터 간 네트워크 복구 수준\n재해복구범위(RSO :\nRecovery\nScope Objective\n) : 업무 중요도에 따른 복구 대상시스템 선정",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">재해 복구 시간 or RTO(Recovery Time Objective)</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">재해복구시점 (RPO  : Recovery Point Objective) : 재해 발생시, 데이터손실을 수용 손실 허용 시점</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #006dd7;\">네트워크복구시간 (RCO : Recovery Communication Objective) : 주 영업점과 DR센터 간 네트워크 복구 수준 </span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #006dd7;\">재해복구범위(RSO :</span><span style=\"background-color: #fafafa; color: #006dd7;\">Recovery<span>Scope Objective</span></span><span style=\"background-color: #fafafa; color: #006dd7;\">) : 업무 중요도에 따른 복구 대상시스템 선정</span></p>"
     },
     {
       "number": 2,
-      "text": "2. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.",
+      "text": "2. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.\na={'일본','중국','한국'}\na.add('베트남')\na.add('중국')\na.remove('일본')\na.update(['홍콩','한국','태국'])\nprint(a)",
+      "question_html": "<p data-ke-size=\"size16\"><b>2. 다음은 파이썬 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"bash\" data-ke-language=\"bash\" data-ke-type=\"codeblock\" id=\"code_1625352090494\"><code>a={'일본','중국','한국'}\na.add('베트남')\na.add('중국')\na.remove('일본')\na.update(['홍콩','한국','태국'])\nprint(a)</code></pre>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "{'중국','한국','베트남','홍콩','태국'}"
+      "answer": "{'중국','한국','베트남','홍콩','태국'}",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">{'중국','한국','베트남','홍콩','태국'}</span></p>"
     },
     {
       "number": 3,
       "text": "3. 브라우저가 가지고 있는 XMLHttpRequest 객체를 이용해서 전체 페이지를 새로 고치지 않고도 페이지의 일부분만을 위한 데이터를 로드하는 기법이며, 하이퍼텍스트 표기 언어(HTML)만으로 어려운 다양한 작업을 웹 페이지에서 구현해 이용자가 웹 페이지와 자유롭게 상호작용할 수 있도록 하는 기술명을 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>3. 브라우저가 가지고 있는 XMLHttpRequest 객체를 이용해서 전체 페이지를 새로 고치지 않고도 페이지의 일부분만을 위한 데이터를 로드하는 기법이며, 하이퍼텍스트 표기 언어(HTML)만으로 어려운 다양한 작업을 웹 페이지에서 구현해 이용자가 웹 페이지와 자유롭게 상호작용할 수 있도록 하는 기술명을 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "비동기 통신 기법 or AJAX(Asynchronous JavaScript and XML)"
+      "answer": "비동기 통신 기법 or AJAX(Asynchronous JavaScript and XML)",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">비동기 통신 기법 or AJAX(Asynchronous JavaScript and XML)</span></p>"
     },
     {
       "number": 4,
       "text": "4. 절차보다는 사람이 중심이 되어 변화에 유연하고 신속하게 적응하면서 효율적으로 시스템을 개발할 수 있는 신속 적응적 경량 개발방법론으로, 개발 기간이 짧고 신속하며, 워터폴에 대비되는 방법론으로 최근 회사에서 각광받는 방법론은 무엇인가?",
+      "question_html": "<p data-ke-size=\"size16\"><b>4. 절차보다는 사람이 중심이 되어 변화에 유연하고 신속하게 적응하면서 효율적으로 시스템을 개발할 수 있는 신속 적응적 경량 개발방법론으로, 개발 기간이 짧고 신속하며, 워터폴에 대비되는 방법론으로 최근 회사에서 각광받는 방법론은 무엇인가?</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "애자일 방법론"
+      "answer": "애자일 방법론",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">애자일 방법론</span></p>"
     },
     {
       "number": 5,
-      "text": "5. 다음은 자바 코드이다. 다음 밑줄에 들어갈 키워드를 쓰시오.",
+      "text": "5. 다음은 자바 코드이다. 다음 밑줄에 들어갈 키워드를 쓰시오.\nclass parent\n public void show(){\n system.out.println(\"Parent\");\n }\n}\n\nclass Child extends Parent{\n public void show(){\n system.out.println(\"Child\");\n }\n}\n\npublic class good{\n public static void main(String[] args){\n Parent pa = ____ Child();\n pa.show();\n }\n}",
+      "question_html": "<p data-ke-size=\"size16\"><b>5. 다음은 자바 코드이다. 다음 밑줄에 들어갈 키워드를 쓰시오.</b></p>\n<pre class=\"java\" data-ke-language=\"java\" data-ke-type=\"codeblock\" id=\"code_1625352562798\"><code>class parent\n\tpublic void show(){\n    \tsystem.out.println(\"Parent\");\n    }\n}\n\nclass Child extends Parent{\n\tpublic void show(){\n    \tsystem.out.println(\"Child\");\n    }\n}\n\npublic class good{\n\tpublic static void main(String[] args){\n    \tParent pa = ____  Child();\n        pa.show();\n    }\n}</code></pre>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "new"
+      "answer": "new",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">new</span></p>"
     },
     {
       "number": 6,
-      "text": "6. 학생 테이블은 학번, 이름, 학년, 수강과목, 점수, 연락처를 속성으로 가진다. 아래 조건을 만족하는 SQL문을 작성하시오.",
+      "text": "6. 학생 테이블은 학번, 이름, 학년, 수강과목, 점수, 연락처를 속성으로 가진다. 아래 조건을 만족하는 SQL문을 작성하시오.\n1) 학생 테이블에서 3,4학년인 학번, 이름을 조회한다.\n2) IN 연산자 사용해야 한다.\n[학생]\n학번\n이름\n학년\n수강과목\n점수\n연락처\n1000\n김이름\n1\n수학\n90\n010-1111-2222\n2000\n장이름\n2\n과학\n95\n010-2222-2222\n3000\n허이름\n3\n미술\n90\n010-3333-3333\n4000\n조이름\n4\n음악\n95\n010-4444-4444",
+      "question_html": "<p data-ke-size=\"size16\"><b>6. 학생 테이블은 학번, 이름, 학년, 수강과목, 점수, 연락처를 속성으로 가진다. 아래 조건을 만족하는 SQL문을 작성하시오.</b></p>\n<p data-ke-size=\"size16\">1) 학생 테이블에서 3,4학년인 학번, 이름을 조회한다.</p>\n<p data-ke-size=\"size16\">2) IN 연산자 사용해야 한다.</p>\n<p data-ke-size=\"size16\">[학생]</p>\n<table border=\"1\" data-ke-align=\"alignLeft\" style=\"border-collapse: collapse; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"width: 16.6667%; text-align: center;\">학번</td>\n<td style=\"width: 16.6667%; text-align: center;\">이름</td>\n<td style=\"width: 16.6667%; text-align: center;\">학년</td>\n<td style=\"width: 16.6667%; text-align: center;\">수강과목</td>\n<td style=\"width: 16.6667%; text-align: center;\">점수</td>\n<td style=\"width: 16.6667%; text-align: center;\">연락처</td>\n</tr>\n<tr>\n<td style=\"width: 16.6667%; text-align: center;\">1000</td>\n<td style=\"width: 16.6667%; text-align: center;\">김이름</td>\n<td style=\"width: 16.6667%; text-align: center;\">1</td>\n<td style=\"width: 16.6667%; text-align: center;\">수학</td>\n<td style=\"width: 16.6667%; text-align: center;\">90</td>\n<td style=\"width: 16.6667%; text-align: center;\">010-1111-2222</td>\n</tr>\n<tr>\n<td style=\"width: 16.6667%; text-align: center;\">2000</td>\n<td style=\"width: 16.6667%; text-align: center;\">장이름</td>\n<td style=\"width: 16.6667%; text-align: center;\">2</td>\n<td style=\"width: 16.6667%; text-align: center;\">과학</td>\n<td style=\"width: 16.6667%; text-align: center;\">95</td>\n<td style=\"width: 16.6667%; text-align: center;\">010-2222-2222</td>\n</tr>\n<tr>\n<td style=\"width: 16.6667%; text-align: center;\">3000</td>\n<td style=\"width: 16.6667%; text-align: center;\">허이름</td>\n<td style=\"width: 16.6667%; text-align: center;\">3</td>\n<td style=\"width: 16.6667%; text-align: center;\">미술</td>\n<td style=\"width: 16.6667%; text-align: center;\">90</td>\n<td style=\"width: 16.6667%; text-align: center;\">010-3333-3333</td>\n</tr>\n<tr>\n<td style=\"width: 16.6667%; text-align: center;\">4000</td>\n<td style=\"width: 16.6667%; text-align: center;\">조이름</td>\n<td style=\"width: 16.6667%; text-align: center;\">4</td>\n<td style=\"width: 16.6667%; text-align: center;\">음악</td>\n<td style=\"width: 16.6667%; text-align: center;\">95</td>\n<td style=\"width: 16.6667%; text-align: center;\">010-4444-4444</td>\n</tr>\n</tbody>\n</table>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": ""
-    },
-    {
-      "number": 1,
-      "text": "1) 학생 테이블에서 3,4학년인 학번, 이름을 조회한다.",
-      "options": "",
-      "images": [],
-      "code": null,
-      "answer": ""
-    },
-    {
-      "number": 2,
-      "text": "2) IN 연산자 사용해야 한다.\n[학생]",
-      "options": "",
-      "images": [],
-      "code": null,
-      "answer": "SELECT 학번, 이름 FROM 학생 WHERE 학년 IN (3,4);"
+      "answer": "SELECT 학번, 이름 FROM 학생 WHERE 학년 IN (3,4);",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">SELECT 학번, 이름 FROM 학생 WHERE 학년 IN (3,4);</span></p>"
     },
     {
       "number": 7,
       "text": "7. 트랜잭션 Rollback에 대해 설명하시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>7. 트랜잭션 Rollback에 대해 설명하시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "트랜잭션 처리 중 오류가 발생했을 때, 오류 이전의 특징 시점(SAVEPOINT, CHECKPOINT) 상태로 되돌려주는 제어어(명령문)이다."
+      "answer": "트랜잭션 처리 중 오류가 발생했을 때, 오류 이전의 특징 시점(SAVEPOINT, CHECKPOINT) 상태로 되돌려주는 제어어(명령문)이다.",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">트랜잭션 처리 중 오류가 발생했을 때, 오류 이전의 특징 시점(SAVEPOINT, CHECKPOINT) 상태로 되돌려주는 제어어(명령문)이다.</span></p>"
     },
     {
       "number": 8,
       "text": "8. 무결성과 인증을 보장하는 인증해더(AH)와 기밀성을 보장하는 암호화(ESP)를 이용한 프로토콜로 네트워크 계층(Network Layer)인 인터넷 프로토콜(IP)에 보안성을 제공해주는 표준화된 기술에 대해 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>8. 무결성과 인증을 보장하는 인증해더(AH)와 기밀성을 보장하는 암호화(ESP)를 이용한 프로토콜로 네트워크 계층(Network Layer)인 인터넷 프로토콜(IP)에 보안성을 제공해주는 표준화된 기술에 대해 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "IPSec(Internet Protocol Security)"
+      "answer": "IPSec(Internet Protocol Security)",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">IPSec(Internet Protocol Security)</span></p>"
     },
     {
       "number": 9,
       "text": "9. 애플리케이션을 실행하지 않고, 소스 코드에 대한 코딩 표준, 코딩 스타일, 코드 복잡도 및 남은 결함을 발견하기 위해 사용하는 도구는 무엇인지 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>9. 애플리케이션을 실행하지 않고, 소스 코드에 대한 코딩 표준, 코딩 스타일, 코드 복잡도 및 남은 결함을 발견하기 위해 사용하는 도구는 무엇인지 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "정적 분석 도구"
+      "answer": "정적 분석 도구",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">정적 분석 도구</span></p>"
     },
     {
       "number": 10,
-      "text": "10. 다음 보기가 설명하는 패턴을 쓰시오. (영문 Full-Name으로 작성하시오)\n한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들이 연락이 가고 자동으로 내용이 갱신되는 방법으로 일대 다의 의존성을 가지며 상호작용하는 객체 사이에서는 가능하면 느슨하게 결합하는 디자인을 사용해야 한다.",
+      "text": "10. 다음 보기가 설명하는 패턴을 쓰시오. (영문 Full-Name으로 작성하시오)\n[보기]\n한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들이 연락이 가고 자동으로 내용이 갱신되는 방법으로 일대 다의 의존성을 가지며 상호작용하는 객체 사이에서는 가능하면 느슨하게 결합하는 디자인을 사용해야 한다.\n반응형",
+      "question_html": "<p data-ke-size=\"size16\"><b>10. 다음 보기가 설명하는 패턴을 쓰시오. (영문 Full-Name으로 작성하시오)</b></p>\n<p data-ke-size=\"size16\">[보기]</p>\n<p data-ke-size=\"size16\">한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들이 연락이 가고 자동으로 내용이 갱신되는 방법으로 일대 다의 의존성을 가지며 상호작용하는 객체 사이에서는 가능하면 느슨하게 결합하는 디자인을 사용해야 한다.</p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n\n\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "Observer Pattern"
+      "answer": "Observer Pattern",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">Observer Pattern</span></p>"
     },
     {
       "number": 11,
       "text": "11. Linux 운영체제 위에서 구동하며 휴대폰 전화를 비롯한 휴대용 장치를 위한 운영체제와 미들웨어, 사용자 인터페이스 그리고 표준 응용프로그램(웹 브라우저 등) 등을 포함하고 있는 소프트웨어 스택이자 리눅스 모바일 운영체제로 개발자들이 자바와 코틀린 언어로 응용 프로그램을 작성할 수 있게 했고, 컴파일 된 바이트 코드를 구동할 수 있는 런타임 라이브러리를 제공하는 운영체제는 무언인지 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>11. Linux 운영체제 위에서 구동하며 휴대폰 전화를 비롯한 휴대용 장치를 위한 운영체제와 미들웨어, 사용자 인터페이스 그리고 표준 응용프로그램(웹 브라우저 등) 등을 포함하고 있는 소프트웨어 스택이자 리눅스 모바일 운영체제로 개발자들이 자바와 코틀린 언어로 응용 프로그램을 작성할 수 있게 했고, 컴파일 된 바이트 코드를 구동할 수 있는 런타임 라이브러리를 제공하는 운영체제는 무언인지 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "안드로이드"
+      "answer": "안드로이드",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">안드로이드</span></p>"
     },
     {
       "number": 12,
-      "text": "12. 학생 테이블의 name속성에 IDX_NAME 이름으로 인덱스 생성하는 SQL문을 작성하시오.",
+      "text": "12. 학생 테이블의 name속성에 IDX_NAME 이름으로 인덱스 생성하는 SQL문을 작성하시오.\nSTID\nNAME\nSCORE\nDEPTID\n1000\n김이름\n90\n1\n2000\n허이름\n95\n2\n3000\n조이름\n90\n3\n4000\n장이름\n95\n4",
+      "question_html": "<p data-ke-size=\"size16\"><b>12. 학생 테이블의 name속성에 IDX_NAME 이름으로 인덱스 생성하는 SQL문을 작성하시오.</b></p>\n<table border=\"1\" data-ke-align=\"alignLeft\" style=\"border-collapse: collapse; width: 100%;\">\n<tbody>\n<tr>\n<td style=\"width: 25%;\"> STID</td>\n<td style=\"width: 25%;\">NAME</td>\n<td style=\"width: 25%;\">SCORE</td>\n<td style=\"width: 25%;\">DEPTID</td>\n</tr>\n<tr>\n<td style=\"width: 25%;\">1000</td>\n<td style=\"width: 25%;\">김이름</td>\n<td style=\"width: 25%;\">90</td>\n<td style=\"width: 25%;\">1</td>\n</tr>\n<tr>\n<td style=\"width: 25%;\">2000</td>\n<td style=\"width: 25%;\">허이름</td>\n<td style=\"width: 25%;\">95</td>\n<td style=\"width: 25%;\">2</td>\n</tr>\n<tr>\n<td style=\"width: 25%;\">3000</td>\n<td style=\"width: 25%;\">조이름</td>\n<td style=\"width: 25%;\">90</td>\n<td style=\"width: 25%;\">3</td>\n</tr>\n<tr>\n<td style=\"width: 25%;\">4000</td>\n<td style=\"width: 25%;\">장이름</td>\n<td style=\"width: 25%;\">95</td>\n<td style=\"width: 25%;\">4</td>\n</tr>\n</tbody>\n</table>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "CREATE INDEX IDX_NAME ON 학생(NAME);"
+      "answer": "CREATE INDEX IDX_NAME ON 학생(NAME);",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">CREATE INDEX IDX_NAME ON 학생(NAME);</span></p>"
     },
     {
       "number": 13,
-      "text": "13. 다음 설명 중 빈칸에 들어갈 알맞는 용어를 작성하시오.\nHTTP, HTTPS SMTP를 통해서 XML 기반의 데이터를 주고받는 프로토콜로 웹 서비스 방식에 HTTP기반의  (    ) 을/를 사용하여 송수신한다. (    ) 대신 레스트풀(RESTful) 프로토콜로 대체할 수 있다.",
+      "text": "13. 다음 설명 중 빈칸에 들어갈 알맞는 용어를 작성하시오.\nHTTP, HTTPS SMTP를 통해서 XML 기반의 데이터를 주고받는 프로토콜로 웹 서비스 방식에 HTTP기반의 ( ) 을/를 사용하여 송수신한다. ( ) 대신 레스트풀(RESTful) 프로토콜로 대체할 수 있다.",
+      "question_html": "<p data-ke-size=\"size16\"><b>13. 다음 설명 중 빈칸에 들어갈 알맞는 용어를 작성하시오.</b></p>\n<p data-ke-size=\"size16\">HTTP, HTTPS SMTP를 통해서 XML 기반의 데이터를 주고받는 프로토콜로 웹 서비스 방식에 HTTP기반의  (    ) 을/를 사용하여 송수신한다. (    ) 대신 레스트풀(RESTful) 프로토콜로 대체할 수 있다.</p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "SOAP (Simple Object Access Protocol)"
+      "answer": "SOAP (Simple Object Access Protocol)",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">SOAP (Simple Object Access Protocol)</span></p>"
     },
     {
       "number": 14,
       "text": "14. SQL Injection이 무엇인지 서술하시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>14. SQL Injection이 무엇인지 서술하시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "응용 프로그램의 보안 취약점을 이용해서 악의적인 SQL 구문을 삽입, 실행시켜서 데이터베이스의 접근을 통해 정보를 탈취하거나 조작 등의 행위를 하는 공격 기법"
+      "answer": "응용 프로그램의 보안 취약점을 이용해서 악의적인 SQL 구문을 삽입, 실행시켜서 데이터베이스의 접근을 통해 정보를 탈취하거나 조작 등의 행위를 하는 공격 기법",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">응용 프로그램의 보안 취약점을 이용해서 악의적인 SQL 구문을 삽입, 실행시켜서 데이터베이스의 접근을 통해 정보를 탈취하거나 조작 등의 행위를 하는 공격 기법</span></p>"
     },
     {
       "number": 15,
-      "text": "15. 사용자에게 읽기 / 쓰기 / 실행 권한을 부여하고 그룹에게는 읽기 / 실행을 부여하고 그 이외에는 실행 권한을  a.txt에 부여하는 명령어를 한줄로 작성하시오 (8진법을 사용하시오)",
+      "text": "15. 사용자에게 읽기 / 쓰기 / 실행 권한을 부여하고 그룹에게는 읽기 / 실행을 부여하고 그 이외에는 실행 권한을 a.txt에 부여하는 명령어를 한줄로 작성하시오 (8진법을 사용하시오)",
+      "question_html": "<p data-ke-size=\"size16\"><b>15. 사용자에게 읽기 / 쓰기 / 실행 권한을 부여하고 그룹에게는 읽기 / 실행을 부여하고 그 이외에는 실행 권한을  a.txt에 부여하는 명령어를 한줄로 작성하시오 (8진법을 사용하시오)</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "chmod 751 a.txt"
+      "answer": "chmod 751 a.txt",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">chmod 751 a.txt</span></p>"
     },
     {
       "number": 16,
-      "text": "16. UI 설계 원칙에서 정확하고 완벽하게 사용자의 목표가 달성될 수 있도록 제작할 수 있어야 한다. 다음 빈칸에 들어갈 특징은 무엇인가?\n직관성 - 누구나 쉽게 이해하고 사용할 수 있어야 한다.\n학습성 - 누구나 쉽게 배우고 익힐 수 있어야 한다.\n유연성 - 사용자의 요구사항을 최대한 수용하며 오류를 최소화해야 한다.\n(      )  - 사용자의 목적을 정확하게 달성하여야 한다.",
+      "text": "16. UI 설계 원칙에서 정확하고 완벽하게 사용자의 목표가 달성될 수 있도록 제작할 수 있어야 한다. 다음 빈칸에 들어갈 특징은 무엇인가?\n직관성 - 누구나 쉽게 이해하고 사용할 수 있어야 한다.\n학습성 - 누구나 쉽게 배우고 익힐 수 있어야 한다.\n유연성 - 사용자의 요구사항을 최대한 수용하며 오류를 최소화해야 한다.\n( ) - 사용자의 목적을 정확하게 달성하여야 한다.",
+      "question_html": "<p data-ke-size=\"size16\"><b>16. UI 설계 원칙에서 정확하고 완벽하게 사용자의 목표가 달성될 수 있도록 제작할 수 있어야 한다. 다음 빈칸에 들어갈 특징은 무엇인가?</b></p>\n<p data-ke-size=\"size16\">직관성 - 누구나 쉽게 이해하고 사용할 수 있어야 한다.</p>\n<p data-ke-size=\"size16\">학습성 - 누구나 쉽게 배우고 익힐 수 있어야 한다.</p>\n<p data-ke-size=\"size16\">유연성 - 사용자의 요구사항을 최대한 수용하며 오류를 최소화해야 한다.</p>\n<p data-ke-size=\"size16\">(      )  - 사용자의 목적을 정확하게 달성하여야 한다. </p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "유효성"
+      "answer": "유효성",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">유효성</span></p>"
     },
     {
       "number": 17,
       "text": "17. 전 세계 오픈된 정보를 하나로 묶는 방식으로 link data와 open data의 합성어가 무엇인지 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>17. 전 세계 오픈된 정보를 하나로 묶는 방식으로 link data와 open data의 합성어가 무엇인지 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "LOD (Linked Open Data)"
+      "answer": "LOD (Linked Open Data)",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">LOD (Linked Open Data)</span></p>"
     },
     {
       "number": 18,
-      "text": "18. 다음은 데이터 모델링 절차이다. 절차에 맞도록 보기에서 찾아 채우시오.",
+      "text": "18. 다음은 데이터 모델링 절차이다. 절차에 맞도록 보기에서 찾아 채우시오.\n[보기]\n1. 물리적 데이터 모델링\n2. 개념적 데이터 모델링\n3. 논리적 데이터 모델링\n요구사항 분석 > ( 1. ) > ( 2. ) > ( 3. )",
+      "question_html": "<p data-ke-size=\"size16\"><b>18. 다음은 데이터 모델링 절차이다. 절차에 맞도록 보기에서 찾아 채우시오.</b></p>\n<p data-ke-size=\"size16\">[보기]</p>\n<p data-ke-size=\"size16\">1. 물리적 데이터 모델링</p>\n<p data-ke-size=\"size16\">2. 개념적 데이터 모델링</p>\n<p data-ke-size=\"size16\">3. 논리적 데이터 모델링</p>\n<p data-ke-size=\"size16\">요구사항 분석 &gt; (  1.  ) &gt; (  2. )  &gt; (  3.  )</p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": ""
-    },
-    {
-      "number": 1,
-      "text": "1. 물리적 데이터 모델링",
-      "options": "",
-      "images": [],
-      "code": null,
-      "answer": ""
-    },
-    {
-      "number": 2,
-      "text": "2. 개념적 데이터 모델링",
-      "options": "",
-      "images": [],
-      "code": null,
-      "answer": ""
-    },
-    {
-      "number": 3,
-      "text": "3. 논리적 데이터 모델링\n요구사항 분석 > (  1.  ) > (  2. )  > (  3.  )",
-      "options": "",
-      "images": [],
-      "code": null,
-      "answer": "1. 개념적 데이터 모델링\n2. 논리적 데이터 모델링\n3. 물리적 데이터 모델링"
+      "answer": "1. 개념적 데이터 모델링\n2. 논리적 데이터 모델링\n3. 물리적 데이터 모델링",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. 개념적 데이터 모델링</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. 논리적 데이터 모델링</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. 물리적 데이터 모델링</span></p>"
     },
     {
       "number": 19,
-      "text": "19. 다음은 자바 코드이다. 출력 결과를 쓰시오.",
+      "text": "19. 다음은 자바 코드이다. 출력 결과를 쓰시오.\nclass A{\n private int a;\n public A(int a){\n this.a = a;\n }\n public void display(){\n system.out.println(\"a=\" + a);\n }\n}\n\nclass B extends A {\n public B(int a){\n super(a);\n super.display();\n }\n}\n\npublic class good {\n public static void main(String[] args){\n B obj = new B(10);\n }\n}",
+      "question_html": "<p data-ke-size=\"size16\"><b>19. 다음은 자바 코드이다. 출력 결과를 쓰시오.</b></p>\n<pre class=\"java\" data-ke-language=\"java\" data-ke-type=\"codeblock\" id=\"code_1625353575664\"><code>class A{\n\tprivate int a;\n    public A(int a){\n    \tthis.a = a;\n    }\n    public void display(){\n    \tsystem.out.println(\"a=\" + a);\n    }\n}\n\nclass B extends A {\n\tpublic B(int a){\n    \tsuper(a);\n        super.display();\n    }\n}\n\n\npublic class good {\n\tpublic static void main(String[] args){\n    \tB obj = new B(10);\n    }\n}\n  </code></pre>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "a = 10"
+      "answer": "a = 10",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">a = 10</span></p>"
     },
     {
       "number": 20,
-      "text": "20. 소프트웨어 개발 과정에서 변경 사항을 관리하는 기법은 (     ) 기법이라고 하며, (      ) 기법을 활용한 도구로는 CVS, SVN, Git 등이 있다. 빈칸에 알맞은 용어를 쓰시오.",
+      "text": "20. 소프트웨어 개발 과정에서 변경 사항을 관리하는 기법은 ( ) 기법이라고 하며, ( ) 기법을 활용한 도구로는 CVS, SVN, Git 등이 있다. 빈칸에 알맞은 용어를 쓰시오.",
+      "question_html": "<p data-ke-size=\"size16\"><b>20. 소프트웨어 개발 과정에서 변경 사항을 관리하는 기법은 (     ) 기법이라고 하며, (      ) 기법을 활용한 도구로는 CVS, SVN, Git 등이 있다. 빈칸에 알맞은 용어를 쓰시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "형상관리"
+      "answer": "형상관리",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">형상관리</span></p>"
     }
   ]
 }

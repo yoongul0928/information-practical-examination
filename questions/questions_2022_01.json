@@ -1,148 +1,215 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-09T00:05:57.494349",
-    "total_questions": 17
+    "crawl_time": "2026-04-17T17:55:29.985823",
+    "source": "https://chobopark.tistory.com/271",
+    "total_questions": 20
   },
   "questions": [
     {
       "number": 1,
-      "text": "1. 아래 설명에 맞는 RAID 단계를 숫자로 작성하시오.- Striping(스트라이핑) 구현 방식- I/O 로드의 분산으로 매우 빠른 속도- 데이터를 블럭으로 분할 저장하며, 각 블럭은 다른 디스크로 나뉘어 저장",
+      "text": "1. 아래 설명에 맞는 RAID 단계를 숫자로 작성하시오.\n- Striping(스트라이핑) 구현 방식- I/O 로드의 분산으로 매우 빠른 속도- 데이터를 블럭으로 분할 저장하며, 각 블럭은 다른 디스크로 나뉘어 저장",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>1. 아래 설명에 맞는 RAID 단계를 숫자로 작성하시오.</b>- Striping(스트라이핑) 구현 방식- I/O 로드의 분산으로 매우 빠른 속도- 데이터를 블럭으로 분할 저장하며, 각 블럭은 다른 디스크로 나뉘어 저장</p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "0"
+      "answer": "0",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">0</span></p>"
     },
     {
       "number": 2,
-      "text": "2. 다음 설명을 확인하여 해당하는 항목을 보기에서 찾아 적으시오.(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, rollback 등..))1. 오류가 발생하기 전까지의 사항을 로그(log)로 기록해 놓고, 이전 상태로 되돌아간 후, 실패가 발생하기 전까지의 과정을 그대로 따라가는 현상2. 작업을 취소하여 트랜잭션을 이전 상태로 되돌리는 것",
+      "text": "2. 다음 설명을 확인하여 해당하는 항목을 보기에서 찾아 적으시오.\n(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, rollback 등..))\n1. 오류가 발생하기 전까지의 사항을 로그(log)로 기록해 놓고, 이전 상태로 되돌아간 후, 실패가 발생하기 전까지의 과정을 그대로 따라가는 현상2. 작업을 취소하여 트랜잭션을 이전 상태로 되돌리는 것",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>2. 다음 설명을 확인하여 해당하는 항목을 보기에서 찾아 적으시오. </b><u>(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, rollback 등..))</u>1. 오류가 발생하기 전까지의 사항을 로그(log)로 기록해 놓고, 이전 상태로 되돌아간 후, 실패가 발생하기 전까지의 과정을 그대로 따라가는 현상2. 작업을 취소하여 트랜잭션을 이전 상태로 되돌리는 것</p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "1. redo\n2. undo"
+      "answer": "1. redo\n2. undo",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. redo</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. undo</span></p>"
     },
     {
       "number": 3,
-      "text": "3. 다음 자바 문법에 알맞는 출력 결과를 작성하시오.",
+      "text": "3. 다음 자바 문법에 알맞는 출력 결과를 작성하시오.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\nclass\nA {\nint\na;\nint\nb;\n}\npublic\nclass\nMain {\nstatic\nvoid\nfunc1(A m){\nm.a\n*\n=\n10\n;\n}\nstatic\nvoid\nfunc2(A m){\nm.a\n+\n=\nm.b;\n}\npublic\nstatic\nvoid\nmain(\nString\nargs[]){\nA m\n=\nnew\nA();\nm.a\n=\n100\n;\nfunc1(m);\nm.b\n=\nm.a;\nfunc2(m);\nSystem\n.\nout\n.printf(\n\"%d\"\n, m.a);\n}\n}\nColored by Color Scripter\ncs",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>3. 다음 자바 문법에 알맞는 출력 결과를 작성하시오.</b></p>\n<div class=\"colorscripter-code\" style=\"color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position: relative !important; overflow: auto;\">\n<table cellpadding=\"0\" cellspacing=\"0\" class=\"colorscripter-code-table\" data-ke-align=\"alignLeft\" style=\"margin: 0; padding: 0; border: none; background-color: #fafafa; border-radius: 4px;\">\n<tbody>\n<tr>\n<td style=\"padding: 6px; border-right: 2px solid #e5e5e5;\">\n<div style=\"margin: 0; padding: 0; word-break: normal; text-align: right; color: #666; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"line-height: 130%;\">1</div>\n<div style=\"line-height: 130%;\">2</div>\n<div style=\"line-height: 130%;\">3</div>\n<div style=\"line-height: 130%;\">4</div>\n<div style=\"line-height: 130%;\">5</div>\n<div style=\"line-height: 130%;\">6</div>\n<div style=\"line-height: 130%;\">7</div>\n<div style=\"line-height: 130%;\">8</div>\n<div style=\"line-height: 130%;\">9</div>\n<div style=\"line-height: 130%;\">10</div>\n<div style=\"line-height: 130%;\">11</div>\n<div style=\"line-height: 130%;\">12</div>\n<div style=\"line-height: 130%;\">13</div>\n<div style=\"line-height: 130%;\">14</div>\n<div style=\"line-height: 130%;\">15</div>\n<div style=\"line-height: 130%;\">16</div>\n<div style=\"line-height: 130%;\">17</div>\n<div style=\"line-height: 130%;\">18</div>\n<div style=\"line-height: 130%;\">19</div>\n<div style=\"line-height: 130%;\">20</div>\n<div style=\"line-height: 130%;\">21</div>\n<div style=\"line-height: 130%;\">22</div>\n<div style=\"line-height: 130%;\">23</div>\n<div style=\"line-height: 130%;\">24</div>\n<div style=\"line-height: 130%;\">25</div>\n<div style=\"line-height: 130%;\">26</div>\n<div style=\"line-height: 130%;\">27</div>\n<div style=\"line-height: 130%;\">28</div>\n<div style=\"line-height: 130%;\">29</div>\n</div>\n</td>\n<td style=\"padding: 6px 0; text-align: left;\">\n<div style=\"margin: 0; padding: 0; color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\"><span style=\"color: #a71d5d;\">class</span> A {</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">int</span> a;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">int</span> b;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">}</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">class</span> Main {</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #a71d5d;\">void</span> func1(A m){</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">   m.a <span style=\"color: #a71d5d;\">*</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">10</span>;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  }</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #a71d5d;\">void</span> func2(A m){</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">    m.a <span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">=</span> m.b;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  }</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #a71d5d;\">void</span> main(<span style=\"color: #066de2;\">String</span> args[]){</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  A m <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #a71d5d;\">new</span> A();</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  m.a <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">100</span>;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  func1(m);</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  m.b <span style=\"color: #a71d5d;\">=</span> m.a;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  func2(m);</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">System</span>.<span style=\"color: #066de2;\">out</span>.printf(<span style=\"color: #63a35c;\">\"%d\"</span>, m.a);</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  }</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">}</div>\n\n</div>\n<div style=\"text-align: right; margin-top: -13px; margin-right: 5px; font-size: 9px; font-style: italic;\"><a href=\"http://colorscripter.com/info#e\" rel=\"noopener\" style=\"color: #e5e5e5text-decoration:none;\" target=\"_blank\">Colored by Color Scripter</a></div>\n</td>\n<td style=\"vertical-align: bottom; padding: 0 2px 4px 0;\"><a href=\"http://colorscripter.com/info#e\" rel=\"noopener\" style=\"text-decoration: none; color: white;\" target=\"_blank\"><span style=\"font-size: 9px; word-break: normal; background-color: #e5e5e5; color: white; border-radius: 10px; padding: 1px;\">cs</span></a></td>\n</tr>\n</tbody>\n</table>\n</div>",
       "options": "",
       "images": [],
-      "code": "class A {\n  int a;\n  int b;\n}\n  public class Main {\n  static void func1(A m){\n   m.a *= 10;\n  }\n  static void func2(A m){\n    m.a += m.b;\n  }\n  public static void main(String args[]){\n  A m = new A();\n  m.a = 100;\n  func1(m);\n  m.b = m.a;\n  func2(m);\n  System.out.printf(\"%d\", m.a);\n  }\n}",
-      "answer": ""
+      "code": null,
+      "answer": "2000",
+      "answer_html": "<span style=\"color: #009a87;\">2000</span>"
     },
     {
       "number": 4,
       "text": "4. 다음 SQL 결과에 알맞는 쿼리을 작성하시오.\nSELECT name, score FROM 성적 ( 1 ) BY ( 2 ) ( 3 )",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>4. 다음 SQL 결과에 알맞는 쿼리을 작성하시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"373\" data-origin-width=\"837\"><span data-phocus=\"https://blog.kakaocdn.net/dna/uEqo5/btrCITDzsQ5/AAAAAAAAAAAAAAAAAAAAAGpz6sul64daWvkKDeHLmkGeeTlmJGv8rtI27qb1-rRW/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=%2BFvKtyivc%2BhMGqIhI6fA7Iu5ZlE%3D\" data-url=\"https://blog.kakaocdn.net/dna/uEqo5/btrCITDzsQ5/AAAAAAAAAAAAAAAAAAAAAGpz6sul64daWvkKDeHLmkGeeTlmJGv8rtI27qb1-rRW/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=%2BFvKtyivc%2BhMGqIhI6fA7Iu5ZlE%3D\"><img data-origin-height=\"373\" data-origin-width=\"837\" height=\"242\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/uEqo5/btrCITDzsQ5/AAAAAAAAAAAAAAAAAAAAAGpz6sul64daWvkKDeHLmkGeeTlmJGv8rtI27qb1-rRW/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=%2BFvKtyivc%2BhMGqIhI6fA7Iu5ZlE%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FuEqo5%2FbtrCITDzsQ5%2FAAAAAAAAAAAAAAAAAAAAAGpz6sul64daWvkKDeHLmkGeeTlmJGv8rtI27qb1-rRW%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3D%252BFvKtyivc%252BhMGqIhI6fA7Iu5ZlE%253D\" width=\"543\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\" style=\"text-align: left;\">SELECT name, score FROM 성적 ( 1 ) BY ( 2 ) ( 3 )</p>",
       "options": "",
       "images": [
         "https://blog.kakaocdn.net/dna/uEqo5/btrCITDzsQ5/AAAAAAAAAAAAAAAAAAAAAGpz6sul64daWvkKDeHLmkGeeTlmJGv8rtI27qb1-rRW/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=%2BFvKtyivc%2BhMGqIhI6fA7Iu5ZlE%3D"
       ],
       "code": null,
-      "answer": "1. ORDER\n2. score\n3. DESC"
+      "answer": "1. ORDER\n2. score\n3. DESC",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. ORDER</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. score</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. DESC</span></p>"
     },
     {
       "number": 5,
       "text": "5. 데이터베이스의 이상현상 중, 삭제 이상에 대해 서술하시오.",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>5. 데이터베이스의 이상현상 중, 삭제 이상에 대해 서술하시오.</b></p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "데이터를 삭제할 경우 원하지 않는 다른 데이터도 삭제되어버리는 이상"
+      "answer": "데이터를 삭제할 경우 원하지 않는 다른 데이터도 삭제되어버리는 이상",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">데이터를 삭제할 경우 원하지 않는 다른 데이터도 삭제되어버리는 이상</span></p>"
     },
     {
       "number": 6,
-      "text": "6. 다음은 파이썬 코드에서 출력되는 a와 b의 값을 작성하시오.",
+      "text": "6. 다음은 파이썬 코드에서 출력되는 a와 b의 값을 작성하시오.\n1\n2\n3\ndef\nexam(num1, num2\n=\n2\n):\nprint\n(\n'a='\n, num1,\n'b='\n, num2)\nexam(\n20\n)\ncs",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>6. 다음은 파이썬 코드에서 출력되는 a와 b의 값을 작성하시오.</b></p>\n<div class=\"colorscripter-code\" style=\"color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position: relative !important; overflow: auto;\">\n<table cellpadding=\"0\" cellspacing=\"0\" class=\"colorscripter-code-table\" data-ke-align=\"alignLeft\" style=\"margin: 0; padding: 0; border: none; background-color: #fafafa; border-radius: 4px;\">\n<tbody>\n<tr>\n<td style=\"padding: 6px; border-right: 2px solid #e5e5e5;\">\n<div style=\"margin: 0; padding: 0; word-break: normal; text-align: right; color: #666; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"line-height: 130%;\">1</div>\n<div style=\"line-height: 130%;\">2</div>\n<div style=\"line-height: 130%;\">3</div>\n</div>\n</td>\n<td style=\"padding: 6px 0; text-align: left;\">\n<div style=\"margin: 0; padding: 0; color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\"><span style=\"color: #a71d5d;\">def</span> exam(num1, num2<span style=\"color: #a71d5d;\">=</span><span style=\"color: #0099cc;\">2</span>):</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">print</span>(<span style=\"color: #63a35c;\">'a='</span>, num1, <span style=\"color: #63a35c;\">'b='</span>, num2)</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">exam(<span style=\"color: #0099cc;\">20</span>)</div>\n</div>\n</td>\n<td style=\"vertical-align: bottom; padding: 0 2px 4px 0;\"><a href=\"http://colorscripter.com/info#e\" rel=\"noopener\" style=\"text-decoration: none; color: white;\" target=\"_blank\"><span style=\"font-size: 9px; word-break: normal; background-color: #e5e5e5; color: white; border-radius: 10px; padding: 1px;\">cs</span></a></td>\n</tr>\n</tbody>\n</table>\n</div>",
       "options": "",
       "images": [],
-      "code": "def exam(num1, num2=2):\n  print('a=', num1, 'b=', num2)\nexam(20)",
-      "answer": "a= 20 b= 2"
+      "code": null,
+      "answer": "a= 20 b= 2",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87; background-color: #fafafa;\">a= 20 b= 2</span></p>"
     },
     {
       "number": 7,
-      "text": "7. 다음 설명과 관련된 답을 보기에서 골라 작성하시오.(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, remove, sort 등..))1. 요소를 확장해준다는 의미를 가지고 있으며, 모든 항목을 하나의 요소로 추가2. 리스트 내부 요소를 꺼내주는 함수로써, 그 요소는 리스트 안에서 삭제하고 그 값을 반환3. 리스트 내부의 요소의 순서는 뒤집는 역할",
+      "text": "7. 다음 설명과 관련된 답을 보기에서 골라 작성하시오.\n(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, remove, sort 등..))\n1. 요소를 확장해준다는 의미를 가지고 있으며, 모든 항목을 하나의 요소로 추가2. 리스트 내부 요소를 꺼내주는 함수로써, 그 요소는 리스트 안에서 삭제하고 그 값을 반환3. 리스트 내부의 요소의 순서는 뒤집는 역할",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>7. 다음 설명과 관련된 답을 보기에서 골라 작성하시오.</b><u>(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, remove, sort 등..))</u>1. 요소를 확장해준다는 의미를 가지고 있으며, 모든 항목을 하나의 요소로 추가2. 리스트 내부 요소를 꺼내주는 함수로써, 그 요소는 리스트 안에서 삭제하고 그 값을 반환3. 리스트 내부의 요소의 순서는 뒤집는 역할</p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "1. extend\n2. pop\n3. reverse"
+      "answer": "1. extend\n2. pop\n3. reverse",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. extend</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. pop</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. reverse</span></p>"
     },
     {
       "number": 8,
-      "text": "8. 다음 아래 단어를 영어 약자로 작성하시오.임시 키 무결성 프로토콜",
+      "text": "8. 다음 아래 단어를 영어 약자로 작성하시오.\n임시 키 무결성 프로토콜",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>8. 다음 아래 단어를 영어 약자로 작성하시오.</b>임시 키 무결성 프로토콜</p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": ""
+      "answer": "TKIP\n(Temporal Key Integrity Protocol)",
+      "answer_html": "<span style=\"color: #009a87;\">TKIP  </span>\n<span style=\"caret-color: auto; letter-spacing: 0px; color: #009a87;\">(Temporal Key Integrity Protocol)</span>"
+    },
+    {
+      "number": 9,
+      "text": "9.\n다음 중, 설명에 대한 답을 영어 약자로 작성하시오.\n키보드나 마우스와 같은 장치 없이 말이나 행동 그리고 감정과 같은 인간의 자연스러운 표현으로 컴퓨터나 장치를 제어할 수 있는 환경",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>9. <b>다음 중, 설명에 대한 답을 영어 약자로 작성하시오.</b></b>키보드나 마우스와 같은 장치 없이 말이나 행동 그리고 감정과 같은 인간의 자연스러운 표현으로 컴퓨터나 장치를 제어할 수 있는 환경</p>",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "NUI",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87; background-color: #fafafa;\">NUI</span></p>"
     },
     {
       "number": 10,
-      "text": "10. 다음은 분석도구에 대한 설명으로 보기에 알맞는 답을 작성하시오.(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, running analysis 등..))1. 소스 코드의 실행 없이, 코드의 의미를 분석해 결함을 찾아내는 원시적 코드 분석 기법2. 소스 코드를 실행하여 프로그램 동작이나 반응을 추적하고 코드에 존재하는 메모리 누수, 스레드 결함 등을 분석",
+      "text": "10. 다음은 분석도구에 대한 설명으로 보기에 알맞는 답을 작성하시오.\n(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, running analysis 등..))\n1. 소스 코드의 실행 없이, 코드의 의미를 분석해 결함을 찾아내는 원시적 코드 분석 기법2. 소스 코드를 실행하여 프로그램 동작이나 반응을 추적하고 코드에 존재하는 메모리 누수, 스레드 결함 등을 분석\n반응형",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>10. 다음은 분석도구에 대한 설명으로 보기에 알맞는 답을 작성하시오.</b><u>(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, running analysis 등..))</u>1. 소스 코드의 실행 없이, 코드의 의미를 분석해 결함을 찾아내는 원시적 코드 분석 기법2. 소스 코드를 실행하여 프로그램 동작이나 반응을 추적하고 코드에 존재하는 메모리 누수, 스레드 결함 등을 분석</p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n\n\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "1. static\n2. dynamic"
+      "answer": "1. static\n2. dynamic",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87; background-color: #fafafa;\">1. static</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87; background-color: #fafafa;\">2. dynamic</span></p>"
     },
     {
       "number": 11,
-      "text": "11. 다음 Java 코드 중에서 밑줄에 들어갈 알맞는 코드를 작성하시오.",
-      "options": "",
-      "images": [],
-      "code": "class Car implements Runnable{\n  int a;\n  public void run(){\n     system.out.println(\"message\")\n  }\n}\npublic class Main{\n  public static void main(String args[]){\n    Thread t1 = new Thread(new ___());\n    t1.start();\n  }\n}",
-      "answer": "Car"
-    },
-    {
-      "number": 12,
-      "text": "12. 다음 설명에 대한 알맞는 단어를 작성하시오.자바 프로그래밍 언어를 이용한 xUnit의 테스트 기법으로써 숨겨진 단위 테스트를 끌어내어 정형화시켜 단위 테스트를 쉽게 해주는 테스트용 Framework이다.",
+      "text": "11. 다음 Java 코드 중에서 밑줄에 들어갈 알맞는 코드를 작성하시오.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\nclass\nCar\nimplements\nRunnable{\nint\na;\npublic\nvoid\nrun(){\nsystem.\nout\n.\nprintln\n(\n\"message\"\n)\n}\n}\npublic\nclass\nMain{\npublic\nstatic\nvoid\nmain(\nString\nargs[]){\nThread t1\n=\nnew\nThread(\nnew\n___());\nt1.start();\n}\n}\nColored by Color Scripter\ncs",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>11. 다음 Java 코드 중에서 밑줄에 들어갈 알맞는 코드를 작성하시오.</b></p>\n<div class=\"colorscripter-code\" style=\"color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position: relative !important; overflow: auto;\">\n<table cellpadding=\"0\" cellspacing=\"0\" class=\"colorscripter-code-table\" data-ke-align=\"alignLeft\" style=\"margin: 0; padding: 0; border: none; background-color: #fafafa; border-radius: 4px;\">\n<tbody>\n<tr>\n<td style=\"padding: 6px; border-right: 2px solid #e5e5e5;\">\n<div style=\"margin: 0; padding: 0; word-break: normal; text-align: right; color: #666; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"line-height: 130%;\">1</div>\n<div style=\"line-height: 130%;\">2</div>\n<div style=\"line-height: 130%;\">3</div>\n<div style=\"line-height: 130%;\">4</div>\n<div style=\"line-height: 130%;\">5</div>\n<div style=\"line-height: 130%;\">6</div>\n<div style=\"line-height: 130%;\">7</div>\n<div style=\"line-height: 130%;\">8</div>\n<div style=\"line-height: 130%;\">9</div>\n<div style=\"line-height: 130%;\">10</div>\n<div style=\"line-height: 130%;\">11</div>\n<div style=\"line-height: 130%;\">12</div>\n<div style=\"line-height: 130%;\">13</div>\n<div style=\"line-height: 130%;\">14</div>\n<div style=\"line-height: 130%;\">15</div>\n<div style=\"line-height: 130%;\">16</div>\n</div>\n</td>\n<td style=\"padding: 6px 0; text-align: left;\">\n<div style=\"margin: 0; padding: 0; color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\"><span style=\"color: #a71d5d;\">class</span> Car <span style=\"color: #a71d5d;\">implements</span> Runnable{</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">int</span> a;</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">void</span> run(){</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">     system.<span style=\"color: #066de2;\">out</span>.<span style=\"color: #066de2;\">println</span>(<span style=\"color: #63a35c;\">\"message\"</span>)</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  }</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">}</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\"><span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">class</span> Main{</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">public</span> <span style=\"color: #a71d5d;\">static</span> <span style=\"color: #a71d5d;\">void</span> main(<span style=\"color: #066de2;\">String</span> args[]){</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">    Thread t1 <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #a71d5d;\">new</span> Thread(<span style=\"color: #a71d5d;\">new</span> ___());</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">    t1.start();</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  }</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">}</div>\n\n\n</div>\n<div style=\"text-align: right; margin-top: -13px; margin-right: 5px; font-size: 9px; font-style: italic;\"><a href=\"http://colorscripter.com/info#e\" rel=\"noopener\" style=\"color: #e5e5e5text-decoration:none;\" target=\"_blank\">Colored by Color Scripter</a></div>\n</td>\n<td style=\"vertical-align: bottom; padding: 0 2px 4px 0;\"><a href=\"http://colorscripter.com/info#e\" rel=\"noopener\" style=\"text-decoration: none; color: white;\" target=\"_blank\"><span style=\"font-size: 9px; word-break: normal; background-color: #e5e5e5; color: white; border-radius: 10px; padding: 1px;\">cs</span></a></td>\n</tr>\n</tbody>\n</table>\n</div>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": "JUnit"
+      "answer": "Car",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">Car</span></p>"
+    },
+    {
+      "number": 12,
+      "text": "12. 다음 설명에 대한 알맞는 단어를 작성하시오.\n자바 프로그래밍 언어를 이용한 xUnit의 테스트 기법으로써 숨겨진 단위 테스트를 끌어내어 정형화시켜 단위 테스트를 쉽게 해주는 테스트용 Framework이다.",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>12. 다음 설명에 대한 알맞는 단어를 작성하시오.</b>자바 프로그래밍 언어를 이용한 xUnit의 테스트 기법으로써 숨겨진 단위 테스트를 끌어내어 정형화시켜 단위 테스트를 쉽게 해주는 테스트용 Framework이다.</p>",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "JUnit",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">JUnit</span></p>"
     },
     {
       "number": 13,
       "text": "13. 다음 보기 중에서 블랙박스 테스트 기법을 3가지 골라 작성하시오.",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>13. 다음 보기 중에서 블랙박스 테스트 기법을 3가지 골라 작성하시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"246\" data-origin-width=\"823\"><span data-phocus=\"https://blog.kakaocdn.net/dna/qF3gz/btrCLADst4N/AAAAAAAAAAAAAAAAAAAAAPMlILODV_JxRx5zW8aFrSoy4091ZPX6hQX3VcFjaElc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=jErC1alaWM354JFBjmsfhPpq8C4%3D\" data-url=\"https://blog.kakaocdn.net/dna/qF3gz/btrCLADst4N/AAAAAAAAAAAAAAAAAAAAAPMlILODV_JxRx5zW8aFrSoy4091ZPX6hQX3VcFjaElc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=jErC1alaWM354JFBjmsfhPpq8C4%3D\"><img data-origin-height=\"246\" data-origin-width=\"823\" height=\"246\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/qF3gz/btrCLADst4N/AAAAAAAAAAAAAAAAAAAAAPMlILODV_JxRx5zW8aFrSoy4091ZPX6hQX3VcFjaElc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=jErC1alaWM354JFBjmsfhPpq8C4%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FqF3gz%2FbtrCLADst4N%2FAAAAAAAAAAAAAAAAAAAAAPMlILODV_JxRx5zW8aFrSoy4091ZPX6hQX3VcFjaElc%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DjErC1alaWM354JFBjmsfhPpq8C4%253D\" width=\"823\"/></span></figure>\n</p>",
       "options": "",
       "images": [
         "https://blog.kakaocdn.net/dna/qF3gz/btrCLADst4N/AAAAAAAAAAAAAAAAAAAAAPMlILODV_JxRx5zW8aFrSoy4091ZPX6hQX3VcFjaElc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=jErC1alaWM354JFBjmsfhPpq8C4%3D"
       ],
       "code": null,
-      "answer": "ㄷ, ㄹ, ㅂ"
+      "answer": "ㄷ, ㄹ, ㅂ",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">ㄷ, ㄹ, ㅂ</span></p>"
     },
     {
       "number": 14,
-      "text": "14. 다음 소스코드에서 입력값이 5가 들어왔을때 출력되는 값을 작성하시오.",
+      "text": "14. 다음 소스코드에서 입력값이 5가 들어왔을때 출력되는 값을 작성하시오.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n#include\n<\nstdio.h\n>\nint\nfunc(\nint\na) {\nif\n(a\n<\n=\n1\n)\nreturn\n1\n;\nreturn\na\n*\nfunc(a\n-\n1\n);\n}\nint\nmain() {\nint\na;\nscanf(\n\"%d\"\n,\n&\na);\nprintf(\n\"%d\"\n, func(a));\n}\ncs",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>14. 다음 소스코드에서 입력값이 5가 들어왔을때 출력되는 값을 작성하시오.</b></p>\n<div class=\"colorscripter-code\" style=\"color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position: relative !important; overflow: auto;\">\n<table cellpadding=\"0\" cellspacing=\"0\" class=\"colorscripter-code-table\" data-ke-align=\"alignLeft\" style=\"margin: 0; padding: 0; border: none; background-color: #fafafa; border-radius: 4px;\">\n<tbody>\n<tr>\n<td style=\"padding: 6px; border-right: 2px solid #e5e5e5;\">\n<div style=\"margin: 0; padding: 0; word-break: normal; text-align: right; color: #666; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"line-height: 130%;\">1</div>\n<div style=\"line-height: 130%;\">2</div>\n<div style=\"line-height: 130%;\">3</div>\n<div style=\"line-height: 130%;\">4</div>\n<div style=\"line-height: 130%;\">5</div>\n<div style=\"line-height: 130%;\">6</div>\n<div style=\"line-height: 130%;\">7</div>\n<div style=\"line-height: 130%;\">8</div>\n<div style=\"line-height: 130%;\">9</div>\n<div style=\"line-height: 130%;\">10</div>\n<div style=\"line-height: 130%;\">11</div>\n<div style=\"line-height: 130%;\">12</div>\n</div>\n</td>\n<td style=\"padding: 6px 0; text-align: left;\">\n<div style=\"margin: 0; padding: 0; color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">#include <span style=\"color: #a71d5d;\">&lt;</span>stdio.h<span style=\"color: #a71d5d;\">&gt;</span></div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\"><span style=\"color: #066de2;\">int</span> func(<span style=\"color: #066de2;\">int</span> a) {</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">if</span> (a <span style=\"color: #a71d5d;\">&lt;</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">1</span>) <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">1</span>;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">return</span> a <span style=\"color: #a71d5d;\">*</span> func(a <span style=\"color: #a71d5d;\">-</span> <span style=\"color: #0099cc;\">1</span>);</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">}</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\"><span style=\"color: #066de2;\">int</span> main() {</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">int</span> a;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  scanf(<span style=\"color: #63a35c;\">\"%d\"</span>, <span style=\"color: #a71d5d;\">&amp;</span>a);</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  printf(<span style=\"color: #63a35c;\">\"%d\"</span>, func(a));</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">}</div>\n</div>\n</td>\n<td style=\"vertical-align: bottom; padding: 0 2px 4px 0;\"><a href=\"http://colorscripter.com/info#e\" rel=\"noopener\" style=\"text-decoration: none; color: white;\" target=\"_blank\"><span style=\"font-size: 9px; word-break: normal; background-color: #e5e5e5; color: white; border-radius: 10px; padding: 1px;\">cs</span></a></td>\n</tr>\n</tbody>\n</table>\n\n</div>",
       "options": "",
       "images": [],
-      "code": "#include <stdio.h>\nint func(int a) {\n  if (a <= 1) return 1;\n  return a * func(a - 1);\n}\nint main() {\n  int a;\n  scanf(\"%d\", &a);\n  printf(\"%d\", func(a));\n}",
-      "answer": "120"
+      "code": null,
+      "answer": "120",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">120</span></p>"
     },
     {
       "number": 15,
-      "text": "15. 다음 중, 괄호 ( ) 안에 들어갈 연산자를 써서 정수를 역순으로 출력하는 알맞는 답을 작성하시오.\n결과 : 4321",
+      "text": "15. 다음 중, 괄호 ( ) 안에 들어갈 연산자를 써서 정수를 역순으로 출력하는 알맞는 답을 작성하시오.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n#include\n<\nstdio.h\n>\nint\nmain() {\nint\nnumber\n=\n1234\n;\nint\ndiv\n=\n10\n;\nint\nresult\n=\n0\n;\nwhile\n(number (\n1\n)\n0\n) {\nresult\n=\nresult\n*\ndiv;\nresult\n=\nresult\n+\nnumber (\n2\n) div;\nnumber\n=\nnumber (\n3\n) div;\n}\nprintf(\n\"%d\"\n, result);return 0;\n}\nColored by Color Scripter\ncs\n결과 : 4321",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>15. 다음 중, 괄호 ( ) 안에 들어갈 연산자를 써서 정수를 역순으로 출력하는 알맞는 답을 작성하시오.</b></p>\n<div class=\"colorscripter-code\" style=\"color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position: relative !important; overflow: auto;\">\n<table cellpadding=\"0\" cellspacing=\"0\" class=\"colorscripter-code-table\" data-ke-align=\"alignLeft\" style=\"margin: 0px; padding: 0px; border: none; background-color: #fafafa; border-radius: 4px; height: 350px;\">\n<tbody>\n<tr style=\"height: 350px;\">\n<td style=\"padding: 6px; border-right: 2px solid #e5e5e5; height: 350px; width: 16.5104px;\">\n<div style=\"margin: 0; padding: 0; word-break: normal; text-align: right; color: #666; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"line-height: 130%;\">1</div>\n<div style=\"line-height: 130%;\">2</div>\n<div style=\"line-height: 130%;\">3</div>\n<div style=\"line-height: 130%;\">4</div>\n<div style=\"line-height: 130%;\">5</div>\n<div style=\"line-height: 130%;\">6</div>\n<div style=\"line-height: 130%;\">7</div>\n<div style=\"line-height: 130%;\">8</div>\n<div style=\"line-height: 130%;\">9</div>\n<div style=\"line-height: 130%;\">10</div>\n<div style=\"line-height: 130%;\">11</div>\n<div style=\"line-height: 130%;\">12</div>\n<div style=\"line-height: 130%;\">13</div>\n<div style=\"line-height: 130%;\">14</div>\n<div style=\"line-height: 130%;\">15</div>\n<div style=\"line-height: 130%;\">16</div>\n<div style=\"line-height: 130%;\">17</div>\n<div style=\"line-height: 130%;\">18</div>\n</div>\n</td>\n<td style=\"padding: 6px 0px; text-align: left; height: 350px; width: 333.715px;\">\n<div style=\"margin: 0; padding: 0; color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">#include <span style=\"color: #a71d5d;\">&lt;</span>stdio.h<span style=\"color: #a71d5d;\">&gt;</span></div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\"><span style=\"color: #066de2;\">int</span> main() {</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">int</span> number <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">1234</span>;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">int</span> div <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">10</span>;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">int</span> result <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>;</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">while</span> (number ( <span style=\"color: #0099cc;\">1</span> ) <span style=\"color: #0099cc;\">0</span>) {</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">    result <span style=\"color: #a71d5d;\">=</span> result <span style=\"color: #a71d5d;\">*</span> div;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">    result <span style=\"color: #a71d5d;\">=</span> result <span style=\"color: #a71d5d;\">+</span> number ( <span style=\"color: #0099cc;\">2</span> ) div;</div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">    number <span style=\"color: #a71d5d;\">=</span> number ( <span style=\"color: #0099cc;\">3</span> ) div;</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  }</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  printf(<span style=\"color: #63a35c;\">\"%d\"</span>, result);return 0;</div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">}</div>\n</div>\n<div style=\"text-align: right; margin-top: -13px; margin-right: 5px; font-size: 9px; font-style: italic;\"><a href=\"http://colorscripter.com/info#e\" rel=\"noopener\" style=\"color: #e5e5e5text-decoration:none;\" target=\"_blank\">Colored by Color Scripter</a></div>\n</td>\n<td style=\"vertical-align: bottom; padding: 0px 2px 4px 0px; height: 350px; width: 12.9861px;\"><a href=\"http://colorscripter.com/info#e\" rel=\"noopener\" style=\"text-decoration: none; color: white;\" target=\"_blank\"><span style=\"font-size: 9px; word-break: normal; background-color: #e5e5e5; color: white; border-radius: 10px; padding: 1px;\">cs</span></a></td>\n</tr>\n</tbody>\n</table>\n</div>\n<p data-ke-size=\"size16\" style=\"text-align: left;\">결과 : 4321</p>",
       "options": "",
       "images": [],
-      "code": "#include <stdio.h>\nint main() {\n  int number = 1234;\n  int div = 10;\n  int result = 0;\n  while (number ( 1 ) 0) {\n    result = result * div;\n    result = result + number ( 2 ) div;\n    number = number ( 3 ) div;\n  }\n  printf(\"%d\", result);return 0;\n}",
-      "answer": "1. >\n2. %\n3. /"
+      "code": null,
+      "answer": "1. >\n2. %\n3. /",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87; background-color: #fafafa;\">1. &gt;</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87; background-color: #fafafa;\">2. %</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87; background-color: #fafafa;\">3. /</span></p>"
+    },
+    {
+      "number": 16,
+      "text": "16.\n다음 설명에 대한 답을 영어 약자로 작성하시오.\n정보보호 관리체계의 영문 약자",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>16. <b>다음 설명에 대한 답을 영어 약자로 작성하시오.</b></b>정보보호 관리체계의 영문 약자</p>",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "ISMS (Information Security Management System)",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">ISMS (Information Security Management System)</span></p>"
     },
     {
       "number": 17,
-      "text": "17. 다음 설명 중, 괄호 ( ) 안에 들어가는 알맞는 답을 보기에서 선택하여 작성하시오.(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, 참조성, 무결성 등..))1. 슈퍼키는 ( 1 ) 의 속성을 갖는다.",
+      "text": "17. 다음 설명 중, 괄호 ( ) 안에 들어가는 알맞는 답을 보기에서 선택하여 작성하시오.\n(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, 참조성, 무결성 등..))\n1. 슈퍼키는 ( 1 ) 의 속성을 갖는다.\n2. 후보키는 ( 1 ) 와/과 ( 2 ) 의 속성을 갖는다.",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>17. 다음 설명 중, 괄호 ( ) 안에 들어가는 알맞는 답을 보기에서 선택하여 작성하시오.</b><u>(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, 참조성, 무결성 등..))</u>1. 슈퍼키는 ( 1 ) 의 속성을 갖는다.</p>\n<p data-ke-size=\"size16\" style=\"text-align: left;\">2. 후보키는 ( 1 ) 와/과 ( 2 ) 의 속성을 갖는다.</p>\n<div style=\"color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position: relative !important; overflow: auto;\">\n\n</div>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": ""
-    },
-    {
-      "number": 2,
-      "text": "2. 후보키는 ( 1 ) 와/과 ( 2 ) 의 속성을 갖는다.",
-      "options": "",
-      "images": [],
-      "code": null,
-      "answer": ""
+      "answer": "1. 유일성\n2. 최소성",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #009a87;\">1. 유일성</span></p>\n<p data-ke-size=\"size16\"><span style=\"background-color: #fafafa; color: #009a87;\">2. 최소성</span></p>"
     },
     {
       "number": 18,
-      "text": "18. 다음 설명과 관련된 답을 보기에 찾아서 작서하시오.(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, Pharming, Ransomware등..))이 공격은 APT 공격에서 주로 쓰이는 공격으로, 공격 대상이 방문할 가능성이 있는 합법적인 웹 사이트를 미리 감염시킨 뒤, 잠복하고 있다가 공격 대상이 방문하면 대상의 컴퓨터에 악성코드를 설치하는 방식",
+      "text": "18. 다음 설명과 관련된 답을 보기에 찾아서 작서하시오.\n(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, Pharming, Ransomware등..))\n이 공격은 APT 공격에서 주로 쓰이는 공격으로, 공격 대상이 방문할 가능성이 있는 합법적인 웹 사이트를 미리 감염시킨 뒤, 잠복하고 있다가 공격 대상이 방문하면 대상의 컴퓨터에 악성코드를 설치하는 방식",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>18. 다음 설명과 관련된 답을 보기에 찾아서 작서하시오. </b><u>(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, Pharming, Ransomware등..))</u>이 공격은 APT 공격에서 주로 쓰이는 공격으로, 공격 대상이 방문할 가능성이 있는 합법적인 웹 사이트를 미리 감염시킨 뒤, 잠복하고 있다가 공격 대상이 방문하면 대상의 컴퓨터에 악성코드를 설치하는 방식</p>",
       "options": "",
       "images": [],
       "code": null,
-      "answer": ""
+      "answer": "watering hole",
+      "answer_html": "<span style=\"color: #009a87;\">watering hole</span>"
+    },
+    {
+      "number": 19,
+      "text": "19.\n다음 소스코드가 실행할 때의 출력값을 작성하시오.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n#include\n<\nstdio.h\n>\nint\nisPrime(\nint\nnumber) {\nint\ni;\nfor\n(i\n=\n2\n; i\n<\nnumber; i\n+\n+\n) {\nif\n(number % i\n=\n=\n0\n)\nreturn\n0\n;\n}\nreturn\n1\n;\n}\nint\nmain(\nvoid\n) {\nint\nnumber\n=\n13195\n, max_div\n=\n0\n, i;\nfor\n(i\n=\n2\n; i\n<\nnumber; i\n+\n+\n)\nif\n(isPrime(i)\n=\n=\n1\n&\n&\nnumber % i\n=\n=\n0\n) max_div\n=\ni;\nprintf(\n\"%d\"\n, max_div);\nreturn\n0\n;\n}\nColored by Color Scripter\ncs",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>19. <b>다음 소스코드가 실행할 때의 출력값을 작성하시오.</b></b></p>\n<div class=\"colorscripter-code\" style=\"color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position: relative !important; overflow: auto;\">\n<table cellpadding=\"0\" cellspacing=\"0\" class=\"colorscripter-code-table\" data-ke-align=\"alignLeft\" style=\"margin: 0; padding: 0; border: none; background-color: #fafafa; border-radius: 4px;\">\n<tbody>\n<tr>\n<td style=\"padding: 6px; border-right: 2px solid #e5e5e5;\">\n<div style=\"margin: 0; padding: 0; word-break: normal; text-align: right; color: #666; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"line-height: 130%;\">1</div>\n<div style=\"line-height: 130%;\">2</div>\n<div style=\"line-height: 130%;\">3</div>\n<div style=\"line-height: 130%;\">4</div>\n<div style=\"line-height: 130%;\">5</div>\n<div style=\"line-height: 130%;\">6</div>\n<div style=\"line-height: 130%;\">7</div>\n<div style=\"line-height: 130%;\">8</div>\n<div style=\"line-height: 130%;\">9</div>\n<div style=\"line-height: 130%;\">10</div>\n<div style=\"line-height: 130%;\">11</div>\n<div style=\"line-height: 130%;\">12</div>\n<div style=\"line-height: 130%;\">13</div>\n<div style=\"line-height: 130%;\">14</div>\n<div style=\"line-height: 130%;\">15</div>\n<div style=\"line-height: 130%;\">16</div>\n</div>\n</td>\n<td style=\"padding: 6px 0; text-align: left;\">\n<div style=\"margin: 0; padding: 0; color: #010101; font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height: 130%;\">\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">#include <span style=\"color: #a71d5d;\">&lt;</span>stdio.h<span style=\"color: #a71d5d;\">&gt;</span> </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\"><span style=\"color: #066de2;\">int</span> isPrime(<span style=\"color: #066de2;\">int</span> number) { </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">int</span> i; </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">for</span> (i<span style=\"color: #a71d5d;\">=</span><span style=\"color: #0099cc;\">2</span>; i<span style=\"color: #a71d5d;\">&lt;</span>number; i<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>) { </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">    <span style=\"color: #a71d5d;\">if</span> (number % i <span style=\"color: #a71d5d;\">=</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>) <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">0</span>; </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  } </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">1</span>; </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">} </div>\n\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\"><span style=\"color: #066de2;\">int</span> main(<span style=\"color: #a71d5d;\">void</span>) { </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #066de2;\">int</span> number <span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">13195</span>, max_div<span style=\"color: #a71d5d;\">=</span><span style=\"color: #0099cc;\">0</span>, i; </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">for</span> (i<span style=\"color: #a71d5d;\">=</span><span style=\"color: #0099cc;\">2</span>; i<span style=\"color: #a71d5d;\">&lt;</span>number; i<span style=\"color: #a71d5d;\">+</span><span style=\"color: #a71d5d;\">+</span>) </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">if</span> (isPrime(i) <span style=\"color: #a71d5d;\">=</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">1</span> <span style=\"color: #a71d5d;\">&amp;</span><span style=\"color: #a71d5d;\">&amp;</span> number % i <span style=\"color: #a71d5d;\">=</span><span style=\"color: #a71d5d;\">=</span> <span style=\"color: #0099cc;\">0</span>) max_div <span style=\"color: #a71d5d;\">=</span> i; </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  printf(<span style=\"color: #63a35c;\">\"%d\"</span>, max_div); </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">  <span style=\"color: #a71d5d;\">return</span> <span style=\"color: #0099cc;\">0</span>; </div>\n<div style=\"padding: 0 6px; white-space: pre; line-height: 130%;\">}</div>\n</div>\n<div style=\"text-align: right; margin-top: -13px; margin-right: 5px; font-size: 9px; font-style: italic;\"><a href=\"http://colorscripter.com/info#e\" rel=\"noopener\" style=\"color: #e5e5e5text-decoration:none;\" target=\"_blank\">Colored by Color Scripter</a></div>\n</td>\n<td style=\"vertical-align: bottom; padding: 0 2px 4px 0;\"><a href=\"http://colorscripter.com/info#e\" rel=\"noopener\" style=\"text-decoration: none; color: white;\" target=\"_blank\"><span style=\"font-size: 9px; word-break: normal; background-color: #e5e5e5; color: white; border-radius: 10px; padding: 1px;\">cs</span></a></td>\n</tr>\n</tbody>\n</table>\n</div>",
+      "options": "",
+      "images": [],
+      "code": null,
+      "answer": "29",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87; background-color: #fafafa;\">29</span></p>"
+    },
+    {
+      "number": 20,
+      "text": "20.\n다음은 V모델에서의 테스트 단계에 대한 설명으로 괄호안에 들어갈 답을 작성하시오.",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><b>20. <b>다음은 V모델에서의 테스트 단계에 대한 설명으로 괄호안에 들어갈 답을 작성하시오.</b></b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"669\" data-origin-width=\"860\"><span data-phocus=\"https://blog.kakaocdn.net/dna/bNLeA3/btrCMbi8wE3/AAAAAAAAAAAAAAAAAAAAACS_CgMqjt6zFAMVDj9LSQ5zH_5R4-V_n31j6OaRDPf8/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=JUKAGtkflFeI7rDh8Sc71aEMJf8%3D\" data-url=\"https://blog.kakaocdn.net/dna/bNLeA3/btrCMbi8wE3/AAAAAAAAAAAAAAAAAAAAACS_CgMqjt6zFAMVDj9LSQ5zH_5R4-V_n31j6OaRDPf8/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=JUKAGtkflFeI7rDh8Sc71aEMJf8%3D\"><img data-origin-height=\"669\" data-origin-width=\"860\" height=\"557\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/bNLeA3/btrCMbi8wE3/AAAAAAAAAAAAAAAAAAAAACS_CgMqjt6zFAMVDj9LSQ5zH_5R4-V_n31j6OaRDPf8/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=JUKAGtkflFeI7rDh8Sc71aEMJf8%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbNLeA3%2FbtrCMbi8wE3%2FAAAAAAAAAAAAAAAAAAAAACS_CgMqjt6zFAMVDj9LSQ5zH_5R4-V_n31j6OaRDPf8%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DJUKAGtkflFeI7rDh8Sc71aEMJf8%253D\" width=\"716\"/></span></figure>\n</p>",
+      "options": "",
+      "images": [
+        "https://blog.kakaocdn.net/dna/bNLeA3/btrCMbi8wE3/AAAAAAAAAAAAAAAAAAAAACS_CgMqjt6zFAMVDj9LSQ5zH_5R4-V_n31j6OaRDPf8/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=JUKAGtkflFeI7rDh8Sc71aEMJf8%3D"
+      ],
+      "code": null,
+      "answer": "1. 단위 테스트\n2. 통합 테스트\n3. 시스템 테스트\n4. 인수 테스트",
+      "answer_html": "<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">1. 단위 테스트</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">2. 통합 테스트</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">3. 시스템 테스트</span></p>\n<p data-ke-size=\"size16\"><span style=\"color: #009a87;\">4. 인수 테스트</span></p>"
     }
   ]
 }
