@@ -2,11 +2,14 @@
 let questionsData = {};
 let currentData = null;
 let allAnswersVisible = false;
+const ASSET_VERSION = '20260417b';
 
 // questions_list.json에서 파일 목록 동적으로 로드
 async function loadQuestionsData() {
     try {
-        const response = await fetch('questions_list.json');
+        const response = await fetch(`questions_list.json?v=${ASSET_VERSION}`, {
+            cache: 'no-store',
+        });
         questionsData = await response.json();
         console.log('✅ 파일 목록 로드 완료:', questionsData);
     } catch (error) {
@@ -72,7 +75,9 @@ function handleRoundChange(e) {
 async function loadQuestions(year, round) {
     try {
         const filename = questionsData[year][round];
-        const response = await fetch(filename);
+        const response = await fetch(`${filename}?v=${ASSET_VERSION}`, {
+            cache: 'no-store',
+        });
 
         if (!response.ok) {
             throw new Error(`파일을 찾을 수 없습니다: ${filename}`);
