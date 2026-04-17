@@ -84,6 +84,13 @@ def is_empty_block(tag: Tag) -> bool:
     return not text and not has_image and not has_iframe
 
 
+def has_meaningful_content(soup: BeautifulSoup) -> bool:
+    text = normalize_text(soup.get_text(" ", strip=True))
+    has_image = soup.find("img") is not None
+    has_iframe = soup.find("iframe") is not None
+    return bool(text or has_image or has_iframe)
+
+
 def cleaned_html(tag: Tag) -> str:
     copied = BeautifulSoup(str(tag), "html.parser")
 
@@ -204,7 +211,7 @@ def extract_code_from_html(html_blocks: list[str]) -> tuple[list[str], str, str]
             pre_block.decompose()
 
         cleaned_html = str(soup).strip()
-        if cleaned_html and normalize_text(soup.get_text(" ", strip=True)):
+        if cleaned_html and has_meaningful_content(soup):
             cleaned_blocks.append(cleaned_html)
 
     return (

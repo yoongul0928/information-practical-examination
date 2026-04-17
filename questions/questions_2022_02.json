@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:17.737551",
+    "crawl_time": "2026-04-17T18:42:47.297425",
     "source": "https://chobopark.tistory.com/423",
     "total_questions": 20
   },
@@ -30,9 +30,11 @@
     {
       "number": 3,
       "text": "3. H회사의 전체 제품 단가 보다 큰 제품 출력을 하고자 한다. 괄호안에 들어갈 알맞는 용어를 작성하시오.\n[제품테이블]\nSELECT 제조사, 제품명, 단가\nFROM 제품\nWHERE 단가 > ( ) (SELECT 단가 FROM 제품 WHERE 제조사='H')",
-      "question_html": "<p data-ke-size=\"size16\"><b>3. H회사의 전체 제품 단가 보다 큰 제품 출력을 하고자 한다. 괄호안에 들어갈 알맞는 용어를 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"text-align: left;\">[제품테이블]</p>\n<p data-ke-size=\"size16\" style=\"text-align: left;\">SELECT 제조사, 제품명, 단가<br/>FROM 제품<br/>WHERE 단가 &gt; ( ) (SELECT 단가 FROM 제품 WHERE 제조사='H')</p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>3. H회사의 전체 제품 단가 보다 큰 제품 출력을 하고자 한다. 괄호안에 들어갈 알맞는 용어를 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"text-align: left;\">[제품테이블]</p>\n<div><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"312\" data-origin-width=\"780\"><span data-phocus=\"https://blog.kakaocdn.net/dna/bsS2lh/btsCX4ru0Xg/AAAAAAAAAAAAAAAAAAAAAOcgsnx9SfGMIWdDsv3pjyb3vUhghOgI5BFzcIgt3Vkb/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=TUTgINQotLWUCccHbmElpp2Xqzk%3D\" data-url=\"https://blog.kakaocdn.net/dna/bsS2lh/btsCX4ru0Xg/AAAAAAAAAAAAAAAAAAAAAOcgsnx9SfGMIWdDsv3pjyb3vUhghOgI5BFzcIgt3Vkb/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=TUTgINQotLWUCccHbmElpp2Xqzk%3D\"><img data-origin-height=\"312\" data-origin-width=\"780\" height=\"312\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/bsS2lh/btsCX4ru0Xg/AAAAAAAAAAAAAAAAAAAAAOcgsnx9SfGMIWdDsv3pjyb3vUhghOgI5BFzcIgt3Vkb/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=TUTgINQotLWUCccHbmElpp2Xqzk%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbsS2lh%2FbtsCX4ru0Xg%2FAAAAAAAAAAAAAAAAAAAAAOcgsnx9SfGMIWdDsv3pjyb3vUhghOgI5BFzcIgt3Vkb%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DTUTgINQotLWUCccHbmElpp2Xqzk%253D\" width=\"780\"/></span></figure>\n</div>\n<p data-ke-size=\"size16\" style=\"text-align: left;\">SELECT 제조사, 제품명, 단가<br/>FROM 제품<br/>WHERE 단가 &gt; ( ) (SELECT 단가 FROM 제품 WHERE 제조사='H')</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/bsS2lh/btsCX4ru0Xg/AAAAAAAAAAAAAAAAAAAAAOcgsnx9SfGMIWdDsv3pjyb3vUhghOgI5BFzcIgt3Vkb/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=TUTgINQotLWUCccHbmElpp2Xqzk%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "ALL",
@@ -41,9 +43,11 @@
     {
       "number": 4,
       "text": "4. 다음 SQL 결과에 알맞는 답을 작성하시오.\n[TABLE]\nSELECT count(col2)\nFROM TABLE\nWHERE col1 in(2,3) or col2 in(3,5);",
-      "question_html": "<p data-ke-size=\"size16\"><b>4. 다음 SQL 결과에 알맞는 답을 작성하시오.</b></p>\n<p data-ke-size=\"size16\">[TABLE]</p>\n<p data-ke-size=\"size16\">SELECT count(col2)<br/>FROM TABLE<br/>WHERE col1 in(2,3) or col2 in(3,5);</p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>4. 다음 SQL 결과에 알맞는 답을 작성하시오.</b></p>\n<p data-ke-size=\"size16\">[TABLE]</p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"314\" data-origin-width=\"793\"><span data-phocus=\"https://blog.kakaocdn.net/dna/tgfeI/btsCZgyM9H0/AAAAAAAAAAAAAAAAAAAAAAfaSaiHsttAJUuyxzzjIurwV8RwcfTgRK8zF1yNeFdi/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=ICB5Y4My7SNLhe0sDQJG66ycVWc%3D\" data-url=\"https://blog.kakaocdn.net/dna/tgfeI/btsCZgyM9H0/AAAAAAAAAAAAAAAAAAAAAAfaSaiHsttAJUuyxzzjIurwV8RwcfTgRK8zF1yNeFdi/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=ICB5Y4My7SNLhe0sDQJG66ycVWc%3D\"><img data-origin-height=\"314\" data-origin-width=\"793\" height=\"314\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/tgfeI/btsCZgyM9H0/AAAAAAAAAAAAAAAAAAAAAAfaSaiHsttAJUuyxzzjIurwV8RwcfTgRK8zF1yNeFdi/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=ICB5Y4My7SNLhe0sDQJG66ycVWc%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FtgfeI%2FbtsCZgyM9H0%2FAAAAAAAAAAAAAAAAAAAAAAfaSaiHsttAJUuyxzzjIurwV8RwcfTgRK8zF1yNeFdi%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DICB5Y4My7SNLhe0sDQJG66ycVWc%253D\" width=\"793\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">SELECT count(col2)<br/>FROM TABLE<br/>WHERE col1 in(2,3) or col2 in(3,5);</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/tgfeI/btsCZgyM9H0/AAAAAAAAAAAAAAAAAAAAAAfaSaiHsttAJUuyxzzjIurwV8RwcfTgRK8zF1yNeFdi/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=ICB5Y4My7SNLhe0sDQJG66ycVWc%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "4",
@@ -129,9 +133,11 @@
     {
       "number": 12,
       "text": "12. 다음 테이블에서 πTTL(employee)에 대한 연산 결과 값을 작성하시오.\n[employee테이블]",
-      "question_html": "<p data-ke-size=\"size16\"><b>12. 다음 테이블에서 πTTL(employee)에 대한 연산 결과 값을 작성하시오.</b></p>\n<p data-ke-size=\"size16\">[employee테이블]</p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>12. 다음 테이블에서 πTTL(employee)에 대한 연산 결과 값을 작성하시오.</b></p>\n<p data-ke-size=\"size16\">[employee테이블]</p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"278\" data-origin-width=\"1085\"><span data-phocus=\"https://blog.kakaocdn.net/dna/ciEqnk/btsC5YDmqrh/AAAAAAAAAAAAAAAAAAAAANWPC8whsCRtZTb-RB-J7RHvuEfPLxoxXgJ1I-APFJh1/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=%2FiFgMkNK%2BrD5%2F1cbo5xykLw3DE0%3D\" data-url=\"https://blog.kakaocdn.net/dna/ciEqnk/btsC5YDmqrh/AAAAAAAAAAAAAAAAAAAAANWPC8whsCRtZTb-RB-J7RHvuEfPLxoxXgJ1I-APFJh1/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=%2FiFgMkNK%2BrD5%2F1cbo5xykLw3DE0%3D\"><img data-origin-height=\"278\" data-origin-width=\"1085\" height=\"278\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/ciEqnk/btsC5YDmqrh/AAAAAAAAAAAAAAAAAAAAANWPC8whsCRtZTb-RB-J7RHvuEfPLxoxXgJ1I-APFJh1/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=%2FiFgMkNK%2BrD5%2F1cbo5xykLw3DE0%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FciEqnk%2FbtsC5YDmqrh%2FAAAAAAAAAAAAAAAAAAAAANWPC8whsCRtZTb-RB-J7RHvuEfPLxoxXgJ1I-APFJh1%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3D%252FiFgMkNK%252BrD5%252F1cbo5xykLw3DE0%253D\" width=\"1085\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/ciEqnk/btsC5YDmqrh/AAAAAAAAAAAAAAAAAAAAANWPC8whsCRtZTb-RB-J7RHvuEfPLxoxXgJ1I-APFJh1/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=%2FiFgMkNK%2BrD5%2F1cbo5xykLw3DE0%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "1. TTL\n2. 부장\n3. 대리\n4. 과장\n5. 차장",
@@ -195,9 +201,11 @@
     {
       "number": 18,
       "text": "18. 다음은 함수 종속성에 대한 설명이다. 해당 문제에 대한 알맞는 답을 보기에서 골라 작성하시오.\n(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중,\nunion\n등..))\n1. 성적은 {학생,학과}에 대해서 ( ) Functional Dependency이다.\n2. 성적은 학과만 알아도 식별이 가능하므로, 이 경우에는 성적 속성은 기본키에 ( ) Functional Dependency이다.\n3. 릴레이션에서 X, Y, Z라는 3 개의 속성이 있을 때 X→Y, Y→Z 이란 종속 관계가 있을 경우, X→Z가 성립될 경우",
-      "question_html": "<p data-ke-size=\"size16\"><b>18. 다음은 함수 종속성에 대한 설명이다. 해당 문제에 대한 알맞는 답을 보기에서 골라 작성하시오.</b><br/><u>(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, <b><span style=\"color: #000000;\">union</span></b> 등..))</u></p>\n<p data-ke-size=\"size16\">1. 성적은 {학생,학과}에 대해서 ( ) Functional Dependency이다.</p>\n<p data-ke-size=\"size16\"><br/>2. 성적은 학과만 알아도 식별이 가능하므로, 이 경우에는 성적 속성은 기본키에 ( ) Functional Dependency이다.</p>\n<p data-ke-size=\"size16\"><br/>3. 릴레이션에서 X, Y, Z라는 3 개의 속성이 있을 때 X→Y, Y→Z 이란 종속 관계가 있을 경우, X→Z가 성립될 경우</p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>18. 다음은 함수 종속성에 대한 설명이다. 해당 문제에 대한 알맞는 답을 보기에서 골라 작성하시오.</b><br/><u>(실제 기출문제에서는 답의 보기가 주어집니다.(오답 중, <b><span style=\"color: #000000;\">union</span></b> 등..))</u></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"287\" data-origin-width=\"693\"><span data-phocus=\"https://blog.kakaocdn.net/dna/dwxbKs/btsCVHKbX1G/AAAAAAAAAAAAAAAAAAAAAHpCevhbn5bkhzNeFabt-jk3O783zzgyvzFhP7_jj8cj/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=C7k57O9b1e6Td3fxkpBJxR8Bvu0%3D\" data-url=\"https://blog.kakaocdn.net/dna/dwxbKs/btsCVHKbX1G/AAAAAAAAAAAAAAAAAAAAAHpCevhbn5bkhzNeFabt-jk3O783zzgyvzFhP7_jj8cj/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=C7k57O9b1e6Td3fxkpBJxR8Bvu0%3D\"><img data-origin-height=\"287\" data-origin-width=\"693\" height=\"287\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/dwxbKs/btsCVHKbX1G/AAAAAAAAAAAAAAAAAAAAAHpCevhbn5bkhzNeFabt-jk3O783zzgyvzFhP7_jj8cj/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=C7k57O9b1e6Td3fxkpBJxR8Bvu0%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdwxbKs%2FbtsCVHKbX1G%2FAAAAAAAAAAAAAAAAAAAAAHpCevhbn5bkhzNeFabt-jk3O783zzgyvzFhP7_jj8cj%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DC7k57O9b1e6Td3fxkpBJxR8Bvu0%253D\" width=\"693\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\">1. 성적은 {학생,학과}에 대해서 ( ) Functional Dependency이다.</p>\n<p data-ke-size=\"size16\"><br/>2. 성적은 학과만 알아도 식별이 가능하므로, 이 경우에는 성적 속성은 기본키에 ( ) Functional Dependency이다.</p>\n<p data-ke-size=\"size16\"><br/>3. 릴레이션에서 X, Y, Z라는 3 개의 속성이 있을 때 X→Y, Y→Z 이란 종속 관계가 있을 경우, X→Z가 성립될 경우</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/dwxbKs/btsCVHKbX1G/AAAAAAAAAAAAAAAAAAAAAHpCevhbn5bkhzNeFabt-jk3O783zzgyvzFhP7_jj8cj/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=C7k57O9b1e6Td3fxkpBJxR8Bvu0%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "1. Full\n2. Partial\n3. Transitive",
@@ -217,9 +225,11 @@
     {
       "number": 20,
       "text": "20.\n다음 모듈 F에 대한 Fan-in과 Fan-out을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>20. </b><b>다음 모듈 F에 대한 Fan-in과 Fan-out을 작성하시오.</b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>20. </b><b>다음 모듈 F에 대한 Fan-in과 Fan-out을 작성하시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"518\" data-origin-width=\"662\"><span data-phocus=\"https://blog.kakaocdn.net/dna/7rUn8/btsC2xTZYee/AAAAAAAAAAAAAAAAAAAAAJHQ82vln75ifQ37NX2AnUI06OIwV9ReHhjfS-_HA0iL/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=JU1l2Q2p9ZtfapMvmjGLiv3%2Bwgk%3D\" data-url=\"https://blog.kakaocdn.net/dna/7rUn8/btsC2xTZYee/AAAAAAAAAAAAAAAAAAAAAJHQ82vln75ifQ37NX2AnUI06OIwV9ReHhjfS-_HA0iL/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=JU1l2Q2p9ZtfapMvmjGLiv3%2Bwgk%3D\"><img data-origin-height=\"518\" data-origin-width=\"662\" height=\"518\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/7rUn8/btsC2xTZYee/AAAAAAAAAAAAAAAAAAAAAJHQ82vln75ifQ37NX2AnUI06OIwV9ReHhjfS-_HA0iL/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=JU1l2Q2p9ZtfapMvmjGLiv3%2Bwgk%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F7rUn8%2FbtsC2xTZYee%2FAAAAAAAAAAAAAAAAAAAAAJHQ82vln75ifQ37NX2AnUI06OIwV9ReHhjfS-_HA0iL%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DJU1l2Q2p9ZtfapMvmjGLiv3%252Bwgk%253D\" width=\"662\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/7rUn8/btsC2xTZYee/AAAAAAAAAAAAAAAAAAAAAJHQ82vln75ifQ37NX2AnUI06OIwV9ReHhjfS-_HA0iL/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=JU1l2Q2p9ZtfapMvmjGLiv3%2Bwgk%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "Fan-in : 3\nFan-out :\n2",

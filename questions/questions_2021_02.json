@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:18.806857",
+    "crawl_time": "2026-04-17T18:42:48.195081",
     "source": "https://chobopark.tistory.com/210",
     "total_questions": 20
   },
@@ -41,9 +41,11 @@
     {
       "number": 4,
       "text": "4. 다음은 제 ( ) 정규형으로써, 부분 함수적 종속성을 제거하여, 완전 함수적 종속을 만족하는 정규형은?",
-      "question_html": "<p data-ke-size=\"size16\"><b>4. 다음은 제 ( ) 정규형으로써, 부분 함수적 종속성을 제거하여, 완전 함수적 종속을 만족하는 정규형은? </b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>4. 다음은 제 ( ) 정규형으로써, 부분 함수적 종속성을 제거하여, 완전 함수적 종속을 만족하는 정규형은? </b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"420\" data-origin-width=\"768\"><span data-phocus=\"https://blog.kakaocdn.net/dna/dHdhZL/btrdOv773IC/AAAAAAAAAAAAAAAAAAAAACtpXobKHolQB7BXFzoKfK-5AFNkDicDuFPK6JhdMg3X/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=FzQJEDqhVulMigyODKO%2FOdIHRF8%3D\" data-url=\"https://blog.kakaocdn.net/dna/dHdhZL/btrdOv773IC/AAAAAAAAAAAAAAAAAAAAACtpXobKHolQB7BXFzoKfK-5AFNkDicDuFPK6JhdMg3X/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=FzQJEDqhVulMigyODKO%2FOdIHRF8%3D\"><img data-origin-height=\"420\" data-origin-width=\"768\" height=\"420\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/dHdhZL/btrdOv773IC/AAAAAAAAAAAAAAAAAAAAACtpXobKHolQB7BXFzoKfK-5AFNkDicDuFPK6JhdMg3X/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=FzQJEDqhVulMigyODKO%2FOdIHRF8%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdHdhZL%2FbtrdOv773IC%2FAAAAAAAAAAAAAAAAAAAAACtpXobKHolQB7BXFzoKfK-5AFNkDicDuFPK6JhdMg3X%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DFzQJEDqhVulMigyODKO%252FOdIHRF8%253D\" width=\"768\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/dHdhZL/btrdOv773IC/AAAAAAAAAAAAAAAAAAAAACtpXobKHolQB7BXFzoKfK-5AFNkDicDuFPK6JhdMg3X/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=FzQJEDqhVulMigyODKO%2FOdIHRF8%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "제 2 정규형\n- 기본키(주문번호 컬럼)이 제품번호에 의해 결정될 수 있기때문에 분해를 해야합니다.\n- 부분 함수적 종속성 : 기본키의 부분집합이 결정자가 되버린 현상\n제 1정규형 : 도메인이 원자값\n제 2정규형 :\n부분 함수적 종속 제거\n제 3정규형 :\n이행적 함수 종속 제거\nBCNF : 결정자이면서 후보키가 아닌 것 제거\n제 4정규형 :\n다치 종속 제거\n제 5정규형 :\n조인 종속 제거",

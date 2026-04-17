@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:20.073022",
+    "crawl_time": "2026-04-17T18:42:49.870865",
     "source": "https://chobopark.tistory.com/194",
     "total_questions": 20
   },
@@ -74,9 +74,11 @@
     {
       "number": 7,
       "text": "7. 다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>7. 다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.</b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>7. 다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"530\" data-origin-width=\"894\"><span data-phocus=\"https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D\" data-url=\"https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D\"><img data-origin-height=\"530\" data-origin-width=\"894\" height=\"530\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FJIE3a%2Fbtq8H5sOaQq%2FAAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DoSHKIxHuJPBtXxIPW6dQ3GGmpt0%253D\" width=\"894\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/JIE3a/btq8H5sOaQq/AAAAAAAAAAAAAAAAAAAAAFzdB3wBnD25WvCpe6C-4l1qaFtovS0BL8rljez6n-2u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=oSHKIxHuJPBtXxIPW6dQ3GGmpt0%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "1234561, 124567 or 1234567, 124561\n결정 커버리지는 결정 포인트 내의 전체 조건식이 적어도 한 번은 참과 거짓의 결과를 수행해야 하기 때문에 첫 번째 분기문도 참, 거짓이 와야 하고, 두 번째 분기도 참, 거짓이 한 번씩 와야 한다.",

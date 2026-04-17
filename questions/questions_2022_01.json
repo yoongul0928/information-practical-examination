@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:17.231658",
+    "crawl_time": "2026-04-17T18:42:46.925455",
     "source": "https://chobopark.tistory.com/271",
     "total_questions": 20
   },
@@ -41,9 +41,11 @@
     {
       "number": 4,
       "text": "4. 다음 SQL 결과에 알맞는 쿼리을 작성하시오.\nSELECT name, score FROM 성적 ( 1 ) BY ( 2 ) ( 3 )",
-      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><br/><br/><br/><br/><br/><br/><br/><b>4. 다음 SQL 결과에 알맞는 쿼리을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"text-align: left;\"><br/>SELECT name, score FROM 성적 ( 1 ) BY ( 2 ) ( 3 )<br/><br/></p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><br/><br/><br/><br/><br/><br/><br/><b>4. 다음 SQL 결과에 알맞는 쿼리을 작성하시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"373\" data-origin-width=\"837\"><span data-phocus=\"https://blog.kakaocdn.net/dna/uEqo5/btrCITDzsQ5/AAAAAAAAAAAAAAAAAAAAAGpz6sul64daWvkKDeHLmkGeeTlmJGv8rtI27qb1-rRW/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=%2BFvKtyivc%2BhMGqIhI6fA7Iu5ZlE%3D\" data-url=\"https://blog.kakaocdn.net/dna/uEqo5/btrCITDzsQ5/AAAAAAAAAAAAAAAAAAAAAGpz6sul64daWvkKDeHLmkGeeTlmJGv8rtI27qb1-rRW/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=%2BFvKtyivc%2BhMGqIhI6fA7Iu5ZlE%3D\"><img data-origin-height=\"373\" data-origin-width=\"837\" height=\"242\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/uEqo5/btrCITDzsQ5/AAAAAAAAAAAAAAAAAAAAAGpz6sul64daWvkKDeHLmkGeeTlmJGv8rtI27qb1-rRW/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=%2BFvKtyivc%2BhMGqIhI6fA7Iu5ZlE%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FuEqo5%2FbtrCITDzsQ5%2FAAAAAAAAAAAAAAAAAAAAAGpz6sul64daWvkKDeHLmkGeeTlmJGv8rtI27qb1-rRW%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3D%252BFvKtyivc%252BhMGqIhI6fA7Iu5ZlE%253D\" width=\"543\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\" style=\"text-align: left;\"><br/>SELECT name, score FROM 성적 ( 1 ) BY ( 2 ) ( 3 )<br/><br/></p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/uEqo5/btrCITDzsQ5/AAAAAAAAAAAAAAAAAAAAAGpz6sul64daWvkKDeHLmkGeeTlmJGv8rtI27qb1-rRW/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=%2BFvKtyivc%2BhMGqIhI6fA7Iu5ZlE%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "1. ORDER\n2. score\n3. DESC",
@@ -140,9 +142,11 @@
     {
       "number": 13,
       "text": "13. 다음 보기 중에서 블랙박스 테스트 기법을 3가지 골라 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><br/><br/><br/><br/><br/><br/><br/><b>13. 다음 보기 중에서 블랙박스 테스트 기법을 3가지 골라 작성하시오.</b></p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><br/><br/><br/><br/><br/><br/><br/><b>13. 다음 보기 중에서 블랙박스 테스트 기법을 3가지 골라 작성하시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"246\" data-origin-width=\"823\"><span data-phocus=\"https://blog.kakaocdn.net/dna/qF3gz/btrCLADst4N/AAAAAAAAAAAAAAAAAAAAAPMlILODV_JxRx5zW8aFrSoy4091ZPX6hQX3VcFjaElc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=jErC1alaWM354JFBjmsfhPpq8C4%3D\" data-url=\"https://blog.kakaocdn.net/dna/qF3gz/btrCLADst4N/AAAAAAAAAAAAAAAAAAAAAPMlILODV_JxRx5zW8aFrSoy4091ZPX6hQX3VcFjaElc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=jErC1alaWM354JFBjmsfhPpq8C4%3D\"><img data-origin-height=\"246\" data-origin-width=\"823\" height=\"246\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/qF3gz/btrCLADst4N/AAAAAAAAAAAAAAAAAAAAAPMlILODV_JxRx5zW8aFrSoy4091ZPX6hQX3VcFjaElc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=jErC1alaWM354JFBjmsfhPpq8C4%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FqF3gz%2FbtrCLADst4N%2FAAAAAAAAAAAAAAAAAAAAAPMlILODV_JxRx5zW8aFrSoy4091ZPX6hQX3VcFjaElc%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DjErC1alaWM354JFBjmsfhPpq8C4%253D\" width=\"823\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/qF3gz/btrCLADst4N/AAAAAAAAAAAAAAAAAAAAAPMlILODV_JxRx5zW8aFrSoy4091ZPX6hQX3VcFjaElc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=jErC1alaWM354JFBjmsfhPpq8C4%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "ㄷ, ㄹ, ㅂ",
@@ -217,9 +221,11 @@
     {
       "number": 20,
       "text": "20.\n다음은 V모델에서의 테스트 단계에 대한 설명으로 괄호안에 들어갈 답을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><br/><br/><br/><br/><br/><br/><b>20. <b>다음은 V모델에서의 테스트 단계에 대한 설명으로 괄호안에 들어갈 답을 작성하시오.</b></b><br/><br/></p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"text-align: left;\"><br/><br/><br/><br/><br/><br/><b>20. <b>다음은 V모델에서의 테스트 단계에 대한 설명으로 괄호안에 들어갈 답을 작성하시오.</b></b><br/><br/></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"669\" data-origin-width=\"860\"><span data-phocus=\"https://blog.kakaocdn.net/dna/bNLeA3/btrCMbi8wE3/AAAAAAAAAAAAAAAAAAAAACS_CgMqjt6zFAMVDj9LSQ5zH_5R4-V_n31j6OaRDPf8/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=JUKAGtkflFeI7rDh8Sc71aEMJf8%3D\" data-url=\"https://blog.kakaocdn.net/dna/bNLeA3/btrCMbi8wE3/AAAAAAAAAAAAAAAAAAAAACS_CgMqjt6zFAMVDj9LSQ5zH_5R4-V_n31j6OaRDPf8/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=JUKAGtkflFeI7rDh8Sc71aEMJf8%3D\"><img data-origin-height=\"669\" data-origin-width=\"860\" height=\"557\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/bNLeA3/btrCMbi8wE3/AAAAAAAAAAAAAAAAAAAAACS_CgMqjt6zFAMVDj9LSQ5zH_5R4-V_n31j6OaRDPf8/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=JUKAGtkflFeI7rDh8Sc71aEMJf8%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbNLeA3%2FbtrCMbi8wE3%2FAAAAAAAAAAAAAAAAAAAAACS_CgMqjt6zFAMVDj9LSQ5zH_5R4-V_n31j6OaRDPf8%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DJUKAGtkflFeI7rDh8Sc71aEMJf8%253D\" width=\"716\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/bNLeA3/btrCMbi8wE3/AAAAAAAAAAAAAAAAAAAAACS_CgMqjt6zFAMVDj9LSQ5zH_5R4-V_n31j6OaRDPf8/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=JUKAGtkflFeI7rDh8Sc71aEMJf8%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "1. 단위 테스트\n2. 통합 테스트\n3. 시스템 테스트\n4. 인수 테스트",

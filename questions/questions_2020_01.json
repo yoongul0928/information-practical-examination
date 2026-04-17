@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:19.478224",
+    "crawl_time": "2026-04-17T18:42:49.280681",
     "source": "https://chobopark.tistory.com/196",
     "total_questions": 20
   },
@@ -217,9 +217,11 @@
     {
       "number": 20,
       "text": "20. 다음은 모듈의 관계를 나타낸 다이어그램이다. fan-in 개수가 2 이상인 모듈 명칭을 쓰시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>20. 다음은 모듈의 관계를 나타낸 다이어그램이다. fan-in  개수가 2 이상인 모듈 명칭을 쓰시오.</b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>20. 다음은 모듈의 관계를 나타낸 다이어그램이다. fan-in  개수가 2 이상인 모듈 명칭을 쓰시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"548\" data-origin-width=\"827\"><span data-phocus=\"https://blog.kakaocdn.net/dna/qaQ59/btq8H41KRYo/AAAAAAAAAAAAAAAAAAAAAOsMDq2Fgpm1jZ449qrh3bzWU8qZZDsUkEnja_1cojQx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=ffjDZ4KOSmS9SAktPWNr%2B0Y98rA%3D\" data-url=\"https://blog.kakaocdn.net/dna/qaQ59/btq8H41KRYo/AAAAAAAAAAAAAAAAAAAAAOsMDq2Fgpm1jZ449qrh3bzWU8qZZDsUkEnja_1cojQx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=ffjDZ4KOSmS9SAktPWNr%2B0Y98rA%3D\"><img data-origin-height=\"548\" data-origin-width=\"827\" height=\"548\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/qaQ59/btq8H41KRYo/AAAAAAAAAAAAAAAAAAAAAOsMDq2Fgpm1jZ449qrh3bzWU8qZZDsUkEnja_1cojQx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=ffjDZ4KOSmS9SAktPWNr%2B0Y98rA%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FqaQ59%2Fbtq8H41KRYo%2FAAAAAAAAAAAAAAAAAAAAAOsMDq2Fgpm1jZ449qrh3bzWU8qZZDsUkEnja_1cojQx%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DffjDZ4KOSmS9SAktPWNr%252B0Y98rA%253D\" width=\"827\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/qaQ59/btq8H41KRYo/AAAAAAAAAAAAAAAAAAAAAOsMDq2Fgpm1jZ449qrh3bzWU8qZZDsUkEnja_1cojQx/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=ffjDZ4KOSmS9SAktPWNr%2B0Y98rA%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "F,H\n모듈에서 화살표가 나가는 경우 팬아웃이고 모듈에서 화살표가 들어오는 경우 팬인이라고 합니다.",

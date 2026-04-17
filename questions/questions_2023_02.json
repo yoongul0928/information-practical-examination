@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:16.381887",
+    "crawl_time": "2026-04-17T18:42:46.368800",
     "source": "https://chobopark.tistory.com/420",
     "total_questions": 20
   },
@@ -107,9 +107,11 @@
     {
       "number": 10,
       "text": "10. 데이터베이스 설계 순서에 관한 내용이다. 보기를 이용하여 괄호안에 알맞은 내용을 작성하시오.\n보기\n구현, 요구조건 분석, 개념적 설계, 물리적 설계, 논리적 설계\n반응형",
-      "question_html": "<p data-ke-size=\"size16\"><b>10. 데이터베이스 설계 순서에 관한 내용이다. 보기를 이용하여 괄호안에 알맞은 내용을 작성하시오. </b></p>\n<h3 data-ke-size=\"size23\">보기 </h3>\n<p data-ke-size=\"size16\">구현, 요구조건 분석, 개념적 설계, 물리적 설계, 논리적 설계</p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
+      "question_html": "<p data-ke-size=\"size16\"><b>10. 데이터베이스 설계 순서에 관한 내용이다. 보기를 이용하여 괄호안에 알맞은 내용을 작성하시오. </b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"145\" data-origin-width=\"1124\"><span data-phocus=\"https://blog.kakaocdn.net/dna/IiEWY/btsC4tQ9MMP/AAAAAAAAAAAAAAAAAAAAAO23cQIkL-Fx7knyFogaMP7YJ-Srme1lV66jaMcWyWAp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=RnkMoIwbwaHBFFOZlaxdDwZdPmI%3D\" data-url=\"https://blog.kakaocdn.net/dna/IiEWY/btsC4tQ9MMP/AAAAAAAAAAAAAAAAAAAAAO23cQIkL-Fx7knyFogaMP7YJ-Srme1lV66jaMcWyWAp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=RnkMoIwbwaHBFFOZlaxdDwZdPmI%3D\"><img data-origin-height=\"145\" data-origin-width=\"1124\" height=\"145\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/IiEWY/btsC4tQ9MMP/AAAAAAAAAAAAAAAAAAAAAO23cQIkL-Fx7knyFogaMP7YJ-Srme1lV66jaMcWyWAp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=RnkMoIwbwaHBFFOZlaxdDwZdPmI%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FIiEWY%2FbtsC4tQ9MMP%2FAAAAAAAAAAAAAAAAAAAAAO23cQIkL-Fx7knyFogaMP7YJ-Srme1lV66jaMcWyWAp%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DRnkMoIwbwaHBFFOZlaxdDwZdPmI%253D\" width=\"1124\"/></span></figure>\n</p>\n<h3 data-ke-size=\"size23\">보기 </h3>\n<p data-ke-size=\"size16\">구현, 요구조건 분석, 개념적 설계, 물리적 설계, 논리적 설계</p>\n<div class=\"revenue_unit_wrap\">\n<div class=\"revenue_unit_item adsense responsive\">\n<div class=\"revenue_unit_info\">반응형</div>\n<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>\n</div>\n</div>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/IiEWY/btsC4tQ9MMP/AAAAAAAAAAAAAAAAAAAAAO23cQIkL-Fx7knyFogaMP7YJ-Srme1lV66jaMcWyWAp/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=RnkMoIwbwaHBFFOZlaxdDwZdPmI%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "요구조건 분석, 개념적 설계, 논리적 설계, 물리적 설계, 구현",

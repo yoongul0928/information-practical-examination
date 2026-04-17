@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:15.317723",
+    "crawl_time": "2026-04-17T18:42:45.265886",
     "source": "https://chobopark.tistory.com/483",
     "total_questions": 20
   },
@@ -41,9 +41,11 @@
     {
       "number": 4,
       "text": "4. 다음 릴레이션의 Cardinality와 Degree를 작성하시오.\nCardinality : ( ① )\nDegree\n: ( ② )",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>4. 다음 릴레이션의 Cardinality와 Degree를 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><span style=\"color: #555555; text-align: start;\">Cardinality : (  ①  )</span></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><span style=\"color: #555555; text-align: start;\"> <span style=\"color: #555555; text-align: start;\">Degree</span>      : (  ②  )</span></p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>4. 다음 릴레이션의 Cardinality와 Degree를 작성하시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"151\" data-origin-width=\"304\"><span data-phocus=\"https://blog.kakaocdn.net/dna/9GCnk/btsIQHjwfX4/AAAAAAAAAAAAAAAAAAAAAFcwOwpSbNpVcvUGl9r3CTTjPEncjPAQEPGf6rQv7RxE/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=TuXrR%2B%2BtTzEbCBYiZNUT2SJKSK8%3D\" data-url=\"https://blog.kakaocdn.net/dna/9GCnk/btsIQHjwfX4/AAAAAAAAAAAAAAAAAAAAAFcwOwpSbNpVcvUGl9r3CTTjPEncjPAQEPGf6rQv7RxE/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=TuXrR%2B%2BtTzEbCBYiZNUT2SJKSK8%3D\"><img data-origin-height=\"151\" data-origin-width=\"304\" height=\"151\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/9GCnk/btsIQHjwfX4/AAAAAAAAAAAAAAAAAAAAAFcwOwpSbNpVcvUGl9r3CTTjPEncjPAQEPGf6rQv7RxE/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=TuXrR%2B%2BtTzEbCBYiZNUT2SJKSK8%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F9GCnk%2FbtsIQHjwfX4%2FAAAAAAAAAAAAAAAAAAAAAFcwOwpSbNpVcvUGl9r3CTTjPEncjPAQEPGf6rQv7RxE%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DTuXrR%252B%252BtTzEbCBYiZNUT2SJKSK8%253D\" width=\"304\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><span style=\"color: #555555; text-align: start;\">Cardinality : (  ①  )</span></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><span style=\"color: #555555; text-align: start;\"> <span style=\"color: #555555; text-align: start;\">Degree</span>      : (  ②  )</span></p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/9GCnk/btsIQHjwfX4/AAAAAAAAAAAAAAAAAAAAAFcwOwpSbNpVcvUGl9r3CTTjPEncjPAQEPGf6rQv7RxE/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=TuXrR%2B%2BtTzEbCBYiZNUT2SJKSK8%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "①\n: 5\n②\n: 4",
@@ -118,9 +120,11 @@
     {
       "number": 11,
       "text": "11. 아래 그림을 바탕으로 RIP을 구성하여 최단 경로 비용을 계산하여 흐름에 맞게 작성하시오.\n예제\nA →",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>11. 아래 그림을 바탕으로 RIP을 구성하여 최단 경로 비용을 계산하여 흐름에 맞게 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><u><b>예제</b></u></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">A  →</p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>11. 아래 그림을 바탕으로 RIP을 구성하여 최단 경로 비용을 계산하여 흐름에 맞게 작성하시오.</b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"397\" data-origin-width=\"866\"><span data-phocus=\"https://blog.kakaocdn.net/dna/bDn5o2/btsIQLTXSHe/AAAAAAAAAAAAAAAAAAAAAJFzRUUsEI7beM5FTIMGSH1FCvW-dE-ni6ipmIyST9YZ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=shEfjYR6c3zYf9bx5xTGdIFiweM%3D\" data-url=\"https://blog.kakaocdn.net/dna/bDn5o2/btsIQLTXSHe/AAAAAAAAAAAAAAAAAAAAAJFzRUUsEI7beM5FTIMGSH1FCvW-dE-ni6ipmIyST9YZ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=shEfjYR6c3zYf9bx5xTGdIFiweM%3D\"><img data-origin-height=\"397\" data-origin-width=\"866\" height=\"397\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/bDn5o2/btsIQLTXSHe/AAAAAAAAAAAAAAAAAAAAAJFzRUUsEI7beM5FTIMGSH1FCvW-dE-ni6ipmIyST9YZ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=shEfjYR6c3zYf9bx5xTGdIFiweM%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbDn5o2%2FbtsIQLTXSHe%2FAAAAAAAAAAAAAAAAAAAAAJFzRUUsEI7beM5FTIMGSH1FCvW-dE-ni6ipmIyST9YZ%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DshEfjYR6c3zYf9bx5xTGdIFiweM%253D\" width=\"866\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><u><b>예제</b></u></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">A  →</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/bDn5o2/btsIQLTXSHe/AAAAAAAAAAAAAAAAAAAAAJFzRUUsEI7beM5FTIMGSH1FCvW-dE-ni6ipmIyST9YZ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=shEfjYR6c3zYf9bx5xTGdIFiweM%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "A → D\n→ C\n→ F",

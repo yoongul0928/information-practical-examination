@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:14.099306",
+    "crawl_time": "2026-04-17T18:42:43.897929",
     "source": "https://chobopark.tistory.com/554",
     "total_questions": 20
   },
@@ -118,9 +118,11 @@
     {
       "number": 11,
       "text": "11.\n다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>11.<span><span><span><span><span><b>다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.</b></span></span></span></span></span></b></p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>11.<span><span><span><span><span><b>다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.</b></span></span></span></span></span></b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"405\" data-origin-width=\"678\"><span data-phocus=\"https://blog.kakaocdn.net/dna/ontAh/btsPr5j39Go/AAAAAAAAAAAAAAAAAAAAAF7OOTxRSmoqRdz_y53RaHGui4wnxMDfWWDkzR0IAnjI/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=1DIJralAlxV3i1cpUQupVIuLaiQ%3D\" data-url=\"https://blog.kakaocdn.net/dna/ontAh/btsPr5j39Go/AAAAAAAAAAAAAAAAAAAAAF7OOTxRSmoqRdz_y53RaHGui4wnxMDfWWDkzR0IAnjI/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=1DIJralAlxV3i1cpUQupVIuLaiQ%3D\"><img data-origin-height=\"405\" data-origin-width=\"678\" height=\"405\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/ontAh/btsPr5j39Go/AAAAAAAAAAAAAAAAAAAAAF7OOTxRSmoqRdz_y53RaHGui4wnxMDfWWDkzR0IAnjI/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=1DIJralAlxV3i1cpUQupVIuLaiQ%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FontAh%2FbtsPr5j39Go%2FAAAAAAAAAAAAAAAAAAAAAF7OOTxRSmoqRdz_y53RaHGui4wnxMDfWWDkzR0IAnjI%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3D1DIJralAlxV3i1cpUQupVIuLaiQ%253D\" width=\"678\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/ontAh/btsPr5j39Go/AAAAAAAAAAAAAAAAAAAAAF7OOTxRSmoqRdz_y53RaHGui4wnxMDfWWDkzR0IAnjI/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=1DIJralAlxV3i1cpUQupVIuLaiQ%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "1234561, 124567 or 1234567, 124561",
@@ -217,9 +219,11 @@
     {
       "number": 20,
       "text": "20. 다음 테이블에서 πTTL(employee)에 대한 연산 결과 값을 작성하시오.\n[employee테이블]",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b><br/>20. 다음 테이블에서 πTTL(employee)에 대한 연산 결과 값을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">[employee테이블]</p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b><br/>20. 다음 테이블에서 πTTL(employee)에 대한 연산 결과 값을 작성하시오.</b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\">[employee테이블]</p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"278\" data-origin-width=\"1085\"><span data-phocus=\"https://blog.kakaocdn.net/dna/yRw19/btsPrsmwocC/AAAAAAAAAAAAAAAAAAAAAGj9fscjC-kGGNZajz0zMo_o1cfYQ2xxHnU3YH5rGA9p/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=wUsu8zmUqT4YaL37WxzRUECtIx4%3D\" data-url=\"https://blog.kakaocdn.net/dna/yRw19/btsPrsmwocC/AAAAAAAAAAAAAAAAAAAAAGj9fscjC-kGGNZajz0zMo_o1cfYQ2xxHnU3YH5rGA9p/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=wUsu8zmUqT4YaL37WxzRUECtIx4%3D\"><img data-origin-height=\"278\" data-origin-width=\"1085\" height=\"278\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/yRw19/btsPrsmwocC/AAAAAAAAAAAAAAAAAAAAAGj9fscjC-kGGNZajz0zMo_o1cfYQ2xxHnU3YH5rGA9p/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=wUsu8zmUqT4YaL37WxzRUECtIx4%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FyRw19%2FbtsPrsmwocC%2FAAAAAAAAAAAAAAAAAAAAAGj9fscjC-kGGNZajz0zMo_o1cfYQ2xxHnU3YH5rGA9p%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DwUsu8zmUqT4YaL37WxzRUECtIx4%253D\" width=\"1085\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/yRw19/btsPrsmwocC/AAAAAAAAAAAAAAAAAAAAAGj9fscjC-kGGNZajz0zMo_o1cfYQ2xxHnU3YH5rGA9p/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=wUsu8zmUqT4YaL37WxzRUECtIx4%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "1. TTL\n2. 부장\n3. 대리\n4. 과장\n5. 차장",

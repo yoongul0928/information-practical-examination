@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:16.783776",
+    "crawl_time": "2026-04-17T18:42:46.689112",
     "source": "https://chobopark.tistory.com/453",
     "total_questions": 20
   },
@@ -162,9 +162,11 @@
     {
       "number": 15,
       "text": "15. 다음은 판매와 관련된 다이어그램이다. 해당 다이어그램의 명칭을 쓰시오.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>15. 다음은 판매와 관련된 다이어그램이다. 해당 다이어그램의 명칭을 쓰시오. </b></p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>15. 다음은 판매와 관련된 다이어그램이다. 해당 다이어그램의 명칭을 쓰시오. </b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"540\" data-origin-width=\"747\"><span data-phocus=\"https://blog.kakaocdn.net/dna/G17fg/btsDs2rLh1k/AAAAAAAAAAAAAAAAAAAAAEzsNevCGXIAmmZEVFohw79sXzdlfZnUxEWidCJMTCRJ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=iaWZ1J7LFiW7GAs1KUulk4C%2FdRc%3D\" data-url=\"https://blog.kakaocdn.net/dna/G17fg/btsDs2rLh1k/AAAAAAAAAAAAAAAAAAAAAEzsNevCGXIAmmZEVFohw79sXzdlfZnUxEWidCJMTCRJ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=iaWZ1J7LFiW7GAs1KUulk4C%2FdRc%3D\"><img data-origin-height=\"540\" data-origin-width=\"747\" height=\"401\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/G17fg/btsDs2rLh1k/AAAAAAAAAAAAAAAAAAAAAEzsNevCGXIAmmZEVFohw79sXzdlfZnUxEWidCJMTCRJ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=iaWZ1J7LFiW7GAs1KUulk4C%2FdRc%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FG17fg%2FbtsDs2rLh1k%2FAAAAAAAAAAAAAAAAAAAAAEzsNevCGXIAmmZEVFohw79sXzdlfZnUxEWidCJMTCRJ%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DiaWZ1J7LFiW7GAs1KUulk4C%252FdRc%253D\" width=\"555\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/G17fg/btsDs2rLh1k/AAAAAAAAAAAAAAAAAAAAAEzsNevCGXIAmmZEVFohw79sXzdlfZnUxEWidCJMTCRJ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=iaWZ1J7LFiW7GAs1KUulk4C%2FdRc%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "패키지",

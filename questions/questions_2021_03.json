@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:19.204192",
+    "crawl_time": "2026-04-17T18:42:48.789969",
     "source": "https://chobopark.tistory.com/217",
     "total_questions": 20
   },
@@ -85,9 +85,11 @@
     {
       "number": 8,
       "text": "8. 다음은 테스트케이스의 구성요소에 대한 설명이다. 괄호 ( ) 안에 들어갈 알맞는 보기를 고르시오.\n(실제 기출문제에서는 답에 대한 보기가 주어집니다.)",
-      "question_html": "<p data-ke-size=\"size16\"><b>8. 다음은 테스트케이스의 구성요소에 대한 설명이다. 괄호 ( ) 안에 들어갈 알맞는 보기를 고르시오.</b></p>\n<p data-ke-size=\"size16\"><u>(실제 기출문제에서는 답에 대한 보기가 주어집니다.)</u></p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>8. 다음은 테스트케이스의 구성요소에 대한 설명이다. 괄호 ( ) 안에 들어갈 알맞는 보기를 고르시오.</b></p>\n<p data-ke-size=\"size16\"><u>(실제 기출문제에서는 답에 대한 보기가 주어집니다.)</u></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"141\" data-origin-width=\"599\"><span data-phocus=\"https://blog.kakaocdn.net/dna/bR6fYx/btrh2ibdoHd/AAAAAAAAAAAAAAAAAAAAAFqJZMd4x78vZxq3GZ5KCBm_7ImfAlR8i98sUbcV2fk_/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=gxcLV2lv87JucOnDARThNRo5uhE%3D\" data-url=\"https://blog.kakaocdn.net/dna/bR6fYx/btrh2ibdoHd/AAAAAAAAAAAAAAAAAAAAAFqJZMd4x78vZxq3GZ5KCBm_7ImfAlR8i98sUbcV2fk_/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=gxcLV2lv87JucOnDARThNRo5uhE%3D\"><img data-origin-height=\"141\" data-origin-width=\"599\" height=\"141\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/bR6fYx/btrh2ibdoHd/AAAAAAAAAAAAAAAAAAAAAFqJZMd4x78vZxq3GZ5KCBm_7ImfAlR8i98sUbcV2fk_/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=gxcLV2lv87JucOnDARThNRo5uhE%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbR6fYx%2Fbtrh2ibdoHd%2FAAAAAAAAAAAAAAAAAAAAAFqJZMd4x78vZxq3GZ5KCBm_7ImfAlR8i98sUbcV2fk_%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DgxcLV2lv87JucOnDARThNRo5uhE%253D\" width=\"599\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/bR6fYx/btrh2ibdoHd/AAAAAAAAAAAAAAAAAAAAAFqJZMd4x78vZxq3GZ5KCBm_7ImfAlR8i98sUbcV2fk_/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=gxcLV2lv87JucOnDARThNRo5uhE%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "1. 테스트 조건\n2. 테스트 데이터\n3. 예상 결과\n테스트 케이스란 특정 프로그램의 부분 및 경로를 실행해보거나,\n요구사항에 준수하는지 확인하기 위해 개발된 입력 값, 조건, 예상된 결과 세트입니다.\n케스트 케이스를 함으로써 오류감소 / 비용감소 / 의사소통의 효과가 나타납니다.\n테스트 케이스의 설계 기법 종류로는\n블랙박스 기법의 명세기반 / 경험기반 기법과\n화이트박스 기법의 구조기반 기법이 있습니다.",
@@ -140,9 +142,11 @@
     {
       "number": 13,
       "text": "13.\n다음은, 테이블에서 조건값을 실행한 화면이다. 이에 대한 알맞는 결과값을 작성하시오.",
-      "question_html": "<p data-ke-size=\"size16\"><b>13.<b>다음은, 테이블에서 조건값을 실행한 화면이다. 이에 대한 알맞는 결과값을 작성하시오. </b></b></p>",
+      "question_html": "<p data-ke-size=\"size16\"><b>13.<b>다음은, 테이블에서 조건값을 실행한 화면이다. 이에 대한 알맞는 결과값을 작성하시오. </b></b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"239\" data-origin-width=\"516\"><span data-phocus=\"https://blog.kakaocdn.net/dna/R2rn8/btrnwAk3QLa/AAAAAAAAAAAAAAAAAAAAAE84-yuMXg9KEwKrfeCU9twWTroHueW-5_GYLqAny9Ej/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=FGDv4dJsjUIKOPWpdZ%2F05Ax7vdQ%3D\" data-url=\"https://blog.kakaocdn.net/dna/R2rn8/btrnwAk3QLa/AAAAAAAAAAAAAAAAAAAAAE84-yuMXg9KEwKrfeCU9twWTroHueW-5_GYLqAny9Ej/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=FGDv4dJsjUIKOPWpdZ%2F05Ax7vdQ%3D\"><img data-origin-height=\"239\" data-origin-width=\"516\" height=\"239\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/R2rn8/btrnwAk3QLa/AAAAAAAAAAAAAAAAAAAAAE84-yuMXg9KEwKrfeCU9twWTroHueW-5_GYLqAny9Ej/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=FGDv4dJsjUIKOPWpdZ%2F05Ax7vdQ%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FR2rn8%2FbtrnwAk3QLa%2FAAAAAAAAAAAAAAAAAAAAAE84-yuMXg9KEwKrfeCU9twWTroHueW-5_GYLqAny9Ej%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DFGDv4dJsjUIKOPWpdZ%252F05Ax7vdQ%253D\" width=\"516\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/R2rn8/btrnwAk3QLa/AAAAAAAAAAAAAAAAAAAAAE84-yuMXg9KEwKrfeCU9twWTroHueW-5_GYLqAny9Ej/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=FGDv4dJsjUIKOPWpdZ%2F05Ax7vdQ%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "4\ncross join은 join을 해서 나올 수 있는 모든 행의 조합을 보여주는 것으로 각 결과를 곱해주면 됩니다.\n즉, S로 시작하는 A.NAME의 개수는 2개, T를 포함하는 A.NAME의 개수 또한 2개이므로 2*2 = 4가 됩니다.",

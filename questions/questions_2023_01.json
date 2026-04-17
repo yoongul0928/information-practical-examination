@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "crawl_time": "2026-04-17T18:20:16.091035",
+    "crawl_time": "2026-04-17T18:42:45.955281",
     "source": "https://chobopark.tistory.com/372",
     "total_questions": 20
   },
@@ -140,9 +140,11 @@
     {
       "number": 13,
       "text": "13.\n[학생] 테이블에서 학생 이름이 '민수'인 튜플을 삭제하는 쿼리를 작성하시오.\n조건\n- 컬럼의 값이 문자열일 경우 작은 따움표 (' ')를 표시하시오.\n- SQL 마지막에 세미콜론(;)은 표기하지 않아도 관계 없습니다.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>13.<span><span> [학생] 테이블에서 학생 이름이 '민수'인 튜플을 삭제하는 쿼리를 작성하시오.</span></span></b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>조건</b> <br/>- 컬럼의 값이 문자열일 경우 작은 따움표 ('  ')를 표시하시오. <br/>- SQL 마지막에 세미콜론(;)은 표기하지 않아도 관계 없습니다.</p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>13.<span><span> [학생] 테이블에서 학생 이름이 '민수'인 튜플을 삭제하는 쿼리를 작성하시오.</span></span></b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"130\" data-origin-width=\"240\"><span data-phocus=\"https://blog.kakaocdn.net/dna/JZEvh/btscyYpYNA0/AAAAAAAAAAAAAAAAAAAAAPxWiytZLXl_AvnAjvyPyHPozz5tQhVgioT4mr6BVOPN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=3HiSTDcMKK3RDo0Ag8j1Y15M0Qg%3D\" data-url=\"https://blog.kakaocdn.net/dna/JZEvh/btscyYpYNA0/AAAAAAAAAAAAAAAAAAAAAPxWiytZLXl_AvnAjvyPyHPozz5tQhVgioT4mr6BVOPN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=3HiSTDcMKK3RDo0Ag8j1Y15M0Qg%3D\"><img data-origin-height=\"130\" data-origin-width=\"240\" height=\"130\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/JZEvh/btscyYpYNA0/AAAAAAAAAAAAAAAAAAAAAPxWiytZLXl_AvnAjvyPyHPozz5tQhVgioT4mr6BVOPN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=3HiSTDcMKK3RDo0Ag8j1Y15M0Qg%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FJZEvh%2FbtscyYpYNA0%2FAAAAAAAAAAAAAAAAAAAAAPxWiytZLXl_AvnAjvyPyHPozz5tQhVgioT4mr6BVOPN%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3D3HiSTDcMKK3RDo0Ag8j1Y15M0Qg%253D\" width=\"240\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>조건</b> <br/>- 컬럼의 값이 문자열일 경우 작은 따움표 ('  ')를 표시하시오. <br/>- SQL 마지막에 세미콜론(;)은 표기하지 않아도 관계 없습니다.</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/JZEvh/btscyYpYNA0/AAAAAAAAAAAAAAAAAAAAAPxWiytZLXl_AvnAjvyPyHPozz5tQhVgioT4mr6BVOPN/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=3HiSTDcMKK3RDo0Ag8j1Y15M0Qg%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "delete from 학생 where 이름 = '민수';",
@@ -173,9 +175,11 @@
     {
       "number": 16,
       "text": "16.\n다음 성적 테이블에서 과목별 점수의 평균이 90점 이상인 '과목이름', '최소점수', '최대점수' 를 검색하고자 한다. [조건]을 참고하여 적합한 SQL문을 작성하시오.\n조건\n:\n- where사용하지 말하야 한다.\n- SELECT절에 별칭을 사용하여 작성해야 한다.\n- SQL 구문 마지막에 세미콜론 생락 가능하다.\n- 반드시 GROUP BY와 having을 사용해야 한다.\n- 집계함수를 사용해야 한다.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>16.<span><span><span>다음 성적 테이블에서 과목별 점수의 평균이 90점 이상인 '과목이름', '최소점수', '최대점수' 를 검색하고자 한다. [조건]을 참고하여 적합한 SQL문을 작성하시오.</span></span></span></b></p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>조건</b>:  <br/>- where사용하지 말하야 한다. <br/>- SELECT절에 별칭을 사용하여 작성해야 한다. <br/>- SQL 구문 마지막에 세미콜론 생락 가능하다. <br/>- 반드시 GROUP BY와 having을 사용해야 한다. <br/>- 집계함수를 사용해야 한다.</p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>16.<span><span><span>다음 성적 테이블에서 과목별 점수의 평균이 90점 이상인 '과목이름', '최소점수', '최대점수' 를 검색하고자 한다. [조건]을 참고하여 적합한 SQL문을 작성하시오.</span></span></span></b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"305\" data-origin-width=\"303\"><span data-phocus=\"https://blog.kakaocdn.net/dna/LMbmY/btscwE6HBbG/AAAAAAAAAAAAAAAAAAAAACQfu-V5L2L_mttwY89qgXn9FZFkIB1RvzHXGyZVwD3O/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=mOmtZJe6rMsGREB%2BxFDqGPu5niI%3D\" data-url=\"https://blog.kakaocdn.net/dna/LMbmY/btscwE6HBbG/AAAAAAAAAAAAAAAAAAAAACQfu-V5L2L_mttwY89qgXn9FZFkIB1RvzHXGyZVwD3O/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=mOmtZJe6rMsGREB%2BxFDqGPu5niI%3D\"><img data-origin-height=\"305\" data-origin-width=\"303\" height=\"305\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/LMbmY/btscwE6HBbG/AAAAAAAAAAAAAAAAAAAAACQfu-V5L2L_mttwY89qgXn9FZFkIB1RvzHXGyZVwD3O/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=mOmtZJe6rMsGREB%2BxFDqGPu5niI%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FLMbmY%2FbtscwE6HBbG%2FAAAAAAAAAAAAAAAAAAAAACQfu-V5L2L_mttwY89qgXn9FZFkIB1RvzHXGyZVwD3O%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3DmOmtZJe6rMsGREB%252BxFDqGPu5niI%253D\" width=\"303\"/></span></figure>\n</p>\n<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>조건</b>:  <br/>- where사용하지 말하야 한다. <br/>- SELECT절에 별칭을 사용하여 작성해야 한다. <br/>- SQL 구문 마지막에 세미콜론 생락 가능하다. <br/>- 반드시 GROUP BY와 having을 사용해야 한다. <br/>- 집계함수를 사용해야 한다.</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/LMbmY/btscwE6HBbG/AAAAAAAAAAAAAAAAAAAAACQfu-V5L2L_mttwY89qgXn9FZFkIB1RvzHXGyZVwD3O/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=mOmtZJe6rMsGREB%2BxFDqGPu5niI%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "SELECT\n과목이름\n,MIN(점수) AS 최소점수\n,MAX(점수) AS 최대점수\nFrom\n성적\nGROUP BY\n과목이름\nHAVING\nAVG(점수) >= 90",
@@ -206,9 +210,11 @@
     {
       "number": 19,
       "text": "19.\n다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.",
-      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>19.<span><span><span><span><span> <b>다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.</b></span></span></span></span></span></b></p>",
+      "question_html": "<p data-ke-size=\"size16\" style=\"color: #555555; text-align: start;\"><b>19.<span><span><span><span><span> <b>다음 아래 제어 흐름 그래프가 분기 커버리지를 만족하기 위한 테스팅 순서를 쓰시오.</b></span></span></span></span></span></b></p>\n<p><figure class=\"imageblock alignCenter\" data-ke-mobilestyle=\"widthOrigin\" data-origin-height=\"405\" data-origin-width=\"678\"><span data-phocus=\"https://blog.kakaocdn.net/dna/bQZ756/btscHlK9JMg/AAAAAAAAAAAAAAAAAAAAAJYlzoHgpaOGXnuFTvlefXHygp_lM2p_KxdeixRKwfct/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=i5a9biCDtA8l%2FZMKJ5KWShq9uH0%3D\" data-url=\"https://blog.kakaocdn.net/dna/bQZ756/btscHlK9JMg/AAAAAAAAAAAAAAAAAAAAAJYlzoHgpaOGXnuFTvlefXHygp_lM2p_KxdeixRKwfct/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=i5a9biCDtA8l%2FZMKJ5KWShq9uH0%3D\"><img data-origin-height=\"405\" data-origin-width=\"678\" height=\"405\" loading=\"lazy\" onerror=\"this.onerror=null; this.src='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png'; this.srcset='//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png';\" src=\"https://blog.kakaocdn.net/dna/bQZ756/btscHlK9JMg/AAAAAAAAAAAAAAAAAAAAAJYlzoHgpaOGXnuFTvlefXHygp_lM2p_KxdeixRKwfct/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1777561199&amp;allow_ip=&amp;allow_referer=&amp;signature=i5a9biCDtA8l%2FZMKJ5KWShq9uH0%3D\" srcset=\"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbQZ756%2FbtscHlK9JMg%2FAAAAAAAAAAAAAAAAAAAAAJYlzoHgpaOGXnuFTvlefXHygp_lM2p_KxdeixRKwfct%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1777561199%26allow_ip%3D%26allow_referer%3D%26signature%3Di5a9biCDtA8l%252FZMKJ5KWShq9uH0%253D\" width=\"678\"/></span></figure>\n</p>",
       "options": "",
-      "images": [],
+      "images": [
+        "https://blog.kakaocdn.net/dna/bQZ756/btscHlK9JMg/AAAAAAAAAAAAAAAAAAAAAJYlzoHgpaOGXnuFTvlefXHygp_lM2p_KxdeixRKwfct/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1777561199&allow_ip=&allow_referer=&signature=i5a9biCDtA8l%2FZMKJ5KWShq9uH0%3D"
+      ],
       "code": null,
       "code_html": null,
       "answer": "1234561, 124567 or 1234567, 124561",
